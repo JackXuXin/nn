@@ -1,0 +1,162 @@
+{
+  "ID": "dada7f35-21ee-408d-9759-17e653252123",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "SysinfoLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 87,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Battery_Casings.png"
+            },
+            "Tag": 88,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0938
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 119.0,
+            "TopMargin": 0.75,
+            "BottomMargin": 2.25,
+            "ActionTag": 1850709880,
+            "Position": {
+              "X": 0.0,
+              "Y": 2.25
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 40.0,
+              "Y": 21.0
+            },
+            "FrameEvent": "",
+            "Name": "battery",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Text Label",
+            "Tag": 89,
+            "PrePosition": {
+              "X": 0.5472,
+              "Y": 0.5313
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 41.5,
+            "RightMargin": 26.5,
+            "TopMargin": -0.25,
+            "BottomMargin": 1.25,
+            "ActionTag": -24782009,
+            "Position": {
+              "X": 87.0,
+              "Y": 12.75
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 91.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/wifi_strong.png"
+            },
+            "Tag": 90,
+            "PrePosition": {
+              "X": 0.9057,
+              "Y": 0.5313
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 128.5,
+            "RightMargin": -0.5,
+            "TopMargin": -0.75,
+            "BottomMargin": 0.75,
+            "ActionTag": 912460041,
+            "Position": {
+              "X": 144.0,
+              "Y": 12.75
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 31.0,
+              "Y": 24.0
+            },
+            "FrameEvent": "",
+            "Name": "wifi",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 159.0,
+          "Y": 24.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

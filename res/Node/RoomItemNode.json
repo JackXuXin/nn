@@ -1,0 +1,315 @@
+{
+  "ID": "d9c2cf6d-0472-4962-8254-c1f301d253b8",
+  "Version": "2.1.0.0",
+  "Type": "Node",
+  "Name": "RoomItemNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 109,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/room_list_label.png"
+            },
+            "Tag": 110,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -271.4371,
+            "RightMargin": -184.5629,
+            "TopMargin": -44.3916931,
+            "BottomMargin": -46.6083069,
+            "ActionTag": -119446296,
+            "Position": {
+              "X": -43.4371033,
+              "Y": -1.10830688
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 456.0,
+              "Y": 91.0
+            },
+            "FrameEvent": "",
+            "Name": "room_list_label",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/yaoying_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/yaoying_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 87,
+            "Scale9Height": 91,
+            "TouchEnable": true,
+            "Tag": 111,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.1602,
+              "Y": 1.0
+            },
+            "LeftMargin": 185.420715,
+            "RightMargin": -272.420715,
+            "TopMargin": -44.0345,
+            "BottomMargin": -46.9655,
+            "ActionTag": -119475051,
+            "Position": {
+              "X": 228.920715,
+              "Y": -1.46549988
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 87.0,
+              "Y": 91.0
+            },
+            "FrameEvent": "",
+            "Name": "invite",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "温岭六家统",
+            "Tag": 112,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -173.5951,
+            "RightMargin": 53.5950928,
+            "TopMargin": -39.2084961,
+            "BottomMargin": 11.2084961,
+            "ActionTag": 1288778832,
+            "Position": {
+              "X": -113.595093,
+              "Y": 25.2084961
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 230,
+              "G": 224,
+              "B": 194
+            },
+            "Size": {
+              "X": 120.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "房间号：000000",
+            "Tag": 113,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.2821045,
+            "RightMargin": -135.7179,
+            "TopMargin": -39.2084045,
+            "BottomMargin": 11.2084045,
+            "ActionTag": -834788942,
+            "Position": {
+              "X": 47.7178955,
+              "Y": 25.2084045
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 123,
+              "B": 2
+            },
+            "Size": {
+              "X": 176.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "roomNumber",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "局数：2局",
+            "Tag": 114,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -168.0946,
+            "RightMargin": 59.0946045,
+            "TopMargin": -7.49229431,
+            "BottomMargin": -20.5077057,
+            "ActionTag": 1707103650,
+            "Position": {
+              "X": -113.594604,
+              "Y": -6.50770569
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 206,
+              "G": 182,
+              "B": 126
+            },
+            "Size": {
+              "X": 109.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "round",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "0人（共6座）",
+            "Tag": 115,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -39.5916748,
+            "RightMargin": -106.408325,
+            "TopMargin": -7.49229431,
+            "BottomMargin": -20.5077057,
+            "ActionTag": -751972816,
+            "Position": {
+              "X": 33.4083252,
+              "Y": -6.50770569
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 206,
+              "G": 182,
+              "B": 126
+            },
+            "Size": {
+              "X": 146.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "seatCount",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "FrameEvent": "",
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

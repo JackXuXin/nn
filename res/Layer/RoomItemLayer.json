@@ -1,0 +1,315 @@
+{
+  "ID": "68d6adf6-36f9-427d-943e-5e82cf512e62",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "RoomItemLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 101,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/room_list_label.png"
+            },
+            "Tag": 102,
+            "PrePosition": {
+              "X": 0.4193,
+              "Y": 0.509
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.3207,
+            "RightMargin": 87.3207,
+            "TopMargin": -0.8216,
+            "BottomMargin": 0.8216,
+            "ActionTag": 197024961,
+            "Position": {
+              "X": 227.6793,
+              "Y": 46.3216
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 456.0,
+              "Y": 91.0
+            },
+            "FrameEvent": "",
+            "Name": "room_list_label",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/yaoying_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/yaoying_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 87,
+            "Scale9Height": 91,
+            "TouchEnable": true,
+            "Tag": 104,
+            "PrePosition": {
+              "X": 0.9209,
+              "Y": 0.5051
+            },
+            "PreSize": {
+              "X": 0.1602,
+              "Y": 1.0
+            },
+            "LeftMargin": 456.5363,
+            "RightMargin": -0.5364,
+            "TopMargin": -0.4645,
+            "BottomMargin": 0.4645,
+            "ActionTag": -1632119235,
+            "Position": {
+              "X": 500.0363,
+              "Y": 45.9645
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 87.0,
+              "Y": 91.0
+            },
+            "FrameEvent": "",
+            "Name": "invite",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "温岭六家统",
+            "Tag": 105,
+            "PrePosition": {
+              "X": 0.2901,
+              "Y": 0.7982
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 97.5216,
+            "RightMargin": 325.4785,
+            "TopMargin": 4.3615,
+            "BottomMargin": 58.6385,
+            "ActionTag": 1203009669,
+            "Position": {
+              "X": 157.5216,
+              "Y": 72.6385
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 230,
+              "G": 224,
+              "B": 194
+            },
+            "Size": {
+              "X": 120.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "房间号：000000",
+            "Tag": 106,
+            "PrePosition": {
+              "X": 0.5872,
+              "Y": 0.7982
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 230.834,
+            "RightMargin": 136.166,
+            "TopMargin": 4.3616,
+            "BottomMargin": 58.6384,
+            "ActionTag": 1733003938,
+            "Position": {
+              "X": 318.834,
+              "Y": 72.6384
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 123,
+              "B": 2
+            },
+            "Size": {
+              "X": 176.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "roomNumber",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "局数：2局",
+            "Tag": 107,
+            "PrePosition": {
+              "X": 0.2901,
+              "Y": 0.4497
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 103.0215,
+            "RightMargin": 330.9785,
+            "TopMargin": 36.0777,
+            "BottomMargin": 26.9223,
+            "ActionTag": 211863094,
+            "Position": {
+              "X": 157.5215,
+              "Y": 40.9223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 206,
+              "G": 182,
+              "B": 126
+            },
+            "Size": {
+              "X": 109.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "round",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "0人（共6座）",
+            "Tag": 108,
+            "PrePosition": {
+              "X": 0.5608,
+              "Y": 0.4497
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 231.524,
+            "RightMargin": 165.476,
+            "TopMargin": 36.0777,
+            "BottomMargin": 26.9223,
+            "ActionTag": -706762999,
+            "Position": {
+              "X": 304.524,
+              "Y": 40.9223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 206,
+              "G": 182,
+              "B": 126
+            },
+            "Size": {
+              "X": 146.0,
+              "Y": 28.0
+            },
+            "FrameEvent": "",
+            "Name": "seatCount",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 543.0,
+          "Y": 91.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

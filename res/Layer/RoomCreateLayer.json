@@ -1,0 +1,429 @@
+{
+  "ID": "539851f3-dbf0-4874-8308-dfe2b66b202d",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "RoomCreateLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 419,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/set_room_popup.png"
+            },
+            "Tag": 420,
+            "PrePosition": {
+              "X": 0.4956,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 104.4303,
+            "RightMargin": 115.5697,
+            "TopMargin": 52.0,
+            "BottomMargin": 52.0,
+            "ActionTag": -2015889279,
+            "Position": {
+              "X": 634.4303,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1060.0,
+              "Y": 616.0
+            },
+            "FrameEvent": "",
+            "Name": "set_room_popup",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/set_room_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/set_room_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 257,
+            "Scale9Height": 74,
+            "TouchEnable": true,
+            "Tag": 423,
+            "PrePosition": {
+              "X": 0.3933,
+              "Y": 0.1317
+            },
+            "PreSize": {
+              "X": 0.2008,
+              "Y": 0.1028
+            },
+            "LeftMargin": 374.953,
+            "RightMargin": 648.047,
+            "TopMargin": 588.1687,
+            "BottomMargin": 57.8313,
+            "ActionTag": 2047422778,
+            "Position": {
+              "X": 503.453,
+              "Y": 94.8313
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 257.0,
+              "Y": 74.0
+            },
+            "FrameEvent": "",
+            "Name": "create",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/dagai_room_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/dagai_room_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 257,
+            "Scale9Height": 74,
+            "TouchEnable": true,
+            "Tag": 424,
+            "PrePosition": {
+              "X": 0.6346,
+              "Y": 0.1317
+            },
+            "PreSize": {
+              "X": 0.2008,
+              "Y": 0.1028
+            },
+            "LeftMargin": 683.744,
+            "RightMargin": 339.256,
+            "TopMargin": 588.1686,
+            "BottomMargin": 57.8314,
+            "ActionTag": -1838164548,
+            "Position": {
+              "X": 812.244,
+              "Y": 94.8314
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 257.0,
+              "Y": 74.0
+            },
+            "FrameEvent": "",
+            "Name": "createDummy",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/room_close_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/room_close_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 58,
+            "Scale9Height": 59,
+            "TouchEnable": true,
+            "Tag": 436,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0453,
+              "Y": 0.0819
+            },
+            "LeftMargin": 1126.85034,
+            "RightMargin": 95.1497,
+            "TopMargin": 32.7953,
+            "BottomMargin": 628.2047,
+            "ActionTag": 434520463,
+            "Position": {
+              "X": 1155.85034,
+              "Y": 657.7047
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 58.0,
+              "Y": 59.0
+            },
+            "FrameEvent": "",
+            "Name": "close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/zhuanshi_icon.png"
+            },
+            "Tag": 438,
+            "PrePosition": {
+              "X": 0.5274,
+              "Y": 0.7047
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 651.5747,
+            "RightMargin": 581.4253,
+            "TopMargin": 191.1472,
+            "BottomMargin": 485.8528,
+            "ActionTag": -1120999927,
+            "Position": {
+              "X": 675.0747,
+              "Y": 507.3528
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 47.0,
+              "Y": 43.0
+            },
+            "FrameEvent": "",
+            "Name": "zhuanshi_icon_owner",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "X60",
+            "Tag": 439,
+            "PrePosition": {
+              "X": 0.5671,
+              "Y": 0.7047
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 699.3247,
+            "RightMargin": 527.6753,
+            "TopMargin": 195.6472,
+            "BottomMargin": 490.3528,
+            "ActionTag": 1634159288,
+            "Position": {
+              "X": 725.8247,
+              "Y": 507.3528
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 207,
+              "G": 180,
+              "B": 127
+            },
+            "Size": {
+              "X": 53.0,
+              "Y": 34.0
+            },
+            "FrameEvent": "",
+            "Name": "num_diamond_owner",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/zhuanshi_icon.png"
+            },
+            "Tag": 440,
+            "PrePosition": {
+              "X": 0.747,
+              "Y": 0.7024
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 932.6566,
+            "RightMargin": 300.3434,
+            "TopMargin": 192.8036,
+            "BottomMargin": 484.1964,
+            "ActionTag": -122113618,
+            "Position": {
+              "X": 956.1566,
+              "Y": 505.6964
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 47.0,
+              "Y": 43.0
+            },
+            "FrameEvent": "",
+            "Name": "zhuanshi_icon_AA",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "X60",
+            "Tag": 441,
+            "PrePosition": {
+              "X": 0.7866,
+              "Y": 0.7024
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 980.4075,
+            "RightMargin": 246.5925,
+            "TopMargin": 197.304,
+            "BottomMargin": 488.696,
+            "ActionTag": 1004105139,
+            "Position": {
+              "X": 1006.90747,
+              "Y": 505.696
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 207,
+              "G": 180,
+              "B": 127
+            },
+            "Size": {
+              "X": 53.0,
+              "Y": 34.0
+            },
+            "FrameEvent": "",
+            "Name": "num_diamond_AA",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

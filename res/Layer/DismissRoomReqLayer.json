@@ -1,0 +1,147 @@
+{
+  "ID": "801d0a9c-a6a2-4255-8451-b385a2c4e2d0",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "DismissRoomReqLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 78,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/dissolveroom_popup.png"
+            },
+            "Tag": 82,
+            "PrePosition": {
+              "X": 0.5112,
+              "Y": 0.537
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 379.2992,
+            "RightMargin": 350.7008,
+            "TopMargin": 172.8842,
+            "BottomMargin": 226.1158,
+            "ActionTag": -166341096,
+            "Position": {
+              "X": 654.2992,
+              "Y": 386.6158
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 550.0,
+              "Y": 321.0
+            },
+            "FrameEvent": "",
+            "Name": "dissolveroom_popup",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/queding_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/queding_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 258,
+            "Scale9Height": 74,
+            "TouchEnable": true,
+            "Tag": 83,
+            "PrePosition": {
+              "X": 0.5098,
+              "Y": 0.3728
+            },
+            "PreSize": {
+              "X": 0.4691,
+              "Y": 0.2305
+            },
+            "LeftMargin": 523.5137,
+            "RightMargin": 498.4863,
+            "TopMargin": 414.6175,
+            "BottomMargin": 231.3825,
+            "ActionTag": 699260190,
+            "Position": {
+              "X": 652.5137,
+              "Y": 268.3825
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 258.0,
+              "Y": 74.0
+            },
+            "FrameEvent": "",
+            "Name": "yes",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

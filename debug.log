@@ -1,0 +1,73 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.5 Release
+	gl.vendor: Intel Inc.
+	gl.supports_PVRTC: false
+	gl.renderer: Intel(R) Iris(TM) Graphics 6100
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 INTEL-10.28.29
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2dx-Community C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = EXACT_FIT
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 1280.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 720.00
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+[LUA-print] [INFO] # display.width                = 1280.00
+[LUA-print] [INFO] # display.height               = 720.00
+[LUA-print] [INFO] # display.cx                   = 640.00
+[LUA-print] [INFO] # display.cy                   = 360.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 1280.00
+[LUA-print] [INFO] # display.top                  = 720.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -640.00
+[LUA-print] [INFO] # display.c_right              = 640.00
+[LUA-print] [INFO] # display.c_top                = 360.00
+[LUA-print] [INFO] # display.c_bottom             = -360.00
+[LUA-print] [INFO] #
+[LUA-print] local net yeah
+[LUA-print] socket time:1512310704.5506
+[LUA-print] ini game data	table: 0x0ba3f540
+[LUA-print] end init game data
+[LUA-print] [INFO] GameState.load() - get values from "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/data.txt"
+[LUA-print] [INFO] CCSUILoader - createUINode:SingleNode
+[LUA-print] [INFO] CCSUILoader - createUINode:Sprite
+[LUA-print] [INFO] CCSUILoader - createUINode:TextField
+[LUA-print] [INFO] CCSUILoader - createUINode:Button
+[LUA-print] [INFO] CCSUILoader - createUINode:CheckBox
+[LUA-print] [INFO] CCSUILoader - createUINode:Sprite
+[LUA-print] [INFO] CCSUILoader - createUINode:Sprite
+[LUA-print] [INFO] CCSUILoader - createUINode:LoadingBar
+[LUA-print] [INFO] CCSUILoader - createUINode:Text

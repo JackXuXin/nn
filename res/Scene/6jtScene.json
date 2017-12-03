@@ -1,0 +1,477 @@
+{
+  "ID": "9f63fc87-9f73-44d0-9d8c-91bd0eb917d0",
+  "Version": "2.1.0.0",
+  "Type": "Scene",
+  "Name": "6jtScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 85,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "RightMargin": -1280.0,
+        "TopMargin": -720.0,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/game_scene.png"
+            },
+            "Tag": 86,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "ActionTag": -1863646434,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "FrameEvent": "",
+            "Name": "game_scene",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/menu_message_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/menu_message.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 79,
+            "Scale9Height": 82,
+            "TouchEnable": true,
+            "Tag": 101,
+            "PrePosition": {
+              "X": 0.9461,
+              "Y": 0.2139
+            },
+            "PreSize": {
+              "X": 0.0617,
+              "Y": 0.1139
+            },
+            "LeftMargin": 1171.53589,
+            "RightMargin": 29.4641,
+            "TopMargin": 525.0,
+            "BottomMargin": 113.0,
+            "ActionTag": -705857043,
+            "Position": {
+              "X": 1211.03589,
+              "Y": 154.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 79.0,
+              "Y": 82.0
+            },
+            "FrameEvent": "",
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/speech_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/speech_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 79,
+            "Scale9Height": 86,
+            "TouchEnable": true,
+            "Tag": 104,
+            "PrePosition": {
+              "X": 0.9461,
+              "Y": 0.091
+            },
+            "PreSize": {
+              "X": 0.0617,
+              "Y": 0.1194
+            },
+            "LeftMargin": 1171.536,
+            "RightMargin": 29.464,
+            "TopMargin": 611.5,
+            "BottomMargin": 22.5,
+            "ActionTag": -1066833165,
+            "Position": {
+              "X": 1211.036,
+              "Y": 65.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 79.0,
+              "Y": 86.0
+            },
+            "FrameEvent": "",
+            "Name": "speech",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/zhoumainfen.png"
+            },
+            "Tag": 114,
+            "PrePosition": {
+              "X": 0.4725,
+              "Y": 0.5417
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 542.25,
+            "RightMargin": 612.75,
+            "TopMargin": 313.5,
+            "BottomMargin": 373.5,
+            "ActionTag": 2030240036,
+            "Position": {
+              "X": 604.75,
+              "Y": 390.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 125.0,
+              "Y": 33.0
+            },
+            "FrameEvent": "",
+            "Name": "zhoumainfen",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_buchu1.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_buchu.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_buchu.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 192,
+            "Scale9Height": 75,
+            "TouchEnable": true,
+            "Tag": 115,
+            "PrePosition": {
+              "X": 0.3164,
+              "Y": 0.4243
+            },
+            "PreSize": {
+              "X": 0.1344,
+              "Y": 0.075
+            },
+            "LeftMargin": 319.0,
+            "RightMargin": 789.0,
+            "TopMargin": 387.5,
+            "BottomMargin": 278.5,
+            "ActionTag": -1031420188,
+            "Position": {
+              "X": 405.0,
+              "Y": 305.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 172.0,
+              "Y": 54.0
+            },
+            "FrameEvent": "",
+            "Name": "pass",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_chupai1.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_chupai.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_chupai.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 192,
+            "Scale9Height": 75,
+            "TouchEnable": true,
+            "Tag": 116,
+            "PrePosition": {
+              "X": 0.6828,
+              "Y": 0.4236
+            },
+            "PreSize": {
+              "X": 0.1344,
+              "Y": 0.075
+            },
+            "LeftMargin": 788.0,
+            "RightMargin": 320.0,
+            "TopMargin": 388.0,
+            "BottomMargin": 278.0,
+            "ActionTag": -745946245,
+            "Position": {
+              "X": 874.0,
+              "Y": 305.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 172.0,
+              "Y": 54.0
+            },
+            "FrameEvent": "",
+            "Name": "handout",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_dishi.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/btn_dishi.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 192,
+            "Scale9Height": 75,
+            "TouchEnable": true,
+            "Tag": 117,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4236
+            },
+            "PreSize": {
+              "X": 0.1344,
+              "Y": 0.075
+            },
+            "LeftMargin": 554.0,
+            "RightMargin": 554.0,
+            "TopMargin": 388.0,
+            "BottomMargin": 278.0,
+            "ActionTag": -1500488212,
+            "Position": {
+              "X": 640.0,
+              "Y": 305.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 172.0,
+              "Y": 54.0
+            },
+            "FrameEvent": "",
+            "Name": "remind",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/menu_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/menu_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 75,
+            "Scale9Height": 75,
+            "TouchEnable": true,
+            "Tag": 271,
+            "PrePosition": {
+              "X": 0.9461,
+              "Y": 0.9206
+            },
+            "PreSize": {
+              "X": 0.0586,
+              "Y": 0.1042
+            },
+            "LeftMargin": 1173.53589,
+            "RightMargin": 31.4641,
+            "TopMargin": 19.6429,
+            "BottomMargin": 625.3571,
+            "ActionTag": 7122851,
+            "Position": {
+              "X": 1211.03589,
+              "Y": 662.8571
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 75.0,
+              "Y": 75.0
+            },
+            "FrameEvent": "",
+            "Name": "menu",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

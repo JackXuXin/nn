@@ -1,0 +1,161 @@
+{
+  "ID": "ea15212e-41f4-44a7-9797-cbf29ee9cf77",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "GameinfoLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 91,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FontSize": 20,
+            "LabelText": "",
+            "Tag": 92,
+            "PrePosition": {
+              "X": 0.0158,
+              "Y": 0.84
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 2.9147,
+            "RightMargin": 181.0853,
+            "TopMargin": 12.0004,
+            "BottomMargin": 62.9996,
+            "ActionTag": 1481194151,
+            "Position": {
+              "X": 2.9147,
+              "Y": 62.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0031,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {
+              "R": 177,
+              "G": 217,
+              "B": 125
+            },
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "FrameEvent": "",
+            "Name": "roomNumber",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "",
+            "Tag": 93,
+            "PrePosition": {
+              "X": 0.0158,
+              "Y": 0.5067
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 2.9147,
+            "RightMargin": 181.0853,
+            "TopMargin": 37.0004,
+            "BottomMargin": 37.9996,
+            "ActionTag": 2069142771,
+            "Position": {
+              "X": 2.9147,
+              "Y": 37.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0031,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {
+              "R": 177,
+              "G": 217,
+              "B": 125
+            },
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "FrameEvent": "",
+            "Name": "payType",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "",
+            "Tag": 94,
+            "PrePosition": {
+              "X": 0.0158,
+              "Y": 0.1733
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 2.9147,
+            "RightMargin": 181.0853,
+            "TopMargin": 62.0004,
+            "BottomMargin": 12.9996,
+            "ActionTag": 670467073,
+            "Position": {
+              "X": 2.9147,
+              "Y": 12.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0031,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "CColor": {},
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "FrameEvent": "",
+            "Name": "round",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 184.0,
+          "Y": 75.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

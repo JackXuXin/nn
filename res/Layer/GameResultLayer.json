@@ -1,0 +1,288 @@
+{
+  "ID": "9432ebc3-487c-42b5-9741-a0cb4f4f3227",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "GameResultLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 277,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/game_result_bg.png"
+            },
+            "Tag": 278,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "ActionTag": -1328759378,
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "FrameEvent": "",
+            "Name": "settlement_popup",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/resume_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/resume_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 257,
+            "Scale9Height": 74,
+            "TouchEnable": true,
+            "Tag": 279,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1498
+            },
+            "PreSize": {
+              "X": 0.2008,
+              "Y": 0.1028
+            },
+            "LeftMargin": 511.5,
+            "RightMargin": 511.5,
+            "TopMargin": 575.16,
+            "BottomMargin": 70.84,
+            "ActionTag": -1352418712,
+            "Position": {
+              "X": 640.0,
+              "Y": 107.84
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 257.0,
+              "Y": 74.0
+            },
+            "FrameEvent": "",
+            "Name": "ready",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/share_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/share_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 206,
+            "Scale9Height": 57,
+            "TouchEnable": true,
+            "Tag": 280,
+            "PrePosition": {
+              "X": 0.9175,
+              "Y": 0.0434
+            },
+            "PreSize": {
+              "X": 0.1609,
+              "Y": 0.0792
+            },
+            "LeftMargin": 1071.38062,
+            "RightMargin": 2.6194,
+            "TopMargin": 660.2273,
+            "BottomMargin": 2.7727,
+            "ActionTag": 522100444,
+            "Position": {
+              "X": 1174.38062,
+              "Y": 31.2727
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 206.0,
+              "Y": 57.0
+            },
+            "FrameEvent": "",
+            "Name": "share",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "得分：100",
+            "Tag": 281,
+            "PrePosition": {
+              "X": 0.3074,
+              "Y": 0.6004
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 309.4201,
+            "RightMargin": 802.5798,
+            "TopMargin": 266.7073,
+            "BottomMargin": 411.2927,
+            "ActionTag": 2102598742,
+            "Position": {
+              "X": 393.4201,
+              "Y": 432.2927
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 215,
+              "B": 165
+            },
+            "Size": {
+              "X": 168.0,
+              "Y": 42.0
+            },
+            "VisibleForFrame": false,
+            "FrameEvent": "",
+            "Name": "winScore",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "得分：100",
+            "Tag": 282,
+            "PrePosition": {
+              "X": 0.7057,
+              "Y": 0.6004
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 819.3522,
+            "RightMargin": 292.6478,
+            "TopMargin": 266.7069,
+            "BottomMargin": 411.2931,
+            "ActionTag": 988554909,
+            "Position": {
+              "X": 903.3522,
+              "Y": 432.2931
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 215,
+              "B": 165
+            },
+            "Size": {
+              "X": 168.0,
+              "Y": 42.0
+            },
+            "VisibleForFrame": false,
+            "FrameEvent": "",
+            "Name": "loseScore",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

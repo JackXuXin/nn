@@ -1,0 +1,290 @@
+{
+  "ID": "ec358538-e95d-4776-bf56-3805c5d9dba4",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "DismissRoomRepLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 70,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/dissolveroom_popup1.png"
+            },
+            "Tag": 71,
+            "PrePosition": {
+              "X": 0.5053,
+              "Y": 0.5316
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 371.8062,
+            "RightMargin": 358.1938,
+            "TopMargin": 133.7216,
+            "BottomMargin": 179.2785,
+            "ActionTag": 862914907,
+            "Position": {
+              "X": 646.8062,
+              "Y": 382.7785
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 550.0,
+              "Y": 407.0
+            },
+            "FrameEvent": "",
+            "Name": "dissolveroom_popup1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/tongyi_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/tongyi_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 207,
+            "Scale9Height": 60,
+            "TouchEnable": true,
+            "Tag": 72,
+            "PrePosition": {
+              "X": 0.4115,
+              "Y": 0.3099
+            },
+            "PreSize": {
+              "X": 0.3764,
+              "Y": 0.1474
+            },
+            "LeftMargin": 423.2107,
+            "RightMargin": 649.7893,
+            "TopMargin": 466.8647,
+            "BottomMargin": 193.1353,
+            "ActionTag": 1462586025,
+            "Position": {
+              "X": 526.7107,
+              "Y": 223.1353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 207.0,
+              "Y": 60.0
+            },
+            "FrameEvent": "",
+            "Name": "agree",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/fadui_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/fadui_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 207,
+            "Scale9Height": 60,
+            "TouchEnable": true,
+            "Tag": 73,
+            "PrePosition": {
+              "X": 0.6039,
+              "Y": 0.3099
+            },
+            "PreSize": {
+              "X": 0.3764,
+              "Y": 0.1474
+            },
+            "LeftMargin": 669.5288,
+            "RightMargin": 403.4712,
+            "TopMargin": 466.8647,
+            "BottomMargin": 193.1353,
+            "ActionTag": -507661242,
+            "Position": {
+              "X": 773.0288,
+              "Y": 223.1353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 207.0,
+              "Y": 60.0
+            },
+            "FrameEvent": "",
+            "Name": "disAgree",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "玩家用户1申请解散房间",
+            "Tag": 87,
+            "PrePosition": {
+              "X": 0.5014,
+              "Y": 0.6898
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 483.8099,
+            "RightMargin": 480.1901,
+            "TopMargin": 206.3519,
+            "BottomMargin": 479.6481,
+            "ActionTag": -854959605,
+            "Position": {
+              "X": 641.8099,
+              "Y": 496.6481
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 215,
+              "B": 165
+            },
+            "Size": {
+              "X": 316.0,
+              "Y": 34.0
+            },
+            "FrameEvent": "",
+            "Name": "title",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "倒计时13秒",
+            "Tag": 88,
+            "PrePosition": {
+              "X": 0.5017,
+              "Y": 0.6448
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 596.6898,
+            "RightMargin": 592.3102,
+            "TopMargin": 244.2617,
+            "BottomMargin": 452.7383,
+            "ActionTag": -28699883,
+            "Position": {
+              "X": 642.1898,
+              "Y": 464.2383
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 243,
+              "G": 215,
+              "B": 165
+            },
+            "Size": {
+              "X": 153.0,
+              "Y": 34.0
+            },
+            "FrameEvent": "",
+            "Name": "time",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

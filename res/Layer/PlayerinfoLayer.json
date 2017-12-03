@@ -1,0 +1,489 @@
+{
+  "ID": "98a0cfb9-979a-40e6-a413-964a858e9ec9",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "PlayerinfoLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 95,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/head_yinying.png"
+            },
+            "Tag": 105,
+            "PrePosition": {
+              "X": 0.2999,
+              "Y": 0.5032
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 2.8751,
+            "RightMargin": 70.1249,
+            "TopMargin": 2.0,
+            "BottomMargin": 3.0,
+            "ActionTag": -1265650558,
+            "Position": {
+              "X": 50.3751,
+              "Y": 77.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 95.0,
+              "Y": 149.0
+            },
+            "FrameEvent": "",
+            "Name": "head",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/item.png"
+            },
+            "Tag": 275,
+            "PrePosition": {
+              "X": 0.2902,
+              "Y": 0.5942
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 11.25,
+            "RightMargin": 81.75,
+            "TopMargin": 23.5,
+            "BottomMargin": 52.5,
+            "ActionTag": -757966080,
+            "Position": {
+              "X": 48.75,
+              "Y": 91.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 75.0,
+              "Y": 78.0
+            },
+            "FrameEvent": "",
+            "Name": "item",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/wenxin_head.png"
+            },
+            "Tag": 270,
+            "PrePosition": {
+              "X": 0.2951,
+              "Y": 0.5872
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 8.5724,
+            "RightMargin": 77.4276,
+            "TopMargin": 22.0714,
+            "BottomMargin": 48.9286,
+            "ActionTag": 1485464378,
+            "Position": {
+              "X": 49.5724,
+              "Y": 90.4286
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 82.0,
+              "Y": 83.0
+            },
+            "FrameEvent": "",
+            "Name": "wenxin_head",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/blue_score.png"
+            },
+            "Tag": 121,
+            "PrePosition": {
+              "X": 0.2963,
+              "Y": 0.2616
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 8.78,
+            "RightMargin": 77.22,
+            "TopMargin": 100.7131,
+            "BottomMargin": 27.2869,
+            "ActionTag": -595446004,
+            "Position": {
+              "X": 49.78,
+              "Y": 40.2869
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 82.0,
+              "Y": 26.0
+            },
+            "FrameEvent": "",
+            "Name": "totalScore",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "king",
+            "Tag": 107,
+            "PrePosition": {
+              "X": 0.2914,
+              "Y": 0.9311
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 30.9477,
+            "RightMargin": 101.0523,
+            "TopMargin": -0.8929,
+            "BottomMargin": 131.8929,
+            "ActionTag": -1468382127,
+            "Position": {
+              "X": 48.9477,
+              "Y": 143.3929
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 36.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/zhangshukuang.png"
+            },
+            "Tag": 110,
+            "PrePosition": {
+              "X": 0.7917,
+              "Y": 0.5422
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 116.0,
+            "RightMargin": 18.0,
+            "TopMargin": 51.0,
+            "BottomMargin": 64.0,
+            "ActionTag": 952651801,
+            "Position": {
+              "X": 133.0,
+              "Y": 83.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 34.0,
+              "Y": 39.0
+            },
+            "FrameEvent": "",
+            "Name": "zhangshukuang",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/fangzhu.png"
+            },
+            "Tag": 112,
+            "PrePosition": {
+              "X": 0.631,
+              "Y": 0.8279
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 78.5,
+            "RightMargin": 34.5,
+            "TopMargin": -1.0,
+            "BottomMargin": 100.0,
+            "ActionTag": 370134953,
+            "Position": {
+              "X": 106.0,
+              "Y": 127.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 55.0,
+              "Y": 55.0
+            },
+            "FrameEvent": "",
+            "Name": "fangzhu",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/touyou.png"
+            },
+            "Tag": 113,
+            "PrePosition": {
+              "X": 0.7857,
+              "Y": 0.5097
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 114.0,
+            "RightMargin": 18.0,
+            "TopMargin": 33.5,
+            "BottomMargin": 36.5,
+            "ActionTag": 1240320766,
+            "Position": {
+              "X": 132.0,
+              "Y": 78.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 36.0,
+              "Y": 84.0
+            },
+            "FrameEvent": "",
+            "Name": "touyou",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "抓分：0",
+            "Tag": 274,
+            "PrePosition": {
+              "X": 0.3036,
+              "Y": 0.1039
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 15.5,
+            "RightMargin": 81.5,
+            "TopMargin": 126.4998,
+            "BottomMargin": 4.5002,
+            "ActionTag": -1232905784,
+            "Position": {
+              "X": 51.0,
+              "Y": 16.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {
+              "R": 240,
+              "G": 242,
+              "B": 52
+            },
+            "Size": {
+              "X": 71.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "score",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/crown.png"
+            },
+            "Tag": 276,
+            "PrePosition": {
+              "X": 0.0759,
+              "Y": 0.8214
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -2.25,
+            "RightMargin": 140.25,
+            "TopMargin": 12.5,
+            "BottomMargin": 111.5,
+            "ActionTag": -162466764,
+            "Position": {
+              "X": 12.75,
+              "Y": 126.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 30.0,
+              "Y": 30.0
+            },
+            "FrameEvent": "",
+            "Name": "crown",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/touyou_label1.png"
+            },
+            "Tag": 453,
+            "PrePosition": {
+              "X": 0.2082,
+              "Y": 0.6803
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 9.9732,
+            "RightMargin": 108.0268,
+            "TopMargin": 22.7263,
+            "BottomMargin": 78.2737,
+            "ActionTag": 469742527,
+            "Position": {
+              "X": 34.9732,
+              "Y": 104.7737
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 50.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "FrameEvent": "",
+            "Name": "touyou_label1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 168.0,
+          "Y": 154.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

@@ -1,0 +1,1245 @@
+{
+  "ID": "b7e58975-23db-44c6-97a6-d30941ac91f1",
+  "Version": "2.1.0.0",
+  "Type": "Scene",
+  "Name": "LobbyScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 78,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "RightMargin": -1280.0,
+        "TopMargin": -720.0,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/bg.png"
+            },
+            "Tag": 124,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "ActionTag": -750032595,
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "FrameEvent": "",
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/ui_1.png"
+            },
+            "Tag": 141,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.925
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "BottomMargin": 612.0,
+            "ActionTag": 1952600564,
+            "Position": {
+              "X": 640.0,
+              "Y": 666.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1280.0,
+              "Y": 108.0
+            },
+            "FrameEvent": "",
+            "Name": "ui_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/ui_2.png"
+            },
+            "Tag": 142,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0764
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "TopMargin": 610.5,
+            "BottomMargin": 0.5,
+            "ActionTag": -100245850,
+            "Position": {
+              "X": 640.0,
+              "Y": 55.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1280.0,
+              "Y": 109.0
+            },
+            "FrameEvent": "",
+            "Name": "ui_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/exit_button.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/exit_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/exit_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 27,
+            "Scale9Height": 36,
+            "TouchEnable": true,
+            "Tag": 127,
+            "PrePosition": {
+              "X": 0.0293,
+              "Y": 0.9264
+            },
+            "PreSize": {
+              "X": 0.0211,
+              "Y": 0.05
+            },
+            "LeftMargin": 24.0,
+            "RightMargin": 1229.0,
+            "TopMargin": 35.0,
+            "BottomMargin": 649.0,
+            "ActionTag": 1461602326,
+            "Position": {
+              "X": 37.5,
+              "Y": 667.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 27.0,
+              "Y": 36.0
+            },
+            "FrameEvent": "",
+            "Name": "exit",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/renzhen_button.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/renzhen_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/renzhen_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 92,
+            "Scale9Height": 87,
+            "TouchEnable": true,
+            "Tag": 129,
+            "PrePosition": {
+              "X": 0.875,
+              "Y": 0.9257
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.1208
+            },
+            "LeftMargin": 1074.0,
+            "RightMargin": 114.0,
+            "TopMargin": 10.0,
+            "BottomMargin": 623.0,
+            "ActionTag": 1282912445,
+            "Position": {
+              "X": 1120.0,
+              "Y": 666.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 92.0,
+              "Y": 87.0
+            },
+            "FrameEvent": "",
+            "Name": "certify",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/fenxiang_button.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/fenxiang_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/fenxiang_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 92,
+            "Scale9Height": 87,
+            "TouchEnable": true,
+            "Tag": 130,
+            "PrePosition": {
+              "X": 0.9563,
+              "Y": 0.9257
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.1208
+            },
+            "LeftMargin": 1178.0,
+            "RightMargin": 10.0,
+            "TopMargin": 10.0,
+            "BottomMargin": 623.0,
+            "ActionTag": 188729269,
+            "Position": {
+              "X": 1224.0,
+              "Y": 666.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 92.0,
+              "Y": 87.0
+            },
+            "FrameEvent": "",
+            "Name": "Button_8",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/guangbo_tiao.png"
+            },
+            "Scale9Width": 485,
+            "Scale9Height": 33,
+            "Tag": 132,
+            "PrePosition": {
+              "X": 0.513,
+              "Y": 0.816
+            },
+            "PreSize": {
+              "X": 0.3789,
+              "Y": 0.0458
+            },
+            "LeftMargin": 414.1,
+            "RightMargin": 380.9,
+            "TopMargin": 116.0,
+            "BottomMargin": 571.0,
+            "ActionTag": 1381820259,
+            "Position": {
+              "X": 656.6,
+              "Y": 587.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 485.0,
+              "Y": 33.0
+            },
+            "FrameEvent": "",
+            "Name": "message",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanji_button.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanji_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanji_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 112,
+            "Scale9Height": 55,
+            "TouchEnable": true,
+            "Tag": 135,
+            "PrePosition": {
+              "X": 0.2375,
+              "Y": 0.0618
+            },
+            "PreSize": {
+              "X": 0.0875,
+              "Y": 0.0764
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 920.0,
+            "TopMargin": 648.0,
+            "BottomMargin": 17.0,
+            "ActionTag": 1320074895,
+            "Position": {
+              "X": 304.0,
+              "Y": 44.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 112.0,
+              "Y": 55.0
+            },
+            "FrameEvent": "",
+            "Name": "gameRecord",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/help_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/help_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 112,
+            "Scale9Height": 55,
+            "TouchEnable": true,
+            "Tag": 136,
+            "PrePosition": {
+              "X": 0.3617,
+              "Y": 0.0618
+            },
+            "PreSize": {
+              "X": 0.0875,
+              "Y": 0.0764
+            },
+            "LeftMargin": 407.0,
+            "RightMargin": 761.0,
+            "TopMargin": 648.0,
+            "BottomMargin": 17.0,
+            "ActionTag": -186885121,
+            "Position": {
+              "X": 463.0,
+              "Y": 44.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 112.0,
+              "Y": 55.0
+            },
+            "FrameEvent": "",
+            "Name": "help",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/shop_button.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/shop_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/shop_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 190,
+            "Scale9Height": 155,
+            "TouchEnable": true,
+            "Tag": 137,
+            "PrePosition": {
+              "X": 0.4992,
+              "Y": 0.1076
+            },
+            "PreSize": {
+              "X": 0.1484,
+              "Y": 0.2153
+            },
+            "LeftMargin": 544.0,
+            "RightMargin": 546.0,
+            "TopMargin": 565.0,
+            "ActionTag": -646636576,
+            "Position": {
+              "X": 639.0,
+              "Y": 77.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 190.0,
+              "Y": 155.0
+            },
+            "FrameEvent": "",
+            "Name": "shop",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/message_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/message_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 112,
+            "Scale9Height": 55,
+            "TouchEnable": true,
+            "Tag": 138,
+            "PrePosition": {
+              "X": 0.6367,
+              "Y": 0.0618
+            },
+            "PreSize": {
+              "X": 0.0875,
+              "Y": 0.0764
+            },
+            "LeftMargin": 759.0,
+            "RightMargin": 409.0,
+            "TopMargin": 648.0,
+            "BottomMargin": 17.0,
+            "ActionTag": 254552709,
+            "Position": {
+              "X": 815.0,
+              "Y": 44.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 112.0,
+              "Y": 55.0
+            },
+            "FrameEvent": "",
+            "Name": "message",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/setting_button.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/setting_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 112,
+            "Scale9Height": 55,
+            "TouchEnable": true,
+            "Tag": 140,
+            "PrePosition": {
+              "X": 0.7664,
+              "Y": 0.0618
+            },
+            "PreSize": {
+              "X": 0.0875,
+              "Y": 0.0764
+            },
+            "LeftMargin": 925.0,
+            "RightMargin": 243.0,
+            "TopMargin": 648.0,
+            "BottomMargin": 17.0,
+            "ActionTag": 1895462782,
+            "Position": {
+              "X": 981.0,
+              "Y": 44.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 112.0,
+              "Y": 55.0
+            },
+            "FrameEvent": "",
+            "Name": "setting",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanshi_tiao.png"
+            },
+            "Tag": 144,
+            "PrePosition": {
+              "X": 0.748,
+              "Y": 0.9194
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 865.0,
+            "RightMargin": 230.0,
+            "TopMargin": 38.0,
+            "BottomMargin": 642.0,
+            "ActionTag": -398036024,
+            "Position": {
+              "X": 957.5,
+              "Y": 662.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 185.0,
+              "Y": 40.0
+            },
+            "FrameEvent": "",
+            "Name": "zhanshi_tiao",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanshi_jiahao.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/zhanshi_jiahao.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 35,
+            "Scale9Height": 35,
+            "TouchEnable": true,
+            "Tag": 143,
+            "PrePosition": {
+              "X": 0.8051,
+              "Y": 0.9215
+            },
+            "PreSize": {
+              "X": 0.0273,
+              "Y": 0.0486
+            },
+            "LeftMargin": 1013.0,
+            "RightMargin": 232.0,
+            "TopMargin": 39.0,
+            "BottomMargin": 646.0,
+            "ActionTag": 602627417,
+            "Position": {
+              "X": 1030.5,
+              "Y": 663.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 35.0,
+              "Y": 35.0
+            },
+            "FrameEvent": "",
+            "Name": "addDiamond",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/bar.png"
+            },
+            "Tag": 145,
+            "PrePosition": {
+              "X": 0.2539,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 50.0,
+            "RightMargin": 680.0,
+            "TopMargin": 155.0,
+            "BottomMargin": 157.0,
+            "ActionTag": -1588885418,
+            "Position": {
+              "X": 325.0,
+              "Y": 361.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 550.0,
+              "Y": 408.0
+            },
+            "FrameEvent": "",
+            "Name": "bar",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/room_label_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/room_lable.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 272,
+            "Scale9Height": 60,
+            "TouchEnable": true,
+            "Tag": 134,
+            "PrePosition": {
+              "X": 0.3602,
+              "Y": 0.7389
+            },
+            "PreSize": {
+              "X": 0.2125,
+              "Y": 0.0833
+            },
+            "LeftMargin": 325.0,
+            "RightMargin": 683.0,
+            "TopMargin": 158.0,
+            "BottomMargin": 502.0,
+            "ActionTag": 1554186126,
+            "Position": {
+              "X": 461.0,
+              "Y": 532.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 272.0,
+              "Y": 60.0
+            },
+            "FrameEvent": "",
+            "Name": "roomList",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/huodong_label_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/huodong_label.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 272,
+            "Scale9Height": 60,
+            "TouchEnable": true,
+            "Tag": 133,
+            "PrePosition": {
+              "X": 0.1477,
+              "Y": 0.7389
+            },
+            "PreSize": {
+              "X": 0.2125,
+              "Y": 0.0833
+            },
+            "LeftMargin": 53.0,
+            "RightMargin": 955.0,
+            "TopMargin": 158.0,
+            "BottomMargin": 502.0,
+            "ActionTag": 98950572,
+            "Position": {
+              "X": 189.0,
+              "Y": 532.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 272.0,
+              "Y": 60.0
+            },
+            "FrameEvent": "",
+            "Name": "activity",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/create_1.png"
+            },
+            "Tag": 179,
+            "PrePosition": {
+              "X": 0.6254,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 680.0,
+            "RightMargin": 359.0,
+            "TopMargin": 195.0,
+            "BottomMargin": 197.0,
+            "ActionTag": -1682393344,
+            "Position": {
+              "X": 800.5,
+              "Y": 361.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 241.0,
+              "Y": 328.0
+            },
+            "FrameEvent": "",
+            "Name": "createRoom",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/join_1.png"
+            },
+            "Tag": 181,
+            "PrePosition": {
+              "X": 0.866,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 988.0,
+            "RightMargin": 51.0,
+            "TopMargin": 195.0,
+            "BottomMargin": 197.0,
+            "ActionTag": 1367728169,
+            "Position": {
+              "X": 1108.5,
+              "Y": 361.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 241.0,
+              "Y": 328.0
+            },
+            "FrameEvent": "",
+            "Name": "joinRoom",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/wenxin_head.png"
+            },
+            "Tag": 182,
+            "PrePosition": {
+              "X": 0.0914,
+              "Y": 0.9243
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 76.0,
+            "RightMargin": 1122.0,
+            "TopMargin": 13.0,
+            "BottomMargin": 624.0,
+            "ActionTag": 556153578,
+            "Position": {
+              "X": 117.0,
+              "Y": 665.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 82.0,
+              "Y": 83.0
+            },
+            "FrameEvent": "",
+            "Name": "wenxin_head",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/weixin_idtiao.png"
+            },
+            "Tag": 183,
+            "PrePosition": {
+              "X": 0.1898,
+              "Y": 0.8965
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 157.5,
+            "RightMargin": 951.5,
+            "TopMargin": 61.0,
+            "BottomMargin": 632.0,
+            "ActionTag": -1258064335,
+            "Position": {
+              "X": 243.0,
+              "Y": 645.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 171.0,
+              "Y": 27.0
+            },
+            "FrameEvent": "",
+            "Name": "weixin_idtiao",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/weixin_nametiao.png"
+            },
+            "Tag": 184,
+            "PrePosition": {
+              "X": 0.2176,
+              "Y": 0.9465
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 158.0,
+            "RightMargin": 881.0,
+            "TopMargin": 22.0,
+            "BottomMargin": 665.0,
+            "ActionTag": -275847803,
+            "Position": {
+              "X": 278.5,
+              "Y": 681.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 241.0,
+              "Y": 33.0
+            },
+            "FrameEvent": "",
+            "Name": "weixin_nametiao",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "1999",
+            "Tag": 25,
+            "PrePosition": {
+              "X": 0.7475,
+              "Y": 0.919
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 911.3256,
+            "RightMargin": 277.6744,
+            "TopMargin": 46.8465,
+            "BottomMargin": 650.1535,
+            "ActionTag": -1724881923,
+            "Position": {
+              "X": 956.8256,
+              "Y": 661.6535
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 44.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "diamond",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "80630",
+            "Tag": 26,
+            "PrePosition": {
+              "X": 0.1897,
+              "Y": 0.8942
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 197.3553,
+            "RightMargin": 991.6447,
+            "TopMargin": 64.6971,
+            "BottomMargin": 632.3029,
+            "ActionTag": -1273276315,
+            "Position": {
+              "X": 242.8553,
+              "Y": 643.8029
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 55.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "id",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "LALALA",
+            "Tag": 27,
+            "PrePosition": {
+              "X": 0.1855,
+              "Y": 0.9487
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 201.0015,
+            "RightMargin": 1005.99847,
+            "TopMargin": 25.4276,
+            "BottomMargin": 671.5724,
+            "ActionTag": 699565493,
+            "Position": {
+              "X": 237.5015,
+              "Y": 683.0724
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 73.0,
+              "Y": 23.0
+            },
+            "FrameEvent": "",
+            "Name": "name",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "FrameEvent": "",
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

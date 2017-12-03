@@ -1,0 +1,324 @@
+{
+  "ID": "233d74c7-c449-46f9-a6f4-b8f6ef2da1e9",
+  "Version": "2.1.0.0",
+  "Type": "Layer",
+  "Name": "MenuLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 443,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/banhuidating_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/banhuidating_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 186,
+            "Scale9Height": 67,
+            "TouchEnable": true,
+            "Tag": 444,
+            "PrePosition": {
+              "X": 0.5008,
+              "Y": 0.1334
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.25
+            },
+            "LeftMargin": 0.1533,
+            "RightMargin": -0.1533,
+            "TopMargin": 198.7401,
+            "BottomMargin": 2.2599,
+            "ActionTag": -1347712859,
+            "Position": {
+              "X": 93.1533,
+              "Y": 35.7599
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 186.0,
+              "Y": 67.0
+            },
+            "FrameEvent": "",
+            "Name": "exit",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/wanfa_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/wanfa_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 186,
+            "Scale9Height": 67,
+            "TouchEnable": true,
+            "Tag": 445,
+            "PrePosition": {
+              "X": 0.5034,
+              "Y": 0.6309
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.25
+            },
+            "LeftMargin": 0.6344,
+            "RightMargin": -0.6344,
+            "TopMargin": 65.4107,
+            "BottomMargin": 135.5893,
+            "ActionTag": -1313411780,
+            "Position": {
+              "X": 93.6344,
+              "Y": 169.0893
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 186.0,
+              "Y": 67.0
+            },
+            "FrameEvent": "",
+            "Name": "rule",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/setyouxi_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/setyouxi_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 186,
+            "Scale9Height": 67,
+            "TouchEnable": true,
+            "Tag": 446,
+            "PrePosition": {
+              "X": 0.5019,
+              "Y": 0.384
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.25
+            },
+            "LeftMargin": 0.3553,
+            "RightMargin": -0.3553,
+            "TopMargin": 131.5892,
+            "BottomMargin": 69.4108,
+            "ActionTag": -524039056,
+            "Position": {
+              "X": 93.3553,
+              "Y": 102.9108
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 186.0,
+              "Y": 67.0
+            },
+            "FrameEvent": "",
+            "Name": "setting",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png"
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/dismissroom_button_press.png"
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/dismissroom_button.png"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 186,
+            "Scale9Height": 67,
+            "TouchEnable": true,
+            "Tag": 447,
+            "PrePosition": {
+              "X": 0.5036,
+              "Y": 0.876
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.25
+            },
+            "LeftMargin": 0.6628,
+            "RightMargin": -0.6628,
+            "TopMargin": -0.2734,
+            "BottomMargin": 201.2734,
+            "ActionTag": 1109447466,
+            "Position": {
+              "X": 93.6628,
+              "Y": 234.7734
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 186.0,
+              "Y": 67.0
+            },
+            "FrameEvent": "",
+            "Name": "dismiss",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/menu_jiantou.png"
+            },
+            "Tag": 448,
+            "PrePosition": {
+              "X": 1.0556,
+              "Y": 0.9346
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 185.8326,
+            "RightMargin": -20.8326,
+            "TopMargin": 7.5293,
+            "BottomMargin": 240.4707,
+            "ActionTag": 1349668379,
+            "Position": {
+              "X": 196.3326,
+              "Y": 250.4707
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 21.0,
+              "Y": 20.0
+            },
+            "FrameEvent": "",
+            "Name": "menu_jiantou",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 186.0,
+          "Y": 268.0
+        },
+        "FrameEvent": "",
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  }
+}

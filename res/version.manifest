@@ -1,0 +1,9 @@
+{
+  "packageUrl": "139.196.84.38:8000/6jt/", 
+  "searchPaths": [], 
+  "assets": {}, 
+  "remoteVersionUrl": "139.196.84.38:8000/6jt/version.manifest", 
+  "version": "1.0.1", 
+  "engineVersion": "Cocos2dx-lua 3.6.5", 
+  "remoteManifestUrl": "139.196.84.38:8000/6jt/project.manifest"
+}
