@@ -16,7 +16,7 @@ function LoginScene:onEnterTransitionFinish()
     local loginWeixin = cc.uiloader:seekNodeByNameFast(self.scene, "LoginWeixin")
     loginWeixin:onButtonClicked(handler(self, self.loginWeixin))
 
-    self.inputText = cc.uiloader:seekNodeByNameFast(self.scene, "name")
+    self.inputText = cc.uiloader:seekNodeByNameFast(self.scene, "name_input")
 end
 
 

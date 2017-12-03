@@ -5,8 +5,21 @@
       <RootFolder Name=".">
         <Folder Name="Scene">
           <Project Name="LobbyScene.csd" Type="Scene" />
+          <Project Name="LoginScene.csd" Type="Scene" />
         </Folder>
-        <Folder Name="Image" />
+        <Folder Name="Image">
+          <Folder Name="Login">
+            <Image Name="jb.png" />
+            <Image Name="login_bg.png" />
+            <Image Name="login_g.png" />
+            <Image Name="ty_btn_0.png" />
+            <Image Name="ty_btn_1.png" />
+            <Image Name="wx_btn_0.png" />
+            <Image Name="xz5.png" />
+            <Image Name="yhxy.png" />
+          </Folder>
+          <Folder Name="Lobby" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
