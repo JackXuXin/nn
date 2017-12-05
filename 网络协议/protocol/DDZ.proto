@@ -1,0 +1,133 @@
+syntax = "proto2";
+package DDZ;
+
+//牌
+message Card{
+	required int32 num = 1;		//牌值
+	required int32 color = 2;	//花色
+}
+
+//发牌
+message Deal{
+	required int32 session = 1;
+	required int32 baseScore = 2;		//基本分
+	required int32 callPlayer = 3;		//叫分玩家
+	repeated Card cardOfDeal = 4;		//size = 17
+	required int32 openCardTime = 5;	//最大出牌时间
+}
+
+//叫分请求
+message CallScoreReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 called = 3;	//1抢地主 0不抢
+}
+
+message CallScoreRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 curCallPlayer = 3;	//当前叫分玩家
+	required int32 called = 4;			//0不叫 1叫
+	required int32 multiple = 5;
+	required int32 result = 6;			//0继续叫分 1游戏开始 2流局，重新发牌
+}
+
+//游戏开始
+message GameBegin{
+	required int32 session = 1;
+	required int32 landlord = 2;	//地主玩家seatId
+	repeated Card landlordCard = 3; //地主剩下的三张牌 size = 3
+	required int32 multiple = 4;		//倍数
+}
+
+//取消托管请求
+message CancelTuoGuanReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+message CancelTuoGuanRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 timeRelease = 3;
+}
+
+//托管
+message TuoGuan{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+//玩家出牌请求
+message HandoutReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	repeated Card handoutCard = 3;	//size 0-17
+}
+
+//玩家出牌回复
+message HandoutRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 result = 3;	//0成功 1过 2赢 3失败 其他情况均为错误
+	repeated Card handoutCard = 4; //size 0 - 17
+	required int32 handoutPlayer = 5; //当前出牌玩家
+	required int32 cardNum = 6; //剩下的手牌数
+	repeated Card curCard = 7;
+	optional int32 multiplenum = 8;	
+}
+
+//游戏结束，一方玩家赢
+message Result{
+	message Record{
+		required int32 multiplenum = 1;	//倍数
+		required int32 score = 2;
+		required int32 bLandlord = 3; 	//0不是地主 1 地主
+	}
+	required int32 session = 1;
+	optional int32 allCombo = 2;
+	repeated Card handcard1 = 3;
+	repeated Card handcard2 = 4;
+	repeated Card handcard3 = 5;
+	repeated Record records = 6;
+}
+
+//场景恢复
+message GamingSence{
+	message PlayerState{
+		required int32 cardNum = 1;		//玩家所剩手牌数
+		required int32 state = 2;		//玩家状态	2正常 3托管 4未出过牌
+		required int32 bIsLandlord = 3; //0不是 1是
+	}
+
+	required int32 session = 1;
+	required int32 curPlayer = 2;		//当前出牌玩家
+	required int32 timeRelease = 3;		//所剩时间
+	required int32 openCardTime = 4;	//开牌时间
+	required int32 baseScore = 5;		//基础分
+	required int32 multiple = 6;		//倍数
+	repeated Card handcard = 7;			//手牌
+	repeated PlayerState players = 8;	//各玩家状态 size = 3
+	repeated Card landlordCards = 9;	//地主的三张牌
+
+	repeated Card handoutCard1 = 10;	//出的牌
+	repeated Card handoutCard2 = 11;	//出的牌
+	repeated Card handoutCard3 = 12;	//出的牌
+
+	repeated Card curCard = 13;			//
+}
+
+//叫分场景恢复
+message CallScoreSence{
+	required int32 session = 1;
+	repeated int32 playerState = 2;	//0不抢 1抢 2未轮到 size = 3
+	required int32 baseScore = 3;	//基础分
+	required int32 multiple = 4;	//倍数
+	required int32 timeRelease = 5;	//所剩时间
+	required int32 curPlayer = 6;	//当前出牌玩家
+	required int32 openCardTime = 7;//开牌时间
+	repeated Card handcard = 8;		//手牌	
+}
+
+
+//提示我会给你代码，在客户端实现

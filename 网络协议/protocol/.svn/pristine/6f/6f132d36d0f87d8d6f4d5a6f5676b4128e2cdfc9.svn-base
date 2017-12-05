@@ -1,0 +1,207 @@
+syntax = "proto2";
+package ShYMJ;
+
+//所有的game包协议必须带有session字段
+
+message StartGame {
+	message PlayerInfo {
+		required string name = 1;
+		required string score = 2;
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated PlayerInfo players = 3;
+	required int32 number = 4;
+	required int32 score = 5;
+}
+
+message BankerSeat {
+	required int32 session = 1;
+	required int32 banker = 2;
+	required int32 dragon = 3;
+	repeated int32 points = 4;
+}
+
+message DistributeCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 number = 4;
+	required int32 finish = 5;
+}
+
+message ComplementCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 number = 4;
+}
+
+message DrawCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+	required int32 number = 4;
+}
+
+message AllowOut {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 time = 4;
+}
+
+message AllowOutEx {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+}
+
+message AllowFlower {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+	required int32 time = 4;
+}
+
+message OutedCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+message AllowCombin {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+}
+
+message AllowCombinEx {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+	repeated int32 card = 6;
+}
+
+message OutCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+message Ready {
+	required int32 session = 1;
+}
+
+message CombinCard {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	required CombinInfo combin = 3;
+}
+
+message HuCard {
+	required int32 session = 1;
+}
+
+message IgnoreCard {
+	required int32 session = 1;
+}
+
+message EndGame {
+	message ScoreInfo {
+		required string name = 1;
+		required int32 flower = 2;
+		required int32 bao = 3;
+		required string score = 4;
+		required int32 hu = 5;
+	}
+
+	message PointsInfo {
+		required string hun = 1;
+		required int32 point = 2;
+	}
+
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	
+	required int32 session = 1;
+	repeated ScoreInfo scores = 2;
+	repeated PointsInfo points = 3;
+	repeated int32 cards = 4;
+	repeated CombinInfo combins = 5;
+	required int32 mode = 6;
+	required int32 hun = 7;
+	required int32 chao = 8;
+}
+
+message Managed {
+	required int32 session = 1;
+	required int32 state = 2;
+	required int32 seat = 3;
+}
+
+message GameInfo {
+	required int32 session = 1;
+	required int32 banker = 2;
+	required int32 dragon = 3;
+	repeated int32 points = 4;
+	required int32 score = 5;
+	required int32 number = 6;
+}
+
+message PlayerInfo {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+	repeated int32 outs = 4;
+	repeated int32 flower = 5;
+	repeated CombinInfo combins = 6;
+}
+
+message AllowSelect {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+	required int32 time = 4;
+}
+
+message SelectInfo {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+}
+
+message MajiangInfo {
+	required int32 session = 1;
+	required string majiang = 2;
+	required int32 banker = 3;
+}

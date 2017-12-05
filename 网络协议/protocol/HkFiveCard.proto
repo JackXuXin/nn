@@ -1,0 +1,89 @@
+syntax = "proto2";
+package HkFiveCard;
+
+// 港式五张：params1[1] 本局最多可带入金币，params1[2] 底注，params1[3] 操作倒计时
+message UpdateGameInfo {
+	required int32 session = 1;
+	optional int32 index = 2;
+	repeated int32 params1 = 3;
+	repeated int32 params2 = 4;
+}
+
+// 梭哈 optype (1:加注 2:跟注 3:弃牌 4:过牌 5:showhand) 
+//		opvalue: 加注金额
+message OperateReq {
+	required int32 session = 1;
+	optional int32 optype = 2;
+	optional int32 opvalue = 3;
+}
+
+// 梭哈：seatid(操作玩家)，
+//		optype (1:加注 2:跟注 3:弃牌 4:过牌 5:showhand), 
+//		opvalue: raise chip value to this value
+//		askseatid下一个操作玩家， 
+//		timeout操作时间，
+message OperateRep {
+	required int32 session = 1;
+	required int32 index = 2;
+	optional int32 seatid = 3;
+	optional int32 optype = 4;
+	optional int32 opvalue = 5;
+	optional int32 curchip = 6;
+	optional int32 askseatid = 7;
+	repeated int32 oplist = 8;
+	optional int32 timeout = 9;
+}
+
+//发牌： seatid座位号 _first_send_seat
+//		askseatid询问操作座位号 
+//		time 操作时间 
+//		cardids N张扑克(每个玩家一张，按座位号索引)
+// 		cardid (自己的暗牌，第一次发票有)
+//		odds(可下注选项，第一次发牌有)
+message AddCard {
+	required int32 session = 1;
+	required int32 index = 2;
+	required int32 seatid = 3;
+	optional int32 askseatid = 4;
+	optional int32 cardid = 5;
+	optional int32 time = 6;
+	repeated int32 odds = 7;
+	repeated int32 cardids = 8;
+}
+
+message ShowCard {
+	required int32 session = 1;
+	required int32 index = 2;
+	required int32 seatid = 3;
+	repeated int32 cardids = 4;
+}
+
+message SyncGameData {
+	message PlayerInfo {
+    	required int32 uid = 1;
+    	required int32 seatid = 2;
+		required int32 ingame = 3;
+		required int32 giveup = 4;
+		optional int32 showhand = 5;
+		optional int32 prechip = 6;
+		optional int32 curchip = 7;
+    	repeated int32 cards = 8;
+  	}
+	required int32 session = 1;
+	required int32 status = 2;
+	required int32 index = 3;
+	required int32 seatid = 4;
+	repeated int32 odds = 5;
+	required int32 opseat = 6;
+	repeated int32 oplist = 7;
+	required int32 optime = 8;
+	repeated PlayerInfo players = 9;
+}
+
+message SettleAccount {
+	required int32 session = 1;
+	required int32 winseatid = 2;
+	repeated int32 goldchanges = 3;
+	repeated int32 cardtypes = 4;
+}
+

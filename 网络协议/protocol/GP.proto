@@ -1,0 +1,89 @@
+syntax = "proto2";
+package GP;
+
+//牌
+message Card{
+	required int32 num = 1;		//牌值
+	required int32 color = 2;	//花色
+}
+
+//游戏开始
+message Deal{
+	required int32 session = 1;
+	required int32 baseScore = 2;		//基本分
+	required int32 handoutplayer = 3;	//当前出牌玩家
+	repeated Card cardofdeal = 4;		//size = 17
+	required int32 openCardTime = 5;	//最大出牌时间
+}
+
+//取消托管请求
+message CancelTuoGuanReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+message CancelTuoGuanRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 timeRelease = 3;
+}
+
+//托管
+message TuoGuan{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+//玩家出牌请求
+message HandoutReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	repeated Card handoutcard = 3;	//size 0-17
+}
+
+//玩家出牌回复
+message HandoutRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 result = 3;	//0成功 1过 2赢 3失败 其他情况均为错误
+	repeated Card handoutcard = 4; //size 0 - 17
+	required int32 handoutPlayer = 5; //当前出牌玩家
+	required int32 cardNum = 6; //剩下的手牌数
+}
+
+
+//游戏结束，一方玩家赢
+message Result{
+	message Record{
+		required string cardleastnum = 1;
+		required string	multiplenum = 2;	//倍数
+		required string score = 3;
+	}
+	required int32 session = 1;
+	required int32 selfscore = 2;	//自己的分数
+	required int32 opponentscore = 3;	//对手分数
+	required int32 result = 4;	//0输 1赢
+	required int32 multiplenum = 5; 	//倍数
+
+	repeated Card handCard = 6;	//输家所剩的手牌 size 1-17
+	repeated Card cardleast = 7; //未用到的牌
+
+	repeated Record records = 8;
+}
+
+//场景恢复
+message ReloadSence{
+	required int32 session = 1;
+	repeated Card handCard = 2;		//玩家手牌
+	repeated Card curCard = 3;		//当前桌面的牌
+	required int32 opponentCardNum = 4;	//对手手牌数
+	required int32 curPlayer = 5;	//当前出牌玩家
+	required int32 time = 6;	//当前出牌玩家所耗时间
+	required int32 state = 7;	//对方玩家状态 1.正常 2.托管
+	required int32 baseScore = 8;	//基础分
+	required int32 curPlayerState = 9; //当前玩家状态
+	required int32 openCardTime = 10;	//出牌时间
+}
+
+
+//提示我会给你代码，在客户端实现

@@ -1,0 +1,125 @@
+syntax = "proto2";
+package NN100;
+
+// broadcast
+message GameStatusNtf {
+	required int32 session = 1;
+	optional int32 timeout = 2;
+    optional int32 status = 3;  // 1-chip in; 2-open card;
+	optional int32 leftbet = 4;
+	repeated int32 betcount = 5; // size: 4
+	repeated int32 yourbets = 6; // size: 4
+	repeated int32 cardids = 7;	 // size: 0/25; last card id. 
+	repeated int32 types = 8;	 // size: 0/5; last card type. 
+}
+
+// broadcast
+message UpdateBankerInfo {
+    required int32 session = 1;
+    required uint32 uid = 2;
+	optional int32 reason = 3; // uid==0 告知上一个庄的下庄原因
+    optional string nickname = 4;
+    optional string gold = 5;
+    optional string score = 6;
+    optional int32 sex = 7;             //1-female; 2-male
+}
+
+// just send this request
+message AskBet {
+    required int32 session = 1;
+	optional int32 opidx = 2; // 1天 2地 3玄 4黄
+	optional int32 opval = 3;
+}
+
+
+// broadcast when start bet or someone bet.
+message UpdateBetInfo {
+	required int32 session = 1;
+    optional int32 opuid = 2; // last bet player
+    optional int32 opidx = 3; // 1天 2地 3玄 4黄
+	optional int32 opval = 4;
+    optional int32 leftbet = 5;
+	repeated int32 betcount = 6; // size: 4
+}
+
+
+message HistoryReq {
+    required int32 session = 1;
+}
+
+message HistoryRep {
+    message Record {
+        repeated int32 results = 1; // size: 4.  1-lose, 2-win
+    }
+    required int32 session = 1;
+    repeated Record records = 2; // size: 0~10
+}
+
+
+message RankListReq {
+	required int32 session = 1;
+}
+
+message RankListRep {
+	message Player {
+		optional uint32 uid = 1;
+    	optional string nickname = 2;
+    	optional string gold = 3;
+	}
+	required int32 session = 1;
+	repeated Player players = 2; // size: 1~100
+}
+
+
+message BankerListReq {
+	required int32 session = 1;
+}
+
+message BankerListRep {
+	message Banker {
+		optional uint32 uid = 1;
+    	optional string nickname = 2;
+    	optional string gold = 3;
+	}
+	required int32 session = 1;
+	repeated Banker bankers = 2; // size: 0~100
+    optional string mingold = 3; // to be banker min gold
+}
+
+
+// to be or not to be banker
+message BankerReq {
+    required int32 session = 1;
+    required int32 optype = 2; // 0:off  1:on
+}
+
+message BankerRep {
+    required int32 session = 1;
+    required int32 result = 2;
+}
+
+message ShowCard {
+	required int32 session = 1;
+    optional int32 timeout = 2;
+    repeated int32 cardids = 3; // size: 25; card id
+	repeated int32 types = 4;	// size: 5; card type
+}
+
+message GameEnd {
+    message Winner { 
+		optional uint32 uid = 1;
+    	optional string nickname = 2;
+    	optional string gain = 3;
+	}
+    required int32 session = 1;
+    optional string yourbet = 2;
+    optional string yourgain = 3;
+	optional string yourgold = 4;
+    optional string bankergain = 5;
+    optional string bankergold = 6;
+    optional string bankerscore = 7;
+    repeated Winner winners = 8;	// size: 0~5; top winners
+    repeated int32 cardids = 9;		// size: 25; card id
+	repeated int32 types = 10;		// size: 5; card type
+}
+

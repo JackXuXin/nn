@@ -1,0 +1,115 @@
+syntax = "proto2";
+// 代码风格
+//消息名：使用骆驼风格的大小写命名，即单词首字母大写
+//字段名：全部小写
+//枚举名：使用骆驼风格的大小写命名
+//枚举值：全部大写，使用下划线分隔
+
+package match;
+
+
+//获取比赛配置
+message MatchConfigReq {
+
+}
+
+message MatchConfigRep {
+	required string config = 1;
+}
+
+//获取比赛列表
+message MatchListReq {
+	required int32 gameid = 1;
+}
+
+message MatchListRep {
+	message MatchInfo {
+		required int32 matchid = 1;
+		required int32 status = 2;	// 1未开始 2比赛开始 4人数不够，比赛取消 8比赛进行中 16比赛结束
+		required bool signup = 3;	// 玩家是否报名过该场比赛
+		required bool online = 4;		// 玩家是否在该比赛中，用于断线重连
+	}
+
+	repeated MatchInfo matches = 1;
+}
+
+//1:报名 2:取消报名 
+message MatchSignupReq{
+	required int32 optype = 1;
+	required int32 matchid = 2;
+}
+
+//0成功 1找不到比赛 2比赛已经开始 3比赛已经结束 4报名失败，已经报名过 5取消失败，没报名过 6报名失败，名额已满 7报名失败，同ip报名限制 99其他错误
+message MatchSignupRep {
+	required int32 result = 1;
+	required int32 matchid = 2;
+}
+
+message MatchRankReq {
+	required int32 matchid = 1;
+}
+
+//0成功 1找不到比赛 2比赛未开始 3比赛进行中 4比赛取消 99其他错误
+message MatchRankRep {
+	message Player {
+		optional uint32 uid = 1;
+    	optional string nickname = 2;
+    	optional uint32 rank = 3;
+    	optional string reward = 4;
+	}
+
+	required int32 result = 1;
+	repeated Player players = 2;
+}
+
+// 进入比赛
+message EnterMatchReq{
+	required int32 clientid = 1;
+	required int32 matchid = 2;
+}
+
+//0成功 1未报名 2比赛已开始 99其他错误
+message EnterMatchRep{
+	required int32 result = 1;
+	required int32 matchid = 2;
+	optional int32 session = 3;
+	optional int32 table = 4;
+}
+
+// 离开比赛
+message LeaveMatchReq {
+	required int32 session = 1;
+}
+
+// 离开比赛回复
+message LeaveMatchRep {
+	required int32 session = 1;
+	required int32 result = 2;
+}
+
+message SignupCountNtf {
+	required int32 session = 1;
+	required uint32 count = 2;
+}
+
+message MatchStatustNtf {
+	required int32 session = 1;
+	required int32 status = 2;	// 1未开始 2比赛开始 4人数不够，比赛取消 8比赛进行中 16比赛结束
+	optional int32 stage = 3;
+}
+
+message MatchInfoNtf {
+	required int32 session = 1;
+	required int32 clientid = 2;
+	required int32 status = 3;	// 1等待分桌 2等待晋级 4淘汰 8晋级 16比赛结束
+	optional uint32 rank = 4;
+	optional int32 gold = 5;
+	optional string rewardtitle = 6;
+	optional string rewardtype = 7;//"gold"是茶园豆
+}
+
+message MatchRankNtf {
+	required int32 session = 1;
+	required uint32 rank = 2;
+	required uint32 total = 3;
+}

@@ -1,0 +1,179 @@
+syntax = "proto2";
+// 代码风格
+//消息名：使用骆驼风格的大小写命名，即单词首字母大写
+//字段名：全部小写
+//枚举名：使用骆驼风格的大小写命名
+//枚举值：全部大写，使用下划线分隔
+
+package PrivateRoom;
+
+
+//获取配置
+message PrivateRoomConfigReq {
+}
+message PrivateRoomConfigRep {
+	required string config = 1;
+}
+
+//创建房间
+message PrivateRoomCreateReq {
+	required int32 gameid = 1;
+	required int32 seat_cnt = 2; 	 			//椅子数
+	required int32 carry_gold = 3; 	 			//带入旺豆
+	optional int32 game_round = 4; 	 			//游戏局数
+	optional int32 time = 5; 	 				//游戏时间
+	required int32 fee = 6;
+	required int32 pay_type = 7;				//支付类型 1=房主支付 2=AA支付
+	optional uint64 customization = 8;
+}
+//创建房间.回复
+message PrivateRoomCreateRep {
+	required int32 result = 1;  				//0:成功；1:失败,房间费不足；2:失败,每个用户只能创建一个私人房间；3:其他错误
+	required int32 gameid = 2;
+	required string table_code = 3; 			//服务端生成的桌子编号
+	required int32 seatid = 4;
+}
+
+//进入房间
+message PrivateRoomEnterReq {
+	required int32 clientid = 1;
+	required string table_code = 2;				//服务端生成的桌子编号
+}
+//进入房间.回复
+message PrivateRoomEnterRep {
+	required int32 session = 1;
+	required int32 result = 2; 					//0:成功；1:失败 2:重连 3:重连失败
+	required int32 gameid = 3;
+	required int32 tableid = 4; 				//服务端生成的位置座位号
+	required int32 seatid = 5;
+	required string table_code = 6; 			//服务端生成的桌子编号
+	required int32 table_session = 7;	
+	required int32 pian_cnt= 8;					//片数	
+	required int32 gameround = 9;				//带入旺豆
+	required int32 seat_cnt = 10;				//椅子数
+	optional uint64 customization = 11;
+	optional int32 pay_type = 12;
+	optional int32 curround = 13;
+}
+
+//桌子信息
+message PrivateRoomTableStateInfo {
+	message PlayerInfo {
+		required int32 seat = 1;
+		required int32 uid = 2;
+		required string name = 3;
+		required string gold = 4;
+		required int32 ready = 5;
+		optional int32 sex = 6;
+		optional int32 viptype = 7;
+		optional string imageid = 8;
+	}
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 state = 3;
+	repeated PlayerInfo player = 4;
+}
+
+message PrivateRoomGameScore{
+	message PlayerScore{
+		required int32 seat = 1;
+		required int32 score = 2;
+	}
+
+	required int32 session = 1;
+	required int32 tableid = 2;
+	repeated PlayerScore playerInfo = 3;
+	optional int32 nextround = 4;
+}
+
+//桌子开始(游戏开始时发送)
+message PrivateRoomTableStart {
+	message PlayerInfo {
+		required int32 seat = 1;
+		required int32 uid = 2;
+		required string name = 3;
+		required string gold = 4;
+		required int32 ready = 5;
+		optional int32 sex = 6;
+		optional int32 viptype = 7;
+		optional string imageid = 8;
+	}
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 state = 3;
+	required int32 my_seat = 4;	
+	repeated PlayerInfo player = 5;
+}
+
+//离开桌子
+message PrivateRoomLeaveReq {
+	required int32 session = 1;
+}
+
+//离开桌子.回复
+message PrivateRoomLeaveRep {
+	required int32 session = 1;
+	required int32 result = 2; 			//0，结束；其他，出现错误
+	required int32 seat = 3;
+	required int32 tableid = 4;
+}
+
+message PrivateRoomReadyReq{
+	required int32 session = 1;
+}
+
+message PrivateRoomReadyRep{
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 tableid = 3;
+	required int32 result = 4;
+}
+
+//人为结束私人房间
+message PrivateRoomManualEndAsk {
+	required int32 session = 1;
+}
+
+//人为结束私人房间.是否同意结束
+message PrivateRoomManualEndAws {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required bool agree = 3;			//是否同意结束	
+}
+
+//人为结束私人房间.不同意结束.回复
+message PrivateRoomManualEndResult {
+	required int32 session = 1; 			
+	required int32 seat = 2;
+	required string name = 3;
+}
+
+//结束房间,时间到6小时或者局数到了。
+message PrivateRoomEnd {
+	required int32 session = 1;
+	required int32 reason = 2;
+}
+
+message	PrivateRoomGameRecords{
+	message GameRecord {
+		message PlayerRecord{
+			required int32 seat = 1;
+			required string name = 2;
+			required int32 score = 3;
+			required int32 sex = 4;
+			required string imageid = 5;
+		}
+
+		required int32 gameid = 1;
+		required string tablecode = 2;
+		required int32 gameround = 3;
+		required string gametime = 4;
+		repeated PlayerRecord playerRecords = 5;
+	}
+
+	required int32 session = 1;
+	repeated GameRecord gameRecords = 2;
+}
+
+
+

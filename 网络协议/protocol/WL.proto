@@ -1,0 +1,103 @@
+syntax = "proto2";
+package WL;
+
+//发牌
+message Deal{
+	required int32 session = 1;
+	required int32 baseScore = 2;		//基本分
+	required int32 callPlayer = 3;		//第一个出牌玩家
+	required int32 openCardTime = 4;	//最大出牌时间	
+	repeated int32 cardOfDeal = 5;		//size = 54
+}
+
+//取消托管请求
+message CancelTuoGuanReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+message CancelTuoGuanRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 timeRelease = 3;
+	required int32 curPlayer = 4;
+	repeated int32 curCard = 5;
+}
+
+
+//托管
+message TuoGuan{
+	required int32 session = 1;
+	required int32 seatid = 2;
+}
+
+//玩家出牌请求
+message HandoutReq{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	repeated int32 handoutCard = 3;	//size 0-17
+}
+
+//玩家出牌回复
+message HandoutRep{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	required int32 result = 3;	//0成功 1过 2赢 3失败 其他情况均为错误
+	repeated int32 handoutCard = 4; //size 0 - 17
+	required int32 handoutPlayer = 5; //当前出牌玩家
+	required int32 cardNum = 6; //剩下的手牌数
+	optional int32 score = 7;	//本轮总分
+	optional int32 bonus = 8;	//奖金
+	optional int32 winNum = 9;
+	repeated int32 curCard = 10;
+}
+
+//本轮结算
+message RoundSettle{
+	required int32 session = 1;
+	required int32 winner = 2;		//赢家
+	required int32 winScore = 3;	//赢家得分
+	required int32 finalScore = 4;	//赢家总分
+}
+
+message CardArray{
+	repeated int32 cards = 1;
+}
+
+//游戏结束，一方玩家赢
+message Result{
+	message Record{
+		required int32 score = 1;		//分数
+		required int32 bonus = 3;		//奖金
+		required int32 total = 4;		//最终得分
+		required int32 result = 5;		//1 上游 2中有 3 下中游 4输家
+		repeated int32 cards = 6;
+	}
+	required int32 session = 1;	
+	repeated Record records = 2;
+}
+
+
+//场景恢复
+message GamingSence{
+	message PlayerState{
+		required int32 cardNum = 1;		//玩家所剩手牌数
+		required int32 state = 2;		//玩家状态	2正常 3托管 4未出过牌 5 6 7 上中下游
+		required int32 bonus = 3; 		//奖金数
+		required int32 score = 4;		//分数
+		repeated int32 handoutCards = 5;
+	}
+
+	required int32 session = 1;
+	required int32 curPlayer = 2;		//当前出牌玩家
+	required int32 timeRelease = 3;		//所剩时间
+	required int32 openCardTime = 4;	//开牌时间
+	required int32 score = 5;			//当前总分
+	required int32 baseScore = 6;		//底分
+	repeated int32 curCard = 7;			//当前桌面牌
+	repeated int32 handCard = 8;		//手牌
+	repeated PlayerState players = 9;	//各玩家状态 size = 3
+}
+
+
+//提示我会给你代码，在客户端实现

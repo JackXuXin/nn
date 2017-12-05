@@ -1,0 +1,277 @@
+syntax = "proto2";
+package YCMJ;
+
+
+//余慈麻将通讯协议
+
+
+//所有的game包协议必须带有session字段
+
+//游戏开始
+message StartGame {
+	message PlayerInfo {
+		required string name = 1;
+		required string score = 2;
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated PlayerInfo players = 3;
+	required int32 number = 4;
+	required int32 score = 5;
+}
+
+//庄家位置,龙牌,色子点数
+message BankerSeat {
+	required int32 session = 1;
+	required int32 banker = 2;
+	required int32 dragon = 3;
+	required int32 mark = 4;	// 标记牌
+	repeated int32 points = 5;
+}
+
+//发牌
+message DistributeCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 number = 4;
+	required int32 finish = 5;
+}
+
+//补花
+message ComplementCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 number = 4;
+}
+
+//抓牌,number为剩余底牌个数
+message DrawCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+	required int32 number = 4;
+}
+
+//出牌
+message AllowOut {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 time = 4;
+}
+
+//出牌,mode==1,则只能出card牌
+//mode==0，则只能出手上除card以外的牌
+message AllowOutEx {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+}
+
+message OutedCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+message AllowCombin {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+		required int32 card_type = 4;		//胡牌时候表示牌型
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+}
+
+message AllowCombinEx {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+		required int32 card_type = 4;		//胡牌时候表示牌型
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+	repeated int32 card = 6;
+}
+
+//出牌
+message OutCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+//准备开始
+message Ready {
+	required int32 session = 1;
+}
+
+message CombinCard {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+		required int32 card_type = 4;		//胡牌时候表示牌型
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	required CombinInfo combin = 3;
+}
+
+//胡牌
+message HuCard {
+	required int32 session = 1;
+}
+
+//放弃
+message IgnoreCard {
+	required int32 session = 1;
+}
+
+message EndGame {
+	message ScoreInfo {
+		required string name = 1;
+		required int32 flower = 2;
+		required int32 bao = 3;
+		required string score = 4;
+		required int32 hu = 5;			// 
+		required int32 banker_cnt = 6;			//做庄次数
+		required int32 banker_long_cnt = 7;		//做庄的龙数
+		required int32 total_dragon_cnt= 8;		//每个玩家的输赢总龙数
+
+	}
+
+	message PointsInfo {
+		required string hun = 1;
+		required int32 point = 2;
+	}
+	
+	message OneHandCards {
+		required int32 seat = 1;
+		repeated int32 cards = 2;
+	}
+	
+	message OneCombins {
+	
+		message CombinInfo {
+			required string combin = 1;
+			required int32 card = 2;
+			required int32 out = 3;
+			required int32 card_type = 4;		//胡牌时候表示牌型
+		}
+	
+		required int32 seat = 1;
+		repeated CombinInfo combins = 2;
+	}
+	
+	required int32 session = 1;
+	repeated ScoreInfo scores = 2;
+	repeated PointsInfo points = 3;
+	repeated OneHandCards every_handcards = 4;
+	repeated OneCombins every_combins = 5;
+	required int32 mode = 6;	// 
+	required int32 hun = 7;
+	required int32 chao = 8;
+}
+
+message Termination{
+	message PlayerInfo {
+		required int32 seat = 1;	// 玩家座位号
+		required string name = 2;	// 玩家昵称
+		required int32 sex = 3;		// 性别
+		required int32 gold = 4;	// 金币
+		required int32 vip = 5;		// vip等级
+		required int32 zi_mo = 6;		// 自摸次数
+		required int32 jie_pao = 7;		// 接炮次数
+		required int32 dian_pao = 8;	// 点炮次数
+		required int32 socre = 9;		// 总的输赢
+	}
+	
+	required int32 session = 1;
+	required int32 tableid = 2;		// 桌子id
+	required string tablecode = 3;	// 房间号
+	required int32 gameround = 4;	// 局数
+	repeated PlayerInfo infos = 5;	// 每个玩家的信息
+}
+
+message Managed {
+	required int32 session = 1;
+	required int32 state = 2;
+	required int32 seat = 3;
+}
+
+// 包房结算信息
+message GameInfo {
+	required int32 session = 1;
+	required int32 banker = 2;
+	required int32 dragon = 3;
+	required int32 mark = 4;	// 标记牌
+	repeated int32 points = 5;
+	required int32 score = 6;
+	required int32 number = 7;
+}
+
+//用户信息
+message PlayerInfo {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+		required int32 card_type = 4;		//胡牌时候表示牌型
+	}
+	
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+	repeated int32 outs = 4;
+	repeated int32 flower = 5;
+	repeated CombinInfo combins = 6;
+}
+
+// 允许要牌
+message AllowRequestCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 time = 3;
+}
+
+// 要牌
+message RequestCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+}
+
+//目前没有用到这个数据包
+message AllowSelect {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+	required int32 time = 4;
+}
+
+//目前没有用到这个数据包
+message SelectInfo {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+}
+
+//目前没有用到这个数据包
+message MajiangInfo {
+	required int32 session = 1;
+	required string majiang = 2;
+	required int32 banker = 3;
+}

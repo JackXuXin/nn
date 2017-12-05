@@ -1,0 +1,390 @@
+syntax = "proto2";
+// 代码风格
+//消息名：使用骆驼风格的大小写命名，即单词首字母大写
+//字段名：全部小写
+//枚举名：使用骆驼风格的大小写命名
+//枚举值：全部大写，使用下划线分隔
+
+package user;
+
+//user包中的协议如果需要区别接收的客户端，需要在协议中带clientid（小写）字段。
+//如果协议中有clientid字段，则客户端接收的时候会自动路由,
+//如果没有clientid（optional也属于有，而不属于没有）字段，则会广播给所有客户端
+
+message UserInfoRequest {
+	required int32 uid = 1;
+}
+
+message UserInfoResonpse {
+	optional int32 uid = 1;
+	optional string nickname = 2;
+	optional int32 money = 3;
+	optional string gold = 4;
+	optional int32 exp = 5;
+	optional int32 vipexp = 6;
+	optional int32 sex = 7;            		//1-female; 2-male
+	optional string imageid = 8;
+	optional int32 havesecondpwd = 9;
+	optional int32 isbinding = 10;
+	optional int32 honor = 11 [default = -1];
+	optional string bankgold = 12;
+	optional int32 supid = 13;             //-1: no upper user; 0: top
+	optional int32 viptype = 14;		   //0: not vip
+	optional int32 vipdays = 15;		   //vip剩余天数
+	optional string dynamicpwd = 16;
+}
+
+//修改自己用户信息
+message ModifyUserInfoReq {
+	optional string nickname = 1;
+	optional int32 sex = 2;					//1-female; 2-male
+	optional string imageid = 3;
+}
+
+//0-成功；1-性别数据有误；2-imageid太长；3-昵称太长；
+message ModifyUserInfoRep {
+	required int32 result = 1;
+}
+
+
+message CheckReconnectReq {
+	
+}
+
+message CheckReconnectRep {
+	required int32 roomid = 1;
+	required int32 session = 2;
+	required int32 clientid = 3;
+}
+
+message ReconnectTableReq{
+	required int32 session = 1;
+	required int32 result = 2;//0表示加入，其他值表示放弃加入
+	required int32 index = 3;//0表示恢复现场的方式断线重连，大于0表示闪断方式断线重连
+}
+message ReconnectTableRep{
+	required int32 result = 1;//0表示加入成功，其他值表示失败
+}
+
+//获取房间配置
+message RoomListReq {
+
+}
+
+message RoomListRep {
+	message RoomPlayers {
+		required int32 roomid = 1;
+		required int32 count = 2;
+	}
+	required string config = 1;
+	repeated RoomPlayers players = 2;
+}
+
+//TODO: REMOVE BELOW TWO LATTER !!!
+// 进入房间
+message QuickJoinRequest {
+	required int32 roomid = 1;
+	required int32 clientid = 2;
+}
+message QuickJoinResonpse {
+	required int32 result = 1; //0成功，1失败
+	required int32 clientid = 2;
+	optional int32 roomid = 3;
+}
+
+message EnterRoomRequest {
+	required int32 roomid = 1;
+	required int32 clientid = 2;
+}
+
+message EnterRoomResonpse {
+	required int32 result = 1; //0成功，1失败
+	required int32 clientid = 2;
+	optional int32 roomid = 3; // at other room gaming...
+}
+
+
+// 玩家人数请求
+message PlayersAmountReq{
+	required int32 game_id = 1;
+}
+
+message PlayersAmountRep {
+	message Info{
+		required int32 room_id = 1;
+		required int32 amount = 2;
+	}
+	repeated Info info = 1;
+}
+
+message CheckSecondPwdReq{
+	required string pwd = 1;
+}
+
+//0成功 1密码有误 2未设置二级密码 99未知操作
+message CheckSecondPwdRep {
+	required int32 result = 1;
+}
+
+// pwdtype=1, 账号密码；pwdtype=2, 保险箱密码
+message SetPwdReq{
+	required int32 pwdtype = 1;
+	optional string oldpwd = 2;
+	required string newpwd = 3;
+}
+
+//0成功 1新密码有误 2老密码有误 99未知操作
+message SetPwdRep {
+	required int32 result = 1;
+	required int32 pwdtype = 2;
+}
+
+//0:获取信息 1:存钱  2:取钱
+message BankOperateReq{
+	required int32 optype = 1;
+	optional string gold = 2;
+	optional string pwd = 3;
+}
+
+//0成功 1未验证二级密码 2钱数有误 3二级密码错误 4未设置二级密码 99未知操作
+message BankOperateRep {
+	required int32 result = 1;
+	optional string gold = 2;
+	optional string bankgold = 3;
+}
+
+//1:请求绑定  2:请求解绑
+message BindingDeviceReq{
+	required int32 optype = 1;
+	optional string key = 2;
+	optional string pwd = 3;
+}
+
+//赠送金币
+message GiveGoldReq{
+	required int32 uid = 1;
+	required string gold = 2;
+	required string pwd = 3;
+}
+
+//0:成功 1:uid不存在 2:金币数额错误 3:密码不对
+message GiveGoldRes{
+	required int32 result = 1;
+	optional string bankgold = 2;
+	optional string subgold = 3;
+	optional string fee = 4;
+	optional string time = 5;
+}
+
+//0成功 1密码或key错误 2 数据错误 3 绑定的时候已经绑定过  4 解绑的时候没有绑定 5操作频繁
+message BindingDeviceRep {
+	required int32 result = 1;
+}
+
+//1:报名 2:取消报名 
+message MatchSignupReq{
+	required int32 optype = 1;
+	required int32 matchid = 2;
+}
+
+//0成功 1已经报名过 2比赛已经开始 3找不到比赛 4取消失败，没报名过 5取消失败，已经开始
+message MatchSignupRep {
+	required int32 result = 1;
+	required int32 matchid = 2;
+}
+
+
+// 比赛开始通知
+message MatchStartNtf{
+	required int32 matchid = 1;
+	required int32 subid = 2;
+}
+
+// 进入比赛
+message EnterMatchReq{
+	required int32 clientid = 1;
+	required int32 matchid = 2;
+}
+
+// 进入比赛返回
+message EnterMatchRep{
+	required int32 result = 1;
+	required int32 matchid = 2;
+}
+
+//比赛信息广播
+message MatchInfoNtf{
+	required int32 clientid = 1;
+	optional int32 optype = 2;
+	optional int32 timeout = 3;
+	repeated int32 params = 4;
+}
+
+//查询金币锁定信息
+message QueryFreezeGoldReq{
+	optional int32 optype = 1;
+}
+
+//查询金币锁定信息返回
+message QueryFreezeGoldRep{
+	optional int32 optype = 1;
+	optional string canfreeze = 2;
+	optional string totalfrozen = 3;
+}
+
+// 触发充值
+message RechargeReq {
+	required int32 orderid = 1;
+}
+
+// 充值结果
+message RechargeRep {
+	required int32 result = 1;
+}
+
+// 绑定上线
+message BindUserReq {
+    required int32 supid = 1;
+}
+
+// 绑定上线响应: 0成功; 1重复绑定; 2上线id不在推广系统中; 3上线id为末级代理; 4其他错误
+message BindUserRep {
+    required int32 result = 1;
+}
+
+// 查询签到
+message SigninInfoReq {
+	required int32 uid = 1;
+}
+// 查询签到响应
+message SigninInfoRep {
+	required bool signin_today = 1;
+	required string signin_gold = 2;
+	required int32 continuous_signin_count = 3;
+	repeated int32 signin_days = 4;
+	required int32 residual_grant_count = 5;
+	required string grant_gold = 6;
+	required string share_gold = 7;
+}
+
+// 签到
+message SigninReq {
+	required int32 uid = 1;
+}
+// 签到响应: 0成功;1重复签到
+message SigninRep {
+	required int32 result = 1;
+	optional string addgold = 2;
+}
+// 领取低保
+message GetGrantReq {
+	required int32 uid = 1;
+}
+// 领取低保响应：0成功;1当日领低保机会已用完;2不满足领低保条件
+message GetGrantRep {
+	required int32 result = 1;
+	optional string addgold = 2;
+	optional int32 residual_grant_count = 3;
+}
+
+// 分享游戏
+message ShareGameReq {
+	required int32 uid = 1;
+}
+
+// 分享游戏响应：0成功; 1失败
+message ShareGameRep {
+	required int32 result = 1;
+	optional string addgold = 2; //加金币
+	optional string check_code = 3; //验证码
+}
+
+message ExchangeReq {
+	required int32 honor = 1;
+}
+
+// 0:成功； 1: 荣誉值不够
+message ExchangeRep {
+	required int32 result = 1;
+}
+
+message PublishNotice {
+	message Notice {
+		required int32 id = 1;
+		required string app_channel = 2;
+		required int32 gameid = 3;
+		optional string content = 4;
+	}
+
+	repeated Notice notice_list = 1;
+}
+
+message UnpublishNotice {
+	repeated int32 id_list = 1;
+}
+
+message OpenSesameReq {
+	required string pwd = 1;
+	required int32 clientid = 2;
+}
+
+message OpenSesameRep {
+	required int32 result = 1; //0成功，1失败
+	required int32 clientid = 2;
+	optional int32 roomid = 3;
+	optional int32 gameid = 4;
+}
+
+message BackupFriendshipReq {
+	required int32 optype = 1;	//1: add; 2:delete
+	required int32 friend = 2;
+}
+
+message BackupFriendshipRep {
+	required int32 result = 1;	//0: success; 99: other errors
+}
+
+message InviteFriendsReq {
+	required string nickname = 1;
+	required int32 gameid = 2;
+	required int32 roomid = 3;
+	required int32 tableid = 4;
+	required int32 seatid = 5;
+	repeated int32 friends = 6;
+	required int32 session = 7;
+	optional string password = 8;
+}
+
+message InviteFriendsRep {
+	required int32 result = 1;	//0: success; 99: other errors
+}
+
+message Invitation {
+	required int32 uid = 1;
+	required string nickname = 2;
+	required int32 gameid = 3;
+	required int32 roomid = 4;
+	required int32 tableid = 5;
+	required int32 seatid = 6;
+	required int32 session = 7;
+	optional string password = 8;
+}
+
+message AddGoldReq {
+	required int32 gold = 1;
+}
+
+message ChartReq{
+
+}
+
+message ChartRep{
+	message ChartItem{
+		required string nickname = 1;
+		required string head = 2;
+		optional int32 money = 3;
+	}
+	repeated ChartItem moneyCharts = 1;
+	repeated ChartItem winnerCharts = 2;
+}
+

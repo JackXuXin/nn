@@ -1,0 +1,233 @@
+syntax = "proto2";
+package ShYMJ;
+
+//所有的game包协议必须带有session字段
+
+//游戏开始
+message StartGame {
+	message PlayerInfo { 
+		required string name = 1;
+		required string score = 2;
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated PlayerInfo players = 3;
+	required int32 number = 4;
+	required int32 score = 5;
+}
+
+//庄家
+message BankerSeat {
+	required int32 session = 1;
+	required int32 banker = 2;  //庄家椅子号
+	required int32 dragon = 3;  //龙数
+	repeated int32 points = 4;  //筛子
+}
+
+//发牌
+message DistributeCard {
+	required int32 session = 1;  
+	required int32 seat = 2;
+	repeated int32 card = 3;  //一个玩家发4次 2个玩家发8次
+	required int32 number = 4;  //剩下没发的牌
+	required int32 finish = 5;  //发牌结束
+}
+
+//没用
+message ComplementCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 number = 4;
+}
+
+//摸牌
+message DrawCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+	required int32 number = 4;  //剩下没发的牌
+}
+
+//通知某个玩家出牌
+message AllowOut {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3; //没用到目前
+	required int32 time = 4;
+}
+
+
+//通知某个玩家出牌 加强版 
+message AllowOutEx {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 card = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+}
+
+
+//没用到
+message AllowFlower {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+	required int32 time = 4;
+}
+
+//出牌
+message OutedCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+
+//吃碰
+message AllowCombin {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+}
+
+//吃碰 加强的 么用
+message AllowCombinEx {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	repeated CombinInfo combin = 2;
+	required int32 allowOut = 3;
+	required int32 time = 4;
+	required int32 mode = 5;
+	repeated int32 card = 6;
+}
+
+//出牌之后发送 
+message OutCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+//准备
+message Ready {
+	required int32 session = 1;
+}
+
+//玩家 //吃碰  通知服务器
+message CombinCard {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	required int32 session = 1;
+	required int32 seat = 2;
+	required CombinInfo combin = 3;
+}
+
+//湖牌
+message HuCard {
+	required int32 session = 1;
+}
+
+//放弃了 碰湖
+message IgnoreCard {
+	required int32 session = 1;
+}
+
+//结算
+message EndGame {
+	message ScoreInfo {
+		required string name = 1;
+		required int32 flower = 2;
+		required int32 bao = 3;
+		required string score = 4;
+		required int32 hu = 5;
+	}
+
+	message PointsInfo {
+		required string hun = 1;
+		required int32 point = 2;
+	}
+
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	
+	required int32 session = 1;
+	repeated ScoreInfo scores = 2;
+	repeated PointsInfo points = 3;
+	repeated int32 cards = 4;
+	repeated CombinInfo combins = 5;
+	required int32 mode = 6;
+	required int32 hun = 7;
+	required int32 chao = 8;
+}
+
+//托管
+message Managed {
+	required int32 session = 1;
+	required int32 state = 2;
+	required int32 seat = 3;
+}
+
+//场景恢复信息
+message GameInfo {
+	required int32 session = 1;
+	required int32 banker = 2;
+	required int32 dragon = 3;
+	repeated int32 points = 4;
+	required int32 score = 5;
+	required int32 number = 6;
+}
+
+//场景恢复信息
+message PlayerInfo {
+	message CombinInfo {
+		required string combin = 1;
+		required int32 card = 2;
+		required int32 out = 3;
+	}
+	
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+	repeated int32 outs = 4;
+	repeated int32 flower = 5;
+	repeated CombinInfo combins = 6;
+}
+
+//没用到
+message AllowSelect {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+	required int32 time = 4;
+}
+
+//没用到
+message SelectInfo {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;
+}
+
+//没用到
+message MajiangInfo {
+	required int32 session = 1;
+	required string majiang = 2;
+	required int32 banker = 3;
+}

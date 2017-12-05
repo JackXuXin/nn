@@ -1,0 +1,151 @@
+syntax = "proto2";
+package WRNN;
+
+message Ready {
+	required int32 session = 1;
+	required int32 seat = 2;
+}
+
+message Start {
+	required int32 session = 1;
+	required int32 ref = 2;
+}
+
+// 允许抢庄
+message AllowRunFor {
+	required int32 session = 1;
+	required int32 time = 2;
+}
+
+// 抢庄
+message RunFor {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 select = 3;	// 1表示抢, 2表示不抢
+}
+
+// 允许下注
+message AllowBet {
+	required int32 session = 1;
+	repeated int32 bets = 2;	// 可选的下注数 {1,2,3,}  {1,3,5}  {1,3,10}
+	required int32 time = 3;	// 倒计时
+	required int32 banker = 4;	// 庄家
+	repeated int32 run_fors = 5;	// 哪些玩家参与抢庄家
+	optional int32 bei = 6;		// 抢庄时最大倍数
+}
+
+// 下注
+message Bet {
+	required int32 session = 1;
+	required int32 seat = 2;	// 哪个玩家下注
+	required int32 bet = 3;		// 下注额
+}
+
+// 发牌
+message Deal {	
+	
+	message Player {
+		required int32 seat = 1;
+		required int32 time = 2;
+		repeated int32 cards = 3;	// 留给玩家操作的时间
+	}
+	
+	required int32 session = 1;
+	repeated Player players = 2;
+}
+
+message Spy {
+	required int32 session = 1;
+	repeated int32 cards = 2;
+	optional string style = 3;
+}
+
+// 开牌
+message Open {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+	optional string style = 4;
+}
+
+// 游戏信息. 断线重进之后
+message GameInfo {
+
+	message Player {
+		required int32 seat = 1;
+		repeated int32 cards = 2;	// 手牌
+		optional int32 run_for = 3;	// 抢庄 0表示还未选择, 1表示抢, 2表示不抢
+		optional int32 bet = 4;		// 下注
+		optional string style = 5;	// 玩家已开牌才有牌型
+		optional int32 dismiss = 6;	// 是否可以解散房间 1表示可以解散房间,其它值不可以
+	}
+	
+	required int32 session = 1;
+	required string stage = 2;	// wait_run_for, wait_bet, wait_open, wait_ready
+	repeated Player players = 3;
+	optional int32 banker = 4;
+	optional int32 time = 5;
+	optional int32 ref = 6;		// 第几局
+	optional int32 bei = 7;		// 抢庄时最大倍数
+}
+
+// 结算
+message EndGame {
+
+	message Player {
+		required int32 seat = 1;
+		repeated int32 cards = 2;	// 手牌
+		required string style = 3;	// 牌型
+		required string score = 4;	// 输赢
+	}
+
+	required int32 session = 1;
+	required int32 banker = 2;
+	repeated Player players = 3;
+	optional int32 dismiss = 4;		// 是否可以解散房间 1表示可以解散房间,其它值不可以
+	optional int32 ref = 5;			// 第几局
+}
+
+// 总结算
+message EndRoom {
+	
+	message Player {
+		required int32 seat = 1;
+		required string score = 2;
+	}
+	
+	required int32 session = 1;
+	repeated Player players = 2;
+	optional string time = 3;
+}
+
+// 请求查看上局结果
+message LastReviewReq {
+	required int32 session = 1;
+}
+
+// 上局回顾
+message LastReview {
+	
+	message Player {
+		required int32 seat = 1;
+		repeated int32 cards = 2;
+		required string style = 3;
+		required string score = 4;
+	}
+	
+	required int32 session = 1;
+	required int32 banker = 2;
+	repeated Player players = 3;
+}
+
+// 解散房间
+message Dismiss {
+	required int32 session = 1;
+	required int32 time = 2;
+}
+
+// 闲家确定解散
+message SureDismiss {
+	required int32 session = 1;
+}

@@ -1,0 +1,115 @@
+syntax = "proto2";
+// 代码风格
+//消息名：使用骆驼风格的大小写命名，即单词首字母大写
+//字段名：全部小写
+//枚举名：使用骆驼风格的大小写命名
+//枚举值：全部大写，使用下划线分隔
+
+package private;
+
+
+// 获取私人房间配置
+message PrivateConfigReq {
+
+}
+
+message PrivateConfigRep {
+	required string config = 1;
+}
+
+// 私人房定制信息
+message CustomizationInfo {
+	required uint32 mode = 1;	// 1: 房主付费; 2: 均摊 
+	required int32 round = 2;	// 局数
+	required uint32 seats = 3;	// 游戏人数
+	required int32 base = 4;	// 底分
+	required int32 count = 5;	// 初始分数	
+	required uint64 rule = 6;	// 规则位图
+}
+
+// 创建私人房间
+message CreatePrivateReq {
+	required int32 roomid = 1;
+	required CustomizationInfo customization = 2;
+}
+
+message CreatePrivateRep {
+	required int32 result = 1; // 0:成功
+	optional uint32 privateid = 2; //私人号,即密码
+}
+
+// 进入私人房间
+message EnterPrivateReq {
+	required int32 clientid = 1;
+	optional uint32 privateid = 2;
+}
+
+message EnterPrivateRep {
+	message PrivateInfo {
+		required int32 roomid = 1;
+		required int32 gameid = 2;
+		required uint32 privateid = 3;
+		required uint32 host = 4;	// 房主用户ID
+		required int32 state = 5;	// 0: 房卡未开始； 1: 房卡已开始
+		required CustomizationInfo customization = 6;
+	}
+
+	required int32 session = 1;		// room session
+	required int32 result = 2; //0成功，否则失败
+	required int32 clientid = 3;
+	optional int32 otherroomid = 4; // at other room gaming...
+	optional PrivateInfo info = 5;
+}
+
+// 私人房开始
+message PrivateStart {
+	required int32 session = 1;		// table session, 待修改
+}
+
+message PrivateGameRecordProfileReq {
+	required uint64 tableindex = 1;
+}
+
+message PrivateGameRecordProfileRep {
+	message PrivateGameRecordProfileInfo {
+		message GameRecordInfo {
+			required int32 seat = 1;
+			required int32 uid = 2;
+			required string score = 3;
+			required string nickname = 4;
+			required string imageid = 5;
+			required int32 sex = 6;
+		}
+
+		required uint32 gameid = 1;
+		required uint64 tableindex = 2;
+		required uint32 privateid = 3;
+		required uint32 round = 4;
+		required string time = 5;
+		required uint64 rule = 6;
+		repeated GameRecordInfo record = 7;
+	}
+
+	repeated PrivateGameRecordProfileInfo profileinfos = 1;
+}
+
+message PrivateGameRecordDetailReq {
+	required uint64 tableindex = 1;
+	required uint32 gameid = 2;
+}
+
+message PrivateGameRecordDetailRep {
+	message RoundInfo {
+		message ScoreInfo {
+			required int32 seat = 1;
+			required string score = 2;
+		}
+
+		required uint32 round = 1;
+		repeated ScoreInfo scores = 2;
+	}
+
+	required uint64 tableindex = 1;
+	required uint32 gameid = 2;
+	repeated RoundInfo rounds = 3;
+}

@@ -1,0 +1,179 @@
+syntax = "proto2";
+package _13Shui;
+
+
+//gameid=106
+
+
+//所有的game包协议必须带有session字段
+
+//1 client to server
+
+//准备开始
+message Ready
+{
+	required int32 session = 1;
+}
+
+//摊牌
+message OpenCardReq
+{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	optional bool is_special_cardtype = 3;	//是否特殊牌型,如果点击报到，则置1，其他置0
+	repeated int32 order_card_cnts = 4;		//size:3 每道对应的牌张数 3,5,5 顺序
+	repeated int32 cardvalues = 5;			//size:13 牌值 3,5,5 顺序		
+}
+
+
+//摊牌返回结果(server to client)
+//result==0 摊牌正确,1 失败,玩家已经摊牌了 2 玩家不在游戏中 3 摊牌不合符规则
+message OpenCardRep
+{
+	required int32 session = 1;
+	required int32 seatid = 2;
+	optional int32 result = 3;				//摊牌结果
+}
+
+
+
+//2 server to client
+
+
+//开牌场景
+message GameScene_OpenCard
+{
+	//玩家信息
+	message playerinfo
+	{	
+		optional int32 seatid = 1;
+		optional bool is_open_card = 2;		//是否开牌,0未摊牌,1已摊牌	
+	}
+	required int32 session = 1;
+	repeated playerinfo playerinfos = 2;	//size:2--4
+	optional int32 game_scene = 3;			//游戏场景
+	optional int32 base_score = 4;			//底分
+	optional int32 time_out = 5;			//定时器剩余秒数
+	
+	optional int32 open_card_time = 6;	
+	optional bool is_specital_card_type = 7;	
+
+	repeated bool valid_seat_id = 8;		//size:4
+	repeated int32 after_cards = 9;			//牌
+}
+
+//游戏结束场景
+message GameScene_GameOver
+{
+	//玩家信息
+	message playerinfo
+	{	
+		optional int32 seatid = 1;			//
+		optional int32 total_shui_cnt = 2;	//总水数
+		optional string score = 3;			//得分
+		repeated int32 after_cards = 4;		//牌
+	}
+	required int32 session = 1;
+	repeated playerinfo playerinfos = 2;	//size:2--4
+	optional int32 game_scene = 3;			//游戏场景
+	optional int32 base_score = 4;			//底分
+	repeated bool valid_seat_id = 5;		//size:4
+}
+
+
+//游戏开始
+//base_score 底分(每局可能变化，根据当前桌子的玩家携带最小游戏币计算出来)
+//open_card_time 摊牌时间
+message GameStart
+{
+	required int32 session = 1;
+	optional int32 base_score = 2;
+	optional int32 open_card_time = 3;	
+	repeated bool valid_seat_id = 4;		//size:4
+}
+
+
+//发牌
+message SendCard
+{
+	required int32 session = 1;
+	required bool is_special_cardtype = 3;	//是否特殊牌型,如果(1)是,发牌完成之后显示 报到 按钮或可用
+	repeated int32 cardvalues = 5;			//size:13	
+}
+
+//比牌
+message CompareCard
+{	
+	//牌信息
+	message userinfo
+	{	
+		message cardinfo 
+		{
+			required int32 orderindex = 1;		//道序列，1道(3张牌)，2道(5张牌)，3道(5张牌)
+			repeated int32 cardvalues = 2;		//size:3或5张牌值 
+			optional int32 cardtype = 3;		//牌型  
+			optional int32 shuicnt = 4;			//水值		
+		}
+		required int32 seatid = 1;
+		repeated cardinfo cardinfos = 2;				//size:3道
+		optional int32 total_shui_cnt = 4;				//总水值
+		optional int32 special_card_type = 5;			//牌型  
+		optional int32 special_card_type_shui_cnt = 6;	//水值				
+	}
+	
+	//打枪信息
+	message daqianginfo
+	{
+		optional int32 from_seatid = 1;				//  
+		optional int32 to_seatid = 2;				//	
+		optional int32 da_qiang_extra_shuicnt = 3;	//打枪额外水数				
+	}
+
+	required int32 session = 1;
+	repeated userinfo userinfos = 2;				//size:2--4
+	repeated daqianginfo daqianginfos = 3;			//size:1--6
+	repeated daqianginfo quanleidainfos = 4;		//size:0--3	  
+}
+
+
+//游戏结束
+message GameOver
+{
+	//得分信息
+	message scoreinfo
+	{
+		optional int32 seatid = 1;			//座位号
+		optional int32 total_shui_cnt=2;	//总水值
+		optional string score = 3;			//得分	
+	}
+	
+	required int32 session = 1;
+	repeated scoreinfo scoreinfos = 2;		//size:2--4 得分信息
+}
+
+message Termination{
+        message PlayerInfo {
+                required int32 seat = 1;        // 玩家座位号
+                required string name = 2;       // 玩家昵称
+                required int32 sex = 3;         // 性别
+                required string gold = 4;        // 金币
+                required int32 vip = 5;         // vip等级
+                required string score = 6;              // 总的输赢
+                required string imageid = 7;
+                required int32 wincnt = 8;
+                required int32 drawcnt = 9;
+                required int32 losecnt = 10;
+        }
+
+        required int32 session = 1;
+        required int32 tableid = 2;             // 桌子id
+        required string tablecode = 3;  // 房间号
+        required int32 gameround = 4;   // 局数
+        repeated PlayerInfo infos = 5;  // 每个玩家的信息
+}
+
+message Managed {
+	required int32 session = 1;
+	required int32 state = 2;
+	required int32 seat = 3;
+}

@@ -1,0 +1,248 @@
+syntax = "proto2";
+package NJMJ;
+
+// 南京麻将通信协议
+
+// 所有的game包协议必须带有session字段
+
+//-------------------------------------------------------------------------------------------------
+// server to client message
+//-------------------------------------------------------------------------------------------------
+
+// 游戏开始
+message StartGame {
+	required int32 session = 1;
+	required int32 number = 2;	// 剩余牌的数量
+	required int32 score = 3;	// 桌子基础分
+	required int32 bixiahu = 4;	// 比下胡数值 1 & 2
+}
+
+// 庄家位置
+message BankerSeat {
+	required int32 session = 1;
+	required int32 banker = 2;	// 庄家位置
+	repeated int32 points = 3;	// 色子点数
+}
+
+// 允许要牌
+message AllowRequestCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 time = 3;
+}
+
+// 发牌
+message DistributeCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+	required int32 number = 4;	// 剩余牌的数量
+	required int32 finish = 5;	// 1:发首牌还没有发完; 2:发完首牌; 3:正常补牌
+}
+
+// 补花
+message ComplementCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;	// 花牌
+	required int32 number = 4;
+}
+
+// 等待听牌
+message AllowTing {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 time = 3;
+}
+
+// 等待玩家碰杠胡
+message AllowCombin {
+	required int32 session = 1;	
+	required int32 seat = 2;		// 倒计时指向的座位号, 即, 等待此玩家操作 (point to seat)
+	required int32 time = 3;	
+	optional int32 card_from = 4;	// 碰/杠/胡时, 是谁出的牌
+	optional int32 ignore = 5;		// 是否可选择放弃. 1 可放弃, 其它值不可放弃
+	optional int32 hu = 6;			// 是否可胡. 1 可胡, 其它值不可胡
+	repeated int32 an_gang = 7;		// 可暗杠的牌 {}
+	repeated int32 bu_gang = 8;		// 可补杠的牌 {}
+	optional int32 ming_gang = 9;	// 可明杠的牌
+	optional int32 peng = 10;		// 可碰的牌
+}
+
+// 等待出牌
+message AllowOut {
+	required int32 session = 1;
+	required int32 seat = 2;	// 倒计时指向的座位号, 即, 等待此玩家操作 (point to seat)
+	required int32 time = 3;
+	required int32 mode = 4;	// 1:表示只有card指定的牌可以出. 2:表示只有card指定牌的不可以出, 其它值不限制
+	repeated int32 cards = 5;
+}
+
+// 成功出牌 (玩家出牌, 服务端确认可以出牌, 发这条消息给各玩家)
+message OutedCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	required int32 card = 3;
+}
+
+// 结束游戏
+message EndGame {
+		
+	message PlayerInfo {
+
+		message CardType {
+			required int32 tp = 1;		// 牌型
+			required string flowers = 2;	// 多少花
+		}
+
+		message LeadTo {
+			required int32 card = 1;		// 打出的牌或者摸到的牌
+			required int32 card_from = 2;	// 谁出的牌或者谁摸的牌
+		}
+
+		required int32 seat = 1;		// 座位号
+		required string name = 2;		// 昵称
+
+		repeated int32 hand_cards = 3;	// 手牌
+		repeated int32 an_gangs = 4;	// 暗杠的牌 {}
+		repeated int32 bu_gangs = 5;	// 补杠的牌 {}
+		repeated int32 ming_gangs = 6;	// 明杠的牌 {}
+		repeated int32 pengs = 7;		// 碰的牌 {}
+
+		repeated CardType card_type = 8;		// 胡牌牌型及花数{}
+
+		optional LeadTo lead_to = 9;		// 
+		optional int32 shui_bao = 10;		// 谁包牌(包牌者的座位号)
+		optional int32 kuai_zhao = 11;		// 是否快照(1是快照,其它值不是)
+
+		optional string ming_gang_flowers = 12;
+		optional string an_gang_flowers = 13;
+		optional string bu_gang_flowers = 14;
+		optional string hua_gang_flowers = 15;
+		optional string fa_kuan_flowers = 16;	// 罚款输赢花数	一类,二类罚款
+		optional int32 hard_flowers = 17;		// 硬花数量
+		optional int32 soft_flowers = 18;		// 软花数量
+
+		optional string total = 19;				// 输赢分数
+	}
+	
+	required int32 session = 1;
+	required int32 banker = 2;		// 庄家的座位号
+	required int32 huang = 3;		// 1:荒庄  其它值不是荒庄
+	required int32 bixiahu = 4;		// 比下胡数值 1 & 2
+	repeated PlayerInfo player_infos = 5;
+}
+
+//-------------------------------------------------------------------------------------------------
+// 断线重连后的发给玩家的信息
+
+// 游戏信息
+message GameInfo {
+	required int32 session = 1;
+	required int32 banker = 2;	
+	repeated int32 points = 3;
+	required int32 score = 4;
+	required int32 number = 5;
+	required int32 bixiahu = 6;	// 比下胡数值 1 & 2
+}
+
+// 用户信息
+message PlayerInfo {
+	message CombinInfo {
+		required string combin = 1;	// "ming_gang", "an_gang", "bu_gang", "peng"
+		required int32 card = 2;	// 杠,碰的牌
+		required int32 card_from = 3;		// 杠碰的牌来自哪个玩家
+	}
+	
+	required int32 session = 1;
+	required int32 seat = 2;	// 玩家座位号
+	repeated int32 cards = 3;	// 手牌
+	repeated int32 outs = 4;	// 打出的牌 {}
+	repeated CombinInfo combins = 5;	// 杠碰的牌
+	repeated int32 flowers = 6;	// 花牌 {}
+}
+
+//-------------------------------------------------------------------------------------------------
+// client to server message & server to client(服务端再转发到客户端)
+//-------------------------------------------------------------------------------------------------
+
+// 准备
+message Ready {
+	required int32 session = 1;
+	optional int32 seat = 2;
+}
+
+// 听牌
+message Ting {
+	required int32 session = 1;
+	required int32 seat = 2;
+}
+
+// 明/暗/补/花杠  碰  出牌罚款
+message CombinCard {
+	
+	message ScoreInfo {
+		required int32 seat = 1;
+		required string score = 2;
+	}
+
+	required int32 session = 1;
+	required string tp = 2;			// "ming_gang/bu_gang", "an_gang", "hua_gang", "peng", "fa_kuan1", "fa_kuan2"
+	required int32 seat = 3;		// 谁杠碰的
+	required int32 card = 4;		// 杠,碰 的牌
+	required int32 out = 5;			// 出牌的玩家位置
+	repeated ScoreInfo score_info = 6;	// {} 分的结算情况
+}
+
+// 胡牌
+message HuCard {
+	required int32 session = 1;
+	optional int32 seat = 2;
+}
+
+// 放弃
+message IgnoreCard {
+	required int32 session = 1;
+}
+
+// 出牌
+message OutCard {
+	required int32 session = 1;
+	required int32 card = 2;	// 出的牌
+	optional int32 seat = 3;
+}
+
+message Termination{
+	message PlayerInfo {
+		required int32 seat = 1;	// 玩家座位号
+		required string name = 2;	// 玩家昵称
+		required int32 sex = 3;		// 性别
+		required int32 gold = 4;	// 金币
+		required int32 vip = 5;		// vip等级
+		required int32 zi_mo = 6;		// 自摸次数
+		required int32 jie_pao = 7;		// 接炮次数
+		required int32 dian_pao = 8;	// 点炮次数
+		required int32 bao_pai = 9;		// 包牌次数
+		required int32 score = 10;		// 总的输赢
+	}
+	
+	required int32 session = 1;
+	required int32 tableid = 2;		// 桌子id
+	required string tablecode = 3;	// 房间号
+	required int32 gameround = 4;	// 局数
+	repeated PlayerInfo infos = 5;	// 每个玩家的信息
+}
+
+// 托管
+message Managed {
+	required int32 session = 1;
+	required int32 state = 2;
+	required int32 seat = 3;
+}
+
+// 要牌
+message RequestCard {
+	required int32 session = 1;
+	required int32 seat = 2;
+	repeated int32 cards = 3;
+}

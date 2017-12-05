@@ -1,0 +1,137 @@
+syntax = "proto2";
+// 代码风格
+//消息名：使用骆驼风格的大小写命名，即单词首字母大写
+//字段名：全部小写
+//枚举名：使用骆驼风格的大小写命名
+//枚举值：全部大写，使用下划线分隔
+
+package game;
+
+//所有的game包协议必须带有session字段
+
+message SetSession {
+	required int32 session = 1;
+  	required int32 clientid = 2;
+}
+
+//桌子信息
+message TableStateInfo {
+	message PlayerInfo {
+		required int32 seat = 1;
+		required int32 uid = 2;
+		required string name = 3;
+		required string gold = 4;
+		required int32 ready = 5;
+		optional int32 sex = 6;
+	}
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 state = 3;
+	repeated PlayerInfo player = 4;
+}
+
+//坐到桌子
+message TableSitdown {
+	message PlayerInfo {
+		required int32 uid = 1;
+		required string name = 2;
+		required string gold = 3;
+		optional int32 sex = 4;
+	}
+
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 seat = 3;
+	required PlayerInfo player = 4;
+}
+
+//站起桌子
+message TableSitup {
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 seat = 3;
+}
+
+//准备状态
+message SeatReady {
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 seat = 3;
+}
+
+//桌子开始
+message TableStateStart {
+	required int32 session = 1;
+	required int32 table = 2;
+}
+
+//桌子结束
+message TableStateEnd {
+	required int32 session = 1;
+	required int32 table = 2;
+}
+
+//请求坐下
+message SitdownReq {
+	message TableRule {
+		optional double minwinrate = 1;
+		optional double maxfleerate = 2;
+		optional int32 minscore = 3;
+		optional int32 maxscore = 4;
+		optional bool noblackman = 5;
+		optional bool nosameip = 6;
+		optional string pwd = 7;
+	}
+	required int32 session = 1;
+	required int32 table = 2;
+	required int32 seat = 3;
+	optional string sitpwd = 4;
+	optional TableRule rule = 5;
+}
+
+//回复坐下
+message SitdownRep {
+	required int32 session = 1;
+	required int32 result = 2;
+	required int32 table = 3;
+	required int32 seat = 4;
+	optional int32 watching = 5;
+}
+
+//请求站起
+message SitupReq {
+	required int32 session = 1;
+}
+
+//回复站起
+message SitupRep {
+	required int32 session = 1;
+	required int32 result = 2;
+}
+
+//回复站起
+message RoomSession {
+	required int32 session = 1;
+}
+
+//离开房间
+message LeaveRoomReq {
+	required int32 session = 1;
+}
+
+//离开房间回复
+message LeaveRoomRep {
+	required int32 session = 1;
+	required int32 result = 2;
+}
+
+//准备请求
+message ReadyReq {
+	required int32 session = 1;
+}
+
+//准备回复
+message ReadyRep {
+	required int32 session = 1;
+	required int32 result = 2;
+}
