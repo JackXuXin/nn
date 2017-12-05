@@ -61,47 +61,6 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "xg/create.png",
-              "Plist": ""
-            },
-            "Scale9OriginX": 422,
-            "Scale9OriginY": 237,
-            "Scale9Width": 436,
-            "Scale9Height": 246,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 640.0,
-              "Y": 360.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.5,
-              "Y": 0.5
-            },
-            "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "Tag": 44,
-            "ActionTag": -711111947,
-            "Size": {
-              "X": 1280.0,
-              "Y": 720.0
-            },
-            "Name": "xg",
-            "ctype": "ImageViewObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
               "Path": "Image/CreateRoom/bg@2x.png",
               "Plist": ""
             },
@@ -1891,7 +1850,7 @@
                       "Y": 0.2792
                     },
                     "LeftMargin": 23.4961,
-                    "RightMargin": 255.5038,
+                    "RightMargin": 255.5039,
                     "TopMargin": 55.2944,
                     "BottomMargin": 55.7056,
                     "Tag": 345,
@@ -2323,6 +2282,1206 @@
             "ctype": "SingleNodeObjectData"
           },
           {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 20.0,
+              "Y": -20.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0156,
+              "Y": -0.0278
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 20.0,
+            "RightMargin": 1260.0,
+            "TopMargin": 740.0,
+            "BottomMargin": -20.0,
+            "Tag": 441,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn2(1)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(1)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(1)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 510.6747,
+                  "Y": 386.4646
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 415.1747,
+                "RightMargin": -606.1747,
+                "TopMargin": -417.4646,
+                "BottomMargin": 355.4646,
+                "Tag": 442,
+                "ActionTag": 1658079338,
+                "Size": {
+                  "X": 191.0,
+                  "Y": 62.0
+                },
+                "Name": "CheckBox_DoubleBase_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn2(2)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(2)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(2)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 693.7777,
+                  "Y": 386.2197
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 606.2777,
+                "RightMargin": -781.2777,
+                "TopMargin": -417.2197,
+                "BottomMargin": 355.2197,
+                "Tag": 444,
+                "ActionTag": 678522064,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 62.0
+                },
+                "Name": "CheckBox_DoubleBase_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn2(3)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(3)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(3)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 870.8584,
+                  "Y": 386.4777
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 782.3584,
+                "RightMargin": -959.3584,
+                "TopMargin": -417.4777,
+                "BottomMargin": 355.4777,
+                "Tag": 445,
+                "ActionTag": -2116459466,
+                "Size": {
+                  "X": 177.0,
+                  "Y": 62.0
+                },
+                "Name": "CheckBox_DoubleBase_3",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn2(4)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(4)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/c/btn(4)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1055.5704,
+                  "Y": 385.6071
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 959.0704,
+                "RightMargin": -1152.0704,
+                "TopMargin": -416.6071,
+                "BottomMargin": 354.6071,
+                "Tag": 446,
+                "ActionTag": 1143593018,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 62.0
+                },
+                "Name": "CheckBox_DoubleBase_4",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -1964685323,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Item_6",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1280.0,
+            "TopMargin": 720.0,
+            "Tag": 129,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(1)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(1)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(1)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 527.3647,
+                  "Y": 298.8127
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 436.8647,
+                "RightMargin": -617.8647,
+                "TopMargin": -323.8127,
+                "BottomMargin": 273.8127,
+                "Tag": 130,
+                "ActionTag": -1433574285,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 50.0
+                },
+                "Name": "CheckBox_Seats_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(2)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(2)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(2)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 702.2314,
+                  "Y": 299.248
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 617.7314,
+                "RightMargin": -786.7314,
+                "TopMargin": -324.248,
+                "BottomMargin": 274.248,
+                "Tag": 134,
+                "ActionTag": -1548003038,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 50.0
+                },
+                "Name": "CheckBox_Seats_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(3)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(3)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(3)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 877.1011,
+                  "Y": 301.7694
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 781.1011,
+                "RightMargin": -973.1011,
+                "TopMargin": -326.7694,
+                "BottomMargin": 276.7694,
+                "Tag": 135,
+                "ActionTag": -252593628,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 50.0
+                },
+                "Name": "CheckBox_Seats_3",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(4)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(4)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(4)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1064.4886,
+                  "Y": 298.0304
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 971.4886,
+                "RightMargin": -1157.4886,
+                "TopMargin": -323.0304,
+                "BottomMargin": 273.0304,
+                "Tag": 136,
+                "ActionTag": -1040131567,
+                "Size": {
+                  "X": 186.0,
+                  "Y": 50.0
+                },
+                "Name": "CheckBox_Seats_4",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -1169236326,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Item_7",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1280.0,
+            "TopMargin": 720.0,
+            "Tag": 247,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(5)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(5)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(5)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 527.3604,
+                  "Y": 240.3779
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 436.8604,
+                "RightMargin": -617.8604,
+                "TopMargin": -271.8779,
+                "BottomMargin": 208.8779,
+                "Tag": 248,
+                "ActionTag": -494933045,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 63.0
+                },
+                "Name": "CheckBox_Tuizhu_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(6)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(6)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(6)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 702.2269,
+                  "Y": 244.9859
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 617.7269,
+                "RightMargin": -786.7269,
+                "TopMargin": -276.4859,
+                "BottomMargin": 213.4859,
+                "Tag": 255,
+                "ActionTag": -2092506346,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 63.0
+                },
+                "Name": "CheckBox_Tuizhu_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(7)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(7)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(7)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 881.2704,
+                  "Y": 243.3339
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 785.2704,
+                "RightMargin": -977.2704,
+                "TopMargin": -274.8339,
+                "BottomMargin": 211.8339,
+                "Tag": 256,
+                "ActionTag": 1464583945,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 63.0
+                },
+                "Name": "CheckBox_Tuizhu_3",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(8)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(8)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(8)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1072.8329,
+                  "Y": 241.682
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 979.8329,
+                "RightMargin": -1165.8329,
+                "TopMargin": -273.182,
+                "BottomMargin": 210.182,
+                "Tag": 257,
+                "ActionTag": 124331263,
+                "Size": {
+                  "X": 186.0,
+                  "Y": 63.0
+                },
+                "Name": "CheckBox_Tuizhu_4",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "Button",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/msg@2x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/msg@2x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 42,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1139.4705,
+                  "Y": 237.9094
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1110.4705,
+                "RightMargin": -1168.4705,
+                "TopMargin": -269.9094,
+                "BottomMargin": 205.9094,
+                "Tag": 378,
+                "ActionTag": 458569307,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 64.0
+                },
+                "Name": "Btn_TuizhuTip",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/msg_2@2x.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 130,
+                "Scale9OriginY": 36,
+                "Scale9Width": 136,
+                "Scale9Height": 39,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1023.9072,
+                  "Y": 308.6676
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 825.9072,
+                "RightMargin": -1221.9072,
+                "TopMargin": -364.1676,
+                "BottomMargin": 253.1676,
+                "Tag": 516,
+                "ActionTag": 54603868,
+                "Size": {
+                  "X": 396.0,
+                  "Y": 111.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TuizhuTip",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1042458770,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Item_8",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0078,
+              "Y": -0.0139
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 1270.0,
+            "TopMargin": 730.0,
+            "BottomMargin": -10.0,
+            "Tag": 379,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(9)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(9)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(9)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 514.8388,
+                  "Y": 192.3774
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 424.3388,
+                "RightMargin": -605.3388,
+                "TopMargin": -221.3774,
+                "BottomMargin": 163.3774,
+                "Tag": 380,
+                "ActionTag": 1189858171,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 58.0
+                },
+                "Name": "CheckBox_Setting_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn2(10)@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(10)@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/a/btn(10)@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 869.1831,
+                  "Y": 192.8112
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 773.1831,
+                "RightMargin": -965.1831,
+                "TopMargin": -221.8112,
+                "BottomMargin": 163.8112,
+                "Tag": 385,
+                "ActionTag": -41055680,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 58.0
+                },
+                "Name": "CheckBox_Setting_2",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": -1616911980,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Item_9",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/CreateRoom/exit@2x.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/CreateRoom/exit@2x.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 71,
+            "Scale9Height": 60,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1221.7545,
+              "Y": 676.5276
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9545,
+              "Y": 0.9396
+            },
+            "PreSize": {
+              "X": 0.0789,
+              "Y": 0.1139
+            },
+            "LeftMargin": 1171.2545,
+            "RightMargin": 7.7455,
+            "TopMargin": 2.4724,
+            "BottomMargin": 635.5276,
+            "Tag": 581,
+            "ActionTag": -1843116864,
+            "Size": {
+              "X": 101.0,
+              "Y": 82.0
+            },
+            "Name": "Btn_closed",
+            "ctype": "ButtonObjectData"
+          },
+          {
             "FontSize": 14,
             "ButtonText": "",
             "TextColor": {
@@ -2396,165 +3555,6 @@
             },
             "Name": "Btn_create",
             "ctype": "ButtonObjectData"
-          },
-          {
-            "AnchorPoint": {},
-            "Position": {
-              "X": 20.0,
-              "Y": -20.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": true,
-            "PrePosition": {
-              "X": 0.0156,
-              "Y": -0.0278
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 20.0,
-            "RightMargin": 1260.0,
-            "TopMargin": 740.0,
-            "BottomMargin": -20.0,
-            "Tag": 441,
-            "Children": [
-              {
-                "NormalBackFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(7)@2x.png",
-                  "Plist": ""
-                },
-                "PressedBackFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(16)@2x.png",
-                  "Plist": ""
-                },
-                "DisableBackFileData": {
-                  "Type": "Default",
-                  "Path": "Default/CheckBox_Disable.png",
-                  "Plist": ""
-                },
-                "NodeNormalFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(16)@2x.png",
-                  "Plist": ""
-                },
-                "NodeDisableFileData": {
-                  "Type": "Default",
-                  "Path": "Default/CheckBoxNode_Disable.png",
-                  "Plist": ""
-                },
-                "TouchEnable": true,
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 475.029,
-                  "Y": 381.7091
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "LeftMargin": 404.029,
-                "RightMargin": -546.029,
-                "TopMargin": -413.7091,
-                "BottomMargin": 349.7091,
-                "Tag": 442,
-                "ActionTag": 1658079338,
-                "Size": {
-                  "X": 142.0,
-                  "Y": 64.0
-                },
-                "Name": "CheckBox_DoubleBase_1",
-                "ctype": "CheckBoxObjectData"
-              },
-              {
-                "NormalBackFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(6)@2x.png",
-                  "Plist": ""
-                },
-                "PressedBackFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(17)@2x.png",
-                  "Plist": ""
-                },
-                "DisableBackFileData": {
-                  "Type": "Default",
-                  "Path": "Default/CheckBox_Disable.png",
-                  "Plist": ""
-                },
-                "NodeNormalFileData": {
-                  "Type": "Normal",
-                  "Path": "Image/CreateRoom/images/btn(17)@2x.png",
-                  "Plist": ""
-                },
-                "NodeDisableFileData": {
-                  "Type": "Default",
-                  "Path": "Default/CheckBoxNode_Disable.png",
-                  "Plist": ""
-                },
-                "TouchEnable": true,
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 761.8936,
-                  "Y": 377.7446
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "LeftMargin": 675.8936,
-                "RightMargin": -847.8936,
-                "TopMargin": -409.7446,
-                "BottomMargin": 345.7446,
-                "Tag": 443,
-                "ActionTag": 1666664667,
-                "Size": {
-                  "X": 172.0,
-                  "Y": 64.0
-                },
-                "Name": "CheckBox_Round_2",
-                "ctype": "CheckBoxObjectData"
-              }
-            ],
-            "ActionTag": -1964685323,
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Name": "Item_6",
-            "ctype": "SingleNodeObjectData"
           }
         ],
         "Size": {
@@ -2569,6 +3569,26 @@
         "../Default/CheckBox_Disable.png",
         "../Default/CheckBoxNode_Disable.png",
         "../Image/Common/mask.png",
+        "../Image/CreateRoom/a/btn(1)@2x.png",
+        "../Image/CreateRoom/a/btn(10)@2x.png",
+        "../Image/CreateRoom/a/btn(2)@2x.png",
+        "../Image/CreateRoom/a/btn(3)@2x.png",
+        "../Image/CreateRoom/a/btn(4)@2x.png",
+        "../Image/CreateRoom/a/btn(5)@2x.png",
+        "../Image/CreateRoom/a/btn(6)@2x.png",
+        "../Image/CreateRoom/a/btn(7)@2x.png",
+        "../Image/CreateRoom/a/btn(8)@2x.png",
+        "../Image/CreateRoom/a/btn(9)@2x.png",
+        "../Image/CreateRoom/a/btn2(1)@2x.png",
+        "../Image/CreateRoom/a/btn2(10)@2x.png",
+        "../Image/CreateRoom/a/btn2(2)@2x.png",
+        "../Image/CreateRoom/a/btn2(3)@2x.png",
+        "../Image/CreateRoom/a/btn2(4)@2x.png",
+        "../Image/CreateRoom/a/btn2(5)@2x.png",
+        "../Image/CreateRoom/a/btn2(6)@2x.png",
+        "../Image/CreateRoom/a/btn2(7)@2x.png",
+        "../Image/CreateRoom/a/btn2(8)@2x.png",
+        "../Image/CreateRoom/a/btn2(9)@2x.png",
         "../Image/CreateRoom/b/1_15-@2x.png",
         "../Image/CreateRoom/b/1_21-@2x.png",
         "../Image/CreateRoom/b/1_27-@2x.png",
@@ -2580,6 +3600,14 @@
         "../Image/CreateRoom/b/close_23-@2x.png",
         "../Image/CreateRoom/b/open_23-@2x.png",
         "../Image/CreateRoom/bg@2x.png",
+        "../Image/CreateRoom/c/btn(1)@2x.png",
+        "../Image/CreateRoom/c/btn(2)@2x.png",
+        "../Image/CreateRoom/c/btn(3)@2x.png",
+        "../Image/CreateRoom/c/btn(4)@2x.png",
+        "../Image/CreateRoom/c/btn2(1)@2x.png",
+        "../Image/CreateRoom/c/btn2(2)@2x.png",
+        "../Image/CreateRoom/c/btn2(3)@2x.png",
+        "../Image/CreateRoom/c/btn2(4)@2x.png",
         "../Image/CreateRoom/cjfj_38-@2x.png",
         "../Image/CreateRoom/d/all_22-@2x.png",
         "../Image/CreateRoom/d/bg_07-@2x.png",
@@ -2596,6 +3624,7 @@
         "../Image/CreateRoom/d/btn2(5)@2x.png",
         "../Image/CreateRoom/d/btn2(6)@2x.png",
         "../Image/CreateRoom/d/part_12-@2x.png",
+        "../Image/CreateRoom/exit@2x.png",
         "../Image/CreateRoom/images/btn(1)@2x.png",
         "../Image/CreateRoom/images/btn(11)@2x.png",
         "../Image/CreateRoom/images/btn(12)@2x.png",
@@ -2615,6 +3644,7 @@
         "../Image/CreateRoom/images/btn(8)@2x.png",
         "../Image/CreateRoom/images/btn(9)@2x.png",
         "../Image/CreateRoom/msg@2x.png",
+        "../Image/CreateRoom/msg_2@2x.png",
         "../Image/CreateRoom/msg1@2x.png",
         "../Image/CreateRoom/tab1@2x.png",
         "../Image/CreateRoom/tab10@2x.png",
@@ -2625,8 +3655,7 @@
         "../Image/CreateRoom/tab6@2x.png",
         "../Image/CreateRoom/tab7@2x.png",
         "../Image/CreateRoom/tab8@2x.png",
-        "../Image/CreateRoom/tab9@2x.png",
-        "../xg/create.png"
+        "../Image/CreateRoom/tab9@2x.png"
       ],
       "ctype": "GameFileData"
     }

@@ -140,6 +140,34 @@
             <Image Name="tab8@2x.png" />
             <Image Name="tab9@2x.png" />
           </Folder>
+          <Folder Name="JoinRoom">
+            <Image Name="(0)@2x.png" />
+            <Image Name="(1)@2x.png" />
+            <Image Name="(10)@2x.png" />
+            <Image Name="(11)@2x.png" />
+            <Image Name="(12)@2x.png" />
+            <Image Name="(13)@2x.png" />
+            <Image Name="(14)@2x.png" />
+            <Image Name="(15)@2x.png" />
+            <Image Name="(16)@2x.png" />
+            <Image Name="(17)@2x.png" />
+            <Image Name="(18)@2x.png" />
+            <Image Name="(19)@2x.png" />
+            <Image Name="(2)@2x.png" />
+            <Image Name="(3)@2x.png" />
+            <Image Name="(4)@2x.png" />
+            <Image Name="(5)@2x.png" />
+            <Image Name="(6)@2x.png" />
+            <Image Name="(7)@2x.png" />
+            <Image Name="(8)@2x.png" />
+            <Image Name="(9)@2x.png" />
+            <Image Name="07_22.png" />
+            <Image Name="07_23.png" />
+            <Image Name="07_24.png" />
+            <Image Name="07_25.png" />
+            <Image Name="bg@2x.png" />
+            <Image Name="number(9)@2x.png" />
+          </Folder>
           <Folder Name="Lobby">
             <Image Name="bg.png" />
             <Image Name="cd.png" />
@@ -174,6 +202,10 @@
             <Image Name="yhxy.png" />
           </Folder>
         </Folder>
+        <Folder Name="Layer">
+          <Project Name="CreateRoomLayer.csd" Type="Layer" />
+          <Project Name="AddRoomLayer.csd" Type="Layer" />
+        </Folder>
         <Folder Name="Scene">
           <Project Name="LobbyScene.csd" Type="Scene" />
           <Project Name="LoginScene.csd" Type="Scene" />
@@ -182,9 +214,6 @@
           <Image Name="create.png" />
           <Image Name="dt.png" />
           <Image Name="join.png" />
-        </Folder>
-        <Folder Name="Layer">
-          <Project Name="CreateRoomLayer.csd" Type="Layer" />
         </Folder>
       </RootFolder>
     </Group>
