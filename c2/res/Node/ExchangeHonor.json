@@ -1,0 +1,687 @@
+{
+  "ID": "2d64dff1-0785-4986-b87c-430bddf62c21",
+  "Version": "2.3.4",
+  "Name": "ExchangeHonor",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 422,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/yellow_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 276,
+            "Scale9OriginY": 164,
+            "Scale9Width": 285,
+            "Scale9Height": 171,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -418.5,
+            "RightMargin": -418.5,
+            "TopMargin": -249.5,
+            "BottomMargin": -249.5,
+            "Tag": 444,
+            "ActionTag": -903005400,
+            "Size": {
+              "X": 837.0,
+              "Y": 499.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/exchange_context.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 188,
+            "Scale9OriginY": 95,
+            "Scale9Width": 194,
+            "Scale9Height": 100,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -71.1473,
+              "Y": 71.5453
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -356.1473,
+            "RightMargin": -213.8527,
+            "TopMargin": -216.5453,
+            "BottomMargin": -73.4547,
+            "Tag": 443,
+            "ActionTag": -1605423124,
+            "Size": {
+              "X": 570.0,
+              "Y": 290.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_confirm_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_confirm_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_confirm_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 276,
+            "Scale9Height": 78,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -1.1531,
+              "Y": -167.6588
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -154.1531,
+            "RightMargin": -151.8469,
+            "TopMargin": 117.6588,
+            "BottomMargin": -217.6588,
+            "Tag": 475,
+            "ActionTag": 2024825507,
+            "Size": {
+              "X": 306.0,
+              "Y": 100.0
+            },
+            "Name": "Btn_ExchangeHonor",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_5000wan_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_5000wan_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_5000wan_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 106,
+            "Scale9Height": 32,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 301.8486,
+              "Y": -62.4557
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 233.8486,
+            "RightMargin": -369.8486,
+            "TopMargin": 35.4557,
+            "BottomMargin": -89.4557,
+            "Tag": 476,
+            "ActionTag": 919476354,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "5000W",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_1000wan_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_1000wan_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_1000wan_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 106,
+            "Scale9Height": 32,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 155.8516,
+              "Y": -62.4557
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 87.8516,
+            "RightMargin": -223.8516,
+            "TopMargin": 35.4557,
+            "BottomMargin": -89.4557,
+            "Tag": 477,
+            "ActionTag": 1373519124,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "1000W",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_500wan_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_500wan_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_500wan_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 106,
+            "Scale9Height": 32,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 11.4834,
+              "Y": -62.4557
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -56.5166,
+            "RightMargin": -79.4834,
+            "TopMargin": 35.4557,
+            "BottomMargin": -89.4557,
+            "Tag": 478,
+            "ActionTag": -472700138,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "500W",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_100wan_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_100wan_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_100wan_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 106,
+            "Scale9Height": 32,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -133.5526,
+              "Y": -62.4557
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -201.5526,
+            "RightMargin": 65.5526,
+            "TopMargin": 35.4557,
+            "BottomMargin": -89.4557,
+            "Tag": 479,
+            "ActionTag": -630102716,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "100W",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -51.4609,
+              "Y": 34.9984
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -171.4609,
+            "RightMargin": -68.5391,
+            "TopMargin": -62.9984,
+            "BottomMargin": 6.9984,
+            "Tag": 139,
+            "ActionTag": -1070677492,
+            "Size": {
+              "X": 240.0,
+              "Y": 56.0
+            },
+            "Name": "NumberPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_all_1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_all_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/btn_all_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 106,
+            "Scale9Height": 32,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 287.7545,
+              "Y": 36.9094
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 219.7545,
+            "RightMargin": -355.7545,
+            "TopMargin": -63.9094,
+            "BottomMargin": 9.9094,
+            "Tag": 484,
+            "ActionTag": -904158378,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "Btn_GetAllHonor",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -63.1458,
+              "Y": 115.5396
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 171,
+              "G": 96,
+              "B": 58
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.1458,
+            "RightMargin": 48.1458,
+            "TopMargin": -131.0396,
+            "BottomMargin": 100.0396,
+            "Tag": 487,
+            "ActionTag": 900132521,
+            "Size": {
+              "X": 15.0,
+              "Y": 31.0
+            },
+            "Name": "Text_HonorValue",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/HonorLayer/btn_1000wan_0.png",
+        "../Image/HonorLayer/btn_1000wan_1.png",
+        "../Image/HonorLayer/btn_100wan_0.png",
+        "../Image/HonorLayer/btn_100wan_1.png",
+        "../Image/HonorLayer/btn_5000wan_0.png",
+        "../Image/HonorLayer/btn_5000wan_1.png",
+        "../Image/HonorLayer/btn_500wan_0.png",
+        "../Image/HonorLayer/btn_500wan_1.png",
+        "../Image/HonorLayer/btn_all_0.png",
+        "../Image/HonorLayer/btn_all_1.png",
+        "../Image/HonorLayer/btn_confirm_0.png",
+        "../Image/HonorLayer/btn_confirm_1.png",
+        "../Image/HonorLayer/exchange_context.png",
+        "../Image/Public/yellow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

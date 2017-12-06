@@ -1,0 +1,1698 @@
+{
+  "ID": "e93d0f73-4a2b-4758-a2c5-db57a948818f",
+  "Version": "2.3.4",
+  "Name": "CreatePRoom_Record_Page",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 966,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_page_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -352.0,
+            "RightMargin": -352.0,
+            "TopMargin": -239.0,
+            "BottomMargin": -239.0,
+            "Tag": 967,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "123455",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.2504,
+                  "Y": 446.4101
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 235,
+                  "G": 162,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.185,
+                  "Y": 0.9339
+                },
+                "PreSize": {
+                  "X": 0.1151,
+                  "Y": 0.0586
+                },
+                "LeftMargin": 130.2504,
+                "RightMargin": 492.7496,
+                "TopMargin": 17.5899,
+                "BottomMargin": 432.4101,
+                "Tag": 968,
+                "ActionTag": -322869900,
+                "Size": {
+                  "X": 81.0,
+                  "Y": 28.0
+                },
+                "Name": "ui_num",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "3局",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 535.8285,
+                  "Y": 446.41
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 235,
+                  "G": 162,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7611,
+                  "Y": 0.9339
+                },
+                "PreSize": {
+                  "X": 0.054,
+                  "Y": 0.0586
+                },
+                "LeftMargin": 535.8285,
+                "RightMargin": 130.1715,
+                "TopMargin": 17.59,
+                "BottomMargin": 432.41,
+                "Tag": 969,
+                "ActionTag": 913942724,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 28.0
+                },
+                "Name": "ui_count",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1560354383,
+            "Size": {
+              "X": 704.0,
+              "Y": 478.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_info_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": 121.9969
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -347.5001,
+            "RightMargin": -347.4999,
+            "TopMargin": -174.4969,
+            "BottomMargin": 69.4969,
+            "Tag": 970,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_player_head_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5085,
+                  "Y": 55.4925
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.5285
+                },
+                "PreSize": {
+                  "X": 0.1223,
+                  "Y": 0.8095
+                },
+                "LeftMargin": 13.0085,
+                "RightMargin": 596.9915,
+                "TopMargin": 7.0075,
+                "BottomMargin": 12.9925,
+                "Tag": 974,
+                "ActionTag": -1727906092,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 85.0
+                },
+                "Name": "head_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/female_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5103,
+                  "Y": 55.692
+                },
+                "Scale": {
+                  "ScaleX": 0.45,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.5304
+                },
+                "PreSize": {
+                  "X": 0.2705,
+                  "Y": 1.7905
+                },
+                "LeftMargin": -38.4897,
+                "RightMargin": 545.4897,
+                "TopMargin": -44.692,
+                "BottomMargin": -38.308,
+                "Tag": 997,
+                "ActionTag": 1123824358,
+                "Size": {
+                  "X": 188.0,
+                  "Y": 188.0
+                },
+                "Name": "ui_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "春风十里不如你",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 236.64,
+                  "Y": 50.4945
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 54,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3405,
+                  "Y": 0.4809
+                },
+                "PreSize": {
+                  "X": 0.2619,
+                  "Y": 0.2952
+                },
+                "LeftMargin": 145.64,
+                "RightMargin": 367.36,
+                "TopMargin": 39.0055,
+                "BottomMargin": 34.9945,
+                "Tag": 975,
+                "ActionTag": 675217169,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 31.0
+                },
+                "Name": "ui_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_record_dou.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.6826,
+                  "Y": 50.505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6988,
+                  "Y": 0.481
+                },
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.5048
+                },
+                "LeftMargin": 460.6826,
+                "RightMargin": 184.3174,
+                "TopMargin": 27.995,
+                "BottomMargin": 24.005,
+                "Tag": 976,
+                "ActionTag": -1637302791,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 53.0
+                },
+                "Name": "dou",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_jia.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 545.9966,
+                  "Y": 50.505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7856,
+                  "Y": 0.481
+                },
+                "PreSize": {
+                  "X": 0.0273,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 536.4966,
+                "RightMargin": 139.5034,
+                "TopMargin": 42.495,
+                "BottomMargin": 38.505,
+                "Tag": 977,
+                "ActionTag": 1732410697,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 24.0
+                },
+                "Name": "ui_symbol",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.0466,
+                  "Y": 50.505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.481
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.0466,
+                "RightMargin": 82.9534,
+                "TopMargin": 42.495,
+                "BottomMargin": 38.505,
+                "Tag": 978,
+                "ActionTag": -1166123454,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jia",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.0471,
+                  "Y": 50.505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.481
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.0471,
+                "RightMargin": 82.9529,
+                "TopMargin": 42.495,
+                "BottomMargin": 38.505,
+                "Tag": 101,
+                "ActionTag": 511931544,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jian",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": 2072646570,
+            "Size": {
+              "X": 695.0,
+              "Y": 105.0
+            },
+            "Name": "record_info_01",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_info_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": 23.7986
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -347.5001,
+            "RightMargin": -347.4999,
+            "TopMargin": -76.2986,
+            "BottomMargin": -28.7014,
+            "Tag": 979,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_player_head_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5085,
+                  "Y": 54.495
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.519
+                },
+                "PreSize": {
+                  "X": 0.1223,
+                  "Y": 0.8095
+                },
+                "LeftMargin": 13.0085,
+                "RightMargin": 596.9915,
+                "TopMargin": 8.005,
+                "BottomMargin": 11.995,
+                "Tag": 980,
+                "ActionTag": -824443531,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 85.0
+                },
+                "Name": "head_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/female_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.51,
+                  "Y": 54.4845
+                },
+                "Scale": {
+                  "ScaleX": 0.45,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.5189
+                },
+                "PreSize": {
+                  "X": 0.2705,
+                  "Y": 1.7905
+                },
+                "LeftMargin": -38.49,
+                "RightMargin": 545.49,
+                "TopMargin": -43.4845,
+                "BottomMargin": -39.5155,
+                "Tag": 998,
+                "ActionTag": 1807114569,
+                "Size": {
+                  "X": 188.0,
+                  "Y": 188.0
+                },
+                "Name": "ui_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "春风十里不如你",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 236.64,
+                  "Y": 52.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 54,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3405,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2619,
+                  "Y": 0.2952
+                },
+                "LeftMargin": 145.64,
+                "RightMargin": 367.36,
+                "TopMargin": 37.0,
+                "BottomMargin": 37.0,
+                "Tag": 981,
+                "ActionTag": -1060719638,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 31.0
+                },
+                "Name": "ui_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_record_dou.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.68,
+                  "Y": 52.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6988,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.5048
+                },
+                "LeftMargin": 460.68,
+                "RightMargin": 184.32,
+                "TopMargin": 26.0,
+                "BottomMargin": 26.0,
+                "Tag": 982,
+                "ActionTag": -436846467,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 53.0
+                },
+                "Name": "dou",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_jia.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 545.9991,
+                  "Y": 52.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7856,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0273,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 536.4991,
+                "RightMargin": 139.5009,
+                "TopMargin": 40.5,
+                "BottomMargin": 40.5,
+                "Tag": 983,
+                "ActionTag": 1238044761,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 24.0
+                },
+                "Name": "ui_symbol",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.0494,
+                  "Y": 52.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.0494,
+                "RightMargin": 82.9506,
+                "TopMargin": 40.5,
+                "BottomMargin": 40.5,
+                "Tag": 984,
+                "ActionTag": -152754331,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jia",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.0499,
+                  "Y": 52.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.0499,
+                "RightMargin": 82.9501,
+                "TopMargin": 40.5,
+                "BottomMargin": 40.5,
+                "Tag": 102,
+                "ActionTag": 72694971,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jian",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": -384988578,
+            "Size": {
+              "X": 695.0,
+              "Y": 105.0
+            },
+            "Name": "record_info_02",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_info_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": -74.3997
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -347.5001,
+            "RightMargin": -347.4999,
+            "TopMargin": 21.8997,
+            "BottomMargin": -126.8997,
+            "Tag": 985,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_player_head_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5085,
+                  "Y": 54.495
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.519
+                },
+                "PreSize": {
+                  "X": 0.1223,
+                  "Y": 0.8095
+                },
+                "LeftMargin": 13.0085,
+                "RightMargin": 596.9915,
+                "TopMargin": 8.005,
+                "BottomMargin": 11.995,
+                "Tag": 986,
+                "ActionTag": -2107378259,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 85.0
+                },
+                "Name": "head_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/female_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.51,
+                  "Y": 54.4845
+                },
+                "Scale": {
+                  "ScaleX": 0.45,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.5189
+                },
+                "PreSize": {
+                  "X": 0.2705,
+                  "Y": 1.7905
+                },
+                "LeftMargin": -38.49,
+                "RightMargin": 545.49,
+                "TopMargin": -43.4845,
+                "BottomMargin": -39.5155,
+                "Tag": 999,
+                "ActionTag": 294219017,
+                "Size": {
+                  "X": 188.0,
+                  "Y": 188.0
+                },
+                "Name": "ui_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "春风十里不如你",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 236.6421,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 54,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3405,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.2619,
+                  "Y": 0.2952
+                },
+                "LeftMargin": 145.6421,
+                "RightMargin": 367.3579,
+                "TopMargin": 37.9975,
+                "BottomMargin": 36.0025,
+                "Tag": 987,
+                "ActionTag": 1487326239,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 31.0
+                },
+                "Name": "ui_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_record_dou.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.68,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6988,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.5048
+                },
+                "LeftMargin": 460.68,
+                "RightMargin": 184.32,
+                "TopMargin": 26.9975,
+                "BottomMargin": 25.0025,
+                "Tag": 988,
+                "ActionTag": -141659388,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 53.0
+                },
+                "Name": "dou",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_jia.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 546.0,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7856,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.0273,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 536.5,
+                "RightMargin": 139.5,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 989,
+                "ActionTag": -1362461623,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 24.0
+                },
+                "Name": "ui_symbol",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.05,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.05,
+                "RightMargin": 82.95,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 990,
+                "ActionTag": 2006774036,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jia",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.05,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.05,
+                "RightMargin": 82.95,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 103,
+                "ActionTag": -1836093128,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jian",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": 1234159225,
+            "Size": {
+              "X": 695.0,
+              "Y": 105.0
+            },
+            "Name": "record_info_03",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_info_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": -172.5977
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -347.5001,
+            "RightMargin": -347.4999,
+            "TopMargin": 120.0977,
+            "BottomMargin": -225.0977,
+            "Tag": 991,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_player_head_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5085,
+                  "Y": 54.495
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.519
+                },
+                "PreSize": {
+                  "X": 0.1223,
+                  "Y": 0.8095
+                },
+                "LeftMargin": 13.0085,
+                "RightMargin": 596.9915,
+                "TopMargin": 8.005,
+                "BottomMargin": 11.995,
+                "Tag": 992,
+                "ActionTag": -455717084,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 85.0
+                },
+                "Name": "head_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/female_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.51,
+                  "Y": 54.4845
+                },
+                "Scale": {
+                  "ScaleX": 0.45,
+                  "ScaleY": 0.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0799,
+                  "Y": 0.5189
+                },
+                "PreSize": {
+                  "X": 0.2705,
+                  "Y": 1.7905
+                },
+                "LeftMargin": -38.49,
+                "RightMargin": 545.49,
+                "TopMargin": -43.4845,
+                "BottomMargin": -39.5155,
+                "Tag": 1000,
+                "ActionTag": 376077583,
+                "Size": {
+                  "X": 188.0,
+                  "Y": 188.0
+                },
+                "Name": "ui_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "春风十里不如你",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 236.6421,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 136,
+                  "G": 54,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3405,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.2619,
+                  "Y": 0.2952
+                },
+                "LeftMargin": 145.6421,
+                "RightMargin": 367.3579,
+                "TopMargin": 37.9975,
+                "BottomMargin": 36.0025,
+                "Tag": 993,
+                "ActionTag": 1711538614,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 31.0
+                },
+                "Name": "ui_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_record_dou.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.68,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6988,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.5048
+                },
+                "LeftMargin": 460.68,
+                "RightMargin": 184.32,
+                "TopMargin": 26.9975,
+                "BottomMargin": 25.0025,
+                "Tag": 994,
+                "ActionTag": -1946704462,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 53.0
+                },
+                "Name": "dou",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/img_jia.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 546.0,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7856,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.0273,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 536.5,
+                "RightMargin": 139.5,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 995,
+                "ActionTag": 1918811754,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 24.0
+                },
+                "Name": "ui_symbol",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.05,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.05,
+                "RightMargin": 82.95,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 996,
+                "ActionTag": 123702924,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jia",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 19,
+                "CharHeight": 24,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 555.05,
+                  "Y": 51.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7986,
+                  "Y": 0.4905
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 555.05,
+                "RightMargin": 82.95,
+                "TopMargin": 41.4975,
+                "BottomMargin": 39.5025,
+                "Tag": 104,
+                "ActionTag": 1236444413,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 24.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ui_score_jian",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": 1523714892,
+            "Size": {
+              "X": 695.0,
+              "Y": 105.0
+            },
+            "Name": "record_info_04",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/Common/Avatar/female_1.png",
+        "../Image/PrivateRoom/img_jia.png",
+        "../Image/PrivateRoom/img_player_head_bg.png",
+        "../Image/PrivateRoom/img_record_dou.png",
+        "../Image/PrivateRoom/img_record_info_bg.png",
+        "../Image/PrivateRoom/img_record_page_bg.png",
+        "../Image/PrivateRoom/ta_record_jia_num.png",
+        "../Image/PrivateRoom/ta_record_jian_num.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

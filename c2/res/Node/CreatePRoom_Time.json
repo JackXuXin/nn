@@ -1,0 +1,3856 @@
+{
+  "ID": "33f7ff99-580f-4589-b68a-455330e992fd",
+  "Version": "2.3.4",
+  "Name": "CreatePRoom_Time",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 115,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/yellow_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 276,
+            "Scale9OriginY": 164,
+            "Scale9Width": 391,
+            "Scale9Height": 210,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -27.9997
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -471.5,
+            "RightMargin": -471.5,
+            "TopMargin": -241.0003,
+            "BottomMargin": -296.9997,
+            "Tag": 789,
+            "ActionTag": 1238403687,
+            "Size": {
+              "X": 943.0,
+              "Y": 538.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 130,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/create_context_sss.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 161,
+                "Scale9OriginY": 54,
+                "Scale9Width": 597,
+                "Scale9Height": 262,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.9224,
+                  "Y": 36.9238
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -458.5776,
+                "RightMargin": -460.4224,
+                "TopMargin": -221.9238,
+                "BottomMargin": -148.0762,
+                "Tag": 131,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.626,
+                      "Y": 334.966
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0029,
+                      "Y": 0.9053
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 2.626,
+                    "RightMargin": 916.374,
+                    "TopMargin": 35.034,
+                    "BottomMargin": 334.966,
+                    "Tag": 154,
+                    "Children": [
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 215.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 148.0,
+                        "RightMargin": -282.0,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 135,
+                        "ActionTag": -716529688,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Player_Num_1",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 461.1743,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 394.1743,
+                        "RightMargin": -528.1743,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 136,
+                        "ActionTag": 525788410,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Player_Num_2",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 723.9005,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 656.9005,
+                        "RightMargin": -790.9005,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 137,
+                        "ActionTag": -2007440540,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Player_Num_3",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "CheckedState": true,
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PersonalCenter/unselected.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_lvdian.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PersonalCenter/unselected.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_lvdian.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PersonalCenter/unselected.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 787.5355,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 762.5355,
+                        "RightMargin": -812.5355,
+                        "TopMargin": -25.0,
+                        "BottomMargin": -25.0,
+                        "Tag": 271,
+                        "ActionTag": 1193680049,
+                        "Size": {
+                          "X": 50.0,
+                          "Y": 50.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "CheckBox_Room_Player_Num_4",
+                        "ctype": "CheckBoxObjectData"
+                      }
+                    ],
+                    "ActionTag": -1252225037,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "node_1",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.626,
+                      "Y": 258.7969
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0029,
+                      "Y": 0.6995
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 2.626,
+                    "RightMargin": 916.374,
+                    "TopMargin": 111.2031,
+                    "BottomMargin": 258.7969,
+                    "Tag": 155,
+                    "Children": [
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 215.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 148.0,
+                        "RightMargin": -282.0,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 143,
+                        "ActionTag": 1843489423,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Game_Num_1",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 461.1742,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 394.1742,
+                        "RightMargin": -528.1742,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 144,
+                        "ActionTag": -1573940411,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Game_Num_2",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 723.9003,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 656.9003,
+                        "RightMargin": -790.9003,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 145,
+                        "ActionTag": -1178738363,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Game_Num_3",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "0",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 335.143,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 325.643,
+                        "RightMargin": -344.643,
+                        "TopMargin": -12.0,
+                        "BottomMargin": -12.0,
+                        "Tag": 799,
+                        "ActionTag": 579315641,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ta_DiamondsNumber_1",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "4",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 580.0437,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 580.0437,
+                        "RightMargin": -599.0437,
+                        "TopMargin": -12.0,
+                        "BottomMargin": -12.0,
+                        "Tag": 800,
+                        "ActionTag": 1063079413,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ta_DiamondsNumber_2",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "8",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 850.7119,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 850.7119,
+                        "RightMargin": -869.7119,
+                        "TopMargin": -12.0,
+                        "BottomMargin": -12.0,
+                        "Tag": 801,
+                        "ActionTag": -1967218415,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ta_DiamondsNumber_3",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/img_Dam.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 307.2455,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 287.2455,
+                        "RightMargin": -327.2455,
+                        "TopMargin": -17.5,
+                        "BottomMargin": -17.5,
+                        "Tag": 802,
+                        "ActionTag": 2039677716,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 35.0
+                        },
+                        "Name": "img_Dam_2_0",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/img_Dam.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 561.072,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 541.072,
+                        "RightMargin": -581.072,
+                        "TopMargin": -17.5,
+                        "BottomMargin": -17.5,
+                        "Tag": 803,
+                        "ActionTag": -915759515,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 35.0
+                        },
+                        "Name": "img_Dam_3_0",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/img_Dam.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 832.9895,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.6119,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 812.9895,
+                        "RightMargin": -852.9895,
+                        "TopMargin": -17.5,
+                        "BottomMargin": -17.5,
+                        "Tag": 804,
+                        "ActionTag": -761145912,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 35.0
+                        },
+                        "Name": "img_Dam_4_0",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 143243310,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "node_2",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.6263,
+                      "Y": 182.9071
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0029,
+                      "Y": 0.4943
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 2.6263,
+                    "RightMargin": 916.3737,
+                    "TopMargin": 187.0929,
+                    "BottomMargin": 182.9071,
+                    "Tag": 156,
+                    "Children": [
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 461.1742,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 394.1742,
+                        "RightMargin": -528.1742,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 147,
+                        "ActionTag": 1458013248,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Pay_Type_1",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 215.0001,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 148.0001,
+                        "RightMargin": -282.0001,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 148,
+                        "ActionTag": -1308810056,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Pay_Type_2",
+                        "ctype": "CheckBoxObjectData"
+                      }
+                    ],
+                    "ActionTag": 68341386,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "node_3",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.6263,
+                      "Y": 106.8978
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0029,
+                      "Y": 0.2889
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 2.6263,
+                    "RightMargin": 916.3737,
+                    "TopMargin": 263.1022,
+                    "BottomMargin": 106.8978,
+                    "Tag": 157,
+                    "Children": [
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 215.0001,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 148.0001,
+                        "RightMargin": -282.0001,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 151,
+                        "ActionTag": -833857581,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Add_Color",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 461.1742,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 394.1742,
+                        "RightMargin": -528.1742,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 688,
+                        "ActionTag": -1181601741,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Add_king_2",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 723.8999,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 656.8999,
+                        "RightMargin": -790.8999,
+                        "TopMargin": -26.5,
+                        "BottomMargin": -26.5,
+                        "Tag": 689,
+                        "ActionTag": -1394315417,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Add_king_4",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 215.0,
+                          "Y": -68.9443
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 148.0,
+                        "RightMargin": -282.0,
+                        "TopMargin": 42.4443,
+                        "BottomMargin": -95.4443,
+                        "Tag": 196,
+                        "ActionTag": 765158726,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Add_Fly_10",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "NormalBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "PressedBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "DisableBackFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "NodeNormalFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                          "Plist": ""
+                        },
+                        "NodeDisableFileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 461.1742,
+                          "Y": -68.9442
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 394.1742,
+                        "RightMargin": -528.1742,
+                        "TopMargin": 42.4442,
+                        "BottomMargin": -95.4442,
+                        "Tag": 272,
+                        "ActionTag": 293123056,
+                        "Size": {
+                          "X": 134.0,
+                          "Y": 53.0
+                        },
+                        "Name": "CheckBox_Room_Add_Fly_5",
+                        "ctype": "CheckBoxObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_add_color_title.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 342.1441,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 326.1441,
+                        "RightMargin": -358.1441,
+                        "TopMargin": -17.5,
+                        "BottomMargin": -17.5,
+                        "Tag": 273,
+                        "ActionTag": -656748442,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Sprite_22",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1863635193,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "node_4",
+                    "ctype": "SingleNodeObjectData"
+                  }
+                ],
+                "ActionTag": 213060591,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 370.0
+                },
+                "Name": "Image_Context_SSS",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -666465520,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "SSS",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -24.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -10.0,
+            "TopMargin": 24.0001,
+            "BottomMargin": -24.0001,
+            "Tag": 740,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/create_context_sy.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 180,
+                "Scale9OriginY": 128,
+                "Scale9Width": 559,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -10.0,
+                  "Y": 43.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -469.5,
+                "RightMargin": -449.5,
+                "TopMargin": -230.5001,
+                "BottomMargin": -144.4999,
+                "Tag": 741,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.1003,
+                      "Y": 338.5001
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5344,
+                      "Y": 0.9027
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.1003,
+                    "RightMargin": 360.8997,
+                    "TopMargin": 9.9999,
+                    "BottomMargin": 312.0001,
+                    "Tag": 742,
+                    "ActionTag": -70297941,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCnt_4",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.5002,
+                      "Y": 338.5001
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2737,
+                      "Y": 0.9027
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.5002,
+                    "RightMargin": 600.4998,
+                    "TopMargin": 9.9999,
+                    "BottomMargin": 312.0001,
+                    "Tag": 743,
+                    "ActionTag": -1058920104,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCnt_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.2629,
+                      "Y": 263.0747
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2734,
+                      "Y": 0.7015
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.2629,
+                    "RightMargin": 600.7371,
+                    "TopMargin": 85.4253,
+                    "BottomMargin": 236.5747,
+                    "Tag": 744,
+                    "ActionTag": 767103843,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 490.8621,
+                      "Y": 263.0701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5341,
+                      "Y": 0.7015
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 423.8621,
+                    "RightMargin": 361.1379,
+                    "TopMargin": 85.4299,
+                    "BottomMargin": 236.5701,
+                    "Tag": 745,
+                    "ActionTag": -1767110914,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 726.8392,
+                      "Y": 263.07
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7909,
+                      "Y": 0.7015
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 659.8392,
+                    "RightMargin": 125.1608,
+                    "TopMargin": 85.43,
+                    "BottomMargin": 236.57,
+                    "Tag": 746,
+                    "ActionTag": -1990962297,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "0",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 358.8016,
+                      "Y": 264.43
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3904,
+                      "Y": 0.7051
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 349.3016,
+                    "RightMargin": 550.6984,
+                    "TopMargin": 98.57,
+                    "BottomMargin": 252.43,
+                    "Tag": 747,
+                    "ActionTag": -782497451,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber1",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "4",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 586.7045,
+                      "Y": 264.4299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6384,
+                      "Y": 0.7051
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 586.7045,
+                    "RightMargin": 313.2955,
+                    "TopMargin": 98.5701,
+                    "BottomMargin": 252.4299,
+                    "Tag": 748,
+                    "ActionTag": -231273171,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber2",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "8",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 833.3719,
+                      "Y": 264.8538
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9068,
+                      "Y": 0.7063
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 833.3719,
+                    "RightMargin": 66.6281,
+                    "TopMargin": 98.1462,
+                    "BottomMargin": 252.8538,
+                    "Tag": 749,
+                    "ActionTag": 1901504001,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber3",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.9035,
+                      "Y": 263.7198
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3601,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 310.9035,
+                    "RightMargin": 568.0965,
+                    "TopMargin": 93.7802,
+                    "BottomMargin": 246.2198,
+                    "Tag": 790,
+                    "ActionTag": -1221954437,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 567.7318,
+                      "Y": 263.7198
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6178,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 547.7318,
+                    "RightMargin": 331.2682,
+                    "TopMargin": 93.7802,
+                    "BottomMargin": 246.2198,
+                    "Tag": 791,
+                    "ActionTag": 1678236154,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 815.0585,
+                      "Y": 263.72
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8869,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 795.0585,
+                    "RightMargin": 83.9415,
+                    "TopMargin": 93.78,
+                    "BottomMargin": 246.22,
+                    "Tag": 792,
+                    "ActionTag": -292281846,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Arrow_1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Arrow_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 8,
+                    "Scale9Height": 16,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 213.9111,
+                      "Y": 111.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2328,
+                      "Y": 0.2962
+                    },
+                    "PreSize": {
+                      "X": 0.0413,
+                      "Y": 0.1013
+                    },
+                    "LeftMargin": 194.9111,
+                    "RightMargin": 686.0889,
+                    "TopMargin": 244.92,
+                    "BottomMargin": 92.08,
+                    "Tag": 1203,
+                    "ActionTag": 1305675069,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 38.0
+                    },
+                    "Name": "Button_left",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Arrow_1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Arrow_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 8,
+                    "Scale9Height": 16,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 381.7413,
+                      "Y": 111.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4154,
+                      "Y": 0.2962
+                    },
+                    "PreSize": {
+                      "X": 0.0413,
+                      "Y": 0.1013
+                    },
+                    "LeftMargin": 362.7413,
+                    "RightMargin": 518.2587,
+                    "TopMargin": 244.92,
+                    "BottomMargin": 92.08,
+                    "Tag": 1205,
+                    "ActionTag": 990966010,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 38.0
+                    },
+                    "Name": "Button_right",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/img_H2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 16,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 18,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 296.703,
+                      "Y": 111.1994
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3229,
+                      "Y": 0.2965
+                    },
+                    "PreSize": {
+                      "X": 0.0544,
+                      "Y": 0.0827
+                    },
+                    "LeftMargin": 271.703,
+                    "RightMargin": 597.297,
+                    "TopMargin": 248.3006,
+                    "BottomMargin": 95.6994,
+                    "Tag": 1207,
+                    "ActionTag": -933709392,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 31.0
+                    },
+                    "Name": "Image_seleHua",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.6552,
+                      "Y": 187.72
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2727,
+                      "Y": 0.5006
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 183.6552,
+                    "RightMargin": 601.3448,
+                    "TopMargin": 160.78,
+                    "BottomMargin": 161.22,
+                    "Tag": 794,
+                    "ActionTag": 1769342142,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "DisplayState": false,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.0,
+                      "Y": 187.72
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5343,
+                      "Y": 0.5006
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.0,
+                    "RightMargin": 361.0,
+                    "TopMargin": 160.78,
+                    "BottomMargin": 161.22,
+                    "Tag": 795,
+                    "ActionTag": 933487332,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 674.0,
+                      "Y": 110.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7334,
+                      "Y": 0.2958
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 607.0,
+                    "RightMargin": 178.0,
+                    "TopMargin": 237.56,
+                    "BottomMargin": 84.44,
+                    "Tag": 797,
+                    "ActionTag": -1228948920,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_baozi",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.2798,
+                      "Y": 35.19
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2734,
+                      "Y": 0.0938
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.2798,
+                    "RightMargin": 600.7202,
+                    "TopMargin": 313.31,
+                    "BottomMargin": 8.69,
+                    "Tag": 798,
+                    "ActionTag": -834030307,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_chengbao",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.0057,
+                      "Y": 35.19
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5343,
+                      "Y": 0.0938
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.0057,
+                    "RightMargin": 360.9943,
+                    "TopMargin": 313.31,
+                    "BottomMargin": 8.69,
+                    "Tag": 1202,
+                    "ActionTag": -64117272,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_chaoyjs",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/img_WenTip.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 661.5449,
+                      "Y": 57.5708
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7199,
+                      "Y": 0.1535
+                    },
+                    "PreSize": {
+                      "X": 0.3515,
+                      "Y": 0.2533
+                    },
+                    "LeftMargin": 500.0449,
+                    "RightMargin": 95.9551,
+                    "TopMargin": 222.4292,
+                    "BottomMargin": 57.5708,
+                    "Tag": 1209,
+                    "ActionTag": -552763557,
+                    "Size": {
+                      "X": 323.0,
+                      "Y": 95.0
+                    },
+                    "Name": "img_WenTip",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Wen_1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Wen_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 12,
+                    "Scale9Height": 19,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 662.0771,
+                      "Y": 35.2896
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7204,
+                      "Y": 0.0941
+                    },
+                    "PreSize": {
+                      "X": 0.0457,
+                      "Y": 0.1093
+                    },
+                    "LeftMargin": 641.0771,
+                    "RightMargin": 235.9229,
+                    "TopMargin": 319.2104,
+                    "BottomMargin": 14.7896,
+                    "Tag": 1208,
+                    "ActionTag": -1355792104,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Button_Wen",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1243958804,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 375.0
+                },
+                "Name": "Image_Context_SYMJ",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1405733184,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "SYMJ",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -24.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": -10.0,
+            "TopMargin": 24.0002,
+            "BottomMargin": -24.0002,
+            "Tag": 815,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/create_context_sz.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 180,
+                "Scale9OriginY": 128,
+                "Scale9Width": 559,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -10.0,
+                  "Y": 43.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -469.5,
+                "RightMargin": -449.5,
+                "TopMargin": -230.5001,
+                "BottomMargin": -144.4999,
+                "Tag": 816,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.1003,
+                      "Y": 339.5002
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5344,
+                      "Y": 0.9053
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.1003,
+                    "RightMargin": 360.8997,
+                    "TopMargin": 8.9998,
+                    "BottomMargin": 313.0002,
+                    "Tag": 817,
+                    "ActionTag": 1308919031,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCnt_4",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.5002,
+                      "Y": 339.5002
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2737,
+                      "Y": 0.9053
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.5002,
+                    "RightMargin": 600.4998,
+                    "TopMargin": 8.9998,
+                    "BottomMargin": 313.0002,
+                    "Tag": 818,
+                    "ActionTag": -258718989,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCnt_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.2629,
+                      "Y": 264.0747
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2734,
+                      "Y": 0.7042
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.2629,
+                    "RightMargin": 600.7371,
+                    "TopMargin": 84.4253,
+                    "BottomMargin": 237.5747,
+                    "Tag": 819,
+                    "ActionTag": -1368987409,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 490.8621,
+                      "Y": 264.0701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5341,
+                      "Y": 0.7042
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 423.8621,
+                    "RightMargin": 361.1379,
+                    "TopMargin": 84.4299,
+                    "BottomMargin": 237.5701,
+                    "Tag": 820,
+                    "ActionTag": -1414114275,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 727.0,
+                      "Y": 264.0699
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7911,
+                      "Y": 0.7042
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 660.0,
+                    "RightMargin": 125.0,
+                    "TopMargin": 84.4301,
+                    "BottomMargin": 237.5699,
+                    "Tag": 821,
+                    "ActionTag": 386272669,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoomType_3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "0",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 361.8016,
+                      "Y": 264.43
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3937,
+                      "Y": 0.7051
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 352.3016,
+                    "RightMargin": 547.6984,
+                    "TopMargin": 98.57,
+                    "BottomMargin": 252.43,
+                    "Tag": 822,
+                    "ActionTag": 1327664232,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber1",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "4",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 589.7045,
+                      "Y": 264.4299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6417,
+                      "Y": 0.7051
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 589.7045,
+                    "RightMargin": 310.2955,
+                    "TopMargin": 98.5701,
+                    "BottomMargin": 252.4299,
+                    "Tag": 823,
+                    "ActionTag": -313548890,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber2",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 19,
+                    "CharHeight": 24,
+                    "LabelText": "8",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/ta_num_font_02.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 836.3718,
+                      "Y": 264.8538
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9101,
+                      "Y": 0.7063
+                    },
+                    "PreSize": {
+                      "X": 0.0207,
+                      "Y": 0.064
+                    },
+                    "LeftMargin": 836.3718,
+                    "RightMargin": 63.6282,
+                    "TopMargin": 98.1462,
+                    "BottomMargin": 252.8538,
+                    "Tag": 824,
+                    "ActionTag": 142350226,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 24.0
+                    },
+                    "Name": "ta_DNumber3",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 337.9035,
+                      "Y": 263.7198
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3677,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 317.9035,
+                    "RightMargin": 561.0965,
+                    "TopMargin": 93.7802,
+                    "BottomMargin": 246.2198,
+                    "Tag": 825,
+                    "ActionTag": -1642460371,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 574.7318,
+                      "Y": 263.7198
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6254,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 554.7318,
+                    "RightMargin": 324.2682,
+                    "TopMargin": 93.7802,
+                    "BottomMargin": 246.2198,
+                    "Tag": 826,
+                    "ActionTag": -882976248,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 822.0585,
+                      "Y": 263.72
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8945,
+                      "Y": 0.7033
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.0933
+                    },
+                    "LeftMargin": 802.0585,
+                    "RightMargin": 76.9415,
+                    "TopMargin": 93.78,
+                    "BottomMargin": 246.22,
+                    "Tag": 827,
+                    "ActionTag": 1562966642,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_Dam_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.6552,
+                      "Y": 187.72
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2727,
+                      "Y": 0.5006
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 183.6552,
+                    "RightMargin": 601.3448,
+                    "TopMargin": 160.78,
+                    "BottomMargin": 161.22,
+                    "Tag": 831,
+                    "ActionTag": -23055867,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "DisplayState": false,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.0,
+                      "Y": 187.72
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5343,
+                      "Y": 0.5006
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.0,
+                    "RightMargin": 361.0,
+                    "TopMargin": 160.78,
+                    "BottomMargin": 161.22,
+                    "Tag": 832,
+                    "ActionTag": 237863611,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.28,
+                      "Y": 110.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2734,
+                      "Y": 0.2958
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.28,
+                    "RightMargin": 600.72,
+                    "TopMargin": 237.56,
+                    "BottomMargin": 84.44,
+                    "Tag": 833,
+                    "ActionTag": 1957092130,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_suanfen",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 491.0,
+                      "Y": 111.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5343,
+                      "Y": 0.2985
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 424.0,
+                    "RightMargin": 361.0,
+                    "TopMargin": 236.56,
+                    "BottomMargin": 85.44,
+                    "Tag": 1183,
+                    "ActionTag": -883528175,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_suanfen_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/check_lvdian_1.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.28,
+                      "Y": 35.19
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2734,
+                      "Y": 0.0938
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.1413
+                    },
+                    "LeftMargin": 184.28,
+                    "RightMargin": 600.72,
+                    "TopMargin": 313.31,
+                    "BottomMargin": 8.69,
+                    "Tag": 834,
+                    "ActionTag": 1374528600,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_chengbao",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1845114512,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 375.0
+                },
+                "Name": "Image_Context_SZMJ",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1371761272,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "SZMJ",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/btn_CreateRoom.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/btn_CreateRoom.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/btn_CreateRoom.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 258,
+            "Scale9Height": 72,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -228.4182
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -144.0,
+            "RightMargin": -144.0,
+            "TopMargin": 181.4182,
+            "BottomMargin": -275.4182,
+            "Tag": 124,
+            "ActionTag": 1855686905,
+            "Size": {
+              "X": 288.0,
+              "Y": 94.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Image/Lobby/img_Dam.png",
+        "../Image/PersonalCenter/unselected.png",
+        "../Image/PrivateRoom/btn_Arrow_0.png",
+        "../Image/PrivateRoom/btn_Arrow_1.png",
+        "../Image/PrivateRoom/btn_CreateRoom.png",
+        "../Image/PrivateRoom/btn_Wen_0.png",
+        "../Image/PrivateRoom/btn_Wen_1.png",
+        "../Image/PrivateRoom/check_lvdian_1.png",
+        "../Image/PrivateRoom/check_lvdian_2.png",
+        "../Image/PrivateRoom/create_context_sss.png",
+        "../Image/PrivateRoom/create_context_sy.png",
+        "../Image/PrivateRoom/create_context_sz.png",
+        "../Image/PrivateRoom/img_add_color_title.png",
+        "../Image/PrivateRoom/img_H2.png",
+        "../Image/PrivateRoom/img_lvdian.png",
+        "../Image/PrivateRoom/img_WenTip.png",
+        "../Image/PrivateRoom/ta_num_font_02.png",
+        "../Image/Public/yellow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

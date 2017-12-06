@@ -1,0 +1,359 @@
+{
+  "ID": "19825a33-f3ac-4ed5-b14a-16768045cda3",
+  "Version": "2.3.4",
+  "Name": "GameRuleLayer_3",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 89,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 95,
+            "ActionTag": 701880315,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox_3.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 848,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 262,
+                "Scale9OriginY": 147,
+                "Scale9Width": 270,
+                "Scale9Height": 153,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0395,
+                  "Y": -31.0013
+                },
+                "Scale": {
+                  "ScaleX": 1.1562,
+                  "ScaleY": 1.181
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -396.9605,
+                "RightMargin": -397.0395,
+                "TopMargin": -192.4987,
+                "BottomMargin": -254.5013,
+                "Tag": 872,
+                "ActionTag": 921881370,
+                "Size": {
+                  "X": 794.0,
+                  "Y": 447.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 900,
+                  "Height": 1660
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -449.6772,
+                  "Y": -279.1147
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -449.6772,
+                "RightMargin": -450.3228,
+                "TopMargin": -220.8853,
+                "BottomMargin": -279.1147,
+                "Tag": 973,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/DDZ/rule/rule_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 443.0392,
+                      "Y": 840.312
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4923,
+                      "Y": 0.5062
+                    },
+                    "PreSize": {
+                      "X": 0.8356,
+                      "Y": 0.9759
+                    },
+                    "LeftMargin": 67.0392,
+                    "RightMargin": 80.9608,
+                    "TopMargin": 9.688,
+                    "BottomMargin": 30.312,
+                    "Tag": 1018,
+                    "ActionTag": -1880106112,
+                    "Size": {
+                      "X": 752.0,
+                      "Y": 1620.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/DDZ/rule/rule_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 447.4902,
+                      "Y": 1153.0349
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4972,
+                      "Y": 0.6946
+                    },
+                    "PreSize": {
+                      "X": 0.8356,
+                      "Y": 0.6018
+                    },
+                    "LeftMargin": 71.4902,
+                    "RightMargin": 76.5098,
+                    "TopMargin": 7.4651,
+                    "BottomMargin": 653.5349,
+                    "Tag": 1019,
+                    "ActionTag": -536945058,
+                    "Size": {
+                      "X": 752.0,
+                      "Y": 999.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/DDZ/rule/rule_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 444.7206,
+                      "Y": 1166.6477
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.7028
+                    },
+                    "PreSize": {
+                      "X": 0.8356,
+                      "Y": 0.5855
+                    },
+                    "LeftMargin": 68.7206,
+                    "RightMargin": 79.2794,
+                    "TopMargin": 7.3523,
+                    "BottomMargin": 680.6477,
+                    "Tag": 1020,
+                    "ActionTag": 614695255,
+                    "Size": {
+                      "X": 752.0,
+                      "Y": 972.0
+                    },
+                    "Name": "Image_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1138813446,
+                "Size": {
+                  "X": 900.0,
+                  "Y": 500.0
+                },
+                "Name": "CardList",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 1972616996,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/DDZ/rule/rule_1.png",
+        "../../Image/DDZ/rule/rule_2.png",
+        "../../Image/DDZ/rule/rule_3.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg_3.png",
+        "../../Node/PopBox_3.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,462 @@
+{
+  "ID": "866b491e-3fa4-4782-b9d6-90ef7bd268f6",
+  "Version": "2.3.4",
+  "Name": "SettingNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 428,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Common/Setting/img_GameUI_LeftTopBg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -150.0,
+            "TopMargin": -142.5,
+            "BottomMargin": -142.5,
+            "Tag": 429,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccdown_norma.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccdown_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccdown_norma.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 21,
+                "Scale9Height": 172,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 142.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.34,
+                  "Y": 0.6807
+                },
+                "LeftMargin": -51.0,
+                "RightMargin": 150.0,
+                "TopMargin": 45.5,
+                "BottomMargin": 45.5,
+                "Tag": 431,
+                "ActionTag": -2102152803,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 194.0
+                },
+                "Name": "OpenSetting",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccup_norma.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccup_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_ccup_norma.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 21,
+                "Scale9Height": 172,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 142.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.34,
+                  "Y": 0.6807
+                },
+                "RightMargin": 99.0,
+                "TopMargin": 45.5,
+                "BottomMargin": 45.5,
+                "Tag": 432,
+                "ActionTag": -1351597478,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 194.0
+                },
+                "VisibleForFrame": false,
+                "Name": "CloseSetting",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_quit_normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_quit_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_quit_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 75.0,
+                  "Y": 75.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2632
+                },
+                "PreSize": {
+                  "X": 0.4667,
+                  "Y": 0.2456
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 175.0,
+                "BottomMargin": 40.0,
+                "Tag": 433,
+                "ActionTag": -857537504,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "Exit",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_gb_normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_gb_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_gb_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 75.0,
+                  "Y": 210.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7368
+                },
+                "PreSize": {
+                  "X": 0.4667,
+                  "Y": 0.2456
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 40.0,
+                "BottomMargin": 175.0,
+                "Tag": 435,
+                "ActionTag": -985879712,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "VisibleForFrame": false,
+                "Name": "OpenVolumn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_kq_normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_kq_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Setting/button_yinliang_kq_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 75.0,
+                  "Y": 210.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7368
+                },
+                "PreSize": {
+                  "X": 0.4667,
+                  "Y": 0.2456
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 40.0,
+                "BottomMargin": 175.0,
+                "Tag": 436,
+                "ActionTag": -298775605,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "CloseVolumn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1822636401,
+            "Size": {
+              "X": 150.0,
+              "Y": 285.0
+            },
+            "Name": "Setting_Background",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/Common/Setting/button_ccdown_norma.png",
+        "../Image/Common/Setting/button_ccdown_selected.png",
+        "../Image/Common/Setting/button_ccup_norma.png",
+        "../Image/Common/Setting/button_ccup_selected.png",
+        "../Image/Common/Setting/button_quit_normal.png",
+        "../Image/Common/Setting/button_quit_selected.png",
+        "../Image/Common/Setting/button_yinliang_gb_normal.png",
+        "../Image/Common/Setting/button_yinliang_gb_selected.png",
+        "../Image/Common/Setting/button_yinliang_kq_normal.png",
+        "../Image/Common/Setting/button_yinliang_kq_selected.png",
+        "../Image/Common/Setting/img_GameUI_LeftTopBg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

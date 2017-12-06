@@ -1,7 +1,7 @@
 
 {
 	gl.supports_vertex_array_object: true
-	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.5 Release
+	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.1 Release
 	gl.vendor: Intel Inc.
 	gl.supports_PVRTC: false
 	gl.renderer: Intel(R) Iris(TM) Graphics 6100
@@ -9,7 +9,7 @@
 	gl.max_texture_size: 16384
 	gl.supports_ETC1: false
 	gl.supports_BGRA8888: false
-	cocos2d.x.build_type: DEBUG
+	cocos2d.x.build_type: RELEASE
 	gl.supports_discard_framebuffer: false
 	gl.supports_NPOT: true
 	gl.supports_S3TC: true
@@ -41,8 +41,8 @@ libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = EXACT_FIT
 [LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 1280.00
 [LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 720.00
-[LUA-print] [INFO] # display.widthInPixels        = 1160.00
-[LUA-print] [INFO] # display.heightInPixels       = 652.50
+[LUA-print] [INFO] # display.widthInPixels        = 1280.00
+[LUA-print] [INFO] # display.heightInPixels       = 720.00
 [LUA-print] [INFO] # display.contentScaleFactor   = 1.00
 [LUA-print] [INFO] # display.width                = 1280.00
 [LUA-print] [INFO] # display.height               = 720.00
@@ -57,138 +57,19 @@ libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [INFO] # display.c_top                = 360.00
 [LUA-print] [INFO] # display.c_bottom             = -360.00
 [LUA-print] [INFO] #
-[LUA-print] local net yeah
-[LUA-print] socket time:1512313631.9557
-[LUA-print] ini game data	table: 0x079831b8
-[LUA-print] end init game data
-[LUA-print] [INFO] GameState.load() - get values from "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/data.txt"
-[LUA-print] [INFO] CCSUILoader - createUINode:SingleNode
-[LUA-print] [INFO] CCSUILoader - createUINode:ImageView
-libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [INFO] CCSUILoader - createUINode:ImageView
-[LUA-print] [INFO] CCSUILoader - createUINode:ImageView
-[LUA-print] [INFO] CCSUILoader - createUINode:ImageView
-[LUA-print] [INFO] CCSUILoader - createUINode:TextField
-[LUA-print] [INFO] CCSUILoader - createUINode:Button
-[LUA-print] [INFO] CCSUILoader - createUINode:ImageView
-[LUA-print] [INFO] CCSUILoader - createUINode:CheckBox
-[LUA-print] LoginController	password
-[LUA-print] loginNet connectting
-[LUA-print] connected
-[LUA-print] base64 = 	2urBi2FKSog=
-[LUA-print] clientkey = 	4xstwtZTMDg=
-[LUA-print] sceret is 	3d7947cfe10c0650
-[LUA-print] Lu0001_mac	mac	password
-[LUA-print] 200 MA==
-[LUA-print] login ok, subid=	0
-[LUA-print] nil	password
-[LUA-print] someby call connect
-[LUA-print] close in loginNet
-[LUA-print] gate connected
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:147: in function 'call'
-[LUA-print] - "call Handshake 1" = {
-[LUA-print] -     "key" = "Lu0001_mac:3d7947cfe10c0650"
-[LUA-print] - }
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:191: in function <[string "app/net/GateNet.lua"]:178>
-[LUA-print] - "REQUEST ServerAddr" = {
-[LUA-print] -     "addrs" = {
-[LUA-print] -         1 = {
-[LUA-print] -             "addr" = 24
-[LUA-print] -             "name" = "db"
-[LUA-print] -         }
-[LUA-print] -     }
-[LUA-print] - }
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:114: in function <[string "app/net/GateNet.lua"]:109>
-[LUA-print] - "self.serverMap" = {
-[LUA-print] -     "db" = 24
-[LUA-print] - }
-[LUA-print] create PrivateRoomController
-[LUA-print] [INFO] CCSUILoader - createUINode:SingleNode
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:191: in function <[string "app/net/GateNet.lua"]:178>
-[LUA-print] - "RESPONSE 1" = {
-[LUA-print] -     "result" = "success"
-[LUA-print] - }
-[LUA-print] gate login success
-[LUA-print] dump from: [string "app/scenes/LobbyScene.lua"]:206: in function 'onEnter'
-[LUA-print] - "getAddr" = {
-[LUA-print] -     "addr" = 24
-[LUA-print] - }
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:147: in function 'call'
-[LUA-print] - "call UserInfo 2" = {
-[LUA-print] -     "addr" = 24
-[LUA-print] - }
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:147: in function 'call'
-[LUA-print] - "call TableList 3" = {
-[LUA-print] - }
-[LUA-print] ----------------------------------------
-[LUA-print] LUA ERROR: [string "app/scenes/LobbyScene.lua"]:212: attempt to index field 'createRoomBtn' (a nil value)
-
-[LUA-print] 
-stack traceback:
-	[string "app/scenes/LobbyScene.lua"]:212: in function 'onEnter'
-	[string "framework/cocos2dx/NodeEx.lua"]:143: in function 'listener_'
-	[string "framework/cocos2dx/NodeEx.lua"]:428: in function 'EventDispatcher'
-	[string "framework/cocos2dx/NodeEx.lua"]:271: in function <[string "framework/cocos2dx/NodeEx.lua"]:270>
-[LUA-print] ----------------------------------------
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:191: in function <[string "app/net/GateNet.lua"]:178>
-[LUA-print] - "RESPONSE 2" = {
-[LUA-print] -     "diamond"       = 2000
-[LUA-print] -     "dynamicpwd"    = "69418250"
-[LUA-print] -     "exp"           = 0
-[LUA-print] -     "gold"          = "20000"
-[LUA-print] -     "havesecondpwd" = 1
-[LUA-print] -     "honor"         = 0
-[LUA-print] -     "imageid"       = ""
-[LUA-print] -     "isbinding"     = 0
-[LUA-print] -     "money"         = 0
-[LUA-print] -     "nickname"      = "用户00080579"
-[LUA-print] -     "sex"           = 1
-[LUA-print] -     "uid"           = 80579
-[LUA-print] -     "vipexp"        = 0
-[LUA-print] -     "viptype"       = 0
-[LUA-print] - }
-[LUA-print] dump from: [string "app/scenes/LobbyScene.lua"]:119: in function <[string "app/scenes/LobbyScene.lua"]:118>
-[LUA-print] - "showUserinfo" = {
-[LUA-print] -     "diamond"       = 2000
-[LUA-print] -     "dynamicpwd"    = "69418250"
-[LUA-print] -     "exp"           = 0
-[LUA-print] -     "gold"          = "20000"
-[LUA-print] -     "havesecondpwd" = 1
-[LUA-print] -     "honor"         = 0
-[LUA-print] -     "imageid"       = ""
-[LUA-print] -     "isbinding"     = 0
-[LUA-print] -     "money"         = 0
-[LUA-print] -     "nickname"      = "用户00080579"
-[LUA-print] -     "sex"           = 1
-[LUA-print] -     "uid"           = 80579
-[LUA-print] -     "vipexp"        = 0
-[LUA-print] -     "viptype"       = 0
-[LUA-print] - }
-[LUA-print] ----------------------------------------
-[LUA-print] LUA ERROR: [string "app/scenes/LobbyScene.lua"]:128: attempt to index a nil value
-
-[LUA-print] 
-stack traceback:
-	[string "app/scenes/LobbyScene.lua"]:128: in function 'setDiamond'
-	[string "app/scenes/LobbyScene.lua"]:122: in function <[string "app/scenes/LobbyScene.lua"]:118>
-	[string "app/net/GateNet.lua"]:194: in function <[string "app/net/GateNet.lua"]:178>
-	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function 'dispatchEvent'
-	[string "framework/cc/net/SocketTCP.lua"]:160: in function <[string "framework/cc/net/SocketTCP.lua"]:144>
-[LUA-print] ----------------------------------------
-[LUA-print] dump from: [string "app/net/GateNet.lua"]:191: in function <[string "app/net/GateNet.lua"]:178>
-[LUA-print] - "RESPONSE 3" = {
-[LUA-print] -     "tables" = {
-[LUA-print] -     }
-[LUA-print] - }
-[LUA-print] call failed session = 	2
-[LUA-print] dump from: [string "app/scenes/LobbyScene.lua"]:119: in function <[string "app/scenes/LobbyScene.lua"]:118>
-[LUA-print] - "showUserinfo" = nil
-[LUA-print] ----------------------------------------
-[LUA-print] LUA ERROR: [string "app/scenes/LobbyScene.lua"]:122: attempt to index local 'userInfo' (a nil value)
-
-[LUA-print] 
-stack traceback:
-	[string "app/scenes/LobbyScene.lua"]:122: in function <[string "app/scenes/LobbyScene.lua"]:118>
-	[string "app/net/GateNet.lua"]:151: in function 'listener'
-	[string "framework/scheduler.lua"]:141: in function <[string "framework/scheduler.lua"]:139>
-[LUA-print] ----------------------------------------
+can not get file data of src/framework/protobuf/sproto/core.lua
+[LUA ERROR] [string "sproto.lua"]:1: module 'sproto.core' not found:
+	no field package.preload['sproto.core']
+	no file './sproto/core.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta2/sproto/core.lua'
+	no file '/usr/local/share/lua/5.1/sproto/core.lua'
+	no file '/usr/local/share/lua/5.1/sproto/core/init.lua'
+	no file '/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/src/sproto/core.lua'
+	no file 'src/sproto/core.lua'
+	no file 'src/framework/protobuf/sproto/core.lua'
+	no file './sproto/core.so'
+	no file '/usr/local/lib/lua/5.1/sproto/core.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './sproto.so'
+	no file '/usr/local/lib/lua/5.1/sproto.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'

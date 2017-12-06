@@ -1,0 +1,329 @@
+{
+  "ID": "fbdc2aad-4aa4-4ec8-b887-91f21aa792f8",
+  "Version": "2.3.4",
+  "Name": "FriendRequestLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/ChatFriend/img_ChatBg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 195,
+            "Scale9OriginY": 237,
+            "Scale9Width": 259,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.507,
+              "Y": 1.0
+            },
+            "LeftMargin": 1280.0,
+            "RightMargin": -649.0,
+            "Tag": 487,
+            "Children": [
+              {
+                "DirectionType": "Vertical",
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 59.0,
+                  "Y": 115.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0909,
+                  "Y": 0.1597
+                },
+                "PreSize": {
+                  "X": 0.886,
+                  "Y": 0.7222
+                },
+                "LeftMargin": 59.0,
+                "RightMargin": 15.0,
+                "TopMargin": 85.0,
+                "BottomMargin": 115.0,
+                "Tag": 585,
+                "ActionTag": 120504585,
+                "Size": {
+                  "X": 575.0,
+                  "Y": 520.0
+                },
+                "Name": "ListView_ShowFriend",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_SureReq2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_SureReq1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 145,
+                "Scale9Height": 50,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 143.0,
+                  "Y": 59.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2203,
+                  "Y": 0.0819
+                },
+                "PreSize": {
+                  "X": 0.2696,
+                  "Y": 0.1
+                },
+                "LeftMargin": 55.5,
+                "RightMargin": 418.5,
+                "TopMargin": 625.0,
+                "BottomMargin": 23.0,
+                "Tag": 89,
+                "ActionTag": 1448913705,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 72.0
+                },
+                "Name": "Button_ReqOk",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_WReq2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_WReq1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 293,
+                "Scale9Height": 50,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 459.0,
+                  "Y": 59.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7072,
+                  "Y": 0.0819
+                },
+                "PreSize": {
+                  "X": 0.4977,
+                  "Y": 0.1
+                },
+                "LeftMargin": 297.5,
+                "RightMargin": 28.5,
+                "TopMargin": 625.0,
+                "BottomMargin": 23.0,
+                "Tag": 90,
+                "ActionTag": 1419917989,
+                "Size": {
+                  "X": 323.0,
+                  "Y": 72.0
+                },
+                "Name": "Button_ReqWchat",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_ReqTitle.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 10,
+                "Scale9Width": 46,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 327.0,
+                  "Y": 677.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5039,
+                  "Y": 0.9403
+                },
+                "PreSize": {
+                  "X": 0.2034,
+                  "Y": 0.0444
+                },
+                "LeftMargin": 261.0,
+                "RightMargin": 256.0,
+                "TopMargin": 27.0,
+                "BottomMargin": 661.0,
+                "Tag": 122,
+                "ActionTag": -323522127,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 32.0
+                },
+                "Name": "Image_5",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -985314581,
+            "Size": {
+              "X": 649.0,
+              "Y": 720.0
+            },
+            "Name": "Image_ShowFriend",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Image/ChatFriend/btn_SureReq1.png",
+        "../../Image/ChatFriend/btn_SureReq2.png",
+        "../../Image/ChatFriend/btn_WReq1.png",
+        "../../Image/ChatFriend/btn_WReq2.png",
+        "../../Image/ChatFriend/img_ChatBg.png",
+        "../../Image/ChatFriend/img_ReqTitle.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

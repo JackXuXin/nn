@@ -1,0 +1,578 @@
+{
+  "ID": "b05c70ed-cad4-478e-b777-3929c9dd4f36",
+  "Version": "2.3.4",
+  "Name": "RuleLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 89,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 95,
+            "ActionTag": 701880315,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 101,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 391,
+                "Scale9Height": 210,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -26.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -471.5,
+                "RightMargin": -471.5,
+                "TopMargin": -242.4,
+                "BottomMargin": -295.6,
+                "Tag": 465,
+                "ActionTag": -1329989924,
+                "Size": {
+                  "X": 943.0,
+                  "Y": 538.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/ruleImg/img_RuleBg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3884,
+                  "Y": -27.2758
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -469.1116,
+                "RightMargin": -469.8884,
+                "TopMargin": -239.7242,
+                "BottomMargin": -294.2758,
+                "Tag": 209,
+                "ActionTag": 1392700711,
+                "Size": {
+                  "X": 939.0,
+                  "Y": 534.0
+                },
+                "Name": "img_RuleBg_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 223,
+                  "Height": 510
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": false,
+                "BackColorAlpha": 128,
+                "SingleColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -70,
+                "Scale9OriginY": -164,
+                "Scale9Width": 140,
+                "Scale9Height": 328,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -469.77,
+                  "Y": -279.108
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -469.77,
+                "RightMargin": 246.77,
+                "TopMargin": -230.892,
+                "BottomMargin": -279.108,
+                "Tag": 234,
+                "ActionTag": 174220480,
+                "Size": {
+                  "X": 223.0,
+                  "Y": 510.0
+                },
+                "Name": "GameList",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -236.5869,
+                  "Y": -287.4136
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -236.5869,
+                "RightMargin": -463.4131,
+                "TopMargin": -232.5864,
+                "BottomMargin": -287.4136,
+                "Tag": 236,
+                "ActionTag": -540988992,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 520.0
+                },
+                "Name": "Panel_4",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 700,
+                  "Height": 1270
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 128,
+                "SingleColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -70,
+                "Scale9OriginY": -164,
+                "Scale9Width": 140,
+                "Scale9Height": 328,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -233.9178,
+                  "Y": -287.8699
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -233.9178,
+                "RightMargin": -466.0822,
+                "TopMargin": -186.1301,
+                "BottomMargin": -287.8699,
+                "Tag": 240,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/ruleImg/img_CardContent.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 347.2342,
+                      "Y": 641.7516
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.496,
+                      "Y": 0.5053
+                    },
+                    "PreSize": {
+                      "X": 0.9143,
+                      "Y": 0.9906
+                    },
+                    "LeftMargin": 27.2342,
+                    "RightMargin": 32.7658,
+                    "TopMargin": -0.7516,
+                    "BottomMargin": 12.7516,
+                    "Tag": 241,
+                    "ActionTag": -198369971,
+                    "Size": {
+                      "X": 640.0,
+                      "Y": 1258.0
+                    },
+                    "Name": "img_CardContent",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 696452460,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 474.0
+                },
+                "Name": "CardList",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 700,
+                  "Height": 1435
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 128,
+                "SingleColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -70,
+                "Scale9OriginY": -164,
+                "Scale9Width": 140,
+                "Scale9Height": 328,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -231.9186,
+                  "Y": -287.8698
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -231.9186,
+                "RightMargin": -468.0814,
+                "TopMargin": -186.1302,
+                "BottomMargin": -287.8698,
+                "Tag": 256,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/ruleImg/img_KyContent.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 349.6595,
+                      "Y": 1411.65
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4995,
+                      "Y": 0.9837
+                    },
+                    "PreSize": {
+                      "X": 0.9814,
+                      "Y": 0.2174
+                    },
+                    "LeftMargin": 6.1595,
+                    "RightMargin": 6.8405,
+                    "TopMargin": 23.35,
+                    "BottomMargin": 1099.65,
+                    "Tag": 259,
+                    "ActionTag": -926815858,
+                    "Size": {
+                      "X": 687.0,
+                      "Y": 312.0
+                    },
+                    "Name": "img_RuleContent",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -294915078,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 474.0
+                },
+                "Name": "RuleList",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/ruleImg/img_PlayContent.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.4814,
+                  "Y": -11.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -233.5186,
+                "RightMargin": -460.4814,
+                "TopMargin": -162.9,
+                "BottomMargin": -186.1,
+                "Tag": 258,
+                "ActionTag": -1497162803,
+                "Size": {
+                  "X": 694.0,
+                  "Y": 349.0
+                },
+                "Name": "img_PlayContent",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1002180898,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Lobby/ruleImg/img_CardContent.png",
+        "../../Image/Lobby/ruleImg/img_KyContent.png",
+        "../../Image/Lobby/ruleImg/img_PlayContent.png",
+        "../../Image/Lobby/ruleImg/img_RuleBg.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Node/PopBox.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,933 @@
+{
+  "ID": "cd27b8e0-a16c-4815-8867-d2e0511819eb",
+  "Version": "2.3.4",
+  "Name": "GuideLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 403,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 361.008
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -1.008,
+            "BottomMargin": 1.008,
+            "Tag": 407,
+            "ActionTag": -277299751,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1002.0,
+              "Y": 489.8125
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7828,
+              "Y": 0.6803
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.2778
+            },
+            "LeftMargin": 902.0,
+            "RightMargin": 178.0,
+            "TopMargin": 130.1875,
+            "BottomMargin": 389.8125,
+            "Tag": 134,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 83,
+                "Scale9Height": 38,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.565,
+                  "Y": 0.3
+                },
+                "LeftMargin": 43.5,
+                "RightMargin": 43.5,
+                "TopMargin": 70.0,
+                "BottomMargin": 70.0,
+                "Tag": 428,
+                "ActionTag": 1423495059,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 60.0
+                },
+                "Name": "Btn_FreeGold",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 82,
+                "Scale9OriginY": 40,
+                "Scale9Width": 85,
+                "Scale9Height": 44,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -26.0,
+                  "Y": 201.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.13,
+                  "Y": 1.005
+                },
+                "PreSize": {
+                  "X": 1.245,
+                  "Y": 0.62
+                },
+                "LeftMargin": -150.5,
+                "RightMargin": 101.5,
+                "TopMargin": -63.0,
+                "BottomMargin": 139.0,
+                "Tag": 422,
+                "ActionTag": -698067953,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 124.0
+                },
+                "Name": "Img_GuideShow1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 166.0,
+                  "Y": 168.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.83,
+                  "Y": 0.84
+                },
+                "PreSize": {
+                  "X": 0.425,
+                  "Y": 0.37
+                },
+                "LeftMargin": 123.5,
+                "RightMargin": -8.5,
+                "TopMargin": -5.0,
+                "BottomMargin": 131.0,
+                "Tag": 425,
+                "ActionTag": -260224904,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 74.0
+                },
+                "Name": "Sprite_Hand",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 171765134,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Pnl_FreeGold",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1015.0,
+              "Y": 125.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.793,
+              "Y": 0.1736
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.2778
+            },
+            "LeftMargin": 915.0,
+            "RightMargin": 165.0,
+            "TopMargin": 495.0,
+            "BottomMargin": 25.0,
+            "Tag": 135,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 81,
+                "Scale9Height": 32,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.555,
+                  "Y": 0.27
+                },
+                "LeftMargin": 44.5,
+                "RightMargin": 44.5,
+                "TopMargin": 73.0,
+                "BottomMargin": 73.0,
+                "Tag": 430,
+                "ActionTag": 391038869,
+                "Size": {
+                  "X": 111.0,
+                  "Y": 54.0
+                },
+                "Name": "Btn_Honor",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FlipX": true,
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 28.0,
+                  "Y": 170.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.14,
+                  "Y": 0.85
+                },
+                "PreSize": {
+                  "X": 0.425,
+                  "Y": 0.37
+                },
+                "LeftMargin": -14.5,
+                "RightMargin": 129.5,
+                "TopMargin": -7.0,
+                "BottomMargin": 133.0,
+                "Tag": 429,
+                "ActionTag": -1543069359,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 74.0
+                },
+                "Name": "Sprite_Hand_D",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 82,
+                "Scale9OriginY": 40,
+                "Scale9Width": 85,
+                "Scale9Height": 44,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 217.0,
+                  "Y": 201.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.085,
+                  "Y": 1.005
+                },
+                "PreSize": {
+                  "X": 1.245,
+                  "Y": 0.62
+                },
+                "LeftMargin": 92.5,
+                "RightMargin": -141.5,
+                "TopMargin": -63.0,
+                "BottomMargin": 139.0,
+                "Tag": 423,
+                "ActionTag": 1134803211,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 124.0
+                },
+                "Name": "Img_GuideShow2",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -985670442,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Pnl_Honor",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 572.0,
+              "Y": 453.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4469,
+              "Y": 0.6292
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.2778
+            },
+            "LeftMargin": 472.0,
+            "RightMargin": 608.0,
+            "TopMargin": 167.0,
+            "BottomMargin": 353.0,
+            "Tag": 136,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/btn_sign_now_2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/btn_sign_now_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/btn_sign_now_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 171,
+                "Scale9Height": 53,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.005,
+                  "Y": 0.375
+                },
+                "LeftMargin": -0.5,
+                "RightMargin": -0.5,
+                "TopMargin": 62.5,
+                "BottomMargin": 62.5,
+                "Tag": 521,
+                "ActionTag": -1718192646,
+                "Size": {
+                  "X": 201.0,
+                  "Y": 75.0
+                },
+                "Name": "Btn_Sign",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.7824,
+                  "ScaleY": 0.4814
+                },
+                "Position": {
+                  "X": 219.0,
+                  "Y": 46.6251
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.095,
+                  "Y": 0.2331
+                },
+                "PreSize": {
+                  "X": 0.425,
+                  "Y": 0.37
+                },
+                "LeftMargin": 152.496,
+                "RightMargin": -37.496,
+                "TopMargin": 114.9985,
+                "BottomMargin": 11.0015,
+                "Tag": 522,
+                "ActionTag": -387856955,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 74.0
+                },
+                "Name": "Sprite_Hand",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1969609365,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Pnl_Sign",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 277.0,
+              "Y": 284.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2164,
+              "Y": 0.3944
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.2778
+            },
+            "LeftMargin": 177.0,
+            "RightMargin": 903.0,
+            "TopMargin": 336.0,
+            "BottomMargin": 184.0,
+            "Tag": 137,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_0.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 97,
+                "Scale9Height": 18,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.635,
+                  "Y": 0.2
+                },
+                "LeftMargin": 36.5,
+                "RightMargin": 36.5,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 523,
+                "ActionTag": -797570860,
+                "Size": {
+                  "X": 127.0,
+                  "Y": 40.0
+                },
+                "Name": "Btn_Bind",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5824,
+                  "ScaleY": 0.6357
+                },
+                "Position": {
+                  "X": 183.0,
+                  "Y": 60.0419
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.915,
+                  "Y": 0.3002
+                },
+                "PreSize": {
+                  "X": 0.425,
+                  "Y": 0.37
+                },
+                "LeftMargin": 133.496,
+                "RightMargin": -18.496,
+                "TopMargin": 112.9999,
+                "BottomMargin": 13.0001,
+                "Tag": 524,
+                "ActionTag": -1274597066,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 74.0
+                },
+                "Name": "Sprite_Hand",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 82,
+                "Scale9OriginY": 40,
+                "Scale9Width": 85,
+                "Scale9Height": 44,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -15.0,
+                  "Y": 19.0006
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.075,
+                  "Y": 0.095
+                },
+                "PreSize": {
+                  "X": 1.245,
+                  "Y": 0.62
+                },
+                "LeftMargin": -139.5,
+                "RightMargin": 90.5,
+                "TopMargin": 118.9994,
+                "BottomMargin": -42.9994,
+                "Tag": 424,
+                "ActionTag": 1303337910,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 124.0
+                },
+                "Name": "Img_GuideShow3",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1653080488,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Pnl_Bind",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Default/ImageFile.png",
+        "../../Default/Sprite.png",
+        "../../Image/FreeGold/btn_sign_now_0.png",
+        "../../Image/FreeGold/btn_sign_now_1.png",
+        "../../Image/FreeGold/btn_sign_now_2.png",
+        "../../Image/HonorLayer/bind_0.png",
+        "../../Image/HonorLayer/bind_1.png",
+        "../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

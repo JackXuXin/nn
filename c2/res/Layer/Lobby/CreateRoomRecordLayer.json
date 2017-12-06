@@ -1,0 +1,126 @@
+{
+  "ID": "143cd12e-bc2d-44c4-8e54-029999adc59d",
+  "Version": "2.3.4",
+  "Name": "CreateRoomRecordLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1001,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/img_record_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 227.6901,
+              "Y": 81.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1779,
+              "Y": 0.1132
+            },
+            "PreSize": {
+              "X": 0.7336,
+              "Y": 0.7417
+            },
+            "LeftMargin": 227.6901,
+            "RightMargin": 113.3099,
+            "TopMargin": 104.5,
+            "BottomMargin": 81.5,
+            "Tag": 1008,
+            "ActionTag": 618575244,
+            "Size": {
+              "X": 939.0,
+              "Y": 534.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "DirectionType": "Vertical",
+            "ScrollDirectionType": 0,
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 150
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 226.9501,
+              "Y": 110.1
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1773,
+              "Y": 0.1529
+            },
+            "PreSize": {
+              "X": 0.1773,
+              "Y": 0.6861
+            },
+            "LeftMargin": 226.9501,
+            "RightMargin": 826.0499,
+            "TopMargin": 115.9,
+            "BottomMargin": 110.1,
+            "Tag": 1004,
+            "ActionTag": -1229483760,
+            "Size": {
+              "X": 227.0,
+              "Y": 494.0
+            },
+            "Name": "MenuList",
+            "ctype": "ListViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/PrivateRoom/img_record_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

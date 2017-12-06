@@ -1,0 +1,1045 @@
+{
+  "ID": "9397dfd3-14ab-4d89-8e2f-b748a15fc56b",
+  "Version": "2.3.4",
+  "Name": "ResultLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 762,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 763,
+            "ActionTag": 1313540777,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Image_Result_Bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7094,
+              "Y": 0.5667
+            },
+            "LeftMargin": 186.0,
+            "RightMargin": 186.0,
+            "TopMargin": 156.0,
+            "BottomMargin": 156.0,
+            "Tag": 85,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_btn_guanbi.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_btn_guanbi.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_btn_guanbi.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 4,
+                "Scale9Height": 12,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.599,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9698,
+                  "Y": 0.8824
+                },
+                "PreSize": {
+                  "X": 0.0374,
+                  "Y": 0.0833
+                },
+                "LeftMargin": 863.599,
+                "RightMargin": 10.401,
+                "TopMargin": 31.0,
+                "BottomMargin": 343.0,
+                "Tag": 87,
+                "ActionTag": 2126566119,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 34.0
+                },
+                "Name": "Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Image_Result_Player.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 567.0,
+                  "Y": 225.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6244,
+                  "Y": 0.5515
+                },
+                "PreSize": {
+                  "X": 0.1278,
+                  "Y": 0.2157
+                },
+                "LeftMargin": 567.0,
+                "RightMargin": 225.0,
+                "TopMargin": 139.0,
+                "BottomMargin": 181.0,
+                "Tag": 88,
+                "ActionTag": -1236376510,
+                "Size": {
+                  "X": 116.0,
+                  "Y": 88.0
+                },
+                "Name": "Image_Result_Player_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "111",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.0,
+                  "Y": 250.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 247,
+                  "B": 84
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9692,
+                  "Y": 0.6127
+                },
+                "PreSize": {
+                  "X": 0.0474,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 837.0,
+                "RightMargin": 28.0,
+                "TopMargin": 142.0,
+                "BottomMargin": 234.0,
+                "Tag": 90,
+                "ActionTag": 302824387,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 32.0
+                },
+                "Name": "Player_Bet",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "111",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.0,
+                  "Y": 195.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 247,
+                  "B": 84
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9692,
+                  "Y": 0.4779
+                },
+                "PreSize": {
+                  "X": 0.0474,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 837.0,
+                "RightMargin": 28.0,
+                "TopMargin": 197.0,
+                "BottomMargin": 179.0,
+                "Tag": 91,
+                "ActionTag": -1408562386,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 32.0
+                },
+                "Name": "Player_Result",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Image_Result_Banker.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 567.0,
+                  "Y": 110.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6244,
+                  "Y": 0.2696
+                },
+                "PreSize": {
+                  "X": 0.1278,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 567.0,
+                "RightMargin": 225.0,
+                "TopMargin": 282.0,
+                "BottomMargin": 94.0,
+                "Tag": 89,
+                "ActionTag": -1317966777,
+                "Size": {
+                  "X": 116.0,
+                  "Y": 32.0
+                },
+                "Name": "Image_Result_Banker_12",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "111",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.0,
+                  "Y": 110.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9692,
+                  "Y": 0.2696
+                },
+                "PreSize": {
+                  "X": 0.0474,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 837.0,
+                "RightMargin": 28.0,
+                "TopMargin": 282.0,
+                "BottomMargin": 94.0,
+                "Tag": 92,
+                "ActionTag": 377140737,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 32.0
+                },
+                "Name": "Banker_Result",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "1   哈哈",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.0,
+                  "Y": 275.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 247,
+                  "B": 84
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0165,
+                  "Y": 0.674
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": 798.0,
+                "TopMargin": 117.0,
+                "BottomMargin": 259.0,
+                "Tag": 93,
+                "ActionTag": 1901902293,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Name_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "gold1",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 275.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 247,
+                  "B": 84
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5507,
+                  "Y": 0.674
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 431.0,
+                "RightMargin": 408.0,
+                "TopMargin": 117.0,
+                "BottomMargin": 259.0,
+                "Tag": 99,
+                "ActionTag": -1171416627,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Gold_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "2   哈哈",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0165,
+                  "Y": 0.5539
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": 798.0,
+                "TopMargin": 166.0,
+                "BottomMargin": 210.0,
+                "Tag": 95,
+                "ActionTag": 1455725601,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Name_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "gold2",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5507,
+                  "Y": 0.5539
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 431.0,
+                "RightMargin": 408.0,
+                "TopMargin": 166.0,
+                "BottomMargin": 210.0,
+                "Tag": 100,
+                "ActionTag": -396191852,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Gold_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "3   哈哈",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.0,
+                  "Y": 177.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0165,
+                  "Y": 0.4338
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": 798.0,
+                "TopMargin": 215.0,
+                "BottomMargin": 161.0,
+                "Tag": 96,
+                "ActionTag": 2101862122,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Name_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "gold3",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 177.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5507,
+                  "Y": 0.4338
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 431.0,
+                "RightMargin": 408.0,
+                "TopMargin": 215.0,
+                "BottomMargin": 161.0,
+                "Tag": 101,
+                "ActionTag": 2055089563,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Gold_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "4   哈哈",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.0,
+                  "Y": 128.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0165,
+                  "Y": 0.3137
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": 798.0,
+                "TopMargin": 264.0,
+                "BottomMargin": 112.0,
+                "Tag": 97,
+                "ActionTag": 1958368328,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Name_4",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "gold4",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 128.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5507,
+                  "Y": 0.3137
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 431.0,
+                "RightMargin": 408.0,
+                "TopMargin": 264.0,
+                "BottomMargin": 112.0,
+                "Tag": 102,
+                "ActionTag": 642111551,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Gold_4",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "5   哈哈",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.0,
+                  "Y": 79.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0165,
+                  "Y": 0.1936
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": 798.0,
+                "TopMargin": 313.0,
+                "BottomMargin": 63.0,
+                "Tag": 98,
+                "ActionTag": 1553164902,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Name_5",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "gold5",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 79.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 93,
+                  "G": 190,
+                  "B": 247
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5507,
+                  "Y": 0.1936
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.0784
+                },
+                "LeftMargin": 431.0,
+                "RightMargin": 408.0,
+                "TopMargin": 313.0,
+                "BottomMargin": 63.0,
+                "Tag": 103,
+                "ActionTag": 1964346044,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 32.0
+                },
+                "Name": "Result_Rank_Gold_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -197374292,
+            "Size": {
+              "X": 908.0,
+              "Y": 408.0
+            },
+            "Name": "ResultBackground",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Share/end/fenxiang1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Share/end/fenxiang2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Share/end/fenxiang1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 78,
+            "Scale9Height": 170,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0609,
+              "Y": 0.2361
+            },
+            "RightMargin": 1202.0,
+            "TopMargin": 275.0,
+            "BottomMargin": 275.0,
+            "Tag": 86,
+            "ActionTag": -359129567,
+            "Size": {
+              "X": 78.0,
+              "Y": 170.0
+            },
+            "Name": "Share",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Image/BRNN/bairen_btn_guanbi.png",
+        "../../../Image/BRNN/Image_Result_Banker.png",
+        "../../../Image/BRNN/Image_Result_Bg.png",
+        "../../../Image/BRNN/Image_Result_Player.png",
+        "../../../Image/Public/Tips_Body_Square.png",
+        "../../../Image/Share/end/fenxiang1.png",
+        "../../../Image/Share/end/fenxiang2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

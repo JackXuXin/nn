@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ysf_common_dialog_unicorn_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ysf_common_dialog_tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="内容"
+            android:textColor="@color/ysf_black_000000"
+            android:textSize="@dimen/ysf_dialog_normal_text_size" />
+
+        <include layout="@layout/ysf_include_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ysf_common_dialog_btn_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ysf_common_dialog_unicorn_btn_left_bg_selector"
+                android:text="确定"
+                android:textColor="@color/ysf_blue_61a7ea"
+                android:textSize="@dimen/ysf_dialog_big_text_size" />
+
+            <View
+                android:id="@+id/ysf_common_dialog_btn_divider"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/ysf_gray_ececec" />
+
+            <Button
+                android:id="@+id/ysf_common_dialog_btn_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ysf_common_dialog_unicorn_btn_right_bg_selector"
+                android:text="取消"
+                android:textColor="@color/ysf_blue_61a7ea"
+                android:textSize="@dimen/ysf_dialog_big_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,374 @@
+{
+  "ID": "4f94a203-1377-484f-8f71-4edc0bc63c05",
+  "Version": "2.3.4",
+  "Name": "TipHua3",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 104,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -200.0,
+            "TopMargin": -200.0,
+            "Tag": 268,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HuaTip/img_huaBg2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 82,
+                "Scale9OriginY": 58,
+                "Scale9Width": 85,
+                "Scale9Height": 60,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.2387
+                },
+                "Position": {
+                  "X": -42.9619,
+                  "Y": 18.499
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.2148,
+                  "Y": 0.0925
+                },
+                "PreSize": {
+                  "X": 1.245,
+                  "Y": 0.88
+                },
+                "LeftMargin": -291.9619,
+                "RightMargin": 242.9619,
+                "TopMargin": 47.5122,
+                "BottomMargin": -23.5122,
+                "Tag": 191,
+                "ActionTag": -1146708467,
+                "Size": {
+                  "X": 249.0,
+                  "Y": 176.0
+                },
+                "Name": "Body_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -25.08,
+                  "Y": 19.0419
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1254,
+                  "Y": 0.0952
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.3
+                },
+                "LeftMargin": -75.08,
+                "RightMargin": 175.08,
+                "TopMargin": 150.9581,
+                "BottomMargin": -10.9581,
+                "Tag": 192,
+                "ActionTag": -2008369758,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 60.0
+                },
+                "Alpha": 0,
+                "Name": "Button_Hua",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HuaTip/img_hua.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HuaTip/img_hua.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 11,
+                "Scale9Width": 10,
+                "Scale9Height": 4,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -24.82,
+                  "Y": 17.51
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1241,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.14,
+                  "Y": 0.13
+                },
+                "LeftMargin": -38.82,
+                "RightMargin": 210.82,
+                "TopMargin": 169.49,
+                "BottomMargin": 4.51,
+                "Tag": 330,
+                "ActionTag": 155154761,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 26.0
+                },
+                "Name": "Button_Hua_0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "CharWidth": 20,
+                "CharHeight": 22,
+                "LabelText": "20",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/HuaTip/img_HuaNum.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 9.8489,
+                  "Y": 17.5076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0492,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.11
+                },
+                "LeftMargin": 9.8489,
+                "RightMargin": 150.1511,
+                "TopMargin": 171.4924,
+                "BottomMargin": 6.5076,
+                "Tag": 194,
+                "ActionTag": 2129497307,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 22.0
+                },
+                "Name": "hua_Num",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HuaTip/img_HuaX.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3405,
+                  "Y": 17.5076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0017,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.1,
+                  "Y": 0.11
+                },
+                "LeftMargin": -9.6595,
+                "RightMargin": 189.6595,
+                "TopMargin": 171.4924,
+                "BottomMargin": 6.5076,
+                "Tag": 195,
+                "ActionTag": 786797481,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 22.0
+                },
+                "Name": "img_HuaX_18",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1057339467,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_Up",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Button_Normal.png",
+        "../Default/Button_Press.png",
+        "../Image/HuaTip/img_hua.png",
+        "../Image/HuaTip/img_huaBg2.png",
+        "../Image/HuaTip/img_HuaNum.png",
+        "../Image/HuaTip/img_HuaX.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

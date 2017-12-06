@@ -1,0 +1,2210 @@
+{
+  "ID": "987a3f8f-e6d7-4694-b806-e0b2144bedd7",
+  "Version": "2.3.4",
+  "Name": "BankerLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 444,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1136,
+            "Scale9Height": 854,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 693,
+            "ActionTag": 372066841,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_pailu01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_pailu02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_pailu01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 660.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0469,
+              "Y": 0.9167
+            },
+            "PreSize": {
+              "X": 0.0594,
+              "Y": 0.1056
+            },
+            "LeftMargin": 22.0,
+            "RightMargin": 1182.0,
+            "TopMargin": 22.0,
+            "BottomMargin": 622.0,
+            "Tag": 620,
+            "ActionTag": -1631747797,
+            "Size": {
+              "X": 76.0,
+              "Y": 76.0
+            },
+            "Name": "History",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_wanjialiebiao01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_wanjialiebiao02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_wanjialiebiao01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 158.0,
+              "Y": 660.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1234,
+              "Y": 0.9167
+            },
+            "PreSize": {
+              "X": 0.0594,
+              "Y": 0.1056
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": 1084.0,
+            "TopMargin": 22.0,
+            "BottomMargin": 622.0,
+            "Tag": 621,
+            "ActionTag": -1316508049,
+            "Size": {
+              "X": 76.0,
+              "Y": 76.0
+            },
+            "Name": "Rank",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_liaotiananniu01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_liaotiananniu02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_liaotiananniu01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 256.0,
+              "Y": 660.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2,
+              "Y": 0.9167
+            },
+            "PreSize": {
+              "X": 0.0594,
+              "Y": 0.1056
+            },
+            "LeftMargin": 218.0,
+            "RightMargin": 986.0,
+            "TopMargin": 22.0,
+            "BottomMargin": 622.0,
+            "Tag": 622,
+            "ActionTag": 1237788706,
+            "Size": {
+              "X": 76.0,
+              "Y": 76.0
+            },
+            "Name": "Help",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/bairen_popup_zhuangjia.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.2242,
+              "Y": 0.1931
+            },
+            "LeftMargin": 993.0,
+            "BottomMargin": 581.0,
+            "Tag": 625,
+            "Children": [
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 166.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5784,
+                  "Y": 0.5755
+                },
+                "PreSize": {
+                  "X": 0.3833,
+                  "Y": 0.1439
+                },
+                "LeftMargin": 166.0,
+                "RightMargin": 11.0,
+                "TopMargin": 39.0,
+                "BottomMargin": 80.0,
+                "Tag": 627,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "LabelText": "name",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 94,
+                      "G": 10,
+                      "B": 10
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3273,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 74.0,
+                    "Tag": 626,
+                    "ActionTag": -60882338,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 20.0
+                    },
+                    "Name": "BankerName",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2027784965,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_BankerName",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 166.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5784,
+                  "Y": 0.3597
+                },
+                "PreSize": {
+                  "X": 0.3833,
+                  "Y": 0.1439
+                },
+                "LeftMargin": 166.0,
+                "RightMargin": 11.0,
+                "TopMargin": 69.0,
+                "BottomMargin": 50.0,
+                "Tag": 628,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "LabelText": "gold",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 94,
+                      "G": 10,
+                      "B": 10
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.2455,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 83.0,
+                    "Tag": 629,
+                    "ActionTag": 360588635,
+                    "Size": {
+                      "X": 27.0,
+                      "Y": 20.0
+                    },
+                    "Name": "BankerGold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1315742433,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_BankerGold",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 166.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5784,
+                  "Y": 0.1439
+                },
+                "PreSize": {
+                  "X": 0.3833,
+                  "Y": 0.1439
+                },
+                "LeftMargin": 166.0,
+                "RightMargin": 11.0,
+                "TopMargin": 99.0,
+                "BottomMargin": 20.0,
+                "Tag": 630,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "LabelText": "record",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 94,
+                      "G": 10,
+                      "B": 10
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3636,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 70.0,
+                    "Tag": 631,
+                    "ActionTag": 191765957,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 20.0
+                    },
+                    "Name": "BankerRecord",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 224739227,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_BankerRecord",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 63.5,
+                  "Y": 67.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2213,
+                  "Y": 0.482
+                },
+                "PreSize": {
+                  "X": 0.2997,
+                  "Y": 0.6187
+                },
+                "LeftMargin": 20.5,
+                "RightMargin": 180.5,
+                "TopMargin": 29.0,
+                "BottomMargin": 24.0,
+                "Tag": 632,
+                "ActionTag": 195295276,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 86.0
+                },
+                "Name": "BankerAvatar",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1891115175,
+            "Size": {
+              "X": 287.0,
+              "Y": 139.0
+            },
+            "Name": "Banker_Info",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/BankerImage.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1694
+            },
+            "TopMargin": 598.0,
+            "Tag": 633,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Banker/bankerShade.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 698,
+                "ActionTag": -145775686,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 122.0
+                },
+                "Name": "Bottom2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/game_pic_jishi.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 70.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5738
+                },
+                "PreSize": {
+                  "X": 0.0688,
+                  "Y": 0.6803
+                },
+                "LeftMargin": 596.0,
+                "RightMargin": 596.0,
+                "TopMargin": 10.5,
+                "BottomMargin": 28.5,
+                "Tag": 695,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 33.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.375,
+                      "Y": 0.3373
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 0.3614
+                    },
+                    "LeftMargin": 33.0,
+                    "RightMargin": 33.0,
+                    "TopMargin": 25.0,
+                    "BottomMargin": 28.0,
+                    "Tag": 696,
+                    "ActionTag": 778969259,
+                    "Size": {
+                      "X": 22.0,
+                      "Y": 30.0
+                    },
+                    "Name": "CountDownPanel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "下注时间",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 44.0,
+                      "Y": -10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.1205
+                    },
+                    "PreSize": {
+                      "X": 0.9091,
+                      "Y": 0.2771
+                    },
+                    "LeftMargin": 4.0,
+                    "RightMargin": 4.0,
+                    "TopMargin": 81.5,
+                    "BottomMargin": -21.5,
+                    "Tag": 697,
+                    "ActionTag": 339102585,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 23.0
+                    },
+                    "Name": "Status",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -117566908,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 83.0
+                },
+                "Name": "Time",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0508,
+                  "Y": 0.5082
+                },
+                "PreSize": {
+                  "X": 0.0727,
+                  "Y": 0.7623
+                },
+                "LeftMargin": 18.5,
+                "RightMargin": 1168.5,
+                "TopMargin": 13.5,
+                "BottomMargin": 15.5,
+                "Tag": 635,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/BRNN/game_pic_touxiangkuang.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.5,
+                      "Y": 46.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0645,
+                      "Y": 1.0753
+                    },
+                    "LeftMargin": -3.0,
+                    "RightMargin": -3.0,
+                    "TopMargin": -3.5,
+                    "BottomMargin": -3.5,
+                    "Tag": 634,
+                    "ActionTag": -493829660,
+                    "Size": {
+                      "X": 99.0,
+                      "Y": 100.0
+                    },
+                    "Name": "PlayerAvatarFrame",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -42583007,
+                "Size": {
+                  "X": 93.0,
+                  "Y": 93.0
+                },
+                "Name": "PlayerAvatar",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "name",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 85.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1016,
+                  "Y": 0.6967
+                },
+                "PreSize": {
+                  "X": 0.0398,
+                  "Y": 0.1885
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 1099.0,
+                "TopMargin": 25.5,
+                "BottomMargin": 73.5,
+                "Tag": 636,
+                "ActionTag": 2024270786,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 23.0
+                },
+                "Name": "PlayerName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "gold",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 35.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1016,
+                  "Y": 0.2869
+                },
+                "PreSize": {
+                  "X": 0.0297,
+                  "Y": 0.1885
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 1112.0,
+                "TopMargin": 75.5,
+                "BottomMargin": 23.5,
+                "Tag": 637,
+                "ActionTag": -1473968441,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 23.0
+                },
+                "Name": "PlayerGold",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Banker/bairen_btn_jieshushangzhuang01.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Banker/bairen_btn_jieshushangzhuang02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/Banker/bairen_btn_jieshushangzhuang01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 165,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1170.0,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9141,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1523,
+                  "Y": 0.6066
+                },
+                "LeftMargin": 1072.5,
+                "RightMargin": 12.5,
+                "TopMargin": 24.0,
+                "BottomMargin": 24.0,
+                "Tag": 646,
+                "ActionTag": 128963940,
+                "Size": {
+                  "X": 195.0,
+                  "Y": 74.0
+                },
+                "Name": "GiveUpBanker",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -640946283,
+            "Size": {
+              "X": 1280.0,
+              "Y": 122.0
+            },
+            "Name": "Bottom",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 184,
+            "Scale9Height": 152,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 192.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.15,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.1672,
+              "Y": 0.2417
+            },
+            "LeftMargin": 85.0,
+            "RightMargin": 981.0,
+            "TopMargin": 233.0,
+            "BottomMargin": 313.0,
+            "Tag": 648,
+            "ActionTag": 1263038382,
+            "Size": {
+              "X": 214.0,
+              "Y": 174.0
+            },
+            "Name": "Tian",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/bairen_pic_tian.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 192.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.15,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0695,
+              "Y": 0.1028
+            },
+            "LeftMargin": 147.5,
+            "RightMargin": 1043.5,
+            "TopMargin": 283.0,
+            "BottomMargin": 363.0,
+            "Tag": 649,
+            "ActionTag": 300836033,
+            "Size": {
+              "X": 89.0,
+              "Y": 74.0
+            },
+            "Name": "Text_Tian",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 184,
+            "Scale9Height": 152,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 491.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3836,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.1672,
+              "Y": 0.2417
+            },
+            "LeftMargin": 384.0,
+            "RightMargin": 682.0,
+            "TopMargin": 233.0,
+            "BottomMargin": 313.0,
+            "Tag": 650,
+            "ActionTag": 932106429,
+            "Size": {
+              "X": 214.0,
+              "Y": 174.0
+            },
+            "Name": "Di",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/bairen_pic_di.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 491.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3836,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0852,
+              "Y": 0.1
+            },
+            "LeftMargin": 436.5,
+            "RightMargin": 734.5,
+            "TopMargin": 284.0,
+            "BottomMargin": 364.0,
+            "Tag": 651,
+            "ActionTag": 928051621,
+            "Size": {
+              "X": 109.0,
+              "Y": 72.0
+            },
+            "Name": "Text_Di",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 184,
+            "Scale9Height": 152,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 790.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6172,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.1672,
+              "Y": 0.2417
+            },
+            "LeftMargin": 683.0,
+            "RightMargin": 383.0,
+            "TopMargin": 233.0,
+            "BottomMargin": 313.0,
+            "Tag": 652,
+            "ActionTag": 320812015,
+            "Size": {
+              "X": 214.0,
+              "Y": 174.0
+            },
+            "Name": "Xuan",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/bairen_pic_xuan.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 790.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6172,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0523,
+              "Y": 0.1264
+            },
+            "LeftMargin": 756.5,
+            "RightMargin": 456.5,
+            "TopMargin": 274.5,
+            "BottomMargin": 354.5,
+            "Tag": 653,
+            "ActionTag": 1726404013,
+            "Size": {
+              "X": 67.0,
+              "Y": 91.0
+            },
+            "Name": "Text_Xuan",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/Banker/game_bairenNN_di01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 184,
+            "Scale9Height": 152,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1089.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8508,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.1672,
+              "Y": 0.2417
+            },
+            "LeftMargin": 982.0,
+            "RightMargin": 84.0,
+            "TopMargin": 233.0,
+            "BottomMargin": 313.0,
+            "Tag": 654,
+            "ActionTag": -37425048,
+            "Size": {
+              "X": 214.0,
+              "Y": 174.0
+            },
+            "Name": "Huang",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/bairen_pic_huang.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1089.0,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8508,
+              "Y": 0.5556
+            },
+            "PreSize": {
+              "X": 0.0531,
+              "Y": 0.1125
+            },
+            "LeftMargin": 1055.0,
+            "RightMargin": 157.0,
+            "TopMargin": 279.5,
+            "BottomMargin": 359.5,
+            "Tag": 655,
+            "ActionTag": -1394141358,
+            "Size": {
+              "X": 68.0,
+              "Y": 81.0
+            },
+            "Name": "Text_Haung",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1090.0,
+              "Y": 290.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8516,
+              "Y": 0.4028
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 1081.0,
+            "RightMargin": 181.0,
+            "TopMargin": 411.5,
+            "BottomMargin": 271.5,
+            "Tag": 351,
+            "ActionTag": 1961066803,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Player_Huang_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 795.0,
+              "Y": 290.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6211,
+              "Y": 0.4028
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 786.0,
+            "RightMargin": 476.0,
+            "TopMargin": 411.5,
+            "BottomMargin": 271.5,
+            "Tag": 352,
+            "ActionTag": 2037071658,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Player_Xuan_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 492.0,
+              "Y": 290.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3844,
+              "Y": 0.4028
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 483.0,
+            "RightMargin": 779.0,
+            "TopMargin": 411.5,
+            "BottomMargin": 271.5,
+            "Tag": 353,
+            "ActionTag": -1874408707,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Player_Di_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 192.0,
+              "Y": 290.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.15,
+              "Y": 0.4028
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 183.0,
+            "RightMargin": 1079.0,
+            "TopMargin": 411.5,
+            "BottomMargin": 271.5,
+            "Tag": 354,
+            "ActionTag": -810218258,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Player_Tian_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1090.0,
+              "Y": 510.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8516,
+              "Y": 0.7083
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 1081.0,
+            "RightMargin": 181.0,
+            "TopMargin": 191.5,
+            "BottomMargin": 491.5,
+            "Tag": 355,
+            "ActionTag": -1590245939,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Huang_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 795.0,
+              "Y": 510.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6211,
+              "Y": 0.7083
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 786.0,
+            "RightMargin": 476.0,
+            "TopMargin": 191.5,
+            "BottomMargin": 491.5,
+            "Tag": 356,
+            "ActionTag": -1975455302,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Xuan_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 492.0,
+              "Y": 510.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3844,
+              "Y": 0.7083
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 483.0,
+            "RightMargin": 779.0,
+            "TopMargin": 191.5,
+            "BottomMargin": 491.5,
+            "Tag": 357,
+            "ActionTag": 1053779274,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Di_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 192.0,
+              "Y": 510.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 243,
+              "G": 247,
+              "B": 84
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.15,
+              "Y": 0.7083
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 183.0,
+            "RightMargin": 1079.0,
+            "TopMargin": 191.5,
+            "BottomMargin": 491.5,
+            "Tag": 358,
+            "ActionTag": 1286818971,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Tian_Bets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 745.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.582,
+              "Y": 0.7778
+            },
+            "PreSize": {
+              "X": 0.0141,
+              "Y": 0.0514
+            },
+            "LeftMargin": 736.0,
+            "RightMargin": 526.0,
+            "TopMargin": 141.5,
+            "BottomMargin": 541.5,
+            "Tag": 359,
+            "ActionTag": -1098279212,
+            "Size": {
+              "X": 18.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "LeftBets",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "当前可下总注：",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 530.0,
+              "Y": 560.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4141,
+              "Y": 0.7778
+            },
+            "PreSize": {
+              "X": 0.175,
+              "Y": 0.0514
+            },
+            "LeftMargin": 418.0,
+            "RightMargin": 638.0,
+            "TopMargin": 141.5,
+            "BottomMargin": 541.5,
+            "Tag": 360,
+            "ActionTag": 1578661375,
+            "Size": {
+              "X": 224.0,
+              "Y": 37.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Text_LeftBets",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/ImageFile.png",
+        "../../../Image/BRNN/bairen_pic_di.png",
+        "../../../Image/BRNN/bairen_pic_huang.png",
+        "../../../Image/BRNN/bairen_pic_tian.png",
+        "../../../Image/BRNN/bairen_pic_xuan.png",
+        "../../../Image/BRNN/bairen_popup_zhuangjia.png",
+        "../../../Image/BRNN/Banker/bairen_btn_jieshushangzhuang01.png",
+        "../../../Image/BRNN/Banker/bairen_btn_jieshushangzhuang02.png",
+        "../../../Image/BRNN/Banker/BankerImage.png",
+        "../../../Image/BRNN/Banker/bankerShade.png",
+        "../../../Image/BRNN/Banker/game_bairenNN_bg.png",
+        "../../../Image/BRNN/Banker/game_bairenNN_di01.png",
+        "../../../Image/BRNN/Banker/game_bairenNN_di02.png",
+        "../../../Image/BRNN/Banker/game_liaotiananniu01.png",
+        "../../../Image/BRNN/Banker/game_liaotiananniu02.png",
+        "../../../Image/BRNN/Banker/game_pailu01.png",
+        "../../../Image/BRNN/Banker/game_pailu02.png",
+        "../../../Image/BRNN/Banker/game_wanjialiebiao01.png",
+        "../../../Image/BRNN/Banker/game_wanjialiebiao02.png",
+        "../../../Image/BRNN/game_pic_jishi.png",
+        "../../../Image/BRNN/game_pic_touxiangkuang.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

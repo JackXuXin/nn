@@ -1,0 +1,7 @@
+{
+    "engineVersion" : "wangwanggame2017",
+    "packageUrl" : "http://app.wangwang68.com:8000/wwsx/files/",
+    "remoteManifestUrl" : "http://app.wangwang68.com:8000/wwsx/version/project.manifest",
+    "remoteVersionUrl" : "http://app.wangwang68.com:8000/wwsx/version/version.manifest",
+    "version" : "1.0.2.4"
+}

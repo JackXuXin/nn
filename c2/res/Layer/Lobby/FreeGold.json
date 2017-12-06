@@ -1,0 +1,783 @@
+{
+  "ID": "e6680725-e0db-4725-9799-32e8f5142ea4",
+  "Version": "2.3.4",
+  "Name": "FreeGold",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 265,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0078,
+              "Y": 0.0139
+            },
+            "LeftMargin": 635.0,
+            "RightMargin": 635.0,
+            "TopMargin": 355.0,
+            "BottomMargin": 355.0,
+            "Tag": 288,
+            "ActionTag": 694980884,
+            "Size": {
+              "X": 10.0,
+              "Y": 10.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 271,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "关注江南茶苑唯一公众号                       了解活动详情\n所有活动最终解释权归江南茶苑所有",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 12.2772,
+                  "Y": -252.8865
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -292.2228,
+                "RightMargin": -316.7772,
+                "TopMargin": 221.8865,
+                "BottomMargin": -283.8865,
+                "Tag": 290,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "jiangnangame",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 372.0305,
+                      "Y": 49.0749
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 85,
+                      "B": 80
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6109,
+                      "Y": 0.7915
+                    },
+                    "PreSize": {
+                      "X": 0.2693,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 290.0305,
+                    "RightMargin": 154.9695,
+                    "TopMargin": -2.5749,
+                    "BottomMargin": 33.5749,
+                    "Tag": 311,
+                    "ActionTag": 462193018,
+                    "Size": {
+                      "X": 164.0,
+                      "Y": 31.0
+                    },
+                    "Name": "Text_12",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 52392660,
+                "Size": {
+                  "X": 609.0,
+                  "Y": 62.0
+                },
+                "Name": "Text_9",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_BG.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 265,
+                "Scale9OriginY": 138,
+                "Scale9Width": 275,
+                "Scale9Height": 144,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -402.5,
+                "RightMargin": -402.5,
+                "TopMargin": -210.0,
+                "BottomMargin": -210.0,
+                "Tag": 405,
+                "ActionTag": 118539699,
+                "Size": {
+                  "X": 805.0,
+                  "Y": 420.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_GoldIcon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 11,
+                "Scale9OriginY": 11,
+                "Scale9Width": 14,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -150.0003,
+                  "Y": 121.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -168.0003,
+                "RightMargin": 132.0003,
+                "TopMargin": -139.4999,
+                "BottomMargin": 104.4999,
+                "Tag": 334,
+                "ActionTag": -1915131664,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 35.0
+                },
+                "Name": "Image_5_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_GoldIcon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 11,
+                "Scale9OriginY": 11,
+                "Scale9Width": 14,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -151.6608,
+                  "Y": -21.7331
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -169.6608,
+                "RightMargin": 133.6608,
+                "TopMargin": 4.2331,
+                "BottomMargin": -39.2331,
+                "Tag": 332,
+                "ActionTag": 91165555,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 35.0
+                },
+                "Name": "Image_5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CharWidth": 25,
+                "CharHeight": 28,
+                "LabelText": "0",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -111.0745,
+                  "Y": 122.6859
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -111.0745,
+                "RightMargin": 86.0745,
+                "TopMargin": -136.6859,
+                "BottomMargin": 108.6859,
+                "Tag": 335,
+                "ActionTag": 660489028,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 28.0
+                },
+                "Name": "AtlasLabel_Sign",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 25,
+                "CharHeight": 28,
+                "LabelText": "0",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -111.07,
+                  "Y": -21.73
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -111.07,
+                "RightMargin": 86.07,
+                "TopMargin": 7.73,
+                "BottomMargin": -35.73,
+                "Tag": 406,
+                "ActionTag": 401350248,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 28.0
+                },
+                "Name": "AtlasLabel_Give",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_HonorValue.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 32,
+                "Scale9OriginY": 10,
+                "Scale9Width": 34,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -127.9482,
+                  "Y": -164.5038
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -176.9482,
+                "RightMargin": 78.9482,
+                "TopMargin": 148.0038,
+                "BottomMargin": -181.0038,
+                "Tag": 407,
+                "ActionTag": -251085350,
+                "Size": {
+                  "X": 98.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_Honor",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Sign_3.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Sign_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Sign_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 126,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.6947,
+                  "Y": 146.226
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 214.6947,
+                "RightMargin": -370.6947,
+                "TopMargin": -183.226,
+                "BottomMargin": 109.226,
+                "Tag": 408,
+                "ActionTag": -1242394997,
+                "Size": {
+                  "X": 156.0,
+                  "Y": 74.0
+                },
+                "Name": "Button_Sign",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Left_3.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Left_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Left_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 126,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.69,
+                  "Y": -2.2349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 214.69,
+                "RightMargin": -370.69,
+                "TopMargin": -34.7651,
+                "BottomMargin": -39.2349,
+                "Tag": 409,
+                "Children": [
+                  {
+                    "CharWidth": 22,
+                    "CharHeight": 28,
+                    "LabelText": "4",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/FreeGold/FreeGold_Left_Num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.11,
+                      "Y": 35.054
+                    },
+                    "Scale": {
+                      "ScaleX": 1.01,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5969,
+                      "Y": 0.4737
+                    },
+                    "PreSize": {
+                      "X": 0.141,
+                      "Y": 0.3784
+                    },
+                    "LeftMargin": 82.11,
+                    "RightMargin": 51.89,
+                    "TopMargin": 24.946,
+                    "BottomMargin": 21.054,
+                    "Tag": 411,
+                    "ActionTag": -1585065740,
+                    "Size": {
+                      "X": 22.0,
+                      "Y": 28.0
+                    },
+                    "Name": "AtlasLabel_LeftTimes",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 284355814,
+                "Size": {
+                  "X": 156.0,
+                  "Y": 74.0
+                },
+                "Name": "Button_Give",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Promote_3.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Promote_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/FreeGold_Promote_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 126,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.69,
+                  "Y": -148.944
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 214.69,
+                "RightMargin": -370.69,
+                "TopMargin": 111.944,
+                "BottomMargin": -185.944,
+                "Tag": 410,
+                "ActionTag": -890944788,
+                "Size": {
+                  "X": 156.0,
+                  "Y": 74.0
+                },
+                "Name": "Button_Promote",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1326203509,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/FreeGold/FreeGold_BG.png",
+        "../../Image/FreeGold/FreeGold_GoldIcon.png",
+        "../../Image/FreeGold/FreeGold_HonorValue.png",
+        "../../Image/FreeGold/FreeGold_Left_1.png",
+        "../../Image/FreeGold/FreeGold_Left_2.png",
+        "../../Image/FreeGold/FreeGold_Left_3.png",
+        "../../Image/FreeGold/FreeGold_Left_Num.png",
+        "../../Image/FreeGold/FreeGold_Num.png",
+        "../../Image/FreeGold/FreeGold_Promote_1.png",
+        "../../Image/FreeGold/FreeGold_Promote_2.png",
+        "../../Image/FreeGold/FreeGold_Promote_3.png",
+        "../../Image/FreeGold/FreeGold_Sign_1.png",
+        "../../Image/FreeGold/FreeGold_Sign_2.png",
+        "../../Image/FreeGold/FreeGold_Sign_3.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Node/PopBox.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

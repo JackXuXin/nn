@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libcocos2dx/libcocos2dx.iml" filepath="$PROJECT_DIR$/libcocos2dx/libcocos2dx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unicorn/unicorn.iml" filepath="$PROJECT_DIR$/unicorn/unicorn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wwkxm_proj.android_studio.iml" filepath="$PROJECT_DIR$/wwkxm_proj.android_studio.iml" />
+    </modules>
+  </component>
+</project>

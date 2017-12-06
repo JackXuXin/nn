@@ -1,0 +1,355 @@
+{
+  "ID": "95e08208-5a0f-4256-89ad-5a5e0340f08e",
+  "Version": "2.3.4",
+  "Name": "MatchListLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 256,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 261,
+            "ActionTag": -1393968225,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Match/back.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 350,
+            "Scale9OriginY": 170,
+            "Scale9Width": 361,
+            "Scale9Height": 177,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8289,
+              "Y": 0.7181
+            },
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 109.5,
+            "RightMargin": 109.5,
+            "TopMargin": 101.5,
+            "BottomMargin": 101.5,
+            "Tag": 257,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Match/titleRed.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 159,
+                "Scale9OriginY": 32,
+                "Scale9Width": 165,
+                "Scale9Height": 35,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 533.0,
+                  "Y": 450.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5024,
+                  "Y": 0.8704
+                },
+                "PreSize": {
+                  "X": 0.4552,
+                  "Y": 0.1915
+                },
+                "LeftMargin": 291.5,
+                "RightMargin": 286.5,
+                "TopMargin": 17.5,
+                "BottomMargin": 400.5,
+                "Tag": 867,
+                "ActionTag": 2108051643,
+                "Size": {
+                  "X": 483.0,
+                  "Y": 99.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "Title",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 531.0,
+                  "Y": 464.9956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 217,
+                  "B": 87
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5005,
+                  "Y": 0.8994
+                },
+                "PreSize": {
+                  "X": 0.0594,
+                  "Y": 0.0754
+                },
+                "LeftMargin": 499.5,
+                "RightMargin": 498.5,
+                "TopMargin": 32.5044,
+                "BottomMargin": 445.4956,
+                "Tag": 258,
+                "ActionTag": -1705866087,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 39.0
+                },
+                "Name": "Title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 50,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1029.0,
+                  "Y": 496.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9698,
+                  "Y": 0.9594
+                },
+                "PreSize": {
+                  "X": 0.0754,
+                  "Y": 0.1547
+                },
+                "LeftMargin": 989.0,
+                "RightMargin": -8.0,
+                "TopMargin": -19.0,
+                "BottomMargin": 456.0,
+                "Tag": 259,
+                "ActionTag": 1146971648,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 994,
+                  "Height": 900
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 36.4366,
+                  "Y": 60.6678
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0343,
+                  "Y": 0.1173
+                },
+                "PreSize": {
+                  "X": 0.9369,
+                  "Y": 0.675
+                },
+                "LeftMargin": 36.4366,
+                "RightMargin": 30.5634,
+                "TopMargin": 107.3322,
+                "BottomMargin": 60.6678,
+                "Tag": 260,
+                "ActionTag": -529407380,
+                "Size": {
+                  "X": 994.0,
+                  "Y": 349.0
+                },
+                "Name": "List",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": -1071340843,
+            "Size": {
+              "X": 1061.0,
+              "Y": 517.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Match/back.png",
+        "../../Image/Match/titleRed.png",
+        "../../Image/Public/close_1.png",
+        "../../Image/Public/close_2.png",
+        "../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

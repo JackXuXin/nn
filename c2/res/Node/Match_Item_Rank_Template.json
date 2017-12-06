@@ -1,0 +1,280 @@
+{
+  "ID": "b6aa5d02-45a1-44ae-ae75-0e557d069c76",
+  "Version": "2.3.4",
+  "Name": "Match_Item_Rank_Template",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1404,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Match/img_rank_item_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -460.5,
+            "RightMargin": -460.5,
+            "TopMargin": -55.0,
+            "BottomMargin": -55.0,
+            "Tag": 1405,
+            "ActionTag": -2009053048,
+            "Size": {
+              "X": 921.0,
+              "Y": 110.0
+            },
+            "Name": "img_rank_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 35,
+            "LabelText": "5",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -327.8624,
+              "Y": -20.534
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 14,
+              "G": 103,
+              "B": 190
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -337.8624,
+            "RightMargin": 317.8624,
+            "TopMargin": 0.534,
+            "BottomMargin": -40.534,
+            "Tag": 1406,
+            "ActionTag": -1550120076,
+            "Size": {
+              "X": 20.0,
+              "Y": 40.0
+            },
+            "Name": "tx_rank",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Common/Avatar/female_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 62,
+            "Scale9OriginY": 62,
+            "Scale9Width": 64,
+            "Scale9Height": 64,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -96.9077,
+              "Y": 1.9999
+            },
+            "Scale": {
+              "ScaleX": 0.45,
+              "ScaleY": 0.45
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -190.9077,
+            "RightMargin": 2.9077,
+            "TopMargin": -95.9999,
+            "BottomMargin": -92.0001,
+            "Tag": 1410,
+            "ActionTag": -661383259,
+            "Size": {
+              "X": 188.0,
+              "Y": 188.0
+            },
+            "Name": "img_head",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "春风十里不如你",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 45.6061,
+              "Y": 0.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -45.3939,
+            "RightMargin": -136.6061,
+            "TopMargin": -15.5001,
+            "BottomMargin": -15.4999,
+            "Tag": 1408,
+            "ActionTag": -1736345383,
+            "Size": {
+              "X": 182.0,
+              "Y": 31.0
+            },
+            "Name": "tx_name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "华联超市100元抵用卷",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.7212,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 193.7212,
+            "RightMargin": -445.7212,
+            "TopMargin": -15.5,
+            "BottomMargin": -15.5,
+            "Tag": 1409,
+            "ActionTag": -695600292,
+            "Size": {
+              "X": 252.0,
+              "Y": 31.0
+            },
+            "Name": "tx_prize",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/Common/Avatar/female_1.png",
+        "../Image/Match/img_rank_item_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,48 @@
+
+ext.rootDir2 = '../frameworks/runtime-src/wwkxm_proj.android_studio/client'
+
+task showName << {
+   println packageName
+   println rootDir2
+}
+
+task replacePackageName {
+    FileTree tree = fileTree(dir: rootDir2+'/src/main')
+    tree.include '**/*.java'
+    tree.exclude '**/WeixinSDK.java'
+    tree.exclude '**/QiYuSDK.java'
+    tree.include '**/*.xml'
+    tree.each {File mfile ->
+        fileReader(mfile.path, packageName)
+    }
+
+    fileReader(rootDir2+"/build.gradle", packageName)
+    fileReader("build.gradle", packageName)
+
+}
+
+
+def fileReader(path, target_package) {
+    def readerString = "";
+    def hasReplace = false
+
+    file(path).withReader('UTF-8') { reader ->
+        reader.eachLine {
+            if (it.find("com.tencent.tmgp.kxmqp")) {
+                it = it.replace("com.tencent.tmgp.shaoxing", target_package)
+                hasReplace = true
+            }
+            readerString <<= it
+            readerString << '\n'
+        }
+
+        if(hasReplace) {
+            println(path + " has replace package.")
+            file(path).withWriter('UTF-8') {
+                within ->
+                    within.append(readerString)
+            }
+        }
+        return readerString
+    }
+}
