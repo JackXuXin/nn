@@ -1,0 +1,3924 @@
+{
+  "ID": "34d1725b-53e5-4c14-a163-08909072ee75",
+  "Version": "2.3.4",
+  "Name": "WLScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 93,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/gameui/img_background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 436,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 95,
+            "Children": [
+              {
+                "FontSize": 25,
+                "LabelText": "5",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 104.2171,
+                  "Y": 666.6303
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0814,
+                  "Y": 0.9259
+                },
+                "PreSize": {
+                  "X": 0.0109,
+                  "Y": 0.0403
+                },
+                "LeftMargin": 104.2171,
+                "RightMargin": 1161.783,
+                "TopMargin": 38.8697,
+                "BottomMargin": 652.1303,
+                "Tag": 96,
+                "ActionTag": -1011362980,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 29.0
+                },
+                "Name": "k_tx_DiFen",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 642.4567,
+                  "Y": 356.2646
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5019,
+                  "Y": 0.4948
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 642.4567,
+                "RightMargin": 637.5433,
+                "TopMargin": 363.7354,
+                "BottomMargin": 356.2646,
+                "Tag": 98,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_GameUI_WaitPlayer.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -33.4269,
+                      "Y": -0.0006
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -186.9269,
+                    "RightMargin": -120.0731,
+                    "TopMargin": -26.9994,
+                    "BottomMargin": -27.0006,
+                    "Tag": 99,
+                    "ActionTag": 98636556,
+                    "Size": {
+                      "X": 307.0,
+                      "Y": 54.0
+                    },
+                    "Name": "tx_DengDai",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_GameUI_WaitDian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 135.5172,
+                      "Y": -11.4094
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.5172,
+                    "RightMargin": -143.5172,
+                    "TopMargin": 3.4094,
+                    "BottomMargin": -19.4094,
+                    "Tag": 100,
+                    "ActionTag": -1860969906,
+                    "Size": {
+                      "X": 16.0,
+                      "Y": 16.0
+                    },
+                    "Name": "k_tx_DengDai_01",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_GameUI_WaitDian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 152.8921,
+                      "Y": -11.4095
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 144.8921,
+                    "RightMargin": -160.8921,
+                    "TopMargin": 3.4095,
+                    "BottomMargin": -19.4095,
+                    "Tag": 101,
+                    "ActionTag": 2097744710,
+                    "Size": {
+                      "X": 16.0,
+                      "Y": 16.0
+                    },
+                    "Name": "k_tx_DengDai_02",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_GameUI_WaitDian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 171.267,
+                      "Y": -11.41
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 163.267,
+                    "RightMargin": -179.267,
+                    "TopMargin": 3.41,
+                    "BottomMargin": -19.41,
+                    "Tag": 102,
+                    "ActionTag": 3882085,
+                    "Size": {
+                      "X": 16.0,
+                      "Y": 16.0
+                    },
+                    "Name": "k_tx_DengDai_03",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1510148979,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "k_nd_DengDai",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 1347113936,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "img_background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 17.0246,
+              "Y": 52.196
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0133,
+              "Y": 0.0725
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 17.0246,
+            "RightMargin": 1262.9753,
+            "TopMargin": 667.804,
+            "BottomMargin": 52.196,
+            "Tag": 198,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_tatouxiangBG.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -140.0,
+                "TopMargin": -186.0,
+                "Tag": 199,
+                "Children": [
+                  {
+                    "FontSize": 18,
+                    "LabelText": "user name",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 61.2575
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3293
+                    },
+                    "PreSize": {
+                      "X": 0.6143,
+                      "Y": 0.1129
+                    },
+                    "LeftMargin": 27.0,
+                    "RightMargin": 27.0,
+                    "TopMargin": 114.2425,
+                    "BottomMargin": 50.7575,
+                    "Tag": 200,
+                    "ActionTag": 1943908475,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 21.0
+                    },
+                    "Name": "k_tx_user_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "1234,6578,9",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 35.4484,
+                      "Y": 30.3719
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2532,
+                      "Y": 0.1633
+                    },
+                    "PreSize": {
+                      "X": 0.6786,
+                      "Y": 0.1075
+                    },
+                    "LeftMargin": 35.4484,
+                    "RightMargin": 9.5516,
+                    "TopMargin": 145.6281,
+                    "BottomMargin": 20.3719,
+                    "Tag": 201,
+                    "ActionTag": -365231398,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 20.0
+                    },
+                    "Name": "k_tx_user_silver",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 123.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.95,
+                      "ScaleY": 0.95
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6613
+                    },
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.5645
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 17.5,
+                    "TopMargin": 10.5,
+                    "BottomMargin": 70.5,
+                    "Tag": 304,
+                    "ActionTag": 1257446625,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 105.0
+                    },
+                    "Name": "k_sp_touxiang_bg",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Common/Avatar/female_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 122.61
+                    },
+                    "Scale": {
+                      "ScaleX": 0.51,
+                      "ScaleY": 0.51
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6592
+                    },
+                    "PreSize": {
+                      "X": 1.2714,
+                      "Y": 0.9462
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -24.61,
+                    "BottomMargin": 34.61,
+                    "Tag": 202,
+                    "ActionTag": -30427919,
+                    "Size": {
+                      "X": 178.0,
+                      "Y": 176.0
+                    },
+                    "Name": "k_sp_touxiang",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_ready.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.986,
+                      "Y": 91.5773
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4999,
+                      "Y": 0.4924
+                    },
+                    "PreSize": {
+                      "X": 0.4571,
+                      "Y": 0.1828
+                    },
+                    "LeftMargin": 37.986,
+                    "RightMargin": 38.014,
+                    "TopMargin": 77.4227,
+                    "BottomMargin": 74.5773,
+                    "Tag": 203,
+                    "ActionTag": -635435527,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 34.0
+                    },
+                    "Name": "k_sp_ready",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/img_TuoGuan.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 107.91
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5802
+                    },
+                    "PreSize": {
+                      "X": 0.7857,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 15.0,
+                    "RightMargin": 15.0,
+                    "TopMargin": 47.09,
+                    "BottomMargin": 76.91,
+                    "Tag": 204,
+                    "ActionTag": -642256916,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 62.0
+                    },
+                    "Name": "k_sp_Trusteeship",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 969963967,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 186.0
+                },
+                "Name": "img_userinfobg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 69.545,
+                  "Y": 164.6362
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.955,
+                "RightMargin": -163.045,
+                "TopMargin": -203.6362,
+                "BottomMargin": 125.6362,
+                "Tag": 205,
+                "Children": [
+                  {
+                    "CharWidth": 21,
+                    "CharHeight": 26,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_num_01.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.0219,
+                      "Y": 42.5791
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5616,
+                      "Y": 0.5459
+                    },
+                    "PreSize": {
+                      "X": 0.3369,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 105.0219,
+                    "RightMargin": 18.9781,
+                    "TopMargin": 22.4209,
+                    "BottomMargin": 29.5791,
+                    "Tag": 206,
+                    "ActionTag": 1416710472,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 26.0
+                    },
+                    "Name": "k_ta_player_score",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -635866002,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_img_title_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_bg_02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.1257,
+                  "Y": -25.2889
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 7.1257,
+                "RightMargin": -139.1257,
+                "TopMargin": 6.7889,
+                "BottomMargin": -43.7889,
+                "Tag": 233,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.1571,
+                      "Y": 17.8701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 118,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6603,
+                      "Y": 0.483
+                    },
+                    "PreSize": {
+                      "X": 0.3106,
+                      "Y": 0.7568
+                    },
+                    "LeftMargin": 66.6571,
+                    "RightMargin": 24.3429,
+                    "TopMargin": 5.1299,
+                    "BottomMargin": 3.8701,
+                    "Tag": 121,
+                    "ActionTag": -1157174193,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 28.0
+                    },
+                    "Name": "k_tx_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 524102330,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 37.0
+                },
+                "Name": "k_img_score_bg",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -45328818,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_player_info_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1122.9998,
+              "Y": 351.4041
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.8773,
+              "Y": 0.4881
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 1122.9998,
+            "RightMargin": 157.0002,
+            "TopMargin": 368.5959,
+            "BottomMargin": 351.4041,
+            "Tag": 144,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_tatouxiangBG.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -140.0,
+                "TopMargin": -186.0,
+                "Tag": 145,
+                "Children": [
+                  {
+                    "FontSize": 18,
+                    "LabelText": "user name",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 61.2575
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3293
+                    },
+                    "PreSize": {
+                      "X": 0.6143,
+                      "Y": 0.1129
+                    },
+                    "LeftMargin": 27.0,
+                    "RightMargin": 27.0,
+                    "TopMargin": 114.2425,
+                    "BottomMargin": 50.7575,
+                    "Tag": 146,
+                    "ActionTag": -1387578840,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 21.0
+                    },
+                    "Name": "k_tx_user_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "1234,6578,9",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 35.4484,
+                      "Y": 30.3719
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2532,
+                      "Y": 0.1633
+                    },
+                    "PreSize": {
+                      "X": 0.6786,
+                      "Y": 0.1075
+                    },
+                    "LeftMargin": 35.4484,
+                    "RightMargin": 9.5516,
+                    "TopMargin": 145.6281,
+                    "BottomMargin": 20.3719,
+                    "Tag": 147,
+                    "ActionTag": -1759660363,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 20.0
+                    },
+                    "Name": "k_tx_user_silver",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 123.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.95,
+                      "ScaleY": 0.95
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6613
+                    },
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.5645
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 17.5,
+                    "TopMargin": 10.5,
+                    "BottomMargin": 70.5,
+                    "Tag": 462,
+                    "ActionTag": 369207494,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 105.0
+                    },
+                    "Name": "k_sp_touxiang_bg",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Common/Avatar/female_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 122.61
+                    },
+                    "Scale": {
+                      "ScaleX": 0.51,
+                      "ScaleY": 0.51
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6592
+                    },
+                    "PreSize": {
+                      "X": 1.2714,
+                      "Y": 0.9462
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -24.61,
+                    "BottomMargin": 34.61,
+                    "Tag": 148,
+                    "ActionTag": -679615573,
+                    "Size": {
+                      "X": 178.0,
+                      "Y": 176.0
+                    },
+                    "Name": "k_sp_touxiang",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_ready.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.986,
+                      "Y": 91.5773
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4999,
+                      "Y": 0.4924
+                    },
+                    "PreSize": {
+                      "X": 0.4571,
+                      "Y": 0.1828
+                    },
+                    "LeftMargin": 37.986,
+                    "RightMargin": 38.014,
+                    "TopMargin": 77.4227,
+                    "BottomMargin": 74.5773,
+                    "Tag": 149,
+                    "ActionTag": 1992881145,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 34.0
+                    },
+                    "Name": "k_sp_ready",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/img_TuoGuan.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 71.246,
+                      "Y": 107.91
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5089,
+                      "Y": 0.5802
+                    },
+                    "PreSize": {
+                      "X": 0.7857,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 16.246,
+                    "RightMargin": 13.754,
+                    "TopMargin": 47.09,
+                    "BottomMargin": 76.91,
+                    "Tag": 150,
+                    "ActionTag": -899860327,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 62.0
+                    },
+                    "Name": "k_sp_Trusteeship",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -3778936,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 186.0
+                },
+                "Name": "img_userinfobg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 68.5448,
+                  "Y": 165.64
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -24.9552,
+                "RightMargin": -162.0448,
+                "TopMargin": -204.64,
+                "BottomMargin": 126.64,
+                "Tag": 151,
+                "Children": [
+                  {
+                    "CharWidth": 21,
+                    "CharHeight": 26,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_num_01.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.0219,
+                      "Y": 42.5791
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5616,
+                      "Y": 0.5459
+                    },
+                    "PreSize": {
+                      "X": 0.3369,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 105.0219,
+                    "RightMargin": 18.9781,
+                    "TopMargin": 22.4209,
+                    "BottomMargin": 29.5791,
+                    "Tag": 152,
+                    "ActionTag": -2016132475,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 26.0
+                    },
+                    "Name": "k_ta_player_score",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -706964696,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_img_title_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_bg_02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.13,
+                  "Y": -25.2889
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 7.13,
+                "RightMargin": -139.13,
+                "TopMargin": 6.7889,
+                "BottomMargin": -43.7889,
+                "Tag": 153,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 90.157,
+                      "Y": 17.8701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 118,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.683,
+                      "Y": 0.483
+                    },
+                    "PreSize": {
+                      "X": 0.3106,
+                      "Y": 0.7568
+                    },
+                    "LeftMargin": 69.657,
+                    "RightMargin": 21.343,
+                    "TopMargin": 5.1299,
+                    "BottomMargin": 3.8701,
+                    "Tag": 154,
+                    "ActionTag": -1554476802,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 28.0
+                    },
+                    "Name": "k_tx_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 127704845,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 37.0
+                },
+                "Name": "k_img_score_bg",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 954791684,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_player_info_2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 818.98,
+              "Y": 519.07
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.6398,
+              "Y": 0.7209
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 818.98,
+            "RightMargin": 461.02,
+            "TopMargin": 200.93,
+            "BottomMargin": 519.07,
+            "Tag": 133,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_tatouxiangBG.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -140.0,
+                "TopMargin": -186.0,
+                "Tag": 134,
+                "Children": [
+                  {
+                    "FontSize": 18,
+                    "LabelText": "user name",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 61.2575
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3293
+                    },
+                    "PreSize": {
+                      "X": 0.6143,
+                      "Y": 0.1129
+                    },
+                    "LeftMargin": 27.0,
+                    "RightMargin": 27.0,
+                    "TopMargin": 114.2425,
+                    "BottomMargin": 50.7575,
+                    "Tag": 135,
+                    "ActionTag": 566704490,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 21.0
+                    },
+                    "Name": "k_tx_user_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "1234,6578,9",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 35.4484,
+                      "Y": 30.3719
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2532,
+                      "Y": 0.1633
+                    },
+                    "PreSize": {
+                      "X": 0.6786,
+                      "Y": 0.1075
+                    },
+                    "LeftMargin": 35.4484,
+                    "RightMargin": 9.5516,
+                    "TopMargin": 145.6281,
+                    "BottomMargin": 20.3719,
+                    "Tag": 136,
+                    "ActionTag": -839753824,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 20.0
+                    },
+                    "Name": "k_tx_user_silver",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 123.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.95,
+                      "ScaleY": 0.95
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6613
+                    },
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.5645
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 17.5,
+                    "TopMargin": 10.5,
+                    "BottomMargin": 70.5,
+                    "Tag": 463,
+                    "ActionTag": -452327908,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 105.0
+                    },
+                    "Name": "k_sp_touxiang_bg",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Common/Avatar/female_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 122.61
+                    },
+                    "Scale": {
+                      "ScaleX": 0.51,
+                      "ScaleY": 0.51
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6592
+                    },
+                    "PreSize": {
+                      "X": 1.2714,
+                      "Y": 0.9462
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -24.61,
+                    "BottomMargin": 34.61,
+                    "Tag": 137,
+                    "ActionTag": 2118773821,
+                    "Size": {
+                      "X": 178.0,
+                      "Y": 176.0
+                    },
+                    "Name": "k_sp_touxiang",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_ready.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.986,
+                      "Y": 91.5773
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4999,
+                      "Y": 0.4924
+                    },
+                    "PreSize": {
+                      "X": 0.4571,
+                      "Y": 0.1828
+                    },
+                    "LeftMargin": 37.986,
+                    "RightMargin": 38.014,
+                    "TopMargin": 77.4227,
+                    "BottomMargin": 74.5773,
+                    "Tag": 138,
+                    "ActionTag": 1079152712,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 34.0
+                    },
+                    "Name": "k_sp_ready",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/img_TuoGuan.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 71.246,
+                      "Y": 107.91
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5089,
+                      "Y": 0.5802
+                    },
+                    "PreSize": {
+                      "X": 0.7857,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 16.246,
+                    "RightMargin": 13.754,
+                    "TopMargin": 47.09,
+                    "BottomMargin": 76.91,
+                    "Tag": 139,
+                    "ActionTag": 323487045,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 62.0
+                    },
+                    "Name": "k_sp_Trusteeship",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1510751087,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 186.0
+                },
+                "Name": "img_userinfobg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 69.545,
+                  "Y": 165.64
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.955,
+                "RightMargin": -163.045,
+                "TopMargin": -204.64,
+                "BottomMargin": 126.64,
+                "Tag": 140,
+                "Children": [
+                  {
+                    "CharWidth": 21,
+                    "CharHeight": 26,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_num_01.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.0219,
+                      "Y": 42.5791
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5616,
+                      "Y": 0.5459
+                    },
+                    "PreSize": {
+                      "X": 0.3369,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 105.0219,
+                    "RightMargin": 18.9781,
+                    "TopMargin": 22.4209,
+                    "BottomMargin": 29.5791,
+                    "Tag": 141,
+                    "ActionTag": -1644349762,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 26.0
+                    },
+                    "Name": "k_ta_player_score",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1739085528,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_img_title_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_bg_02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.13,
+                  "Y": -24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 7.13,
+                "RightMargin": -139.13,
+                "TopMargin": 5.5,
+                "BottomMargin": -42.5,
+                "Tag": 142,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.1571,
+                      "Y": 17.8701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 118,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6603,
+                      "Y": 0.483
+                    },
+                    "PreSize": {
+                      "X": 0.3106,
+                      "Y": 0.7568
+                    },
+                    "LeftMargin": 66.6571,
+                    "RightMargin": 24.3429,
+                    "TopMargin": 5.1299,
+                    "BottomMargin": 3.8701,
+                    "Tag": 143,
+                    "ActionTag": 474036287,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 28.0
+                    },
+                    "Name": "k_tx_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -971639557,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 37.0
+                },
+                "Name": "k_img_score_bg",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1532278965,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_player_info_3",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 15.32,
+              "Y": 350.12
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.012,
+              "Y": 0.4863
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 15.32,
+            "RightMargin": 1264.6801,
+            "TopMargin": 369.88,
+            "BottomMargin": 350.12,
+            "Tag": 122,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_tatouxiangBG.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -140.0,
+                "TopMargin": -186.0,
+                "Tag": 123,
+                "Children": [
+                  {
+                    "FontSize": 18,
+                    "LabelText": "user name",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 61.2575
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3293
+                    },
+                    "PreSize": {
+                      "X": 0.6143,
+                      "Y": 0.1129
+                    },
+                    "LeftMargin": 27.0,
+                    "RightMargin": 27.0,
+                    "TopMargin": 114.2425,
+                    "BottomMargin": 50.7575,
+                    "Tag": 124,
+                    "ActionTag": 1601169737,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 21.0
+                    },
+                    "Name": "k_tx_user_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 17,
+                    "LabelText": "1234,6578,9",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 35.4484,
+                      "Y": 30.3719
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2532,
+                      "Y": 0.1633
+                    },
+                    "PreSize": {
+                      "X": 0.6786,
+                      "Y": 0.1075
+                    },
+                    "LeftMargin": 35.4484,
+                    "RightMargin": 9.5516,
+                    "TopMargin": 145.6281,
+                    "BottomMargin": 20.3719,
+                    "Tag": 125,
+                    "ActionTag": 482346744,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 20.0
+                    },
+                    "Name": "k_tx_user_silver",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 123.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.95,
+                      "ScaleY": 0.95
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6613
+                    },
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.5645
+                    },
+                    "LeftMargin": 17.5,
+                    "RightMargin": 17.5,
+                    "TopMargin": 10.5,
+                    "BottomMargin": 70.5,
+                    "Tag": 464,
+                    "ActionTag": 1179768424,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 105.0
+                    },
+                    "Name": "k_sp_touxiang_bg",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Common/Avatar/female_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 122.61
+                    },
+                    "Scale": {
+                      "ScaleX": 0.51,
+                      "ScaleY": 0.51
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6592
+                    },
+                    "PreSize": {
+                      "X": 1.2714,
+                      "Y": 0.9462
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": -19.0,
+                    "TopMargin": -24.61,
+                    "BottomMargin": 34.61,
+                    "Tag": 126,
+                    "ActionTag": -1363835883,
+                    "Size": {
+                      "X": 178.0,
+                      "Y": 176.0
+                    },
+                    "Name": "k_sp_touxiang",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_ready.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.986,
+                      "Y": 91.5773
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4999,
+                      "Y": 0.4924
+                    },
+                    "PreSize": {
+                      "X": 0.4571,
+                      "Y": 0.1828
+                    },
+                    "LeftMargin": 37.986,
+                    "RightMargin": 38.014,
+                    "TopMargin": 77.4227,
+                    "BottomMargin": 74.5773,
+                    "Tag": 127,
+                    "ActionTag": 1668553692,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 34.0
+                    },
+                    "Name": "k_sp_ready",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/img_TuoGuan.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 71.246,
+                      "Y": 107.91
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5089,
+                      "Y": 0.5802
+                    },
+                    "PreSize": {
+                      "X": 0.7857,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 16.246,
+                    "RightMargin": 13.754,
+                    "TopMargin": 47.09,
+                    "BottomMargin": 76.91,
+                    "Tag": 128,
+                    "ActionTag": 1564501056,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 62.0
+                    },
+                    "Name": "k_sp_Trusteeship",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1513944582,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 186.0
+                },
+                "Name": "img_userinfobg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 69.545,
+                  "Y": 165.64
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.955,
+                "RightMargin": -163.045,
+                "TopMargin": -204.64,
+                "BottomMargin": 126.64,
+                "Tag": 129,
+                "Children": [
+                  {
+                    "CharWidth": 21,
+                    "CharHeight": 26,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WL/gameui/tx_num_01.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.0219,
+                      "Y": 42.5791
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5616,
+                      "Y": 0.5459
+                    },
+                    "PreSize": {
+                      "X": 0.3369,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 105.0219,
+                    "RightMargin": 18.9781,
+                    "TopMargin": 22.4209,
+                    "BottomMargin": 29.5791,
+                    "Tag": 130,
+                    "ActionTag": -824133768,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 26.0
+                    },
+                    "Name": "k_ta_player_score",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 823347701,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_img_title_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_bg_02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.13,
+                  "Y": -24.0048
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 7.13,
+                "RightMargin": -139.13,
+                "TopMargin": 5.5048,
+                "BottomMargin": -42.5048,
+                "Tag": 131,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.1571,
+                      "Y": 17.8701
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 153,
+                      "G": 118,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6603,
+                      "Y": 0.483
+                    },
+                    "PreSize": {
+                      "X": 0.3106,
+                      "Y": 0.7568
+                    },
+                    "LeftMargin": 66.6571,
+                    "RightMargin": 24.3429,
+                    "TopMargin": 5.1299,
+                    "BottomMargin": 3.8701,
+                    "Tag": 132,
+                    "ActionTag": 1265463395,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 28.0
+                    },
+                    "Name": "k_tx_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 143053570,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 37.0
+                },
+                "Name": "k_img_score_bg",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 741575774,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_player_info_4",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 643.7006,
+              "Y": 288.8979
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5029,
+              "Y": 0.4012
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 643.7006,
+            "RightMargin": 636.2994,
+            "TopMargin": 431.1021,
+            "BottomMargin": 288.8979,
+            "Tag": 10,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_TiShi_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_TiShi_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 157,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -117.3273,
+                  "Y": 5.3418
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -210.8273,
+                "RightMargin": 23.8273,
+                "TopMargin": -44.3418,
+                "BottomMargin": -33.6582,
+                "Tag": 11,
+                "ActionTag": 1043915461,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_btn_TiShi",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_ChuPai_03.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_ChuPai_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_ChuPai_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 157,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.8341,
+                  "Y": 5.3418
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.3341,
+                "RightMargin": -219.3341,
+                "TopMargin": -44.3418,
+                "BottomMargin": -33.6582,
+                "Tag": 12,
+                "ActionTag": -1316690800,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_btn_ChuPai",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -910611100,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_operation_01",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 643.7006,
+              "Y": 288.8979
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5029,
+              "Y": 0.4012
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 643.7006,
+            "RightMargin": 636.2994,
+            "TopMargin": 431.1021,
+            "BottomMargin": 288.8979,
+            "Tag": 521,
+            "Children": [
+              {
+                "FontSize": 35,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_YaoBuQi_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/btn_YaoBuQi_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 157,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 5.3418
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -93.5,
+                "RightMargin": -93.5,
+                "TopMargin": -44.3418,
+                "BottomMargin": -33.6582,
+                "Tag": 522,
+                "ActionTag": 1515729354,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 78.0
+                },
+                "Name": "k_btn_YaoBuQi",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/tx_CardNo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -151.7343
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -148.5,
+                "RightMargin": -148.5,
+                "TopMargin": 131.2343,
+                "BottomMargin": -172.2343,
+                "Tag": 942,
+                "ActionTag": -1013453572,
+                "Size": {
+                  "X": 297.0,
+                  "Y": 41.0
+                },
+                "Name": "img_YaoBuQi",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1850666077,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_nd_operation_02",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HkFiveCard/button/button_ccdown_norma.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 58,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1248.7681,
+              "Y": 656.53
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.9756,
+              "Y": 0.9118
+            },
+            "PreSize": {
+              "X": 0.0578,
+              "Y": 0.1111
+            },
+            "LeftMargin": 1174.7681,
+            "RightMargin": 31.2319,
+            "TopMargin": 23.47,
+            "BottomMargin": 616.53,
+            "Tag": 136,
+            "ActionTag": 1376481532,
+            "Size": {
+              "X": 74.0,
+              "Y": 80.0
+            },
+            "Name": "k_btn_settings",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/HkFiveCard/gameui/img_GameUI_LeftTopBg.png",
+              "Plist": ""
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 91,
+            "Scale9Width": 36,
+            "Scale9Height": 67,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1175.2938,
+              "Y": 440.6709
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9182,
+              "Y": 0.612
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.3861
+            },
+            "LeftMargin": 1175.2938,
+            "RightMargin": 32.7062,
+            "TopMargin": 1.3291,
+            "BottomMargin": 440.6709,
+            "Tag": 131,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HkFiveCard/button/button_sound_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HkFiveCard/button/button_sound_normal.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 50,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 36.0,
+                  "Y": 136.974
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4927
+                },
+                "PreSize": {
+                  "X": 1.1111,
+                  "Y": 0.295
+                },
+                "LeftMargin": -4.0,
+                "RightMargin": -4.0,
+                "TopMargin": 100.026,
+                "BottomMargin": 95.974,
+                "Tag": 132,
+                "ActionTag": 1434355784,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 82.0
+                },
+                "Name": "k_btn_sound",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/button_quit_selected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/button/button_quit_normal.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 50,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 36.0,
+                  "Y": 61.9042
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2227
+                },
+                "PreSize": {
+                  "X": 1.1111,
+                  "Y": 0.295
+                },
+                "LeftMargin": -4.0,
+                "RightMargin": -4.0,
+                "TopMargin": 175.0958,
+                "BottomMargin": 20.9042,
+                "Tag": 133,
+                "ActionTag": 101418163,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 82.0
+                },
+                "Name": "k_btn_exit",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HkFiveCard/gameui/img_GameUI_spLine.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 35.9995,
+                  "Y": 172.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6187
+                },
+                "PreSize": {
+                  "X": 0.75,
+                  "Y": 0.0072
+                },
+                "LeftMargin": 8.9995,
+                "RightMargin": 9.0005,
+                "TopMargin": 105.0,
+                "BottomMargin": 171.0,
+                "Tag": 134,
+                "ActionTag": -1633574929,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 2.0
+                },
+                "Name": "spLine1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HkFiveCard/gameui/img_GameUI_spLine.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 35.9994,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3597
+                },
+                "PreSize": {
+                  "X": 0.75,
+                  "Y": 0.0072
+                },
+                "LeftMargin": 8.9994,
+                "RightMargin": 9.0006,
+                "TopMargin": 177.0,
+                "BottomMargin": 99.0,
+                "Tag": 135,
+                "ActionTag": 629968764,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 2.0
+                },
+                "Name": "spLine2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 827575166,
+            "Size": {
+              "X": 72.0,
+              "Y": 278.0
+            },
+            "Name": "k_container_settings",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1280.0,
+            "TopMargin": 720.0,
+            "Tag": 181,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_card_back.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 187.29,
+                  "Y": 394.4482
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 162.29,
+                "RightMargin": -212.29,
+                "TopMargin": -428.9482,
+                "BottomMargin": 359.9482,
+                "Tag": 182,
+                "ActionTag": 353746634,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 69.0
+                },
+                "Name": "k_sp_CardBack_Player_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 20,
+                "CharHeight": 26,
+                "LabelText": "33",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/tx_num_02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 187.4514,
+                  "Y": 393.0913
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 167.4514,
+                "RightMargin": -207.4514,
+                "TopMargin": -406.0913,
+                "BottomMargin": 380.0913,
+                "Tag": 183,
+                "ActionTag": 723648467,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 26.0
+                },
+                "Name": "k_ta_CardNum_Player_4",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_card_back.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 994.8817,
+                  "Y": 566.3646
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 969.8817,
+                "RightMargin": -1019.8817,
+                "TopMargin": -600.8646,
+                "BottomMargin": 531.8646,
+                "Tag": 184,
+                "ActionTag": 486519033,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 69.0
+                },
+                "Name": "k_sp_CardBack_Player_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 20,
+                "CharHeight": 26,
+                "LabelText": "33",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/tx_num_02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 995.4594,
+                  "Y": 564.9466
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 975.4594,
+                "RightMargin": -1015.4594,
+                "TopMargin": -577.9466,
+                "BottomMargin": 551.9466,
+                "Tag": 185,
+                "ActionTag": -682798487,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 26.0
+                },
+                "Name": "k_ta_CardNum_Player_3",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/img_card_back.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1091.7865,
+                  "Y": 394.4482
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1066.7865,
+                "RightMargin": -1116.7865,
+                "TopMargin": -428.9482,
+                "BottomMargin": 359.9482,
+                "Tag": 186,
+                "ActionTag": 761274305,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 69.0
+                },
+                "Name": "k_sp_CardBack_Player_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 20,
+                "CharHeight": 26,
+                "LabelText": "33",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/tx_num_02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1090.983,
+                  "Y": 393.0913
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1070.983,
+                "RightMargin": -1110.983,
+                "TopMargin": -406.0913,
+                "BottomMargin": 380.0913,
+                "Tag": 187,
+                "ActionTag": 1820848984,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 26.0
+                },
+                "Name": "k_ta_CardNum_Player_2",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": 924486122,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_playerCardBack",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/gameui/img_bg_01.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 425.016
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5903
+            },
+            "PreSize": {
+              "X": 0.168,
+              "Y": 0.1903
+            },
+            "LeftMargin": 532.5,
+            "RightMargin": 532.5,
+            "TopMargin": 226.484,
+            "BottomMargin": 356.516,
+            "Tag": 162,
+            "Children": [
+              {
+                "CharWidth": 21,
+                "CharHeight": 26,
+                "LabelText": "100",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/WL/gameui/tx_num_01.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 107.5,
+                  "Y": 56.7699
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4144
+                },
+                "PreSize": {
+                  "X": 0.293,
+                  "Y": 0.1898
+                },
+                "LeftMargin": 76.0,
+                "RightMargin": 76.0,
+                "TopMargin": 67.2301,
+                "BottomMargin": 43.7699,
+                "Tag": 163,
+                "ActionTag": -1411139580,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 26.0
+                },
+                "Name": "k_ta_roundScore",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": -701872269,
+            "Size": {
+              "X": 215.0,
+              "Y": 137.0
+            },
+            "Name": "k_img_roundScore_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Layer/Game/WL/ResultLayer.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 190,
+            "ActionTag": 797948397,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "k_nd_layer_result",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_KaiShiYouXi_02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_KaiShiYouXi_01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 216,
+            "Scale9Height": 56,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 778.7673,
+              "Y": 190.18
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6084,
+              "Y": 0.2641
+            },
+            "PreSize": {
+              "X": 0.1922,
+              "Y": 0.1083
+            },
+            "LeftMargin": 655.7673,
+            "RightMargin": 378.2327,
+            "TopMargin": 490.82,
+            "BottomMargin": 151.18,
+            "Tag": 508,
+            "ActionTag": -1176384515,
+            "Size": {
+              "X": 246.0,
+              "Y": 78.0
+            },
+            "Name": "k_btn_start_ready",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_QuXiaoTuoGuan_02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_QuXiaoTuoGuan_01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 211,
+            "Scale9Height": 57,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 648.96,
+              "Y": 138.353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.507,
+              "Y": 0.1922
+            },
+            "PreSize": {
+              "X": 0.1883,
+              "Y": 0.1097
+            },
+            "LeftMargin": 528.46,
+            "RightMargin": 510.54,
+            "TopMargin": 542.147,
+            "BottomMargin": 98.853,
+            "Tag": 943,
+            "ActionTag": -855018660,
+            "Size": {
+              "X": 241.0,
+              "Y": 79.0
+            },
+            "Name": "k_btn_QuXiaoTuoGuan",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_PaiXu_02.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/WL/button/btn_PaiXu_01.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 69,
+            "Scale9Height": 35,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1221.6207,
+              "Y": 273.1127
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9544,
+              "Y": 0.3793
+            },
+            "PreSize": {
+              "X": 0.0773,
+              "Y": 0.0792
+            },
+            "LeftMargin": 1172.1207,
+            "RightMargin": 8.8793,
+            "TopMargin": 418.3873,
+            "BottomMargin": 244.6127,
+            "Tag": 1036,
+            "ActionTag": 1666853565,
+            "Size": {
+              "X": 99.0,
+              "Y": 57.0
+            },
+            "Name": "k_btn_PaiXu",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Sprite.png",
+        "../Image/Common/Avatar/female_5.png",
+        "../Image/HkFiveCard/button/button_ccdown_norma.png",
+        "../Image/HkFiveCard/button/button_sound_normal.png",
+        "../Image/HkFiveCard/button/button_sound_selected.png",
+        "../Image/HkFiveCard/gameui/img_GameUI_LeftTopBg.png",
+        "../Image/HkFiveCard/gameui/img_GameUI_spLine.png",
+        "../Image/WL/button/btn_ChuPai_01.png",
+        "../Image/WL/button/btn_ChuPai_02.png",
+        "../Image/WL/button/btn_ChuPai_03.png",
+        "../Image/WL/button/btn_KaiShiYouXi_01.png",
+        "../Image/WL/button/btn_KaiShiYouXi_02.png",
+        "../Image/WL/button/btn_PaiXu_01.png",
+        "../Image/WL/button/btn_PaiXu_02.png",
+        "../Image/WL/button/btn_QuXiaoTuoGuan_01.png",
+        "../Image/WL/button/btn_QuXiaoTuoGuan_02.png",
+        "../Image/WL/button/btn_TiShi_01.png",
+        "../Image/WL/button/btn_TiShi_02.png",
+        "../Image/WL/button/btn_YaoBuQi_01.png",
+        "../Image/WL/button/btn_YaoBuQi_02.png",
+        "../Image/WL/button/button_quit_normal.png",
+        "../Image/WL/button/button_quit_selected.png",
+        "../Image/WL/gameui/img_background.png",
+        "../Image/WL/gameui/img_bg_01.png",
+        "../Image/WL/gameui/img_bg_02.png",
+        "../Image/WL/gameui/img_card_back.png",
+        "../Image/WL/gameui/img_tatouxiangBG.png",
+        "../Image/WL/gameui/img_title.png",
+        "../Image/WL/gameui/img_TuoGuan.png",
+        "../Image/WL/gameui/tx_CardNo.png",
+        "../Image/WL/gameui/tx_GameUI_WaitDian.png",
+        "../Image/WL/gameui/tx_GameUI_WaitPlayer.png",
+        "../Image/WL/gameui/tx_num_01.png",
+        "../Image/WL/gameui/tx_num_02.png",
+        "../Image/WL/gameui/tx_ready.png",
+        "../Layer/Game/WL/ResultLayer.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

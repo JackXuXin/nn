@@ -1,0 +1,1843 @@
+{
+  "ID": "da0b6057-5f4d-4dfd-bec8-a9fed4c44971",
+  "Version": "2.3.4",
+  "Name": "LoginRoomLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/friendroom/img_PassBg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 276,
+            "Scale9OriginY": 164,
+            "Scale9Width": 262,
+            "Scale9Height": 175,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0001,
+              "Y": 357.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4958
+            },
+            "PreSize": {
+              "X": 0.6359,
+              "Y": 0.6986
+            },
+            "LeftMargin": 233.0001,
+            "RightMargin": 232.9999,
+            "TopMargin": 111.5,
+            "BottomMargin": 105.5,
+            "Tag": 216,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.0005,
+                  "Y": 315.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1658,
+                  "Y": 0.6262
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 0.0005,
+                "RightMargin": 543.9995,
+                "TopMargin": 143.5,
+                "BottomMargin": 270.5,
+                "Tag": 228,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "1",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 251,
+                    "ActionTag": -1772935529,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 372247148,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 407.0032,
+                  "Y": 315.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6262
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 272.0032,
+                "RightMargin": 271.9968,
+                "TopMargin": 143.4998,
+                "BottomMargin": 270.5002,
+                "Tag": 229,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "2",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 252,
+                    "ActionTag": 201195889,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_0",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 529585770,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 679.0051,
+                  "Y": 315.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8342,
+                  "Y": 0.6262
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 544.0051,
+                "RightMargin": -0.0051,
+                "TopMargin": 143.4998,
+                "BottomMargin": 270.5002,
+                "Tag": 230,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "3",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 253,
+                    "ActionTag": -73501966,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_1",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 2013777233,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.0005,
+                  "Y": 226.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1658,
+                  "Y": 0.4493
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 0.0005,
+                "RightMargin": 543.9995,
+                "TopMargin": 232.4998,
+                "BottomMargin": 181.5002,
+                "Tag": 231,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "4",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 254,
+                    "ActionTag": 1056097304,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_2",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -2049728190,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 407.0023,
+                  "Y": 226.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4493
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 272.0023,
+                "RightMargin": 271.9977,
+                "TopMargin": 232.4998,
+                "BottomMargin": 181.5002,
+                "Tag": 232,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "5",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 255,
+                    "ActionTag": -196614425,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_3",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1816658972,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_5",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 679.0048,
+                  "Y": 226.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8342,
+                  "Y": 0.4493
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 544.0048,
+                "RightMargin": -0.0048,
+                "TopMargin": 232.4998,
+                "BottomMargin": 181.5002,
+                "Tag": 233,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "6",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 256,
+                    "ActionTag": 1808720093,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_4",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -852376781,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_6",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.0002,
+                  "Y": 137.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1658,
+                  "Y": 0.2724
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 0.0002,
+                "RightMargin": 543.9998,
+                "TopMargin": 321.5,
+                "BottomMargin": 92.5,
+                "Tag": 234,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "7",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 257,
+                    "ActionTag": 125218109,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_5",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1432866654,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_7",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 407.002,
+                  "Y": 137.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2724
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 272.002,
+                "RightMargin": 271.998,
+                "TopMargin": 321.4999,
+                "BottomMargin": 92.5001,
+                "Tag": 235,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "8",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 258,
+                    "ActionTag": 1847681928,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_6",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1998687696,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_8",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 679.0043,
+                  "Y": 137.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8342,
+                  "Y": 0.2724
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 544.0043,
+                "RightMargin": -0.0043,
+                "TopMargin": 321.5,
+                "BottomMargin": 92.5,
+                "Tag": 236,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "9",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 259,
+                    "ActionTag": 304692429,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_7",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1692043378,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_9",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 407.0026,
+                  "Y": 47.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0934
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 272.0026,
+                "RightMargin": 271.9974,
+                "TopMargin": 411.4999,
+                "BottomMargin": 2.5001,
+                "Tag": 237,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 48,
+                    "LabelText": "0",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/img_KeyNum.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1407,
+                      "Y": 0.5393
+                    },
+                    "LeftMargin": -19.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 260,
+                    "ActionTag": -1912563498,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 48.0
+                    },
+                    "Name": "AtlasLabel_5_8",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -497143289,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.0003,
+                  "Y": 47.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1658,
+                  "Y": 0.0934
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 0.0003,
+                "RightMargin": 543.9997,
+                "TopMargin": 411.4999,
+                "BottomMargin": 2.5001,
+                "Tag": 238,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/text_AInput.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 34,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 39,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3963,
+                      "Y": 0.5955
+                    },
+                    "LeftMargin": -53.5,
+                    "RightMargin": 216.5,
+                    "TopMargin": 62.5,
+                    "BottomMargin": -26.5,
+                    "Tag": 262,
+                    "ActionTag": -563169486,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 53.0
+                    },
+                    "Name": "Image_23",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1865405999,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_ReInput",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/friendroom/btn_Mid.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 240,
+                "Scale9Height": 67,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 679.0043,
+                  "Y": 47.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8342,
+                  "Y": 0.0934
+                },
+                "PreSize": {
+                  "X": 0.3317,
+                  "Y": 0.1769
+                },
+                "LeftMargin": 544.0043,
+                "RightMargin": -0.0043,
+                "TopMargin": 411.4999,
+                "BottomMargin": 2.5001,
+                "Tag": 239,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/friendroom/text_Chess.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 34,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 37,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3889,
+                      "Y": 0.5843
+                    },
+                    "LeftMargin": -52.5,
+                    "RightMargin": 217.5,
+                    "TopMargin": 63.0,
+                    "BottomMargin": -26.0,
+                    "Tag": 261,
+                    "ActionTag": -2131320053,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 52.0
+                    },
+                    "Name": "Image_22",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -949383452,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 89.0
+                },
+                "Name": "Button_Chess",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 222.95,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2739,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 222.95,
+                "RightMargin": 591.05,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 240,
+                "ActionTag": 1660190716,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.53,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3655,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 297.53,
+                "RightMargin": 516.47,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 246,
+                "ActionTag": -927847708,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 370.98,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4557,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 370.98,
+                "RightMargin": 443.02,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 247,
+                "ActionTag": -517494383,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 445.19,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5469,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 445.19,
+                "RightMargin": 368.81,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 248,
+                "ActionTag": 387526840,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_4",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 521.26,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6404,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 521.26,
+                "RightMargin": 292.74,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 249,
+                "ActionTag": 1871410262,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 50,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 594.84,
+                  "Y": 395.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7308,
+                  "Y": 0.7853
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 594.84,
+                "RightMargin": 219.16,
+                "TopMargin": 108.0,
+                "BottomMargin": 395.0,
+                "Tag": 250,
+                "ActionTag": 1210624602,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_6",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -694146087,
+            "Size": {
+              "X": 814.0,
+              "Y": 503.0
+            },
+            "Name": "Image_17",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Lobby/friendroom/btn_Mid.png",
+        "../../Image/Lobby/friendroom/img_KeyNum.png",
+        "../../Image/Lobby/friendroom/img_PassBg.png",
+        "../../Image/Lobby/friendroom/text_AInput.png",
+        "../../Image/Lobby/friendroom/text_Chess.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

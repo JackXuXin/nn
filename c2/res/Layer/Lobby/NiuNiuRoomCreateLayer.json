@@ -1,0 +1,2855 @@
+{
+  "ID": "6644525d-c3ee-4ae5-83a0-10f4189f72e9",
+  "Version": "2.3.4",
+  "Name": "NiuNiuRoomCreateLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 553,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/yellow_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 99,
+            "Scale9Height": 64,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7367,
+              "Y": 0.7472
+            },
+            "LeftMargin": 168.5,
+            "RightMargin": 168.5,
+            "TopMargin": 91.0,
+            "BottomMargin": 91.0,
+            "Tag": 554,
+            "ActionTag": 1575640163,
+            "Size": {
+              "X": 943.0,
+              "Y": 538.0
+            },
+            "Name": "Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/btn_CreateRoom.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/PrivateRoom/btn_CreateRoom.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 258,
+            "Scale9Height": 72,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 638.3949,
+              "Y": 148.9282
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4987,
+              "Y": 0.2068
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.1306
+            },
+            "LeftMargin": 494.3949,
+            "RightMargin": 497.6051,
+            "TopMargin": 524.0718,
+            "BottomMargin": 101.9282,
+            "Tag": 560,
+            "ActionTag": 190057356,
+            "Size": {
+              "X": 288.0,
+              "Y": 94.0
+            },
+            "Name": "Btn_Create",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "首局结算前解散不扣除钻石",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 334.363,
+              "Y": 149.0319
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 22,
+              "G": 51,
+              "B": 119
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2612,
+              "Y": 0.207
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.0319
+            },
+            "LeftMargin": 214.363,
+            "RightMargin": 825.637,
+            "TopMargin": 559.4681,
+            "BottomMargin": 137.5319,
+            "Tag": 561,
+            "ActionTag": 1174501233,
+            "Size": {
+              "X": 240.0,
+              "Y": 23.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 96000,
+              "Height": 440
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": true,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 174.1747,
+              "Y": 198.8023
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1361,
+              "Y": 0.2761
+            },
+            "PreSize": {
+              "X": 0.7266,
+              "Y": 0.5833
+            },
+            "LeftMargin": 174.1747,
+            "RightMargin": 175.8253,
+            "TopMargin": 101.1977,
+            "BottomMargin": 198.8023,
+            "Tag": 926,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.5778,
+                  "Y": 397.8915
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.9043
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.0778,
+                "RightMargin": 95076.9219,
+                "TopMargin": 6.6085,
+                "BottomMargin": 362.3915,
+                "Tag": 875,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.2079,
+                      "Y": 35.5603
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2733,
+                      "Y": 0.5008
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 184.2079,
+                    "RightMargin": 600.7921,
+                    "TopMargin": 8.9397,
+                    "BottomMargin": 9.0603,
+                    "Tag": 876,
+                    "ActionTag": -1185580432,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_banker_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 492.8502,
+                      "Y": 34.9424
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5363,
+                      "Y": 0.4921
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 425.8502,
+                    "RightMargin": 359.1498,
+                    "TopMargin": 9.5576,
+                    "BottomMargin": 8.4424,
+                    "Tag": 877,
+                    "ActionTag": 1268071793,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_banker_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 741.2321,
+                      "Y": 34.1571
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8066,
+                      "Y": 0.4811
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 674.2321,
+                    "RightMargin": 110.7679,
+                    "TopMargin": 10.3429,
+                    "BottomMargin": 7.6571,
+                    "Tag": 878,
+                    "ActionTag": -1026781302,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_banker_3",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 2039098776,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.5778,
+                  "Y": 326.6045
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.7423
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.0778,
+                "RightMargin": 95076.9219,
+                "TopMargin": 77.8955,
+                "BottomMargin": 291.1045,
+                "Tag": 1274,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.8877,
+                      "Y": 33.648
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.273,
+                      "Y": 0.4739
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 183.8877,
+                    "RightMargin": 601.1123,
+                    "TopMargin": 10.852,
+                    "BottomMargin": 7.148,
+                    "Tag": 1276,
+                    "ActionTag": 1667373682,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCount_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 436.2295,
+                      "Y": 34.1568
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4747,
+                      "Y": 0.4811
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 369.2295,
+                    "RightMargin": 415.7705,
+                    "TopMargin": 10.3432,
+                    "BottomMargin": 7.6568,
+                    "Tag": 1278,
+                    "ActionTag": 1404409860,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCount_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 621.6747,
+                      "Y": 34.8633
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6765,
+                      "Y": 0.491
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 554.6747,
+                    "RightMargin": 230.3253,
+                    "TopMargin": 9.6367,
+                    "BottomMargin": 8.3633,
+                    "Tag": 1280,
+                    "ActionTag": 1929158301,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCount_3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 810.9865,
+                      "Y": 35.2345
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8825,
+                      "Y": 0.4963
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 743.9865,
+                    "RightMargin": 41.0135,
+                    "TopMargin": 9.2655,
+                    "BottomMargin": 8.7345,
+                    "Tag": 2128,
+                    "ActionTag": -33751558,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_SeatCount_4",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1469693395,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.5802,
+                  "Y": 112.7428
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.2562
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.0802,
+                "RightMargin": 95076.9219,
+                "TopMargin": 291.7572,
+                "BottomMargin": 77.2428,
+                "Tag": 629,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Normal.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Press.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Normal.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 214.8876,
+                      "Y": 34.6479
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2338,
+                      "Y": 0.488
+                    },
+                    "PreSize": {
+                      "X": 0.0446,
+                      "Y": 0.5775
+                    },
+                    "LeftMargin": 194.3876,
+                    "RightMargin": 683.6124,
+                    "TopMargin": 15.8521,
+                    "BottomMargin": 14.1479,
+                    "Tag": 631,
+                    "ActionTag": 1067510115,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 41.0
+                    },
+                    "Name": "CheckBox_BaseScore_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Normal.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Press.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Normal.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 456.2103,
+                      "Y": 34.7611
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4964,
+                      "Y": 0.4896
+                    },
+                    "PreSize": {
+                      "X": 0.0446,
+                      "Y": 0.5775
+                    },
+                    "LeftMargin": 435.7103,
+                    "RightMargin": 442.2897,
+                    "TopMargin": 15.7389,
+                    "BottomMargin": 14.2611,
+                    "Tag": 634,
+                    "ActionTag": 246212126,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 41.0
+                    },
+                    "Name": "CheckBox_BaseScore_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Normal.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Press.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Normal.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 704.7234,
+                      "Y": 34.4137
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7668,
+                      "Y": 0.4847
+                    },
+                    "PreSize": {
+                      "X": 0.0446,
+                      "Y": 0.5775
+                    },
+                    "LeftMargin": 684.2234,
+                    "RightMargin": 193.7766,
+                    "TopMargin": 16.0863,
+                    "BottomMargin": 13.9137,
+                    "Tag": 636,
+                    "ActionTag": 980204341,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 41.0
+                    },
+                    "Name": "CheckBox_BaseScore_3",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 14755644,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "VisibleForFrame": false,
+                "Name": "item_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_4.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.5778,
+                  "Y": 255.3167
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.5803
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.0778,
+                "RightMargin": 95076.9219,
+                "TopMargin": 149.1833,
+                "BottomMargin": 219.8167,
+                "Tag": 639,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.8876,
+                      "Y": 34.6479
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2741,
+                      "Y": 0.488
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 184.8876,
+                    "RightMargin": 600.1124,
+                    "TopMargin": 9.8521,
+                    "BottomMargin": 8.1479,
+                    "Tag": 641,
+                    "ActionTag": 1199757893,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoundCount_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 493.6857,
+                      "Y": 33.3841
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5372,
+                      "Y": 0.4702
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 426.6857,
+                    "RightMargin": 358.3143,
+                    "TopMargin": 11.1159,
+                    "BottomMargin": 6.8841,
+                    "Tag": 643,
+                    "ActionTag": -1819983049,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_RoundCount_2",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1605365976,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_5.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.5778,
+                  "Y": 184.0298
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.4182
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.0778,
+                "RightMargin": 95076.9219,
+                "TopMargin": 220.4702,
+                "BottomMargin": 148.5298,
+                "Tag": 648,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.8876,
+                      "Y": 33.6479
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.273,
+                      "Y": 0.4739
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 183.8876,
+                    "RightMargin": 601.1124,
+                    "TopMargin": 10.8521,
+                    "BottomMargin": 7.1479,
+                    "Tag": 650,
+                    "ActionTag": -2123681957,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_PayMod_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 556.8643,
+                      "Y": 34.2254
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6059,
+                      "Y": 0.482
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 489.8643,
+                    "RightMargin": 295.1357,
+                    "TopMargin": 10.2746,
+                    "BottomMargin": 7.7254,
+                    "Tag": 652,
+                    "ActionTag": -489658758,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_PayMod_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/tx_diamond.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 10,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 397.3882,
+                      "Y": 31.4381
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4324,
+                      "Y": 0.4428
+                    },
+                    "PreSize": {
+                      "X": 0.0305,
+                      "Y": 0.3803
+                    },
+                    "LeftMargin": 383.3882,
+                    "RightMargin": 507.6118,
+                    "TopMargin": 26.0619,
+                    "BottomMargin": 17.9381,
+                    "Tag": 928,
+                    "ActionTag": -1480220072,
+                    "Size": {
+                      "X": 28.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_12",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "（           ）",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 425.4743,
+                      "Y": 32.0814
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 6,
+                      "G": 241,
+                      "B": 247
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.463,
+                      "Y": 0.4519
+                    },
+                    "PreSize": {
+                      "X": 0.1654,
+                      "Y": 0.4789
+                    },
+                    "LeftMargin": 349.4743,
+                    "RightMargin": 417.5257,
+                    "TopMargin": 21.9186,
+                    "BottomMargin": 15.0814,
+                    "Tag": 927,
+                    "ActionTag": -1490912845,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Text_3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "x2/人",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 442.7426,
+                      "Y": 31.353
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 6,
+                      "G": 241,
+                      "B": 247
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4818,
+                      "Y": 0.4416
+                    },
+                    "PreSize": {
+                      "X": 0.0511,
+                      "Y": 0.3239
+                    },
+                    "LeftMargin": 419.2426,
+                    "RightMargin": 452.7574,
+                    "TopMargin": 28.147,
+                    "BottomMargin": 19.853,
+                    "Tag": 929,
+                    "ActionTag": 1596338730,
+                    "Size": {
+                      "X": 47.0,
+                      "Y": 23.0
+                    },
+                    "Name": "PayCostText_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/tx_diamond.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 10,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 717.8582,
+                      "Y": 31.0761
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7811,
+                      "Y": 0.4377
+                    },
+                    "PreSize": {
+                      "X": 0.0305,
+                      "Y": 0.3803
+                    },
+                    "LeftMargin": 703.8582,
+                    "RightMargin": 187.1418,
+                    "TopMargin": 26.4239,
+                    "BottomMargin": 17.5761,
+                    "Tag": 930,
+                    "ActionTag": -462261609,
+                    "Size": {
+                      "X": 28.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_12_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "（           ）",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 745.9468,
+                      "Y": 31.7199
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 6,
+                      "G": 241,
+                      "B": 247
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8117,
+                      "Y": 0.4468
+                    },
+                    "PreSize": {
+                      "X": 0.1654,
+                      "Y": 0.4789
+                    },
+                    "LeftMargin": 669.9468,
+                    "RightMargin": 97.0532,
+                    "TopMargin": 22.2801,
+                    "BottomMargin": 14.7199,
+                    "Tag": 931,
+                    "ActionTag": -50581783,
+                    "Size": {
+                      "X": 152.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Text_3_0",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "x2",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 763.2139,
+                      "Y": 33.9094
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 6,
+                      "G": 241,
+                      "B": 247
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8305,
+                      "Y": 0.4776
+                    },
+                    "PreSize": {
+                      "X": 0.0348,
+                      "Y": 0.4789
+                    },
+                    "LeftMargin": 747.2139,
+                    "RightMargin": 139.7861,
+                    "TopMargin": 20.0906,
+                    "BottomMargin": 16.9094,
+                    "Tag": 932,
+                    "ActionTag": 1668322083,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 34.0
+                    },
+                    "Name": "PayCostText_1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -420214461,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_6.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.58,
+                  "Y": 113.591
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.2582
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.08,
+                "RightMargin": 95076.9219,
+                "TopMargin": 290.909,
+                "BottomMargin": 78.091,
+                "Tag": 701,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.8876,
+                      "Y": 34.6479
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.273,
+                      "Y": 0.488
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 183.8876,
+                    "RightMargin": 601.1124,
+                    "TopMargin": 9.8521,
+                    "BottomMargin": 8.1479,
+                    "Tag": 703,
+                    "ActionTag": -1140374989,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_BankScore_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 410.3953,
+                      "Y": 34.9369
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4466,
+                      "Y": 0.4921
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 343.3953,
+                    "RightMargin": 441.6047,
+                    "TopMargin": 9.5631,
+                    "BottomMargin": 8.4369,
+                    "Tag": 705,
+                    "ActionTag": -988698386,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_BankScore_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CharWidth": 18,
+                    "CharHeight": 25,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/basesoce_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 441.6073,
+                      "Y": 35.5707
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4805,
+                      "Y": 0.501
+                    },
+                    "PreSize": {
+                      "X": 0.0588,
+                      "Y": 0.3521
+                    },
+                    "LeftMargin": 414.6073,
+                    "RightMargin": 450.3927,
+                    "TopMargin": 22.9293,
+                    "BottomMargin": 23.0707,
+                    "Tag": 482,
+                    "ActionTag": 1877446239,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 25.0
+                    },
+                    "Name": "BankScore_2",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 576.4077,
+                      "Y": 34.7685
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6272,
+                      "Y": 0.4897
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 509.4077,
+                    "RightMargin": 275.5923,
+                    "TopMargin": 9.7315,
+                    "BottomMargin": 8.2685,
+                    "Tag": 707,
+                    "ActionTag": -1550683779,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_BankScore_3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CharWidth": 18,
+                    "CharHeight": 25,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/basesoce_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 604.2801,
+                      "Y": 36.582
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6575,
+                      "Y": 0.5152
+                    },
+                    "PreSize": {
+                      "X": 0.0588,
+                      "Y": 0.3521
+                    },
+                    "LeftMargin": 577.2801,
+                    "RightMargin": 287.7199,
+                    "TopMargin": 21.918,
+                    "BottomMargin": 24.082,
+                    "Tag": 483,
+                    "ActionTag": 172064260,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 25.0
+                    },
+                    "Name": "BankScore_3",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 740.8132,
+                      "Y": 34.495
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8061,
+                      "Y": 0.4858
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.7465
+                    },
+                    "LeftMargin": 673.8132,
+                    "RightMargin": 111.1868,
+                    "TopMargin": 10.005,
+                    "BottomMargin": 7.995,
+                    "Tag": 709,
+                    "ActionTag": 1828556880,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_BankScore_4",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CharWidth": 18,
+                    "CharHeight": 25,
+                    "LabelText": "100",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/basesoce_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 773.0148,
+                      "Y": 35.5707
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8411,
+                      "Y": 0.501
+                    },
+                    "PreSize": {
+                      "X": 0.0588,
+                      "Y": 0.3521
+                    },
+                    "LeftMargin": 746.0148,
+                    "RightMargin": 118.9852,
+                    "TopMargin": 22.9293,
+                    "BottomMargin": 23.0707,
+                    "Tag": 484,
+                    "ActionTag": -214674372,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 25.0
+                    },
+                    "Name": "BankScore_4",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 2141701746,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_tip.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 79,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.58,
+                  "Y": 11.1349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": 0.0253
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.3023
+                },
+                "LeftMargin": 4.08,
+                "RightMargin": 95076.9219,
+                "TopMargin": 362.3651,
+                "BottomMargin": -55.3651,
+                "Tag": 659,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.3666,
+                      "Y": 95.6085
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2735,
+                      "Y": 0.7189
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.3985
+                    },
+                    "LeftMargin": 184.3666,
+                    "RightMargin": 600.6334,
+                    "TopMargin": 10.8915,
+                    "BottomMargin": 69.1085,
+                    "Tag": 722,
+                    "ActionTag": -1114397851,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_DoubleRuleTip_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/select_btn_1.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/new_room/img_lvdian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 250.6409,
+                      "Y": 34.7231
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2727,
+                      "Y": 0.2611
+                    },
+                    "PreSize": {
+                      "X": 0.1458,
+                      "Y": 0.3985
+                    },
+                    "LeftMargin": 183.6409,
+                    "RightMargin": 601.3591,
+                    "TopMargin": 71.7769,
+                    "BottomMargin": 8.2231,
+                    "Tag": 724,
+                    "ActionTag": 628739869,
+                    "Size": {
+                      "X": 134.0,
+                      "Y": 53.0
+                    },
+                    "Name": "CheckBox_DoubleRuleTip_1",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 905842813,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 133.0
+                },
+                "Name": "item_6",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_7.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.58,
+                  "Y": -92.3977
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": -0.21
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.08,
+                "RightMargin": 95076.9219,
+                "TopMargin": 496.8977,
+                "BottomMargin": -127.8977,
+                "Tag": 679,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_0.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 216.3985,
+                      "Y": 37.1924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2355,
+                      "Y": 0.5238
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.5634
+                    },
+                    "LeftMargin": 196.3985,
+                    "RightMargin": 682.6015,
+                    "TopMargin": 13.8076,
+                    "BottomMargin": 17.1924,
+                    "Tag": 681,
+                    "ActionTag": -725483065,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "CheckBox_Special_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "(5倍)",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 356.8964,
+                      "Y": 33.4774
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 165,
+                      "G": 42,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3884,
+                      "Y": 0.4715
+                    },
+                    "PreSize": {
+                      "X": 0.049,
+                      "Y": 0.3239
+                    },
+                    "LeftMargin": 334.3964,
+                    "RightMargin": 539.6036,
+                    "TopMargin": 26.0226,
+                    "BottomMargin": 21.9774,
+                    "Tag": 486,
+                    "ActionTag": -1710658575,
+                    "Size": {
+                      "X": 45.0,
+                      "Y": 23.0
+                    },
+                    "Name": "Text_105",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_0.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.401,
+                      "Y": 37.1924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5021,
+                      "Y": 0.5238
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.5634
+                    },
+                    "LeftMargin": 441.401,
+                    "RightMargin": 437.599,
+                    "TopMargin": 13.8076,
+                    "BottomMargin": 17.1924,
+                    "Tag": 687,
+                    "ActionTag": 1666368590,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "CheckBox_Special_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "(5倍)",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 626.736,
+                      "Y": 33.4774
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 165,
+                      "G": 42,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.682,
+                      "Y": 0.4715
+                    },
+                    "PreSize": {
+                      "X": 0.049,
+                      "Y": 0.3239
+                    },
+                    "LeftMargin": 604.236,
+                    "RightMargin": 269.764,
+                    "TopMargin": 26.0226,
+                    "BottomMargin": 21.9774,
+                    "Tag": 487,
+                    "ActionTag": 245456516,
+                    "Size": {
+                      "X": 45.0,
+                      "Y": 23.0
+                    },
+                    "Name": "Text_105_0",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_0.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 705.9077,
+                      "Y": 36.2747
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7681,
+                      "Y": 0.5109
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.5634
+                    },
+                    "LeftMargin": 685.9077,
+                    "RightMargin": 193.0923,
+                    "TopMargin": 14.7253,
+                    "BottomMargin": 16.2747,
+                    "Tag": 689,
+                    "ActionTag": 1146894768,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "CheckBox_Special_3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "(8倍)",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 870.403,
+                      "Y": 33.4774
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 165,
+                      "G": 42,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9471,
+                      "Y": 0.4715
+                    },
+                    "PreSize": {
+                      "X": 0.049,
+                      "Y": 0.3239
+                    },
+                    "LeftMargin": 847.903,
+                    "RightMargin": 26.097,
+                    "TopMargin": 26.0226,
+                    "BottomMargin": 21.9774,
+                    "Tag": 488,
+                    "ActionTag": -1813517784,
+                    "Size": {
+                      "X": 45.0,
+                      "Y": 23.0
+                    },
+                    "Name": "Text_105_1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1257047924,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_7",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/WRNN/new_room/item_8.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 288,
+                "Scale9OriginY": 27,
+                "Scale9Width": 343,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 463.58,
+                  "Y": -163.6858
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0048,
+                  "Y": -0.372
+                },
+                "PreSize": {
+                  "X": 0.0096,
+                  "Y": 0.1614
+                },
+                "LeftMargin": 4.08,
+                "RightMargin": 95076.9219,
+                "TopMargin": 568.1858,
+                "BottomMargin": -199.1858,
+                "Tag": 712,
+                "Children": [
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_0.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 215.3023,
+                      "Y": 32.511
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2343,
+                      "Y": 0.4579
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.5634
+                    },
+                    "LeftMargin": 195.3023,
+                    "RightMargin": 683.6977,
+                    "TopMargin": 18.489,
+                    "BottomMargin": 12.511,
+                    "Tag": 714,
+                    "ActionTag": 740021143,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "CheckBox_Setting_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_0.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/WRNN/createroom/btn_check_1.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBoxNode_Disable.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 459.864,
+                      "Y": 33.6327
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5004,
+                      "Y": 0.4737
+                    },
+                    "PreSize": {
+                      "X": 0.0435,
+                      "Y": 0.5634
+                    },
+                    "LeftMargin": 439.864,
+                    "RightMargin": 439.136,
+                    "TopMargin": 17.3673,
+                    "BottomMargin": 13.6327,
+                    "Tag": 485,
+                    "ActionTag": 1072697480,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "CheckBox_Setting_2",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -2084227696,
+                "Size": {
+                  "X": 919.0,
+                  "Y": 71.0
+                },
+                "Name": "item_8",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -847434189,
+            "Size": {
+              "X": 930.0,
+              "Y": 420.0
+            },
+            "Name": "ItemContaner",
+            "ctype": "ScrollViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/CheckBox_Disable.png",
+        "../../Default/CheckBox_Normal.png",
+        "../../Default/CheckBox_Press.png",
+        "../../Default/CheckBoxNode_Disable.png",
+        "../../Default/CheckBoxNode_Normal.png",
+        "../../Image/PrivateRoom/btn_CreateRoom.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Image/WRNN/createroom/btn_check_0.png",
+        "../../Image/WRNN/createroom/btn_check_1.png",
+        "../../Image/WRNN/createroom/tx_diamond.png",
+        "../../Image/WRNN/new_room/basesoce_num.png",
+        "../../Image/WRNN/new_room/img_lvdian.png",
+        "../../Image/WRNN/new_room/item_1.png",
+        "../../Image/WRNN/new_room/item_2.png",
+        "../../Image/WRNN/new_room/item_3.png",
+        "../../Image/WRNN/new_room/item_4.png",
+        "../../Image/WRNN/new_room/item_5.png",
+        "../../Image/WRNN/new_room/item_6.png",
+        "../../Image/WRNN/new_room/item_7.png",
+        "../../Image/WRNN/new_room/item_8.png",
+        "../../Image/WRNN/new_room/item_tip.png",
+        "../../Image/WRNN/new_room/select_btn_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

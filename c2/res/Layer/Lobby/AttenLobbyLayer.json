@@ -1,0 +1,893 @@
+{
+  "ID": "2856a03c-54bb-4241-a09c-dee886fd1adc",
+  "Version": "2.3.4",
+  "Name": "AttenLobbyLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 362.7901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5039
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -2.7901,
+            "BottomMargin": 2.7901,
+            "Tag": 140,
+            "ActionTag": -1335820790,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/box_small_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 289,
+            "Scale9OriginY": 203,
+            "Scale9Width": 299,
+            "Scale9Height": 211,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6852,
+              "Y": 0.8569
+            },
+            "LeftMargin": 201.5,
+            "RightMargin": 201.5,
+            "TopMargin": 51.5,
+            "BottomMargin": 51.5,
+            "Tag": 1231,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/box_hua.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 210,
+                "Scale9OriginY": 7,
+                "Scale9Width": 219,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 437.9999,
+                  "Y": 579.0067
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.9384
+                },
+                "PreSize": {
+                  "X": 0.7286,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 118.4999,
+                "RightMargin": 119.5001,
+                "TopMargin": 25.9933,
+                "BottomMargin": 567.0067,
+                "Tag": 1238,
+                "ActionTag": -301146130,
+                "Size": {
+                  "X": 639.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/look_title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 14,
+                "Scale9Width": 112,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.0,
+                  "Y": 578.1581
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.937
+                },
+                "PreSize": {
+                  "X": 0.1916,
+                  "Y": 0.0729
+                },
+                "LeftMargin": 354.0,
+                "RightMargin": 355.0,
+                "TopMargin": 16.3419,
+                "BottomMargin": 555.6581,
+                "Tag": 1239,
+                "ActionTag": 1010402900,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 45.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 50,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 871.776,
+                  "Y": 605.7185
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.994,
+                  "Y": 0.9817
+                },
+                "PreSize": {
+                  "X": 0.0912,
+                  "Y": 0.1297
+                },
+                "LeftMargin": 831.776,
+                "RightMargin": -34.776,
+                "TopMargin": -28.7185,
+                "BottomMargin": 565.7185,
+                "Tag": 1240,
+                "ActionTag": -1379982468,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "Close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 437.9998,
+                  "Y": 278.5021
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.4514
+                },
+                "PreSize": {
+                  "X": 0.9544,
+                  "Y": 0.8088
+                },
+                "LeftMargin": 19.4998,
+                "RightMargin": 20.5002,
+                "TopMargin": 88.9979,
+                "BottomMargin": 29.0021,
+                "Tag": 535,
+                "ActionTag": 1076449715,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "SubBackground",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/share_context.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 437.9999,
+                  "Y": 280.7236
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.455
+                },
+                "PreSize": {
+                  "X": 0.7526,
+                  "Y": 0.6483
+                },
+                "LeftMargin": 107.9999,
+                "RightMargin": 109.0001,
+                "TopMargin": 136.2764,
+                "BottomMargin": 80.7236,
+                "Tag": 700,
+                "ActionTag": 1952921724,
+                "Size": {
+                  "X": 660.0,
+                  "Y": 400.0
+                },
+                "VisibleForFrame": false,
+                "Name": "TipBackground",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 217,
+                "Scale9OriginY": 26,
+                "Scale9Width": 226,
+                "Scale9Height": 29,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.0,
+                  "Y": 103.8031
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.1682
+                },
+                "PreSize": {
+                  "X": 0.7526,
+                  "Y": 0.1313
+                },
+                "LeftMargin": 108.0,
+                "RightMargin": 109.0,
+                "TopMargin": 472.6969,
+                "BottomMargin": 63.3031,
+                "Tag": 158,
+                "ActionTag": 1642501492,
+                "Size": {
+                  "X": 660.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "关注公众号后，每天发送一次“               ”领取           旺豆，",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 443.0,
+                  "Y": 120.5536
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5051,
+                  "Y": 0.1954
+                },
+                "PreSize": {
+                  "X": 0.7092,
+                  "Y": 0.0454
+                },
+                "LeftMargin": 132.0,
+                "RightMargin": 123.0,
+                "TopMargin": 482.4464,
+                "BottomMargin": 106.5536,
+                "Tag": 537,
+                "ActionTag": -354298169,
+                "Size": {
+                  "X": 622.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "游戏ID",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 502.9997,
+                  "Y": 120.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5735,
+                  "Y": 0.1945
+                },
+                "PreSize": {
+                  "X": 0.0821,
+                  "Y": 0.0454
+                },
+                "LeftMargin": 466.9997,
+                "RightMargin": 338.0003,
+                "TopMargin": 483.0,
+                "BottomMargin": 106.0,
+                "Tag": 75,
+                "ActionTag": 86349916,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "5万",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 645.9994,
+                  "Y": 120.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7366,
+                  "Y": 0.1945
+                },
+                "PreSize": {
+                  "X": 0.0433,
+                  "Y": 0.0454
+                },
+                "LeftMargin": 626.9994,
+                "RightMargin": 212.0006,
+                "TopMargin": 483.0,
+                "BottomMargin": 106.0,
+                "Tag": 76,
+                "ActionTag": -715248161,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_weixin.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_weixin.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_weixin.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 137,
+                "Scale9Height": 191,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 308.6776,
+                  "Y": 287.0282
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.352,
+                  "Y": 0.4652
+                },
+                "PreSize": {
+                  "X": 0.1904,
+                  "Y": 0.3452
+                },
+                "LeftMargin": 225.1776,
+                "RightMargin": 484.8224,
+                "TopMargin": 223.4718,
+                "BottomMargin": 180.5282,
+                "Tag": 534,
+                "ActionTag": -236459828,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 213.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Weixin",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_pengyouquan.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_pengyouquan.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Share/icon_pengyouquan.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 137,
+                "Scale9Height": 190,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 566.5103,
+                  "Y": 288.0277
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.646,
+                  "Y": 0.4668
+                },
+                "PreSize": {
+                  "X": 0.1904,
+                  "Y": 0.3436
+                },
+                "LeftMargin": 483.0103,
+                "RightMargin": 226.9897,
+                "TopMargin": 222.9723,
+                "BottomMargin": 182.0277,
+                "Tag": 553,
+                "ActionTag": 1151042604,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 212.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Friend",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "更多精彩活动请关注公众号wwcixi",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.0,
+                  "Y": 87.5537
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4994,
+                  "Y": 0.1419
+                },
+                "PreSize": {
+                  "X": 0.4082,
+                  "Y": 0.0454
+                },
+                "LeftMargin": 259.0,
+                "RightMargin": 260.0,
+                "TopMargin": 515.4463,
+                "BottomMargin": 73.5537,
+                "Tag": 88,
+                "ActionTag": 32380252,
+                "Size": {
+                  "X": 358.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_4",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Platform_Src/Image/Lobby/gzbg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 218,
+                "Scale9OriginY": 135,
+                "Scale9Width": 227,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 439.4647,
+                  "Y": 333.1708
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5011,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.756,
+                  "Y": 0.4668
+                },
+                "LeftMargin": 107.9647,
+                "RightMargin": 106.0353,
+                "TopMargin": 139.8292,
+                "BottomMargin": 189.1708,
+                "Tag": 927,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Platform_Src/Image/Lobby/ewm.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 85,
+                    "Scale9OriginY": 85,
+                    "Scale9Width": 89,
+                    "Scale9Height": 89,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.0,
+                      "Y": 145.1708
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2202,
+                      "Y": 0.5041
+                    },
+                    "PreSize": {
+                      "X": 0.3906,
+                      "Y": 0.8993
+                    },
+                    "LeftMargin": 16.5,
+                    "RightMargin": 387.5,
+                    "TopMargin": 13.3292,
+                    "BottomMargin": 15.6708,
+                    "Tag": 928,
+                    "ActionTag": 1278336368,
+                    "Size": {
+                      "X": 259.0,
+                      "Y": 259.0
+                    },
+                    "Name": "Image_8",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -612439471,
+                "Size": {
+                  "X": 663.0,
+                  "Y": 288.0
+                },
+                "Name": "Image_ewbg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1547107902,
+            "Size": {
+              "X": 877.0,
+              "Y": 617.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/ImageFile.png",
+        "../../Image/Public/box_hua.png",
+        "../../Image/Public/box_small_bg.png",
+        "../../Image/Public/close_1.png",
+        "../../Image/Public/close_2.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Image/Share/icon_pengyouquan.png",
+        "../../Image/Share/icon_weixin.png",
+        "../../Image/Share/look_title.png",
+        "../../Image/Share/share_context.png",
+        "../../Platform_Src/Image/Lobby/ewm.png",
+        "../../Platform_Src/Image/Lobby/gzbg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

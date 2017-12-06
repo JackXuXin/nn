@@ -1,0 +1,459 @@
+{
+  "ID": "5a6ccb5d-236f-41a8-b92f-33444560c737",
+  "Version": "2.3.4",
+  "Name": "ChangeAccount",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 140,
+            "ActionTag": -1335820790,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/PopBox_Mid.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 289,
+            "Scale9OriginY": 203,
+            "Scale9Width": 387,
+            "Scale9Height": 212,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7539,
+              "Y": 0.8583
+            },
+            "LeftMargin": 157.5,
+            "RightMargin": 157.5,
+            "TopMargin": 51.0,
+            "BottomMargin": 51.0,
+            "Tag": 834,
+            "ActionTag": 1041147332,
+            "Size": {
+              "X": 965.0,
+              "Y": 618.0
+            },
+            "Name": "Image_5",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/yellow_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 276,
+            "Scale9OriginY": 164,
+            "Scale9Width": 391,
+            "Scale9Height": 210,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9712,
+              "Y": 340.7693
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4733
+            },
+            "PreSize": {
+              "X": 0.7367,
+              "Y": 0.7472
+            },
+            "LeftMargin": 168.4712,
+            "RightMargin": 168.5288,
+            "TopMargin": 110.2307,
+            "BottomMargin": 71.7693,
+            "Tag": 837,
+            "ActionTag": 1615652473,
+            "Size": {
+              "X": 943.0,
+              "Y": 538.0
+            },
+            "Name": "Image_8",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/box_title.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 118,
+            "Scale9OriginY": 7,
+            "Scale9Width": 122,
+            "Scale9Height": 54,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9999,
+              "Y": 558.1646
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7752
+            },
+            "PreSize": {
+              "X": 0.2797,
+              "Y": 0.0944
+            },
+            "LeftMargin": 460.9999,
+            "RightMargin": 461.0001,
+            "TopMargin": 127.8354,
+            "BottomMargin": 524.1646,
+            "Tag": 900,
+            "ActionTag": -1742795628,
+            "Size": {
+              "X": 358.0,
+              "Y": 68.0
+            },
+            "Name": "Image_10",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/changeAccount_title.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 39,
+            "Scale9OriginY": 11,
+            "Scale9Width": 71,
+            "Scale9Height": 15,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 561.41
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7797
+            },
+            "PreSize": {
+              "X": 0.1164,
+              "Y": 0.0514
+            },
+            "LeftMargin": 565.5,
+            "RightMargin": 565.5,
+            "TopMargin": 140.09,
+            "BottomMargin": 542.91,
+            "Tag": 835,
+            "ActionTag": 1017213434,
+            "Size": {
+              "X": 149.0,
+              "Y": 37.0
+            },
+            "Name": "Image_Title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/changeAccount_context.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 176,
+            "Scale9OriginY": 11,
+            "Scale9Width": 267,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 402.7626
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5594
+            },
+            "PreSize": {
+              "X": 0.4836,
+              "Y": 0.0542
+            },
+            "LeftMargin": 330.5,
+            "RightMargin": 330.5,
+            "TopMargin": 297.7374,
+            "BottomMargin": 383.2626,
+            "Tag": 836,
+            "ActionTag": 850542294,
+            "Size": {
+              "X": 619.0,
+              "Y": 39.0
+            },
+            "Name": "Image_7",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/bind_confirm_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/bind_confirm_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 204,
+            "Scale9Height": 60,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 506.1444,
+              "Y": 250.0
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3954,
+              "Y": 0.3472
+            },
+            "PreSize": {
+              "X": 0.1828,
+              "Y": 0.1139
+            },
+            "LeftMargin": 389.1444,
+            "RightMargin": 656.8556,
+            "TopMargin": 429.0,
+            "BottomMargin": 209.0,
+            "Tag": 838,
+            "ActionTag": 1906587398,
+            "Size": {
+              "X": 234.0,
+              "Y": 82.0
+            },
+            "Name": "Button_Confirm",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/bind_cancel_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/HonorLayer/bind_cancel_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 204,
+            "Scale9Height": 60,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 769.348,
+              "Y": 249.9994
+            },
+            "Scale": {
+              "ScaleX": 0.69,
+              "ScaleY": 0.69
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6011,
+              "Y": 0.3472
+            },
+            "PreSize": {
+              "X": 0.1828,
+              "Y": 0.1139
+            },
+            "LeftMargin": 652.348,
+            "RightMargin": 393.652,
+            "TopMargin": 429.0006,
+            "BottomMargin": 208.9994,
+            "Tag": 839,
+            "ActionTag": -167286414,
+            "Size": {
+              "X": 234.0,
+              "Y": 82.0
+            },
+            "Name": "Button_Cancel",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Image/HonorLayer/bind_cancel_0.png",
+        "../../Image/HonorLayer/bind_cancel_1.png",
+        "../../Image/HonorLayer/bind_confirm_0.png",
+        "../../Image/HonorLayer/bind_confirm_1.png",
+        "../../Image/Lobby/changeAccount_context.png",
+        "../../Image/Lobby/changeAccount_title.png",
+        "../../Image/Public/box_title.png",
+        "../../Image/Public/PopBox_Mid.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

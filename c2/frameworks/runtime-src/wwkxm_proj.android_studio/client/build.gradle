@@ -1,0 +1,149 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+apply plugin: 'com.android.application'
+
+apply plugin: 'bugly'
+
+bugly {
+    appId = '967828f1f8' // 注册时分配的App ID
+    appKey = '3127ba1d-a32f-4daf-85a2-5572ae4d391d' // 注册时分配的App Key
+    debug = true
+}
+
+android {
+    signingConfigs {
+        releaseSign {
+            keyAlias 'jiangnan'
+            keyPassword 'Jiangnan105'
+            storeFile file('/Users/queyou/Desktop/wangwang.client/android/jnyl_sign.jks')
+            //storeFile file('/Users/queyou/Desktop/work_svn/target/Jiangnanyule_Certificates/android/jnyl_sign.jks')
+            storePassword 'Jiangnan105'
+        }
+        debugSign {
+            keyAlias 'jiangnan'
+            keyPassword 'Jiangnan105'
+            storeFile file('/Users/queyou/Desktop/wangwang.client/android/jnyl_sign.jks')
+            storePassword 'Jiangnan105'
+        }
+    }
+
+
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.wangwanggame.wwcx"
+        minSdkVersion 9
+        targetSdkVersion 23
+        multiDexEnabled true
+
+//        ndk {
+//            moduleName "cocos2dlua_shared"
+//            ldLibs "log", "z", "m"
+//        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.releaseSign
+        }
+        debug {
+            signingConfig signingConfigs.releaseSign
+        }
+    }
+    sourceSets.main {
+        jni.srcDirs = [] //disable automatic ndk-build call
+        jniLibs.srcDir 'src/main/libs'
+    }
+    productFlavors {
+        tencentConfig {
+            applicationId 'com.tencent.tmgp.shaoxing'
+        }
+    }
+
+//    task ndkBuild(type: org.gradle.api.tasks.Exec) {
+//        workingDir file('src/main/jni')
+//        commandLine getNdkBuildCmd() //执行ndk-build 命令
+//    }
+//
+//    tasks.withType(JavaCompile) {
+//        compileTask -> compileTask.dependsOn ndkBuild
+//    }
+//    task cleanNative(type: Exec) {
+//        workingDir file('src/main/jni')
+//        commandLine getNdkBuildCmd(), 'clean'
+//    }
+//    clean.dependsOn cleanNative
+}
+
+dependencies {
+    //    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //  testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile project(':libcocos2dx')
+    compile files('libs/mta-sdk-1.6.2.jar')
+    compile files('libs/open_sdk_r5509.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/alipaySdk-20160427.jar')
+    //compile 'com.android.support:support-v4:23.1.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.qiyukf.unicorn:unicorn:2.8.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile files('libs/yayavoice_libs_201702131500.jar')
+    //compile files('libs/android-support-v4.jar')
+    compile files('libs/jg_filter_sdk_1.1.jar')
+    compile files('libs/mid-core-sdk-3.7.2.jar')
+    compile files('libs/wup-1.0.0.E-SNAPSHOT.jar')
+    compile files('libs/Xg_sdk_v3.1_20170417_0946.jar')
+    compile files('libs/bugly_agent.jar')
+    compile files('libs/bugly_crash_release.jar')
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+//def getNdkDir() {
+//    if (System.env.ANDROID_NDK_ROOT != null)
+//        return System.env.ANDROID_NDK_ROOT
+//    Properties properties = new Properties()
+//    properties.load(project.rootProject.file('local.properties')
+//            .newDataInputStream())
+//    def ndkdir = properties.getProperty('ndk.dir', null)
+//    if (ndkdir == null)
+//        throw new GradleException("NDK location not found. Define location with ndk.dir in the local.properties file or with an ANDROID_NDK_ROOT environment variable.")
+//
+//    return ndkdir
+//}
+//
+//def getNdkBuildCmd() {
+//    def ndkbuild = getNdkDir() + "/ndk-build"
+//    if (Os.isFamily(Os.FAMILY_WINDOWS))
+//        ndkbuild += ".cmd"
+//    return ndkbuild
+//}
+
+
+//import org.apache.tools.ant.taskdefs.condition.Os
+//def getNdkDir() {
+//    if (System.env.ANDROID_NDK_ROOT != null)
+//        return System.env.ANDROID_NDK_ROOT
+//
+//    Properties properties = new Properties()
+//    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+//    def ndkdir = properties.getProperty('ndk.dir', null)
+//    if (ndkdir == null)
+//        throw new GradleException("NDK location not found. Define location with ndk.dir in the local.properties file or with an ANDROID_NDK_ROOT environment variable.")
+//
+//    return ndkdir
+//}
+//
+//def getNdkBuildCmd() {
+//    def ndkbuild = getNdkDir() + "/ndk-build"
+//    if (Os.isFamily(Os.FAMILY_WINDOWS))
+//        ndkbuild += ".cmd"
+//
+//    return ndkbuild
+//}
+

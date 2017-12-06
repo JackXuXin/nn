@@ -1,0 +1,448 @@
+{
+  "ID": "4c5aa2a9-0bc6-4ccb-882a-cfd1c0f139d0",
+  "Version": "3.10.0.0",
+  "Name": "LoginScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 381,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/login_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 211,
+            "Scale9OriginY": 118,
+            "Scale9Width": 858,
+            "Scale9Height": 484,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9999,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -0.0001,
+            "RightMargin": 0.0001,
+            "Tag": 382,
+            "ActionTag": 1370868573,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/jb.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 59,
+            "Scale9OriginY": 72,
+            "Scale9Width": 62,
+            "Scale9Height": 75,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 233.6836,
+              "Y": 284.2095
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1826,
+              "Y": 0.3947
+            },
+            "PreSize": {
+              "X": 0.1406,
+              "Y": 0.3042
+            },
+            "LeftMargin": 143.6836,
+            "RightMargin": 956.3164,
+            "TopMargin": 326.2905,
+            "BottomMargin": 174.7095,
+            "Tag": 383,
+            "ActionTag": 1413996726,
+            "Size": {
+              "X": 180.0,
+              "Y": 219.0
+            },
+            "Name": "jb",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/login_g.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 66,
+            "Scale9OriginY": 89,
+            "Scale9Width": 70,
+            "Scale9Height": 94,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 947.3608,
+              "Y": 331.5767
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7401,
+              "Y": 0.4605
+            },
+            "PreSize": {
+              "X": 0.1578,
+              "Y": 0.3778
+            },
+            "LeftMargin": 846.3608,
+            "RightMargin": 231.6392,
+            "TopMargin": 252.4233,
+            "BottomMargin": 195.5767,
+            "Tag": 384,
+            "ActionTag": 676536608,
+            "Size": {
+              "X": 202.0,
+              "Y": 272.0
+            },
+            "Name": "g",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/xz5.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 178,
+            "Scale9OriginY": 77,
+            "Scale9Width": 184,
+            "Scale9Height": 81,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 603.1564,
+              "Y": 476.8412
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4712,
+              "Y": 0.6623
+            },
+            "PreSize": {
+              "X": 0.4219,
+              "Y": 0.3264
+            },
+            "LeftMargin": 333.1564,
+            "RightMargin": 406.8436,
+            "TopMargin": 125.6588,
+            "BottomMargin": 359.3412,
+            "Tag": 385,
+            "ActionTag": 118851706,
+            "Size": {
+              "X": 540.0,
+              "Y": 235.0
+            },
+            "Name": "title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 32,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "测试帐号入口",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 567.0212,
+              "Y": 108.915
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 127,
+              "G": 127,
+              "B": 127
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.443,
+              "Y": 0.1513
+            },
+            "PreSize": {
+              "X": 0.15,
+              "Y": 0.0514
+            },
+            "LeftMargin": 471.0212,
+            "RightMargin": 616.9788,
+            "TopMargin": 592.585,
+            "BottomMargin": 90.415,
+            "Tag": 389,
+            "ActionTag": 1736471405,
+            "Size": {
+              "X": 192.0,
+              "Y": 37.0
+            },
+            "Name": "name_input",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/wx_btn_0.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/wx_btn_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 125,
+            "Scale9Height": 29,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 571.5773,
+              "Y": 183.1571
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4465,
+              "Y": 0.2544
+            },
+            "PreSize": {
+              "X": 0.1211,
+              "Y": 0.0708
+            },
+            "LeftMargin": 494.0773,
+            "RightMargin": 630.9227,
+            "TopMargin": 511.3429,
+            "BottomMargin": 157.6571,
+            "Tag": 386,
+            "ActionTag": 208398757,
+            "Size": {
+              "X": 155.0,
+              "Y": 51.0
+            },
+            "Name": "LoginWeixin",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/yhxy.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 58,
+            "Scale9OriginY": 5,
+            "Scale9Width": 60,
+            "Scale9Height": 7,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 592.3003,
+              "Y": 63.802
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4627,
+              "Y": 0.0886
+            },
+            "PreSize": {
+              "X": 0.1375,
+              "Y": 0.0236
+            },
+            "LeftMargin": 504.3003,
+            "RightMargin": 599.6997,
+            "TopMargin": 647.698,
+            "BottomMargin": 55.302,
+            "Tag": 387,
+            "ActionTag": -414565136,
+            "Size": {
+              "X": 176.0,
+              "Y": 17.0
+            },
+            "Name": "Image_5",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/ty_btn_0.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/ty_btn_1.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Login/ty_btn_1.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 380.0988,
+              "Y": 65.7866
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.297,
+              "Y": 0.0914
+            },
+            "PreSize": {
+              "X": 0.0156,
+              "Y": 0.0292
+            },
+            "LeftMargin": 370.0988,
+            "RightMargin": 889.9012,
+            "TopMargin": 643.7134,
+            "BottomMargin": 55.2866,
+            "Tag": 388,
+            "ActionTag": -1986124581,
+            "Size": {
+              "X": 20.0,
+              "Y": 21.0
+            },
+            "Name": "user_agreement",
+            "ctype": "CheckBoxObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/CheckBox_Disable.png",
+        "../Default/CheckBoxNode_Disable.png",
+        "../Image/Login/jb.png",
+        "../Image/Login/login_bg.png",
+        "../Image/Login/login_g.png",
+        "../Image/Login/ty_btn_0.png",
+        "../Image/Login/ty_btn_1.png",
+        "../Image/Login/wx_btn_0.png",
+        "../Image/Login/xz5.png",
+        "../Image/Login/yhxy.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

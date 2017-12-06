@@ -1,0 +1,419 @@
+{
+  "ID": "ac2eb9a8-a9af-4ff9-8730-7d6a15805c9b",
+  "Version": "2.3.4",
+  "Name": "Friend_FindItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 169,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/ChatFriend/img_FindItem.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 215,
+            "Scale9OriginY": 32,
+            "Scale9Width": 155,
+            "Scale9Height": 28,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -583.0,
+            "TopMargin": -99.5,
+            "BottomMargin": 0.5,
+            "Tag": 461,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 43.05,
+                  "Y": 50.4451
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0738,
+                  "Y": 0.5095
+                },
+                "PreSize": {
+                  "X": 0.1801,
+                  "Y": 1.0606
+                },
+                "LeftMargin": -9.45,
+                "RightMargin": 487.45,
+                "TopMargin": -3.9451,
+                "BottomMargin": -2.0549,
+                "Tag": 69,
+                "ActionTag": 397464107,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 105.0
+                },
+                "Name": "Sprite_sbg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/male_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 42.72,
+                  "Y": 50.26
+                },
+                "Scale": {
+                  "ScaleX": 0.48,
+                  "ScaleY": 0.48
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0733,
+                  "Y": 0.5077
+                },
+                "PreSize": {
+                  "X": 0.3053,
+                  "Y": 1.7778
+                },
+                "LeftMargin": -46.28,
+                "RightMargin": 451.28,
+                "TopMargin": -39.26,
+                "BottomMargin": -37.74,
+                "Tag": 462,
+                "ActionTag": -1496034620,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 176.0
+                },
+                "Name": "Sprite_Head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 28,
+                "LabelText": "用户001",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96.0,
+                  "Y": 68.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 115,
+                  "G": 46,
+                  "B": 13
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1647,
+                  "Y": 0.6869
+                },
+                "PreSize": {
+                  "X": 0.3431,
+                  "Y": 0.3232
+                },
+                "LeftMargin": 96.0,
+                "RightMargin": 287.0,
+                "TopMargin": 15.0,
+                "BottomMargin": 52.0,
+                "Tag": 463,
+                "ActionTag": -1797756637,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_Nick",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "ID号：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 115,
+                  "G": 46,
+                  "B": 13
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1647,
+                  "Y": 0.303
+                },
+                "PreSize": {
+                  "X": 0.1235,
+                  "Y": 0.2828
+                },
+                "LeftMargin": 96.0,
+                "RightMargin": 415.0,
+                "TopMargin": 55.0,
+                "BottomMargin": 16.0,
+                "Tag": 471,
+                "ActionTag": 205403017,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_ID",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "35289",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 162.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 115,
+                  "G": 46,
+                  "B": 10
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2779,
+                  "Y": 0.303
+                },
+                "PreSize": {
+                  "X": 0.1149,
+                  "Y": 0.2828
+                },
+                "LeftMargin": 162.0,
+                "RightMargin": 354.0,
+                "TopMargin": 55.0,
+                "BottomMargin": 16.0,
+                "Tag": 472,
+                "ActionTag": 638321161,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_ID_Value",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Add2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Add1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 117,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 502.0,
+                  "Y": 48.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8611,
+                  "Y": 0.4848
+                },
+                "PreSize": {
+                  "X": 0.2521,
+                  "Y": 0.6869
+                },
+                "LeftMargin": 428.5,
+                "RightMargin": 7.5,
+                "TopMargin": 17.0,
+                "BottomMargin": 14.0,
+                "Tag": 473,
+                "ActionTag": 1614071297,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 68.0
+                },
+                "Name": "Button_addApply",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1196503751,
+            "Size": {
+              "X": 583.0,
+              "Y": 99.0
+            },
+            "Name": "Panel_FindItem",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Sprite.png",
+        "../Image/ChatFriend/btn_Add1.png",
+        "../Image/ChatFriend/btn_Add2.png",
+        "../Image/ChatFriend/img_FindItem.png",
+        "../Image/Common/Avatar/male_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
