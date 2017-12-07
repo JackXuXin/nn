@@ -1,0 +1,507 @@
+{
+  "ID": "b3f3f7f2-0ae8-40ac-b8d7-2d74495406ed",
+  "Version": "2.3.4",
+  "Name": "privateScaRoomLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 372,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 642.816,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5022,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.816,
+            "RightMargin": -2.816,
+            "Tag": 373,
+            "ActionTag": -673106055,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 374.4
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.52
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 345.6,
+            "BottomMargin": 374.4,
+            "Tag": 402,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/box_small_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -5.852
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -438.5,
+                "RightMargin": -438.5,
+                "TopMargin": -302.648,
+                "BottomMargin": -314.352,
+                "Tag": 387,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Public/yellow_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 276,
+                    "Scale9OriginY": 164,
+                    "Scale9Width": 391,
+                    "Scale9Height": 210,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 438.8419,
+                      "Y": 277.9681
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5004,
+                      "Y": 0.4505
+                    },
+                    "PreSize": {
+                      "X": 0.9544,
+                      "Y": 0.8088
+                    },
+                    "LeftMargin": 20.3419,
+                    "RightMargin": 19.6581,
+                    "TopMargin": 89.5319,
+                    "BottomMargin": 28.4681,
+                    "Tag": 388,
+                    "ActionTag": -814606471,
+                    "Size": {
+                      "X": 837.0,
+                      "Y": 499.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1380380782,
+                "Size": {
+                  "X": 877.0,
+                  "Y": 617.0
+                },
+                "Name": "Background",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "是否同意解散房间！",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 26.1501
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -135.0,
+                "RightMargin": -135.0,
+                "TopMargin": -43.1501,
+                "BottomMargin": 9.1501,
+                "Tag": 382,
+                "ActionTag": -532143866,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 34.0
+                },
+                "Name": "Content",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/tip_title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 10,
+                "Scale9Width": 5,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 183.7884
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -36.5,
+                "RightMargin": -36.5,
+                "TopMargin": -202.2884,
+                "BottomMargin": 165.2884,
+                "Tag": 385,
+                "ActionTag": -1739338785,
+                "Size": {
+                  "X": 73.0,
+                  "Y": 37.0
+                },
+                "Name": "Image_Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/box_hua.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 210,
+                "Scale9OriginY": 7,
+                "Scale9Width": 219,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 183.7592
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -319.5,
+                "RightMargin": -319.5,
+                "TopMargin": -195.7592,
+                "BottomMargin": 171.7592,
+                "Tag": 386,
+                "ActionTag": -541601619,
+                "Size": {
+                  "X": 639.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/btn_agree_sca_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/btn_agree_sca_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 175,
+                "Scale9Height": 47,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -130.2581,
+                  "Y": -133.3957
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -232.7581,
+                "RightMargin": 27.7581,
+                "TopMargin": 98.8957,
+                "BottomMargin": -167.8957,
+                "Tag": 389,
+                "ActionTag": 1509069154,
+                "Size": {
+                  "X": 205.0,
+                  "Y": 69.0
+                },
+                "Name": "btn_agree",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/btn_refuse_sca_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/PrivateRoom/btn_refuse_sca_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 175,
+                "Scale9Height": 47,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 143.9385,
+                  "Y": -133.3957
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 41.4385,
+                "RightMargin": -246.4385,
+                "TopMargin": 98.8957,
+                "BottomMargin": -167.8957,
+                "Tag": 390,
+                "ActionTag": 1099892234,
+                "Size": {
+                  "X": 205.0,
+                  "Y": 69.0
+                },
+                "Name": "btn_refuse",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1945866987,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/PrivateRoom/btn_agree_sca_01.png",
+        "../../Image/PrivateRoom/btn_agree_sca_02.png",
+        "../../Image/PrivateRoom/btn_refuse_sca_01.png",
+        "../../Image/PrivateRoom/btn_refuse_sca_02.png",
+        "../../Image/Public/box_hua.png",
+        "../../Image/Public/box_small_bg.png",
+        "../../Image/Public/tip_title.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

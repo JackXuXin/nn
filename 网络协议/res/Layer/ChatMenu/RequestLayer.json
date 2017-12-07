@@ -1,0 +1,598 @@
+{
+  "ID": "2c77fa92-4f91-4aaa-8910-7836c8bc3f79",
+  "Version": "2.3.4",
+  "Name": "RequestLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 73,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 99,
+            "ActionTag": 1381712786,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/box_small_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 143,
+            "Scale9OriginY": 82,
+            "Scale9Width": 591,
+            "Scale9Height": 453,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6852,
+              "Y": 0.8569
+            },
+            "LeftMargin": 201.5,
+            "RightMargin": 201.5,
+            "TopMargin": 51.5,
+            "BottomMargin": 51.5,
+            "Tag": 489,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 391,
+                "Scale9Height": 210,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.8419,
+                  "Y": 277.9681
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5004,
+                  "Y": 0.4505
+                },
+                "PreSize": {
+                  "X": 0.9544,
+                  "Y": 0.8088
+                },
+                "LeftMargin": 20.3419,
+                "RightMargin": 19.6581,
+                "TopMargin": 89.5319,
+                "BottomMargin": 28.4681,
+                "Tag": 28,
+                "ActionTag": -794456495,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/box_hua.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 210,
+                "Scale9OriginY": 7,
+                "Scale9Width": 219,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 432.7127,
+                  "Y": 577.6074
+                },
+                "Scale": {
+                  "ScaleX": 1.19,
+                  "ScaleY": 1.19
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4934,
+                  "Y": 0.9362
+                },
+                "PreSize": {
+                  "X": 0.7286,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 113.2127,
+                "RightMargin": 124.7873,
+                "TopMargin": 27.3926,
+                "BottomMargin": 565.6074,
+                "Tag": 24,
+                "ActionTag": -2161379,
+                "Size": {
+                  "X": 639.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 48,
+                "LabelText": "您的好友｛ 用户123456789012｝正在邀请您进入上虞麻将游戏的1000号房间进行游戏",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 442.2679,
+                  "Y": 333.1342
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5043,
+                  "Y": 0.5399
+                },
+                "PreSize": {
+                  "X": 0.7526,
+                  "Y": 0.3404
+                },
+                "LeftMargin": 112.2679,
+                "RightMargin": 104.7321,
+                "TopMargin": 178.8658,
+                "BottomMargin": 228.1342,
+                "Tag": 497,
+                "ActionTag": 1356085205,
+                "Size": {
+                  "X": 660.0,
+                  "Y": 210.0
+                },
+                "Name": "Text_Cotent",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_request.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 10,
+                "Scale9Width": 41,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.5,
+                  "Y": 577.7274
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9363
+                },
+                "PreSize": {
+                  "X": 0.1357,
+                  "Y": 0.0535
+                },
+                "LeftMargin": 379.0,
+                "RightMargin": 379.0,
+                "TopMargin": 22.7726,
+                "BottomMargin": 561.2274,
+                "Tag": 23,
+                "ActionTag": 1385766054,
+                "Size": {
+                  "X": 119.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Refule2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Refule1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 117,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 580.1917,
+                  "Y": 136.3384
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6616,
+                  "Y": 0.221
+                },
+                "PreSize": {
+                  "X": 0.1676,
+                  "Y": 0.1102
+                },
+                "LeftMargin": 506.6917,
+                "RightMargin": 223.3083,
+                "TopMargin": 446.6616,
+                "BottomMargin": 102.3384,
+                "Tag": 496,
+                "ActionTag": -1659853473,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 68.0
+                },
+                "Name": "Button_Rrefuse",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Agreef2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Agreef1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 117,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 306.0571,
+                  "Y": 136.3384
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.349,
+                  "Y": 0.221
+                },
+                "PreSize": {
+                  "X": 0.1676,
+                  "Y": 0.1102
+                },
+                "LeftMargin": 232.5571,
+                "RightMargin": 497.4429,
+                "TopMargin": 446.6616,
+                "BottomMargin": 102.3384,
+                "Tag": 495,
+                "ActionTag": -438787034,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 68.0
+                },
+                "Name": "Button_Ragree",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/Button_ConfirmRed_0.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/Button_ConfirmRed_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/Button_ConfirmRed_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 204,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 444.2023,
+                  "Y": 137.3381
+                },
+                "Scale": {
+                  "ScaleX": 1.25,
+                  "ScaleY": 1.25
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5065,
+                  "Y": 0.2226
+                },
+                "PreSize": {
+                  "X": 0.2668,
+                  "Y": 0.1329
+                },
+                "LeftMargin": 327.2023,
+                "RightMargin": 315.7977,
+                "TopMargin": 438.6619,
+                "BottomMargin": 96.3381,
+                "Tag": 476,
+                "ActionTag": 818970598,
+                "Size": {
+                  "X": 234.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Button_Sure",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/img_Attention.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 10,
+                "Scale9Width": 41,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.5,
+                  "Y": 576.7303
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9347
+                },
+                "PreSize": {
+                  "X": 0.1357,
+                  "Y": 0.0551
+                },
+                "LeftMargin": 379.0,
+                "RightMargin": 379.0,
+                "TopMargin": 23.2697,
+                "BottomMargin": 559.7303,
+                "Tag": 479,
+                "ActionTag": 565540307,
+                "Size": {
+                  "X": 119.0,
+                  "Y": 34.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Image_Attention",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 336772461,
+            "Size": {
+              "X": 877.0,
+              "Y": 617.0
+            },
+            "Name": "Image_Bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Image/ChatFriend/btn_Agreef1.png",
+        "../../Image/ChatFriend/btn_Agreef2.png",
+        "../../Image/ChatFriend/btn_Refule1.png",
+        "../../Image/ChatFriend/btn_Refule2.png",
+        "../../Image/ChatFriend/img_request.png",
+        "../../Image/Public/box_hua.png",
+        "../../Image/Public/box_small_bg.png",
+        "../../Image/Public/Button_ConfirmRed_0.png",
+        "../../Image/Public/Button_ConfirmRed_1.png",
+        "../../Image/Public/img_Attention.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

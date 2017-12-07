@@ -23,45 +23,47 @@
 Quick-Cocos2dx-Community C++ support ready.
 lua_loadChunksFromZIP() - not found or invalid zip file: /Users/mashizhou/Desktop/svn_client/wangwang/quick-cocos2dx-community/quick/lib/framework_precompiled/framework_precompiled.zip
 ------------------------------------------------
-LOAD LUA FILE: /Users/mashizhou/Desktop/xxnn/c2/src/main.lua
+LOAD LUA FILE: /Users/mashizhou/Desktop/xxnn/nn/c2/src/main.lua
 ------------------------------------------------
 [LUA-print] lastHotState:	0
-[LUA-print] new_version:/Users/mashizhou/Desktop/xxnn/c2/new_version/
+[LUA-print] new_version:/Users/mashizhou/Desktop/xxnn/nn/c2/new_version/
 [LUA-print] 删掉下载未完成的new_version
 [LUA-print] ===========================================================
 [LUA-print]               LOAD QUICK FRAMEWORK
 [LUA-print] ===========================================================
 libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-06 13:25:39] [DEBUG] [MyApp.lua:42] language 1
-[LUA-print] [2017-12-06 13:25:39] [DEBUG] [sound_common.lua:6] voiceState:true
-[LUA-print] [2017-12-06 13:25:39] [DEBUG] [sound_common.lua:7] musicState:true
-[LUA-print] [2017-12-06 13:25:39] [DEBUG] [util.lua:325] hello common util !
-[LUA-print] [2017-12-06 13:25:39] [DEBUG] [manager.lua:35] registerHandle:game
+[LUA-print] [2017-12-07 10:31:25] [DEBUG] [MyApp.lua:42] language 1
+[LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:6] voiceState:true
+[LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:7] musicState:true
+[LUA-print] [2017-12-07 10:31:25] [DEBUG] [util.lua:325] hello common util !
+[LUA-print] [2017-12-07 10:31:25] [DEBUG] [manager.lua:35] registerHandle:game
 libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:454] getRealIp
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:469] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3550
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:855] App_Channel:3550
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:472] result:0
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:472] result:1
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:497] real response: table: 0x0f4411d0
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:498] real ip tt.gametea.me:6001 tt.gametea.me:7001
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:506] checkUpdate---:
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:519] re:0
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:519] re:1
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:563] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3550
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:573] r:0
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:573] r:0
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:573] r:1
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/c2/src/app/scenes/LoginScene.lua"]:587: in function <[string "/Users/mashizhou/Desktop/xxnn/c2/src/app/scenes/LoginScene.lua"]:571>
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] - "kaiguan:" = {
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "activity_tag"     = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "free_gold_tag"    = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "give_gold_tag"    = "0"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "honor_tag"        = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "qq_login_tag"     = "0"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "recharge_tag"     = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "safebox_tag"      = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "service_tag"      = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] -     "weixin_login_tag" = "1"
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-06 13:25:40] [DEBUG] [LoginScene.lua:1006] updateLoginTypes-----
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:454] getRealIp
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:469] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3550
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:855] App_Channel:3550
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:1
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:497] real response: table: 0x16b52718
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:498] real ip tt.gametea.me:6001 tt.gametea.me:7001
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:506] checkUpdate---:
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:519] re:0
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:519] re:1
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:563] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3550
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:573] r:0
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:573] r:1
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:587: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:571>
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] - "kaiguan:" = {
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "activity_tag"     = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "free_gold_tag"    = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "give_gold_tag"    = "0"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "honor_tag"        = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "qq_login_tag"     = "0"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "recharge_tag"     = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "safebox_tag"      = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "service_tag"      = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "weixin_login_tag" = "1"
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:1006] updateLoginTypes-----
+libpng warning: iCCP: known incorrect sRGB profile

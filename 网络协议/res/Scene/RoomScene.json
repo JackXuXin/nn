@@ -1,0 +1,485 @@
+{
+  "ID": "ad108d90-3b45-4bb3-8035-6487e65f2e69",
+  "Version": "2.3.4",
+  "Name": "RoomScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 355,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/TableList/Background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 1274,
+            "Scale9Height": 714,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6667,
+              "Y": 0.5625
+            },
+            "PreSize": {
+              "X": 1.3333,
+              "Y": 1.125
+            },
+            "RightMargin": -320.0,
+            "TopMargin": -80.0,
+            "Tag": 356,
+            "ActionTag": -573938300,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/top_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9999,
+              "Y": 682.4996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6667,
+              "Y": 1.0664
+            },
+            "PreSize": {
+              "X": 1.3333,
+              "Y": 0.1172
+            },
+            "LeftMargin": -0.0001,
+            "RightMargin": -319.9999,
+            "TopMargin": -79.9996,
+            "BottomMargin": 644.9996,
+            "Tag": 357,
+            "Children": [
+              {
+                "FontSize": 45,
+                "LabelText": "火拼麻将",
+                "FontResource": {
+                  "Type": "Default",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 40.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 228,
+                  "B": 195
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.1406,
+                  "Y": 0.6933
+                },
+                "LeftMargin": 550.0,
+                "RightMargin": 550.0,
+                "TopMargin": 8.5,
+                "BottomMargin": 14.5,
+                "Tag": 359,
+                "ActionTag": -1082301266,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 52.0
+                },
+                "Name": "Title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Button/Button_Home_Normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Button/Button_Home_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Button/Button_Home_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 33,
+                "Scale9Height": 35,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 40.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0391,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.0492,
+                  "Y": 0.76
+                },
+                "LeftMargin": 18.5,
+                "RightMargin": 1198.5,
+                "TopMargin": 6.0,
+                "BottomMargin": 12.0,
+                "Tag": 358,
+                "ActionTag": -2022714276,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 57.0
+                },
+                "Name": "Home",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_quick_start.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_quick_start.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_quick_start.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 84,
+                "Scale9Height": 172,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1222.9591,
+                  "Y": -400.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9554,
+                  "Y": -5.3413
+                },
+                "PreSize": {
+                  "X": 0.0891,
+                  "Y": 2.5867
+                },
+                "LeftMargin": 1165.9591,
+                "RightMargin": 0.0409,
+                "TopMargin": 378.6,
+                "BottomMargin": -497.6,
+                "Tag": 362,
+                "ActionTag": -1848947218,
+                "Size": {
+                  "X": 114.0,
+                  "Y": 194.0
+                },
+                "Name": "Start",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_rule.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_rule.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_rule.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 60,
+                "Scale9Height": 25,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1080.9941,
+                  "Y": 40.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8445,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.0703,
+                  "Y": 0.6267
+                },
+                "LeftMargin": 1035.9941,
+                "RightMargin": 154.0059,
+                "TopMargin": 11.0,
+                "BottomMargin": 17.0,
+                "Tag": 361,
+                "ActionTag": -1944687667,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 47.0
+                },
+                "Name": "OpenRule",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_setting.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_setting.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/btn_table_setting.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 74,
+                "Scale9Height": 26,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1220.9991,
+                  "Y": 38.4996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9539,
+                  "Y": 0.5133
+                },
+                "PreSize": {
+                  "X": 0.0812,
+                  "Y": 0.64
+                },
+                "LeftMargin": 1168.9991,
+                "RightMargin": 7.0009,
+                "TopMargin": 12.5004,
+                "BottomMargin": 14.4996,
+                "Tag": 360,
+                "ActionTag": 627481118,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 48.0
+                },
+                "Name": "Settings",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1948909592,
+            "Size": {
+              "X": 1280.0,
+              "Y": 75.0
+            },
+            "Name": "TopBar",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/Common/Button/Button_Home_Normal.png",
+        "../Image/Common/Button/Button_Home_press.png",
+        "../Image/Lobby/top_bar.png",
+        "../Image/TableList/Background.png",
+        "../Image/TableList/btn_quick_start.png",
+        "../Image/TableList/btn_table_rule.png",
+        "../Image/TableList/btn_table_setting.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

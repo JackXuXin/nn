@@ -1,0 +1,378 @@
+{
+  "ID": "ef80a8ee-01eb-4599-be0e-86cd0ee95480",
+  "Version": "2.3.4",
+  "Name": "RuleLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 373,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 374,
+            "ActionTag": -1526592960,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "img_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 381,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SSS/rule/img_rule_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0002,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -534.9998,
+                "RightMargin": -535.0002,
+                "TopMargin": -332.0,
+                "BottomMargin": -332.0,
+                "Tag": 375,
+                "ActionTag": 1670347730,
+                "Size": {
+                  "X": 1070.0,
+                  "Y": 664.0
+                },
+                "Name": "img_rule_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 785,
+                  "Height": 530
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -272.4575,
+                  "Y": -294.9857
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -272.4575,
+                "RightMargin": -512.5425,
+                "TopMargin": -235.0143,
+                "BottomMargin": -294.9857,
+                "Tag": 501,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/SSS/rule/img_rule.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 392.5001,
+                      "Y": -665.2716
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -1.2552
+                    },
+                    "PreSize": {
+                      "X": 0.9911,
+                      "Y": 4.4755
+                    },
+                    "LeftMargin": 3.5001,
+                    "RightMargin": 3.4999,
+                    "TopMargin": 9.2716,
+                    "BottomMargin": -1851.2716,
+                    "Tag": 502,
+                    "ActionTag": 2096763329,
+                    "Size": {
+                      "X": 778.0,
+                      "Y": 2372.0
+                    },
+                    "Name": "img_rule",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1984555441,
+                "Size": {
+                  "X": 785.0,
+                  "Y": 530.0
+                },
+                "Name": "scroll_rule",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SSS/rule/img_caozuo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.6332,
+                  "Y": -25.3674
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -266.3668,
+                "RightMargin": -503.6332,
+                "TopMargin": -194.1326,
+                "BottomMargin": -244.8674,
+                "Tag": 503,
+                "ActionTag": 409208382,
+                "Size": {
+                  "X": 770.0,
+                  "Y": 439.0
+                },
+                "Name": "img_caozuo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 46,
+                "Scale9Height": 55,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 518.123,
+                  "Y": 285.5436
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 480.123,
+                "RightMargin": -556.123,
+                "TopMargin": -324.0436,
+                "BottomMargin": 247.0436,
+                "Tag": 569,
+                "ActionTag": -1688858265,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 77.0
+                },
+                "Name": "btn_exit",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -598601330,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nd_all",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Image/Public/close_1.png",
+        "../../../Image/Public/Tips_Body_Square.png",
+        "../../../Image/SSS/rule/img_caozuo.png",
+        "../../../Image/SSS/rule/img_rule.png",
+        "../../../Image/SSS/rule/img_rule_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

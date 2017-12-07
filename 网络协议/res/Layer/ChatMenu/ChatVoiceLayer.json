@@ -1,0 +1,425 @@
+{
+  "ID": "238b95a7-e733-4382-abca-3f0eb6d90304",
+  "Version": "2.3.4",
+  "Name": "ChatVoiceLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/ChatFriend/img_ChatBg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 195,
+            "Scale9OriginY": 237,
+            "Scale9Width": 259,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.507,
+              "Y": 1.0
+            },
+            "LeftMargin": 1280.0,
+            "RightMargin": -649.0,
+            "Tag": 487,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_ChatRecord.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 10,
+                "Scale9Width": 46,
+                "Scale9Height": 11,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 329.0,
+                  "Y": 678.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5069,
+                  "Y": 0.9417
+                },
+                "PreSize": {
+                  "X": 0.2034,
+                  "Y": 0.0431
+                },
+                "LeftMargin": 263.0,
+                "RightMargin": 254.0,
+                "TopMargin": 26.5,
+                "BottomMargin": 662.5,
+                "Tag": 99,
+                "ActionTag": -912636678,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 31.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "DirectionType": "Vertical",
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 39.0,
+                  "Y": 111.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0601,
+                  "Y": 0.1542
+                },
+                "PreSize": {
+                  "X": 0.9183,
+                  "Y": 0.7361
+                },
+                "LeftMargin": 39.0,
+                "RightMargin": 14.0,
+                "TopMargin": 79.0,
+                "BottomMargin": 111.0,
+                "Tag": 585,
+                "ActionTag": 120504585,
+                "Size": {
+                  "X": 596.0,
+                  "Y": 530.0
+                },
+                "Name": "ListView_ShowVoice",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_VoiceAuto.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 334.0,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5146,
+                  "Y": 0.0847
+                },
+                "PreSize": {
+                  "X": 0.5624,
+                  "Y": 0.0847
+                },
+                "LeftMargin": 151.5,
+                "RightMargin": 132.5,
+                "TopMargin": 628.5,
+                "BottomMargin": 30.5,
+                "Tag": 86,
+                "ActionTag": 1271645037,
+                "Size": {
+                  "X": 365.0,
+                  "Y": 61.0
+                },
+                "Name": "Sprite_19",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_Open.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 9,
+                "Scale9Width": 22,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 412.0,
+                  "Y": 59.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 173,
+                  "G": 98,
+                  "B": 60
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6348,
+                  "Y": 0.0819
+                },
+                "PreSize": {
+                  "X": 0.0924,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 382.0,
+                "RightMargin": 207.0,
+                "TopMargin": 647.0,
+                "BottomMargin": 45.0,
+                "Tag": 88,
+                "ActionTag": 1836859871,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 28.0
+                },
+                "Name": "Image_Open",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/btn_Control.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 31,
+                "Scale9Height": 40,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 484.0,
+                  "Y": 61.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7458,
+                  "Y": 0.0847
+                },
+                "PreSize": {
+                  "X": 0.1017,
+                  "Y": 0.0917
+                },
+                "LeftMargin": 451.0,
+                "RightMargin": 132.0,
+                "TopMargin": 626.0,
+                "BottomMargin": 28.0,
+                "Tag": 89,
+                "ActionTag": 1448913705,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 66.0
+                },
+                "Name": "Button_Control",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 440.0,
+                  "Y": 62.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.678,
+                  "Y": 0.0861
+                },
+                "PreSize": {
+                  "X": 0.2388,
+                  "Y": 0.0833
+                },
+                "LeftMargin": 362.5,
+                "RightMargin": 131.5,
+                "TopMargin": 628.0,
+                "BottomMargin": 32.0,
+                "Tag": 90,
+                "ActionTag": 1419917989,
+                "Size": {
+                  "X": 155.0,
+                  "Y": 60.0
+                },
+                "Alpha": 0,
+                "Name": "Button_ChangeState",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -985314581,
+            "Size": {
+              "X": 649.0,
+              "Y": 720.0
+            },
+            "Name": "Image_ShowVoice",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Image/ChatFriend/btn_Control.png",
+        "../../Image/ChatFriend/img_ChatBg.png",
+        "../../Image/ChatFriend/img_ChatRecord.png",
+        "../../Image/ChatFriend/img_Open.png",
+        "../../Image/ChatFriend/img_VoiceAuto.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

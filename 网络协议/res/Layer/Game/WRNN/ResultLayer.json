@@ -1,0 +1,1152 @@
+{
+  "ID": "54917f9e-a7d6-4854-9748-6b76c71182fc",
+  "Version": "2.3.4",
+  "Name": "ResultLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 259,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 361.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -1.0,
+            "BottomMargin": 1.0,
+            "Tag": 335,
+            "ActionTag": 1571309846,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 76,
+            "Name": "img_Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Default",
+              "Path": "Default/Sprite.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 400.32
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.556
+            },
+            "PreSize": {
+              "X": 0.9984,
+              "Y": 0.8694
+            },
+            "LeftMargin": 1.0,
+            "RightMargin": 1.0,
+            "TopMargin": 6.68,
+            "BottomMargin": 87.32,
+            "Tag": 312,
+            "ActionTag": -30683991,
+            "Size": {
+              "X": 1278.0,
+              "Y": 626.0
+            },
+            "Name": "k_img_Settlement_BG",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 257.8265,
+              "Y": 411.9063
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2014,
+              "Y": 0.5721
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 257.8265,
+            "RightMargin": 1022.1735,
+            "TopMargin": 308.0937,
+            "BottomMargin": 411.9063,
+            "Tag": 338,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "玩家姓名",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.9613,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 98.9613,
+                "RightMargin": -202.9613,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 314,
+                "ActionTag": 1802201502,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.24,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.24,
+                "RightMargin": -450.24,
+                "TopMargin": -23.0,
+                "BottomMargin": -23.0,
+                "Tag": 339,
+                "ActionTag": 1663760616,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 46.0
+                },
+                "Name": "k_Player_cardType",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "total_score",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 619.6237,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 555.6237,
+                "RightMargin": -683.6237,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 317,
+                "ActionTag": -1913197133,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_total_score",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -197758186,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_player_result_1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 257.8265,
+              "Y": 351.3245
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2014,
+              "Y": 0.488
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 257.8265,
+            "RightMargin": 1022.1735,
+            "TopMargin": 368.6755,
+            "BottomMargin": 351.3245,
+            "Tag": 340,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "玩家姓名",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.9613,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 98.9613,
+                "RightMargin": -202.9613,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 341,
+                "ActionTag": 2018112262,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.24,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.24,
+                "RightMargin": -450.24,
+                "TopMargin": -23.0,
+                "BottomMargin": -23.0,
+                "Tag": 342,
+                "ActionTag": -640881319,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 46.0
+                },
+                "Name": "k_Player_cardType",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "total_score",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 619.6237,
+                  "Y": 1.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 555.6237,
+                "RightMargin": -683.6237,
+                "TopMargin": -16.5,
+                "BottomMargin": -14.5,
+                "Tag": 343,
+                "ActionTag": 53663108,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_total_score",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 175832533,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_player_result_2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 257.8265,
+              "Y": 295.3258
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2014,
+              "Y": 0.4102
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 257.8265,
+            "RightMargin": 1022.1735,
+            "TopMargin": 424.6742,
+            "BottomMargin": 295.3258,
+            "Tag": 344,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "玩家姓名",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.9613,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 98.9613,
+                "RightMargin": -202.9613,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 345,
+                "ActionTag": 2114361797,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.24,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.24,
+                "RightMargin": -450.24,
+                "TopMargin": -23.0,
+                "BottomMargin": -23.0,
+                "Tag": 346,
+                "ActionTag": 1470407669,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 46.0
+                },
+                "Name": "k_Player_cardType",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "total_score",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 619.6238,
+                  "Y": 2.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 555.6238,
+                "RightMargin": -683.6238,
+                "TopMargin": -17.5,
+                "BottomMargin": -13.5,
+                "Tag": 347,
+                "ActionTag": 450692269,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_total_score",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1536331162,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_player_result_3",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 257.8265,
+              "Y": 235.7439
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2014,
+              "Y": 0.3274
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 257.8265,
+            "RightMargin": 1022.1735,
+            "TopMargin": 484.2561,
+            "BottomMargin": 235.7439,
+            "Tag": 348,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "玩家姓名",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.9613,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 98.9613,
+                "RightMargin": -202.9613,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 349,
+                "ActionTag": 1603699598,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.24,
+                  "Y": 0.0001
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.24,
+                "RightMargin": -450.24,
+                "TopMargin": -23.0001,
+                "BottomMargin": -22.9999,
+                "Tag": 350,
+                "ActionTag": -851574948,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 46.0
+                },
+                "Name": "k_Player_cardType",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "total_score",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 619.6238,
+                  "Y": 2.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 555.6238,
+                "RightMargin": -683.6238,
+                "TopMargin": -17.5,
+                "BottomMargin": -13.5,
+                "Tag": 351,
+                "ActionTag": 633337780,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_total_score",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1953230792,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_player_result_4",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 257.8265,
+              "Y": 176.9952
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2014,
+              "Y": 0.2458
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 257.8265,
+            "RightMargin": 1022.1735,
+            "TopMargin": 543.0048,
+            "BottomMargin": 176.9952,
+            "Tag": 352,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "玩家姓名",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.9613,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 98.9613,
+                "RightMargin": -202.9613,
+                "TopMargin": -15.5,
+                "BottomMargin": -15.5,
+                "Tag": 353,
+                "ActionTag": -1681165051,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.24,
+                  "Y": 0.0001
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.24,
+                "RightMargin": -450.24,
+                "TopMargin": -23.0001,
+                "BottomMargin": -22.9999,
+                "Tag": 354,
+                "ActionTag": 864952186,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 46.0
+                },
+                "Name": "k_Player_cardType",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "total_score",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 619.6238,
+                  "Y": 2.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 555.6238,
+                "RightMargin": -683.6238,
+                "TopMargin": -17.5,
+                "BottomMargin": -13.5,
+                "Tag": 355,
+                "ActionTag": 827800211,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "k_player_total_score",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1236320863,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "k_player_result_5",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 217,
+            "Scale9Height": 56,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 793.3112,
+              "Y": 73.4153
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6198,
+              "Y": 0.102
+            },
+            "PreSize": {
+              "X": 0.193,
+              "Y": 0.1083
+            },
+            "LeftMargin": 669.8112,
+            "RightMargin": 363.1888,
+            "TopMargin": 607.5847,
+            "BottomMargin": 34.4153,
+            "Tag": 356,
+            "ActionTag": -1442714531,
+            "Size": {
+              "X": 247.0,
+              "Y": 78.0
+            },
+            "Name": "k_btn_ZaiLaiYiJu",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 216,
+            "Scale9Height": 56,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 487.3196,
+              "Y": 74.832
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3807,
+              "Y": 0.1039
+            },
+            "PreSize": {
+              "X": 0.1922,
+              "Y": 0.1083
+            },
+            "LeftMargin": 364.3196,
+            "RightMargin": 669.6804,
+            "TopMargin": 606.168,
+            "BottomMargin": 35.832,
+            "Tag": 357,
+            "ActionTag": 1227965087,
+            "Size": {
+              "X": 246.0,
+              "Y": 78.0
+            },
+            "Name": "k_btn_TuiChuFangJian",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Normal.png",
+        "../../../Default/Button_Press.png",
+        "../../../Default/Sprite.png",
+        "../../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

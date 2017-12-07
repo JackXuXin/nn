@@ -1,0 +1,367 @@
+{
+  "ID": "4f8521ff-0169-4ebe-a0d9-6e4c8ed46e7c",
+  "Version": "2.3.4",
+  "Name": "RichRankLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 583,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 707,
+            "ActionTag": 1928442268,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 689,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 285,
+                "Scale9Height": 171,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -42.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.5,
+                "RightMargin": -418.5,
+                "TopMargin": -207.5,
+                "BottomMargin": -291.5,
+                "Tag": 512,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/richrank/img_RTopTitle.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 276,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 285,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 418.3063,
+                      "Y": 470.2454
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4998,
+                      "Y": 0.9424
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1142
+                    },
+                    "LeftMargin": -0.1937,
+                    "RightMargin": 0.1937,
+                    "TopMargin": 0.2546,
+                    "BottomMargin": 441.7454,
+                    "Tag": 536,
+                    "ActionTag": 263865958,
+                    "Size": {
+                      "X": 837.0,
+                      "Y": 57.0
+                    },
+                    "Name": "Image_13",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/richrank/img_RTips.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 275,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 285,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 418.9636,
+                      "Y": 20.5165
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5006,
+                      "Y": 0.0411
+                    },
+                    "PreSize": {
+                      "X": 0.9976,
+                      "Y": 0.0701
+                    },
+                    "LeftMargin": 1.4636,
+                    "RightMargin": 0.5364,
+                    "TopMargin": 460.9835,
+                    "BottomMargin": 3.0165,
+                    "Tag": 1331,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "注：只对玩家身上所携带的旺豆进行排名，不包括保险箱中存放的旺豆，本榜每天0点更新",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 19.7467,
+                          "Y": 16.6878
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 106,
+                          "G": 35,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0236,
+                          "Y": 0.4768
+                        },
+                        "PreSize": {
+                          "X": 0.9485,
+                          "Y": 0.6571
+                        },
+                        "LeftMargin": 19.7467,
+                        "RightMargin": 23.2533,
+                        "TopMargin": 6.8122,
+                        "BottomMargin": 5.1878,
+                        "Tag": 1332,
+                        "ActionTag": 1608093774,
+                        "Size": {
+                          "X": 792.0,
+                          "Y": 23.0
+                        },
+                        "Name": "Text_54",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 2031550229,
+                    "Size": {
+                      "X": 835.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Image_64",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "DirectionType": "Vertical",
+                    "HorizontalType": "Align_HorizontalCenter",
+                    "IsBounceEnabled": true,
+                    "ScrollDirectionType": 0,
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 3.0007,
+                      "Y": 39.7
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0036,
+                      "Y": 0.0796
+                    },
+                    "PreSize": {
+                      "X": 0.994,
+                      "Y": 0.8056
+                    },
+                    "LeftMargin": 3.0007,
+                    "RightMargin": 1.9993,
+                    "TopMargin": 57.3,
+                    "BottomMargin": 39.7,
+                    "Tag": 695,
+                    "ActionTag": 805789769,
+                    "Size": {
+                      "X": 832.0,
+                      "Y": 402.0
+                    },
+                    "Name": "ListView_RIchRank",
+                    "ctype": "ListViewObjectData"
+                  }
+                ],
+                "ActionTag": 1318849318,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1572670266,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Lobby/richrank/img_RTips.png",
+        "../../Image/Lobby/richrank/img_RTopTitle.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Node/PopBox.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,679 @@
+{
+  "ID": "23fb0444-129b-4536-be19-a5fcaa56d66f",
+  "Version": "2.3.4",
+  "Name": "SafeBoxLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 140,
+            "ActionTag": -1335820790,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/box_small_bg.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 289,
+            "Scale9OriginY": 203,
+            "Scale9Width": 299,
+            "Scale9Height": 211,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6852,
+              "Y": 0.8569
+            },
+            "LeftMargin": 201.5,
+            "RightMargin": 201.5,
+            "TopMargin": 51.5,
+            "BottomMargin": 51.5,
+            "Tag": 927,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 112.0,
+                  "Y": 573.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1277,
+                  "Y": 0.9292
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1118
+                },
+                "LeftMargin": 3.5,
+                "RightMargin": 656.5,
+                "TopMargin": 9.18,
+                "BottomMargin": 538.82,
+                "Tag": 26,
+                "ActionTag": -1508919947,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 69.0
+                },
+                "Name": "Access",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 762.0,
+                  "Y": 573.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8689,
+                  "Y": 0.9292
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1118
+                },
+                "LeftMargin": 653.5,
+                "RightMargin": 6.5,
+                "TopMargin": 9.18,
+                "BottomMargin": 538.82,
+                "Tag": 83,
+                "ActionTag": -71411836,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 69.0
+                },
+                "Name": "Pass",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.0,
+                  "Y": 573.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.374,
+                  "Y": 0.9292
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1118
+                },
+                "LeftMargin": 219.5,
+                "RightMargin": 440.5,
+                "TopMargin": 9.18,
+                "BottomMargin": 538.82,
+                "Tag": 84,
+                "ActionTag": -904926843,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 69.0
+                },
+                "Name": "Give",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/safebox_unselected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 545.0,
+                  "Y": 573.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6214,
+                  "Y": 0.9292
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1118
+                },
+                "LeftMargin": 436.5,
+                "RightMargin": 223.5,
+                "TopMargin": 9.18,
+                "BottomMargin": 538.82,
+                "Tag": 74,
+                "ActionTag": 348993139,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 69.0
+                },
+                "Name": "Give_D",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 285,
+                "Scale9Height": 171,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 437.8102,
+                  "Y": 278.9833
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4992,
+                  "Y": 0.4522
+                },
+                "PreSize": {
+                  "X": 0.9544,
+                  "Y": 0.8088
+                },
+                "LeftMargin": 19.3102,
+                "RightMargin": 20.6898,
+                "TopMargin": 88.5167,
+                "BottomMargin": 29.4833,
+                "Tag": 935,
+                "ActionTag": 1010343900,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/img_password.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 762.0,
+                  "Y": 578.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8689,
+                  "Y": 0.9373
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 653.5,
+                "RightMargin": 6.5,
+                "TopMargin": 6.18,
+                "BottomMargin": 545.82,
+                "Tag": 77,
+                "ActionTag": 1935438457,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 65.0
+                },
+                "Name": "img_password_10",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/img_dz.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 545.0,
+                  "Y": 578.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6214,
+                  "Y": 0.9373
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 436.5,
+                "RightMargin": 223.5,
+                "TopMargin": 6.18,
+                "BottomMargin": 545.82,
+                "Tag": 76,
+                "ActionTag": 1199314674,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 65.0
+                },
+                "Name": "img_dz_9",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/img_wz.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 328.0,
+                  "Y": 578.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.374,
+                  "Y": 0.9373
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 219.5,
+                "RightMargin": 440.5,
+                "TopMargin": 6.18,
+                "BottomMargin": 545.82,
+                "Tag": 78,
+                "ActionTag": 1319497229,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 65.0
+                },
+                "Name": "img_wz_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/SafeBox/img_access.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 112.0,
+                  "Y": 578.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1277,
+                  "Y": 0.9373
+                },
+                "PreSize": {
+                  "X": 0.2474,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 3.5,
+                "RightMargin": 656.5,
+                "TopMargin": 6.18,
+                "BottomMargin": 545.82,
+                "Tag": 75,
+                "ActionTag": -529478471,
+                "Size": {
+                  "X": 217.0,
+                  "Y": 65.0
+                },
+                "Name": "img_access_8",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 50,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 870.628,
+                  "Y": 596.8407
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9927,
+                  "Y": 0.9673
+                },
+                "PreSize": {
+                  "X": 0.0912,
+                  "Y": 0.1297
+                },
+                "LeftMargin": 830.628,
+                "RightMargin": -33.628,
+                "TopMargin": -19.8407,
+                "BottomMargin": 556.8407,
+                "Tag": 954,
+                "ActionTag": 2017950992,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "Close",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -712426198,
+            "Size": {
+              "X": 877.0,
+              "Y": 617.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Public/box_small_bg.png",
+        "../../Image/Public/close_1.png",
+        "../../Image/Public/close_2.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Image/SafeBox/img_access.png",
+        "../../Image/SafeBox/img_dz.png",
+        "../../Image/SafeBox/img_password.png",
+        "../../Image/SafeBox/img_wz.png",
+        "../../Image/SafeBox/safebox_selected.png",
+        "../../Image/SafeBox/safebox_unselected.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

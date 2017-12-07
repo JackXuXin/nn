@@ -1,0 +1,991 @@
+{
+  "ID": "acb571c3-b13c-4539-9d56-4efa69fde1be",
+  "Version": "2.3.4",
+  "Name": "CreateRoomLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 97,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 396,
+            "ActionTag": 1953138020,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "img_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 489,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/PrivateRoom/img_room_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 385,
+                "Scale9OriginY": 224,
+                "Scale9Width": 399,
+                "Scale9Height": 231,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -584.5,
+                "RightMargin": -584.5,
+                "TopMargin": -339.5,
+                "BottomMargin": -339.5,
+                "Tag": 398,
+                "ActionTag": -1885465630,
+                "Size": {
+                  "X": 1169.0,
+                  "Y": 679.0
+                },
+                "Name": "img_room_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -640.0,
+                  "Y": -360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -640.0,
+                "RightMargin": 640.0,
+                "TopMargin": 360.0,
+                "BottomMargin": -360.0,
+                "Tag": 400,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/img_deng.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 770.0275,
+                      "Y": 685.3668
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 466.0275,
+                    "RightMargin": -1074.0275,
+                    "TopMargin": -715.8668,
+                    "BottomMargin": 654.8668,
+                    "Tag": 408,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_deng_guang.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 126.4239,
+                          "Y": 30.607
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2079,
+                          "Y": 0.5018
+                        },
+                        "PreSize": {
+                          "X": 0.0411,
+                          "Y": 0.4098
+                        },
+                        "LeftMargin": 113.9239,
+                        "RightMargin": 469.0761,
+                        "TopMargin": 17.893,
+                        "BottomMargin": 18.107,
+                        "Tag": 409,
+                        "ActionTag": -432218927,
+                        "Size": {
+                          "X": 25.0,
+                          "Y": 25.0
+                        },
+                        "Name": "img_deng_0",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_deng_guang.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 226.9219,
+                          "Y": 18.5277
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3732,
+                          "Y": 0.3037
+                        },
+                        "PreSize": {
+                          "X": 0.0411,
+                          "Y": 0.4098
+                        },
+                        "LeftMargin": 214.4219,
+                        "RightMargin": 368.5781,
+                        "TopMargin": 29.9723,
+                        "BottomMargin": 6.0277,
+                        "Tag": 411,
+                        "ActionTag": 1540762281,
+                        "Size": {
+                          "X": 25.0,
+                          "Y": 25.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "img_deng_1",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_deng_guang.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 322.9978,
+                          "Y": 16.3484
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5312,
+                          "Y": 0.268
+                        },
+                        "PreSize": {
+                          "X": 0.0411,
+                          "Y": 0.4098
+                        },
+                        "LeftMargin": 310.4978,
+                        "RightMargin": 272.5022,
+                        "TopMargin": 32.1516,
+                        "BottomMargin": 3.8484,
+                        "Tag": 412,
+                        "ActionTag": 533311640,
+                        "Size": {
+                          "X": 25.0,
+                          "Y": 25.0
+                        },
+                        "Name": "img_deng_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_deng_guang.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 436.7853,
+                          "Y": 23.2628
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7184,
+                          "Y": 0.3814
+                        },
+                        "PreSize": {
+                          "X": 0.0411,
+                          "Y": 0.4098
+                        },
+                        "LeftMargin": 424.2853,
+                        "RightMargin": 158.7147,
+                        "TopMargin": 25.2372,
+                        "BottomMargin": 10.7628,
+                        "Tag": 413,
+                        "ActionTag": 739836980,
+                        "Size": {
+                          "X": 25.0,
+                          "Y": 25.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "img_deng_3",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_deng_guang.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 544.3516,
+                          "Y": 49.4769
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8953,
+                          "Y": 0.8111
+                        },
+                        "PreSize": {
+                          "X": 0.0411,
+                          "Y": 0.4098
+                        },
+                        "LeftMargin": 531.8516,
+                        "RightMargin": 51.1484,
+                        "TopMargin": -0.9769,
+                        "BottomMargin": 36.9769,
+                        "Tag": 414,
+                        "ActionTag": -1165967473,
+                        "Size": {
+                          "X": 25.0,
+                          "Y": 25.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "img_deng_4",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1531087438,
+                    "Size": {
+                      "X": 608.0,
+                      "Y": 61.0
+                    },
+                    "Name": "img_deng",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/img_DengPai.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 274.4922,
+                      "Y": 663.8242
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 18.9922,
+                    "RightMargin": -529.9922,
+                    "TopMargin": -730.3242,
+                    "BottomMargin": 597.3242,
+                    "Tag": 401,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/tx_create_room.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 225.8376,
+                          "Y": 61.272
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.442,
+                          "Y": 0.4607
+                        },
+                        "PreSize": {
+                          "X": 0.4129,
+                          "Y": 0.4211
+                        },
+                        "LeftMargin": 120.3376,
+                        "RightMargin": 179.6624,
+                        "TopMargin": 43.728,
+                        "BottomMargin": 33.272,
+                        "Tag": 403,
+                        "ActionTag": 531713744,
+                        "Size": {
+                          "X": 211.0,
+                          "Y": 56.0
+                        },
+                        "Name": "img_create_room",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_bird.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 54.4858,
+                          "Y": 77.1725
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1066,
+                          "Y": 0.5802
+                        },
+                        "PreSize": {
+                          "X": 0.2387,
+                          "Y": 0.782
+                        },
+                        "LeftMargin": -6.5142,
+                        "RightMargin": 395.5142,
+                        "TopMargin": 3.8275,
+                        "BottomMargin": 25.1725,
+                        "Tag": 402,
+                        "ActionTag": 170393157,
+                        "Size": {
+                          "X": 122.0,
+                          "Y": 104.0
+                        },
+                        "Name": "img_bird",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_arrow_hui.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 353.71,
+                          "Y": 66.0416
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6922,
+                          "Y": 0.4966
+                        },
+                        "PreSize": {
+                          "X": 0.0528,
+                          "Y": 0.3083
+                        },
+                        "LeftMargin": 340.21,
+                        "RightMargin": 143.79,
+                        "TopMargin": 46.4584,
+                        "BottomMargin": 45.5416,
+                        "Tag": 404,
+                        "ActionTag": 1588817975,
+                        "Size": {
+                          "X": 27.0,
+                          "Y": 41.0
+                        },
+                        "Name": "img_guang_1",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_arrow_hui.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 378.3479,
+                          "Y": 67.6833
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7404,
+                          "Y": 0.5089
+                        },
+                        "PreSize": {
+                          "X": 0.0528,
+                          "Y": 0.3083
+                        },
+                        "LeftMargin": 364.8479,
+                        "RightMargin": 119.1521,
+                        "TopMargin": 44.8167,
+                        "BottomMargin": 47.1833,
+                        "Tag": 405,
+                        "ActionTag": 771574355,
+                        "Size": {
+                          "X": 27.0,
+                          "Y": 41.0
+                        },
+                        "Name": "img_guang_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_arrow_hui.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 403.1508,
+                          "Y": 67.424
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7889,
+                          "Y": 0.5069
+                        },
+                        "PreSize": {
+                          "X": 0.0528,
+                          "Y": 0.3083
+                        },
+                        "LeftMargin": 389.6508,
+                        "RightMargin": 94.3492,
+                        "TopMargin": 45.076,
+                        "BottomMargin": 46.924,
+                        "Tag": 406,
+                        "ActionTag": 1129913111,
+                        "Size": {
+                          "X": 27.0,
+                          "Y": 41.0
+                        },
+                        "Name": "img_guang_3",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/img_arrow_hui.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 428.9537,
+                          "Y": 68.227
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8394,
+                          "Y": 0.513
+                        },
+                        "PreSize": {
+                          "X": 0.0528,
+                          "Y": 0.3083
+                        },
+                        "LeftMargin": 415.4537,
+                        "RightMargin": 68.5463,
+                        "TopMargin": 44.273,
+                        "BottomMargin": 47.727,
+                        "Tag": 407,
+                        "ActionTag": 2058523720,
+                        "Size": {
+                          "X": 27.0,
+                          "Y": 41.0
+                        },
+                        "Name": "img_guang_4",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -2058456923,
+                    "Size": {
+                      "X": 511.0,
+                      "Y": 133.0
+                    },
+                    "Name": "img_DengPai",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1516839082,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nd_title",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "DirectionType": "Vertical",
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -563.8819,
+                  "Y": -276.0444
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -563.8819,
+                "RightMargin": 331.8819,
+                "TopMargin": -223.9556,
+                "BottomMargin": -276.0444,
+                "Tag": 316,
+                "ActionTag": -1032600549,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 500.0
+                },
+                "Name": "list_ment",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 244,
+                "Scale9Height": 59,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -283.3615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -137.0,
+                "RightMargin": -137.0,
+                "TopMargin": 242.8615,
+                "BottomMargin": -323.8615,
+                "Tag": 632,
+                "ActionTag": -925565207,
+                "Size": {
+                  "X": 274.0,
+                  "Y": 81.0
+                },
+                "VisibleForFrame": false,
+                "Name": "btn_create_room",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/close_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 46,
+                "Scale9Height": 55,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 580.9027,
+                  "Y": 316.1848
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 542.9027,
+                "RightMargin": -618.9027,
+                "TopMargin": -354.6848,
+                "BottomMargin": 277.6848,
+                "Tag": 863,
+                "ActionTag": 825926952,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 77.0
+                },
+                "Name": "btn_exit",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -392125366,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nd_all",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Lobby/PrivateRoom/content/btn_create_room.png",
+        "../../Image/Lobby/PrivateRoom/img_arrow_hui.png",
+        "../../Image/Lobby/PrivateRoom/img_bird.png",
+        "../../Image/Lobby/PrivateRoom/img_deng.png",
+        "../../Image/Lobby/PrivateRoom/img_deng_guang.png",
+        "../../Image/Lobby/PrivateRoom/img_DengPai.png",
+        "../../Image/Lobby/PrivateRoom/img_room_bg.png",
+        "../../Image/Lobby/PrivateRoom/tx_create_room.png",
+        "../../Image/Public/close_1.png",
+        "../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

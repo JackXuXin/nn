@@ -1,0 +1,439 @@
+{
+  "ID": "8a712669-ac02-4be9-bfe1-a258726bba62",
+  "Version": "2.3.4",
+  "Name": "Friend_MsgSendItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 169,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -215,
+            "Scale9OriginY": -32,
+            "Scale9Width": 430,
+            "Scale9Height": 64,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 295.0,
+              "Y": 51.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -590.0,
+            "TopMargin": -101.5,
+            "BottomMargin": 0.5,
+            "Tag": 461,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 489.0001,
+                  "Y": 99.4949
+                },
+                "Scale": {
+                  "ScaleX": 0.94,
+                  "ScaleY": 0.94
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8288,
+                  "Y": 0.9851
+                },
+                "PreSize": {
+                  "X": 0.178,
+                  "Y": 1.0396
+                },
+                "LeftMargin": 489.0001,
+                "RightMargin": -4.0001,
+                "TopMargin": 1.5051,
+                "BottomMargin": -5.5051,
+                "Tag": 181,
+                "ActionTag": -1014246013,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 105.0
+                },
+                "Name": "Sprite_sbg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Common/Avatar/male_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 538.9996,
+                  "Y": 49.9999
+                },
+                "Scale": {
+                  "ScaleX": 0.5525,
+                  "ScaleY": 0.5641
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9136,
+                  "Y": 0.495
+                },
+                "PreSize": {
+                  "X": 0.3017,
+                  "Y": 1.7426
+                },
+                "LeftMargin": 449.9996,
+                "RightMargin": -37.9996,
+                "TopMargin": -36.9999,
+                "BottomMargin": -38.0001,
+                "Tag": 462,
+                "ActionTag": -1496034620,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 176.0
+                },
+                "Name": "Sprite_Head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "用户001",
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 471.0,
+                  "Y": 82.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7983,
+                  "Y": 0.8119
+                },
+                "PreSize": {
+                  "X": 0.339,
+                  "Y": 0.2772
+                },
+                "LeftMargin": 271.0,
+                "RightMargin": 119.0,
+                "TopMargin": 5.0,
+                "BottomMargin": 68.0,
+                "Tag": 463,
+                "ActionTag": -1797756637,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_Nick",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/ChatFriend/img_SendTs.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 19,
+                "Scale9Width": 2,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 476.0,
+                  "Y": 33.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8068,
+                  "Y": 0.3267
+                },
+                "PreSize": {
+                  "X": 0.1051,
+                  "Y": 0.5941
+                },
+                "LeftMargin": 414.0,
+                "RightMargin": 114.0,
+                "TopMargin": 38.0,
+                "BottomMargin": 3.0,
+                "Tag": 501,
+                "ActionTag": 2045829837,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 60.0
+                },
+                "Name": "Image_Bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "好的小对唱加油",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 460.0,
+                  "Y": 33.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7797,
+                  "Y": 0.3267
+                },
+                "PreSize": {
+                  "X": 0.261,
+                  "Y": 0.2574
+                },
+                "LeftMargin": 306.0,
+                "RightMargin": 130.0,
+                "TopMargin": 55.0,
+                "BottomMargin": 20.0,
+                "Tag": 502,
+                "ActionTag": -896404814,
+                "Size": {
+                  "X": 154.0,
+                  "Y": 26.0
+                },
+                "Name": "Text_Cotent",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "3\"",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 247.0,
+                  "Y": 82.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4186,
+                  "Y": 0.8119
+                },
+                "PreSize": {
+                  "X": 0.0322,
+                  "Y": 0.2277
+                },
+                "LeftMargin": 228.0,
+                "RightMargin": 343.0,
+                "TopMargin": 7.5,
+                "BottomMargin": 70.5,
+                "Tag": 499,
+                "ActionTag": 1071888088,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_SendTime",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "3\"",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 214.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3627,
+                  "Y": 0.198
+                },
+                "PreSize": {
+                  "X": 0.0322,
+                  "Y": 0.2277
+                },
+                "LeftMargin": 195.0,
+                "RightMargin": 376.0,
+                "TopMargin": 69.5,
+                "BottomMargin": 8.5,
+                "Tag": 73,
+                "ActionTag": -44829828,
+                "Size": {
+                  "X": 19.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_Time",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1196503751,
+            "Size": {
+              "X": 590.0,
+              "Y": 101.0
+            },
+            "Name": "Panel_FindItem",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Sprite.png",
+        "../Image/ChatFriend/img_SendTs.png",
+        "../Image/Common/Avatar/male_1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

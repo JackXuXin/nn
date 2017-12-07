@@ -1,0 +1,2987 @@
+{
+  "ID": "6532faf6-69f4-413b-a523-bb36781a56f8",
+  "Version": "2.3.4",
+  "Name": "Lottery",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 60,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/BG.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 203,
+            "Scale9OriginY": 165,
+            "Scale9Width": 451,
+            "Scale9Height": 171,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 248.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.501
+            },
+            "PreSize": {
+              "X": 1.4283,
+              "Y": 1.0121
+            },
+            "LeftMargin": -128.5,
+            "RightMargin": -128.5,
+            "TopMargin": -3.5,
+            "BottomMargin": -2.5,
+            "Tag": 61,
+            "ActionTag": -1243434584,
+            "Size": {
+              "X": 857.0,
+              "Y": 501.0
+            },
+            "Name": "Lottery_BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 16,
+            "LabelText": "活动时间：5月16日  至5月20日 ",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 439.0,
+              "Y": 422.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 222,
+              "G": 172,
+              "B": 254
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7317,
+              "Y": 0.8525
+            },
+            "PreSize": {
+              "X": 0.3783,
+              "Y": 0.0364
+            },
+            "LeftMargin": 325.5,
+            "RightMargin": 47.5,
+            "TopMargin": 64.0,
+            "BottomMargin": 413.0,
+            "Tag": 82,
+            "ActionTag": -140622146,
+            "Size": {
+              "X": 227.0,
+              "Y": 18.0
+            },
+            "Name": "Time_test",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/Btn.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 96,
+            "Scale9OriginY": 37,
+            "Scale9Width": 233,
+            "Scale9Height": 49,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 299.9998,
+              "Y": 216.8448
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4381
+            },
+            "PreSize": {
+              "X": 0.7083,
+              "Y": 0.2485
+            },
+            "LeftMargin": 87.4998,
+            "RightMargin": 87.5002,
+            "TopMargin": 216.6552,
+            "BottomMargin": 155.3448,
+            "Tag": 97,
+            "ActionTag": -1152935444,
+            "Size": {
+              "X": 425.0,
+              "Y": 123.0
+            },
+            "Name": "Btn_BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dianjichoujiang_Btn.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dianjichoujiang_Btn.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dianjichoujiang_Btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 182,
+            "Scale9Height": 41,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 228.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4606
+            },
+            "PreSize": {
+              "X": 0.3533,
+              "Y": 0.1273
+            },
+            "LeftMargin": 194.0,
+            "RightMargin": 194.0,
+            "TopMargin": 235.5,
+            "BottomMargin": 196.5,
+            "Tag": 98,
+            "ActionTag": 548951580,
+            "Size": {
+              "X": 212.0,
+              "Y": 63.0
+            },
+            "Name": "choujiang_Btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": "累计局数：",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 223.9999,
+              "Y": 179.845
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3733,
+              "Y": 0.3633
+            },
+            "PreSize": {
+              "X": 0.15,
+              "Y": 0.0424
+            },
+            "LeftMargin": 178.9999,
+            "RightMargin": 331.0001,
+            "TopMargin": 304.655,
+            "BottomMargin": 169.345,
+            "Tag": 99,
+            "ActionTag": -901176976,
+            "Size": {
+              "X": 90.0,
+              "Y": 21.0
+            },
+            "Name": "text_01",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": "0/20",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 289.0001,
+              "Y": 179.845
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4817,
+              "Y": 0.3633
+            },
+            "PreSize": {
+              "X": 0.06,
+              "Y": 0.0424
+            },
+            "LeftMargin": 271.0001,
+            "RightMargin": 292.9999,
+            "TopMargin": 304.655,
+            "BottomMargin": 169.345,
+            "Tag": 100,
+            "ActionTag": 64764628,
+            "Size": {
+              "X": 36.0,
+              "Y": 21.0
+            },
+            "Name": "text_02",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": "次数：",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 387.0001,
+              "Y": 179.845
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.645,
+              "Y": 0.3633
+            },
+            "PreSize": {
+              "X": 0.09,
+              "Y": 0.0424
+            },
+            "LeftMargin": 360.0001,
+            "RightMargin": 185.9999,
+            "TopMargin": 304.655,
+            "BottomMargin": 169.345,
+            "Tag": 101,
+            "ActionTag": -544783482,
+            "Size": {
+              "X": 54.0,
+              "Y": 21.0
+            },
+            "Name": "text_03",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": "0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 420.9999,
+              "Y": 180.8449
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7017,
+              "Y": 0.3653
+            },
+            "PreSize": {
+              "X": 0.0183,
+              "Y": 0.0424
+            },
+            "LeftMargin": 415.4999,
+            "RightMargin": 173.5001,
+            "TopMargin": 303.6551,
+            "BottomMargin": 170.3449,
+            "Tag": 102,
+            "ActionTag": -1703954761,
+            "Size": {
+              "X": 11.0,
+              "Y": 21.0
+            },
+            "Name": "text_04",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/mingrizaizhan.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/mingrizaizhan.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/mingrizaizhan.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 318,
+            "Scale9Height": 62,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 300.0,
+              "Y": 240.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4848
+            },
+            "PreSize": {
+              "X": 0.3533,
+              "Y": 0.1273
+            },
+            "LeftMargin": 194.0,
+            "RightMargin": 194.0,
+            "TopMargin": 223.5,
+            "BottomMargin": 208.5,
+            "Tag": 103,
+            "ActionTag": -170223561,
+            "Size": {
+              "X": 212.0,
+              "Y": 63.0
+            },
+            "VisibleForFrame": false,
+            "Name": "mingrizaizhan_Btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -16.0,
+              "Y": 335.68
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0267,
+              "Y": 0.6781
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": -119.0,
+            "RightMargin": 513.0,
+            "TopMargin": 101.64,
+            "BottomMargin": 278.0,
+            "Tag": 377,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 130,
+                "ActionTag": 2003094891,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 151,
+                "ActionTag": -1929197810,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 152,
+                "ActionTag": 153573312,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1811618503,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 195.0,
+              "Y": 335.68
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.325,
+              "Y": 0.6781
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 92.0,
+            "RightMargin": 302.0,
+            "TopMargin": 101.64,
+            "BottomMargin": 278.0,
+            "Tag": 378,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 379,
+                "ActionTag": -831915388,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 380,
+                "ActionTag": -810210155,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 381,
+                "ActionTag": -339697184,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -819999961,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 405.8785,
+              "Y": 335.68
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6765,
+              "Y": 0.6781
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 302.8785,
+            "RightMargin": 91.1215,
+            "TopMargin": 101.64,
+            "BottomMargin": 278.0,
+            "Tag": 382,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 383,
+                "ActionTag": -1409968878,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 384,
+                "ActionTag": -1608562104,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 385,
+                "ActionTag": 798366813,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1853147180,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 617.3,
+              "Y": 335.68
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0288,
+              "Y": 0.6781
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 514.3,
+            "RightMargin": -120.3,
+            "TopMargin": 101.64,
+            "BottomMargin": 278.0,
+            "Tag": 386,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 387,
+                "ActionTag": 684324611,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 388,
+                "ActionTag": -1623075101,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 389,
+                "ActionTag": -1317743023,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1419984488,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_4",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 617.3,
+              "Y": 216.26
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0288,
+              "Y": 0.4369
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 514.3,
+            "RightMargin": -120.3,
+            "TopMargin": 221.06,
+            "BottomMargin": 158.58,
+            "Tag": 390,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 391,
+                "ActionTag": -1437426201,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 392,
+                "ActionTag": -202281308,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 393,
+                "ActionTag": 1654406162,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 2081151485,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_5",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 617.3,
+              "Y": 98.27
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0288,
+              "Y": 0.1985
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 514.3,
+            "RightMargin": -120.3,
+            "TopMargin": 339.05,
+            "BottomMargin": 40.59,
+            "Tag": 394,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 395,
+                "ActionTag": -52216677,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 396,
+                "ActionTag": 2063423734,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 397,
+                "ActionTag": 2000336118,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -2142551199,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_6",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 405.88,
+              "Y": 98.27
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6765,
+              "Y": 0.1985
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 302.88,
+            "RightMargin": 91.12,
+            "TopMargin": 339.05,
+            "BottomMargin": 40.59,
+            "Tag": 398,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 399,
+                "ActionTag": -986420430,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 400,
+                "ActionTag": -348483765,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 401,
+                "ActionTag": -1482051945,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -303706609,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_7",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 195.0,
+              "Y": 98.27
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.325,
+              "Y": 0.1985
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": 92.0,
+            "RightMargin": 302.0,
+            "TopMargin": 339.05,
+            "BottomMargin": 40.59,
+            "Tag": 402,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 403,
+                "ActionTag": 2060747057,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 404,
+                "ActionTag": -1689285629,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 405,
+                "ActionTag": 1618777330,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1499080426,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_8",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -16.0,
+              "Y": 98.27
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0267,
+              "Y": 0.1985
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": -119.0,
+            "RightMargin": 513.0,
+            "TopMargin": 339.05,
+            "BottomMargin": 40.59,
+            "Tag": 410,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 411,
+                "ActionTag": 2111653461,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 412,
+                "ActionTag": 492131124,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 413,
+                "ActionTag": 1238699058,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1674747164,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_9",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -16.0,
+              "Y": 216.26
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0267,
+              "Y": 0.4369
+            },
+            "PreSize": {
+              "X": 0.3433,
+              "Y": 0.2331
+            },
+            "LeftMargin": -119.0,
+            "RightMargin": 513.0,
+            "TopMargin": 221.06,
+            "BottomMargin": 158.58,
+            "Tag": 406,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_Light.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 53,
+                "Scale9OriginY": 44,
+                "Scale9Width": 124,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4984
+                },
+                "PreSize": {
+                  "X": 1.1165,
+                  "Y": 1.2049
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": -11.64,
+                "BottomMargin": -12.0,
+                "Tag": 407,
+                "ActionTag": -106956428,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 139.0
+                },
+                "VisibleForFrame": false,
+                "Name": "light",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Lobby/Lottery/jiangping_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 22,
+                "Scale9Width": 45,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 68.0624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.59
+                },
+                "PreSize": {
+                  "X": 0.4417,
+                  "Y": 0.7542
+                },
+                "LeftMargin": 57.5,
+                "RightMargin": 57.5,
+                "TopMargin": 3.7976,
+                "BottomMargin": 24.5624,
+                "Tag": 408,
+                "ActionTag": -494695577,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 87.0
+                },
+                "Name": "jiangping",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "LabelText": "移动话费5元",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 222,
+                  "G": 172,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1214
+                },
+                "PreSize": {
+                  "X": 0.3786,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 64.0,
+                "RightMargin": 64.0,
+                "TopMargin": 91.36,
+                "BottomMargin": 4.0,
+                "Tag": 409,
+                "ActionTag": -1739128026,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 20.0
+                },
+                "Name": "jieshao",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -631629579,
+            "Size": {
+              "X": 206.0,
+              "Y": 115.36
+            },
+            "Name": "jiangping_10",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/wenhao_Btn.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/wenhao_Btn.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/wenhao_Btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 19,
+            "Scale9Height": 27,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 484.591,
+              "Y": 250.5685
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8077,
+              "Y": 0.5062
+            },
+            "PreSize": {
+              "X": 0.0817,
+              "Y": 0.099
+            },
+            "LeftMargin": 460.091,
+            "RightMargin": 90.909,
+            "TopMargin": 219.9315,
+            "BottomMargin": 226.0685,
+            "Tag": 149,
+            "ActionTag": 1161991991,
+            "Size": {
+              "X": 49.0,
+              "Y": 49.0
+            },
+            "Name": "wenhao_Btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 302.0,
+              "Y": -2.69
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5033,
+              "Y": -0.0054
+            },
+            "PreSize": {
+              "X": 1.1333,
+              "Y": 0.0808
+            },
+            "LeftMargin": -38.0,
+            "RightMargin": -42.0,
+            "TopMargin": 457.69,
+            "BottomMargin": -2.69,
+            "Tag": 174,
+            "ActionTag": -2001125853,
+            "Size": {
+              "X": 680.0,
+              "Y": 40.0
+            },
+            "Name": "wanjia_Layout",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/jilu_Btn.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/jilu_Btn.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/jilu_Btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 4,
+            "Scale9Width": 99,
+            "Scale9Height": 37,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 648.0026,
+              "Y": 470.996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.08,
+              "Y": 0.9515
+            },
+            "PreSize": {
+              "X": 0.215,
+              "Y": 0.0909
+            },
+            "LeftMargin": 583.5026,
+            "RightMargin": -112.5026,
+            "TopMargin": 1.504,
+            "BottomMargin": 448.496,
+            "Tag": 171,
+            "ActionTag": -1187876801,
+            "Size": {
+              "X": 129.0,
+              "Y": 45.0
+            },
+            "Name": "julu_Btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dizhi_Btn.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dizhi_Btn.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/Lottery/dizhi_Btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 4,
+            "Scale9Width": 99,
+            "Scale9Height": 37,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 648.0007,
+              "Y": 422.0189
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.08,
+              "Y": 0.8526
+            },
+            "PreSize": {
+              "X": 0.215,
+              "Y": 0.0909
+            },
+            "LeftMargin": 583.5007,
+            "RightMargin": -112.5007,
+            "TopMargin": 50.4811,
+            "BottomMargin": 399.5189,
+            "Tag": 160,
+            "ActionTag": -1054049327,
+            "Size": {
+              "X": 129.0,
+              "Y": 45.0
+            },
+            "VisibleForFrame": false,
+            "Name": "lianxi_Btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 16,
+            "LabelText": "每玩",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 107.0,
+              "Y": 422.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 222,
+              "G": 172,
+              "B": 254
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1783,
+              "Y": 0.8525
+            },
+            "PreSize": {
+              "X": 0.0533,
+              "Y": 0.0364
+            },
+            "LeftMargin": 91.0,
+            "RightMargin": 477.0,
+            "TopMargin": 64.0,
+            "BottomMargin": 413.0,
+            "Tag": 55,
+            "ActionTag": 1333418619,
+            "Size": {
+              "X": 32.0,
+              "Y": 18.0
+            },
+            "Name": "Time_test_0",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 16,
+            "LabelText": "10",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 136.0,
+              "Y": 422.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 254,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2267,
+              "Y": 0.8525
+            },
+            "PreSize": {
+              "X": 0.03,
+              "Y": 0.0364
+            },
+            "LeftMargin": 127.0,
+            "RightMargin": 455.0,
+            "TopMargin": 64.0,
+            "BottomMargin": 413.0,
+            "Tag": 56,
+            "ActionTag": 1672039808,
+            "Size": {
+              "X": 18.0,
+              "Y": 18.0
+            },
+            "Name": "Time_test_0_0",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 16,
+            "LabelText": "局，抽奖一次，每天5次",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 233.0,
+              "Y": 422.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -0.6032,
+            "RotationSkewY": -0.6033,
+            "CColor": {
+              "R": 222,
+              "G": 172,
+              "B": 254
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3883,
+              "Y": 0.8525
+            },
+            "PreSize": {
+              "X": 0.2817,
+              "Y": 0.0364
+            },
+            "LeftMargin": 148.5,
+            "RightMargin": 282.5,
+            "TopMargin": 64.0,
+            "BottomMargin": 413.0,
+            "Tag": 57,
+            "ActionTag": -1566894067,
+            "Size": {
+              "X": 169.0,
+              "Y": 18.0
+            },
+            "Name": "Time_test_0_1",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 600.0,
+          "Y": 495.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/Lobby/Lottery/BG.png",
+        "../../Image/Lobby/Lottery/Btn.png",
+        "../../Image/Lobby/Lottery/dianjichoujiang_Btn.png",
+        "../../Image/Lobby/Lottery/dizhi_Btn.png",
+        "../../Image/Lobby/Lottery/jiangping_1.png",
+        "../../Image/Lobby/Lottery/jiangping_Light.png",
+        "../../Image/Lobby/Lottery/jilu_Btn.png",
+        "../../Image/Lobby/Lottery/mingrizaizhan.png",
+        "../../Image/Lobby/Lottery/wenhao_Btn.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,745 @@
+{
+  "ID": "ae453d3a-9669-4110-adad-eec20d33302d",
+  "Version": "2.3.4",
+  "Name": "SignLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 412,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 436,
+            "ActionTag": 339943970,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 418,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 285,
+                "Scale9Height": 171,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -43.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.5,
+                "RightMargin": -418.5,
+                "TopMargin": -205.5001,
+                "BottomMargin": -293.4999,
+                "Tag": 1200,
+                "ActionTag": -1696497839,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/sign_context.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 205,
+                "Scale9OriginY": 150,
+                "Scale9Width": 425,
+                "Scale9Height": 193,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -44.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -417.5,
+                "RightMargin": -417.5,
+                "TopMargin": -202.4998,
+                "BottomMargin": -290.5002,
+                "Tag": 449,
+                "ActionTag": 866179822,
+                "Size": {
+                  "X": 835.0,
+                  "Y": 493.0
+                },
+                "Name": "Image_9",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 26,
+                "LabelText": "0",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "Image/FreeGold/sign_num.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 344.0,
+                  "Y": 181.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 333.0,
+                "RightMargin": -355.0,
+                "TopMargin": -194.0,
+                "BottomMargin": 168.0,
+                "Tag": 438,
+                "ActionTag": -226152310,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 26.0
+                },
+                "Name": "AtlasLabel_Days",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FontSize": 31,
+                "LabelText": "",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -376.91,
+                  "Y": 181.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 238,
+                  "G": 131,
+                  "B": 53
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -376.91,
+                "RightMargin": 376.91,
+                "TopMargin": -181.0,
+                "BottomMargin": 181.0,
+                "Tag": 450,
+                "ActionTag": 1587040735,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Text_Month",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": -43.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -200.0,
+                "TopMargin": -156.0001,
+                "BottomMargin": -43.9999,
+                "Tag": 467,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/FreeGold/sign_today.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 73,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 78,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.002,
+                      "Y": 110.9554
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5548
+                    },
+                    "PreSize": {
+                      "X": 1.12,
+                      "Y": 0.295
+                    },
+                    "LeftMargin": -111.998,
+                    "RightMargin": 87.998,
+                    "TopMargin": 59.5446,
+                    "BottomMargin": 81.4554,
+                    "Tag": 451,
+                    "ActionTag": -41406978,
+                    "Size": {
+                      "X": 224.0,
+                      "Y": 59.0
+                    },
+                    "Name": "Image_10",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 38,
+                    "LabelText": "今日可领取99999旺豆",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 40.0015
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 245,
+                      "G": 55,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.2
+                    },
+                    "PreSize": {
+                      "X": 1.86,
+                      "Y": 0.215
+                    },
+                    "LeftMargin": -186.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": 138.4985,
+                    "BottomMargin": 18.5015,
+                    "Tag": 452,
+                    "ActionTag": -1994199198,
+                    "Size": {
+                      "X": 372.0,
+                      "Y": 43.0
+                    },
+                    "Name": "Text_7",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 40,
+                    "ButtonText": "点击领取888旺豆",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/FreeGold/btn_sign_1.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/FreeGold/btn_sign_1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/FreeGold/btn_sign_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 379,
+                    "Scale9Height": 94,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0003,
+                      "Y": -63.9945
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.32
+                    },
+                    "PreSize": {
+                      "X": 2.045,
+                      "Y": 0.58
+                    },
+                    "LeftMargin": -204.4997,
+                    "RightMargin": -4.5003,
+                    "TopMargin": 205.9945,
+                    "BottomMargin": -121.9945,
+                    "Tag": 453,
+                    "ActionTag": 723052526,
+                    "Size": {
+                      "X": 409.0,
+                      "Y": 116.0
+                    },
+                    "Name": "Button_Sign",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1646417268,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_Sign",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": -43.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -200.0,
+                "TopMargin": -156.0001,
+                "BottomMargin": -43.9999,
+                "Tag": 468,
+                "ActionTag": -532552643,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_SignList",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "签到领取旺豆，第一天2000旺豆，连续签到每天5000旺豆，\n7天连续签到后每天8000旺豆，15天连续签到后，每天10000旺豆",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0003,
+                  "Y": -237.2161
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 171,
+                  "G": 96,
+                  "B": 58
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -286.9997,
+                "RightMargin": -287.0003,
+                "TopMargin": 214.2161,
+                "BottomMargin": -260.2161,
+                "Tag": 454,
+                "ActionTag": -124069013,
+                "Size": {
+                  "X": 574.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_8",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "关注江南茶苑唯一公众号                             了解活动详情\n所有活动最终解释权归江南茶苑所有",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 12.2776,
+                  "Y": -301.8839
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -313.7224,
+                "RightMargin": -338.2776,
+                "TopMargin": 270.8839,
+                "BottomMargin": -332.8839,
+                "Tag": 465,
+                "ActionTag": -925884814,
+                "Size": {
+                  "X": 652.0,
+                  "Y": 62.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Text_9",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "jiangnangame",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 77.9965,
+                  "Y": -284.2673
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 85,
+                  "B": 80
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -4.0035,
+                "RightMargin": -159.9965,
+                "TopMargin": 268.7673,
+                "BottomMargin": -299.7673,
+                "Tag": 466,
+                "ActionTag": 1099795935,
+                "Size": {
+                  "X": 164.0,
+                  "Y": 31.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Text_12",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -246205590,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "PopBoxNode",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/FreeGold/btn_sign_0.png",
+        "../../Image/FreeGold/btn_sign_1.png",
+        "../../Image/FreeGold/sign_context.png",
+        "../../Image/FreeGold/sign_num.png",
+        "../../Image/FreeGold/sign_today.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Node/PopBox.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

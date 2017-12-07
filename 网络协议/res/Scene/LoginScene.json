@@ -1,0 +1,779 @@
+{
+  "ID": "cc751c40-fe14-485e-bcb7-330449bfd4b5",
+  "Version": "2.3.4",
+  "Name": "LoginScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 251,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/Login_Background.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 436,
+            "Scale9Height": 246,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.61,
+              "Y": 359.9999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4997,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -0.39,
+            "RightMargin": 0.39,
+            "TopMargin": 0.0001,
+            "BottomMargin": -0.0001,
+            "Tag": 278,
+            "ActionTag": 590026949,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Platform_Src/Image/Logon/logo.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 271,
+            "Scale9OriginY": 89,
+            "Scale9Width": 161,
+            "Scale9Height": 259,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 639.9998,
+              "Y": 501.6678
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6968
+            },
+            "PreSize": {
+              "X": 0.5492,
+              "Y": 0.6069
+            },
+            "LeftMargin": 288.4998,
+            "RightMargin": 288.5002,
+            "TopMargin": -0.1678,
+            "BottomMargin": 283.1678,
+            "Tag": 80,
+            "ActionTag": 1586479327,
+            "Size": {
+              "X": 703.0,
+              "Y": 437.0
+            },
+            "Name": "Image_logo",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/NewLogon_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/NewLogon_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 89,
+            "Scale9OriginY": 25,
+            "Scale9Width": 110,
+            "Scale9Height": 44,
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 440.0,
+              "Y": 194.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3438,
+              "Y": 0.2694
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.1306
+            },
+            "LeftMargin": 296.0,
+            "RightMargin": 696.0,
+            "TopMargin": 478.9999,
+            "BottomMargin": 147.0001,
+            "Tag": 273,
+            "ActionTag": -1671532723,
+            "Size": {
+              "X": 288.0,
+              "Y": 94.0
+            },
+            "Name": "Login",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/weixinLogon_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/weixinLogon_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 48,
+            "Scale9OriginY": 15,
+            "Scale9Width": 192,
+            "Scale9Height": 64,
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 840.0,
+              "Y": 194.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6563,
+              "Y": 0.2694
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.1306
+            },
+            "LeftMargin": 696.0,
+            "RightMargin": 296.0,
+            "TopMargin": 479.0,
+            "BottomMargin": 147.0,
+            "Tag": 277,
+            "ActionTag": -255157837,
+            "Size": {
+              "X": 288.0,
+              "Y": 94.0
+            },
+            "Name": "LoginWeixin",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 17,
+            "LabelText": "健康游戏忠告：",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 184.6703,
+              "Y": 53.4666
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1443,
+              "Y": 0.0743
+            },
+            "PreSize": {
+              "X": 0.093,
+              "Y": 0.0278
+            },
+            "LeftMargin": 125.1703,
+            "RightMargin": 1035.8297,
+            "TopMargin": 656.5334,
+            "BottomMargin": 43.4666,
+            "Tag": 81,
+            "ActionTag": 310636813,
+            "Size": {
+              "X": 119.0,
+              "Y": 20.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 17,
+            "LabelText": "抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防上当受骗，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活！\n出版单位：杭州旺网网络科技有限公司   浙网文【2016】5459-311号   浙公网安备 33010202001178号\n新广出审【2017】6249号   ISBN：978-7-7979-9445-3    ICP号：浙B2-20170258",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 713.0802,
+              "Y": 33.4665
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5571,
+              "Y": 0.0465
+            },
+            "PreSize": {
+              "X": 0.7437,
+              "Y": 0.0833
+            },
+            "LeftMargin": 237.0802,
+            "RightMargin": 90.9198,
+            "TopMargin": 656.5335,
+            "BottomMargin": 3.4665,
+            "Tag": 82,
+            "ActionTag": 1875283810,
+            "Size": {
+              "X": 952.0,
+              "Y": 60.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 17,
+            "LabelText": "本网络游戏适合年满18周岁以上的用户使用，为了您的健康，请合理控制游戏时间。",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 553.0016,
+              "Y": 74.103
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.432,
+              "Y": 0.1029
+            },
+            "PreSize": {
+              "X": 0.493,
+              "Y": 0.0278
+            },
+            "LeftMargin": 237.5016,
+            "RightMargin": 411.4984,
+            "TopMargin": 635.897,
+            "BottomMargin": 64.103,
+            "Tag": 27,
+            "ActionTag": 933133975,
+            "Size": {
+              "X": 631.0,
+              "Y": 20.0
+            },
+            "Name": "Text_3",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/btn_Publick_0.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/btn_Publick_1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Logon/btn_Publick_0.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 56,
+            "Scale9OriginY": 25,
+            "Scale9Width": 59,
+            "Scale9Height": 20,
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1186.5276,
+              "Y": 109.9841
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.927,
+              "Y": 0.1528
+            },
+            "PreSize": {
+              "X": 0.1336,
+              "Y": 0.0972
+            },
+            "LeftMargin": 1101.0276,
+            "RightMargin": 7.9724,
+            "TopMargin": 575.0159,
+            "BottomMargin": 74.9841,
+            "Tag": 121,
+            "ActionTag": 1220182162,
+            "Size": {
+              "X": 171.0,
+              "Y": 70.0
+            },
+            "Name": "btn_Publick",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/kuang.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/kuang.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 9,
+            "Scale9OriginY": 11,
+            "Scale9Width": 10,
+            "Scale9Height": 6,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 507.1797,
+              "Y": 110.0059
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3962,
+              "Y": 0.1528
+            },
+            "PreSize": {
+              "X": 0.0219,
+              "Y": 0.0389
+            },
+            "LeftMargin": 493.1797,
+            "RightMargin": 758.8203,
+            "TopMargin": 595.9941,
+            "BottomMargin": 96.0059,
+            "Tag": 583,
+            "ActionTag": 889414157,
+            "Size": {
+              "X": 28.0,
+              "Y": 28.0
+            },
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 508.0001,
+              "Y": 109.5574
+            },
+            "Scale": {
+              "ScaleX": 0.913,
+              "ScaleY": 1.1111
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3969,
+              "Y": 0.1522
+            },
+            "PreSize": {
+              "X": 0.0359,
+              "Y": 0.05
+            },
+            "LeftMargin": 485.0001,
+            "RightMargin": 748.9999,
+            "TopMargin": 592.4426,
+            "BottomMargin": 91.5574,
+            "Tag": 194,
+            "ActionTag": 845339633,
+            "Size": {
+              "X": 46.0,
+              "Y": 36.0
+            },
+            "Alpha": 0,
+            "Name": "Button_Kuang",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/dui.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 509.9188,
+              "Y": 108.8359
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3984,
+              "Y": 0.1512
+            },
+            "PreSize": {
+              "X": 0.0242,
+              "Y": 0.0292
+            },
+            "LeftMargin": 494.4188,
+            "RightMargin": 754.5812,
+            "TopMargin": 600.6641,
+            "BottomMargin": 98.3359,
+            "Tag": 579,
+            "ActionTag": 1559574929,
+            "Size": {
+              "X": 31.0,
+              "Y": 21.0
+            },
+            "Name": "img_dui",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/zi.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/zi.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 213,
+            "Scale9Height": 2,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 656.0507,
+              "Y": 109.3543
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5125,
+              "Y": 0.1519
+            },
+            "PreSize": {
+              "X": 0.1898,
+              "Y": 0.0333
+            },
+            "LeftMargin": 534.5507,
+            "RightMargin": 502.4493,
+            "TopMargin": 598.6457,
+            "BottomMargin": 97.3543,
+            "Tag": 582,
+            "ActionTag": 416694663,
+            "Size": {
+              "X": 243.0,
+              "Y": 24.0
+            },
+            "Name": "Button_User",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Button_Normal.png",
+        "../Default/Button_Press.png",
+        "../Image/Lobby/dui.png",
+        "../Image/Lobby/kuang.png",
+        "../Image/Lobby/zi.png",
+        "../Image/Logon/btn_Publick_0.png",
+        "../Image/Logon/btn_Publick_1.png",
+        "../Image/Logon/Login_Background.png",
+        "../Image/Logon/NewLogon_0.png",
+        "../Image/Logon/NewLogon_1.png",
+        "../Image/Logon/weixinLogon_0.png",
+        "../Image/Logon/weixinLogon_1.png",
+        "../Platform_Src/Image/Logon/logo.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

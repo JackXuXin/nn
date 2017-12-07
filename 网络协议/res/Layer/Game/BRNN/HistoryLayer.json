@@ -1,0 +1,478 @@
+{
+  "ID": "0f45a5b1-64cb-451a-b1e2-6888301b61c0",
+  "Version": "2.3.4",
+  "Name": "HistoryLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 699,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 704,
+            "ActionTag": 46540730,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/BRNN/img_record_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 720.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.5531,
+              "Y": 0.5167
+            },
+            "LeftMargin": 286.0,
+            "RightMargin": 286.0,
+            "BottomMargin": 348.0,
+            "Tag": 705,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_gengduo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.0,
+                  "Y": 325.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9605,
+                  "Y": 0.875
+                },
+                "PreSize": {
+                  "X": 0.0452,
+                  "Y": 0.0995
+                },
+                "LeftMargin": 664.0,
+                "RightMargin": 12.0,
+                "TopMargin": 28.0,
+                "BottomMargin": 307.0,
+                "Tag": 706,
+                "ActionTag": -1515625947,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 37.0
+                },
+                "Name": "bairen_pic_gengduo_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_gengduo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.0,
+                  "Y": 232.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9605,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.0452,
+                  "Y": 0.0995
+                },
+                "LeftMargin": 664.0,
+                "RightMargin": 12.0,
+                "TopMargin": 121.0,
+                "BottomMargin": 214.0,
+                "Tag": 709,
+                "ActionTag": 2133080304,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 37.0
+                },
+                "Name": "bairen_pic_gengduo_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_gengduo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.0,
+                  "Y": 139.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9605,
+                  "Y": 0.375
+                },
+                "PreSize": {
+                  "X": 0.0452,
+                  "Y": 0.0995
+                },
+                "LeftMargin": 664.0,
+                "RightMargin": 12.0,
+                "TopMargin": 214.0,
+                "BottomMargin": 121.0,
+                "Tag": 708,
+                "ActionTag": 2108304004,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 37.0
+                },
+                "Name": "bairen_pic_gengduo_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_gengduo.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.0,
+                  "Y": 46.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9605,
+                  "Y": 0.125
+                },
+                "PreSize": {
+                  "X": 0.0452,
+                  "Y": 0.0995
+                },
+                "LeftMargin": 664.0,
+                "RightMargin": 12.0,
+                "TopMargin": 307.0,
+                "BottomMargin": 28.0,
+                "Tag": 707,
+                "ActionTag": 1150590678,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 37.0
+                },
+                "Name": "bairen_pic_gengduo_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_tian.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 89,
+                "Scale9Height": 74,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 10.0,
+                  "Y": 325.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0141,
+                  "Y": 0.875
+                },
+                "PreSize": {
+                  "X": 0.1257,
+                  "Y": 0.1989
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 609.0,
+                "TopMargin": 9.5,
+                "BottomMargin": 288.5,
+                "Tag": 711,
+                "ActionTag": 1797942834,
+                "Size": {
+                  "X": 89.0,
+                  "Y": 74.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_di.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 109,
+                "Scale9Height": 72,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 10.0,
+                  "Y": 232.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0141,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.1935
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 589.0,
+                "TopMargin": 103.5,
+                "BottomMargin": 196.5,
+                "Tag": 712,
+                "ActionTag": -933330236,
+                "Size": {
+                  "X": 109.0,
+                  "Y": 72.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_xuan.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 67,
+                "Scale9Height": 91,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 10.0,
+                  "Y": 139.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0141,
+                  "Y": 0.375
+                },
+                "PreSize": {
+                  "X": 0.0946,
+                  "Y": 0.2446
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 631.0,
+                "TopMargin": 187.0,
+                "BottomMargin": 94.0,
+                "Tag": 713,
+                "ActionTag": 1666983989,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 91.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/BRNN/bairen_pic_huang.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 68,
+                "Scale9Height": 81,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 10.0,
+                  "Y": 46.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0141,
+                  "Y": 0.125
+                },
+                "PreSize": {
+                  "X": 0.096,
+                  "Y": 0.2177
+                },
+                "LeftMargin": 10.0,
+                "RightMargin": 630.0,
+                "TopMargin": 285.0,
+                "BottomMargin": 6.0,
+                "Tag": 714,
+                "ActionTag": -392147995,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 81.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1492361983,
+            "Size": {
+              "X": 708.0,
+              "Y": 372.0
+            },
+            "Name": "History_Background",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Image/BRNN/bairen_pic_di.png",
+        "../../../Image/BRNN/bairen_pic_gengduo.png",
+        "../../../Image/BRNN/bairen_pic_huang.png",
+        "../../../Image/BRNN/bairen_pic_tian.png",
+        "../../../Image/BRNN/bairen_pic_xuan.png",
+        "../../../Image/BRNN/img_record_bg.png",
+        "../../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

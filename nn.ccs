@@ -203,8 +203,8 @@
           </Folder>
         </Folder>
         <Folder Name="Layer">
-          <Project Name="CreateRoomLayer.csd" Type="Layer" />
           <Project Name="AddRoomLayer.csd" Type="Layer" />
+          <Project Name="CreateRoomLayer.csd" Type="Layer" />
         </Folder>
         <Folder Name="Scene">
           <Project Name="LobbyScene.csd" Type="Scene" />

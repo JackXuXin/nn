@@ -1,0 +1,2795 @@
+{
+  "ID": "e38dce8a-2efe-4e5f-b59c-ec5bd206ab12",
+  "Version": "2.3.4",
+  "Name": "Game_Record_Template",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 241,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/GameRecord/img_record_02.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -612.5,
+            "RightMargin": -612.5,
+            "TopMargin": -135.5,
+            "BottomMargin": -135.5,
+            "Tag": 242,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -0.0001,
+                  "Y": 511.7833
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.9188
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -0.0001,
+                "RightMargin": 1225.0001,
+                "TopMargin": 45.2167,
+                "BottomMargin": 511.7833,
+                "Tag": 249,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "游戏：十三水",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 11.6291,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 11.6291,
+                    "RightMargin": -155.6291,
+                    "TopMargin": -14.0,
+                    "BottomMargin": -14.0,
+                    "Tag": 244,
+                    "ActionTag": -1773785377,
+                    "Size": {
+                      "X": 144.0,
+                      "Y": 28.0
+                    },
+                    "Name": "tx_game_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "房号：100000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.3891,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 224.3891,
+                    "RightMargin": -377.3891,
+                    "TopMargin": -14.0,
+                    "BottomMargin": -14.0,
+                    "Tag": 245,
+                    "ActionTag": -651178729,
+                    "Size": {
+                      "X": 153.0,
+                      "Y": 28.0
+                    },
+                    "Name": "tx_privateid",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "局数：16局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 417.3983,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 417.3983,
+                    "RightMargin": -540.3983,
+                    "TopMargin": -14.0,
+                    "BottomMargin": -14.0,
+                    "Tag": 246,
+                    "ActionTag": -600800101,
+                    "Size": {
+                      "X": 123.0,
+                      "Y": 28.0
+                    },
+                    "Name": "tx_round",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "玩法：加一色 带苍蝇",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 594.7665,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 594.7665,
+                    "RightMargin": -817.7665,
+                    "TopMargin": -14.0,
+                    "BottomMargin": -14.0,
+                    "Tag": 247,
+                    "ActionTag": -1306935834,
+                    "Size": {
+                      "X": 223.0,
+                      "Y": 28.0
+                    },
+                    "Name": "tx_game_rule",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "2017/9/15  20:20:58",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1125.7507,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 911.7507,
+                    "RightMargin": -1125.7507,
+                    "TopMargin": -14.0,
+                    "BottomMargin": -14.0,
+                    "Tag": 248,
+                    "ActionTag": -2100777253,
+                    "Size": {
+                      "X": 214.0,
+                      "Y": 28.0
+                    },
+                    "Name": "tx_game_time",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/btn_specific_02.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/btn_specific_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 44,
+                    "Scale9Height": 9,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1178.2129,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 1141.2129,
+                    "RightMargin": -1215.2129,
+                    "TopMargin": -15.5,
+                    "BottomMargin": -15.5,
+                    "Tag": 253,
+                    "ActionTag": 1577725997,
+                    "Size": {
+                      "X": 74.0,
+                      "Y": 31.0
+                    },
+                    "Name": "btn_specific",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 650213599,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Node_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -0.0001,
+                  "Y": 385.8746
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.6928
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -0.0001,
+                "RightMargin": 1225.0001,
+                "TopMargin": 171.1254,
+                "BottomMargin": 385.8746,
+                "Tag": 250,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_07.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 156.5707,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 7.5707,
+                    "RightMargin": -305.5707,
+                    "TopMargin": -93.0,
+                    "BottomMargin": -93.0,
+                    "Tag": 252,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7492
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 1.0108
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -47.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 254,
+                        "ActionTag": -2102622518,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 153.4128
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 79,
+                          "G": 26,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1505
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 18.5872,
+                        "BottomMargin": 139.4128,
+                        "Tag": 299,
+                        "ActionTag": -2025819946,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 118.389
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 79,
+                          "G": 26,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1452
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 54.111,
+                        "BottomMargin": 104.889,
+                        "Tag": 302,
+                        "ActionTag": 1742552522,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 43.4124
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 79,
+                          "G": 26,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.172
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 126.5876,
+                        "BottomMargin": 27.4124,
+                        "Tag": 303,
+                        "ActionTag": -225751103,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 167.6487,
+                          "Y": 41.664
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5626,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.129
+                        },
+                        "LeftMargin": 158.1487,
+                        "RightMargin": 120.8513,
+                        "TopMargin": 132.336,
+                        "BottomMargin": 29.664,
+                        "Tag": 297,
+                        "ActionTag": 504050198,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.7001,
+                          "Y": 41.664
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.129
+                        },
+                        "LeftMargin": 185.7001,
+                        "RightMargin": 93.2999,
+                        "TopMargin": 132.336,
+                        "BottomMargin": 29.664,
+                        "Tag": 295,
+                        "ActionTag": -1479575686,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6981,
+                          "Y": 41.664
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.129
+                        },
+                        "LeftMargin": 185.6981,
+                        "RightMargin": 74.3019,
+                        "TopMargin": 132.336,
+                        "BottomMargin": 29.664,
+                        "Tag": 296,
+                        "ActionTag": 1720304698,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -988523181,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 186.0
+                    },
+                    "Name": "player_record_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_01.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 460.9125,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 311.9125,
+                    "RightMargin": -609.9125,
+                    "TopMargin": -94.5,
+                    "BottomMargin": -94.5,
+                    "Tag": 304,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7373
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 0.9947
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -44.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 305,
+                        "ActionTag": 816958183,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 155.8872
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1481
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 19.1128,
+                        "BottomMargin": 141.8872,
+                        "Tag": 306,
+                        "ActionTag": 762442292,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 120.2985
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1429
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 55.2015,
+                        "BottomMargin": 106.7985,
+                        "Tag": 307,
+                        "ActionTag": -1321847578,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 44.1126
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.1693
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 128.8874,
+                        "BottomMargin": 28.1126,
+                        "Tag": 308,
+                        "ActionTag": 11683476,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 161.6486,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5424,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 152.1486,
+                        "RightMargin": 126.8514,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 309,
+                        "ActionTag": -1550952992,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.7,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.7,
+                        "RightMargin": 93.3,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 310,
+                        "ActionTag": -2012683555,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6979,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6979,
+                        "RightMargin": 74.3021,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 311,
+                        "ActionTag": 600716727,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -287824194,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 189.0
+                    },
+                    "Name": "player_record_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_01.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 763.832,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 614.832,
+                    "RightMargin": -912.832,
+                    "TopMargin": -94.5,
+                    "BottomMargin": -94.5,
+                    "Tag": 312,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7373
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 0.9947
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -44.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 313,
+                        "ActionTag": 1552806171,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 155.8872
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1481
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 19.1128,
+                        "BottomMargin": 141.8872,
+                        "Tag": 314,
+                        "ActionTag": -702219691,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 120.2985
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1429
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 55.2015,
+                        "BottomMargin": 106.7985,
+                        "Tag": 315,
+                        "ActionTag": -102035758,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 44.1126
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.1693
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 128.8874,
+                        "BottomMargin": 28.1126,
+                        "Tag": 316,
+                        "ActionTag": -1128063622,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 167.6484,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5626,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 158.1484,
+                        "RightMargin": 120.8516,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 317,
+                        "ActionTag": -1613981289,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6998,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6998,
+                        "RightMargin": 93.3002,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 318,
+                        "ActionTag": -953958771,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6976,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6976,
+                        "RightMargin": 74.3024,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 319,
+                        "ActionTag": 372723002,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -1107281294,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 189.0
+                    },
+                    "Name": "player_record_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_01.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1066.752,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 917.752,
+                    "RightMargin": -1215.752,
+                    "TopMargin": -94.5,
+                    "BottomMargin": -94.5,
+                    "Tag": 320,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7373
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 0.9947
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -44.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 321,
+                        "ActionTag": 1464720456,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 155.8872
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1481
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 19.1128,
+                        "BottomMargin": 141.8872,
+                        "Tag": 322,
+                        "ActionTag": -272550753,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 120.2985
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1429
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 55.2015,
+                        "BottomMargin": 106.7985,
+                        "Tag": 323,
+                        "ActionTag": 476248081,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 44.1126
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.1693
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 128.8874,
+                        "BottomMargin": 28.1126,
+                        "Tag": 324,
+                        "ActionTag": 2141098693,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 167.6482,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5626,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 158.1482,
+                        "RightMargin": 120.8518,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 325,
+                        "ActionTag": 744509862,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6998,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6998,
+                        "RightMargin": 93.3002,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 326,
+                        "ActionTag": -575278839,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6974,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6974,
+                        "RightMargin": 74.3026,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 327,
+                        "ActionTag": 1997111521,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -310196280,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 189.0
+                    },
+                    "Name": "player_record_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_01.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 158.0709,
+                      "Y": -234.1463
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 9.0709,
+                    "RightMargin": -307.0709,
+                    "TopMargin": 139.6463,
+                    "BottomMargin": -328.6463,
+                    "Tag": 1039,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7373
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 0.9947
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -44.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 1040,
+                        "ActionTag": -1128624903,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 155.8872
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1481
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 19.1128,
+                        "BottomMargin": 141.8872,
+                        "Tag": 1041,
+                        "ActionTag": -1710520690,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 120.2985
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1429
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 55.2015,
+                        "BottomMargin": 106.7985,
+                        "Tag": 1042,
+                        "ActionTag": -1406863743,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 44.1126
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.1693
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 128.8874,
+                        "BottomMargin": 28.1126,
+                        "Tag": 1043,
+                        "ActionTag": -1266469335,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 167.6484,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5626,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 158.1484,
+                        "RightMargin": 120.8516,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1044,
+                        "ActionTag": 488424713,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6998,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6998,
+                        "RightMargin": 93.3002,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1045,
+                        "ActionTag": -185089528,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6976,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6976,
+                        "RightMargin": 74.3024,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1046,
+                        "ActionTag": 1881528717,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 896591060,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 189.0
+                    },
+                    "Name": "player_record_5",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/GameRecord/img_record_01.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 466.0493,
+                      "Y": -232.8817
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 317.0493,
+                    "RightMargin": -615.0493,
+                    "TopMargin": 138.3817,
+                    "BottomMargin": -327.3817,
+                    "Tag": 1047,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Common/Avatar/male_1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.7674,
+                          "Y": 139.3504
+                        },
+                        "Scale": {
+                          "ScaleX": 0.36,
+                          "ScaleY": 0.36
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1536,
+                          "Y": 0.7373
+                        },
+                        "PreSize": {
+                          "X": 0.6309,
+                          "Y": 0.9947
+                        },
+                        "LeftMargin": -48.2326,
+                        "RightMargin": 158.2326,
+                        "TopMargin": -44.3504,
+                        "BottomMargin": 45.3504,
+                        "Tag": 1048,
+                        "ActionTag": 1801533087,
+                        "Size": {
+                          "X": 188.0,
+                          "Y": 188.0
+                        },
+                        "Name": "img_head",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "春风十里不如你",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 101.0284,
+                          "Y": 155.8872
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.339,
+                          "Y": 0.8248
+                        },
+                        "PreSize": {
+                          "X": 0.5638,
+                          "Y": 0.1481
+                        },
+                        "LeftMargin": 101.0284,
+                        "RightMargin": 28.9716,
+                        "TopMargin": 19.1128,
+                        "BottomMargin": 141.8872,
+                        "Tag": 1049,
+                        "ActionTag": -1374224099,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 28.0
+                        },
+                        "Name": "tx_name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 23,
+                        "LabelText": "ID：12356",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.0284,
+                          "Y": 120.2985
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3457,
+                          "Y": 0.6365
+                        },
+                        "PreSize": {
+                          "X": 0.3691,
+                          "Y": 0.1429
+                        },
+                        "LeftMargin": 103.0284,
+                        "RightMargin": 84.9716,
+                        "TopMargin": 55.2015,
+                        "BottomMargin": 106.7985,
+                        "Tag": 1050,
+                        "ActionTag": 1472896077,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 27.0
+                        },
+                        "Name": "tx_uid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "总战绩",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 21.1326,
+                          "Y": 44.1126
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 66,
+                          "G": 86,
+                          "B": 165
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0709,
+                          "Y": 0.2334
+                        },
+                        "PreSize": {
+                          "X": 0.2819,
+                          "Y": 0.1693
+                        },
+                        "LeftMargin": 21.1326,
+                        "RightMargin": 192.8674,
+                        "TopMargin": 128.8874,
+                        "BottomMargin": 28.1126,
+                        "Tag": 1051,
+                        "ActionTag": 2080651518,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "tx_text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/img_jia.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 167.6482,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.45,
+                          "ScaleY": 1.45
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5626,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 158.1482,
+                        "RightMargin": 120.8518,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1052,
+                        "ActionTag": 2051858454,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_symbol",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "9",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jian_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6998,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6232,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.0638,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6998,
+                        "RightMargin": 93.3002,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1053,
+                        "ActionTag": -1798732034,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jian",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 19,
+                        "CharHeight": 24,
+                        "LabelText": "10",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "Image/PrivateRoom/ta_record_jia_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6974,
+                          "Y": 42.336
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2,
+                          "ScaleY": 1.2
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6231,
+                          "Y": 0.224
+                        },
+                        "PreSize": {
+                          "X": 0.1275,
+                          "Y": 0.127
+                        },
+                        "LeftMargin": 185.6974,
+                        "RightMargin": 74.3026,
+                        "TopMargin": 134.664,
+                        "BottomMargin": 30.336,
+                        "Tag": 1054,
+                        "ActionTag": -978215277,
+                        "Size": {
+                          "X": 38.0,
+                          "Y": 24.0
+                        },
+                        "Name": "ui_score_jia",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 1937381437,
+                    "Size": {
+                      "X": 298.0,
+                      "Y": 189.0
+                    },
+                    "Name": "player_record_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1690754752,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "Node_2",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 907857742,
+            "Size": {
+              "X": 1225.0,
+              "Y": 557.0
+            },
+            "Name": "img_record_bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Image/Common/Avatar/male_1.png",
+        "../Image/Lobby/GameRecord/btn_specific_01.png",
+        "../Image/Lobby/GameRecord/btn_specific_02.png",
+        "../Image/Lobby/GameRecord/img_record_01.png",
+        "../Image/Lobby/GameRecord/img_record_02.png",
+        "../Image/Lobby/GameRecord/img_record_07.png",
+        "../Image/PrivateRoom/img_jia.png",
+        "../Image/PrivateRoom/ta_record_jia_num.png",
+        "../Image/PrivateRoom/ta_record_jian_num.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

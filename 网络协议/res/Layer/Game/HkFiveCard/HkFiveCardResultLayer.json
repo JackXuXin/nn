@@ -1,0 +1,1258 @@
+{
+  "ID": "80517c15-9b71-4006-9a20-6de57067f4cd",
+  "Version": "2.3.4",
+  "Name": "HkFiveCardResultLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 174,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 361.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5014
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -1.0,
+            "BottomMargin": 1.0,
+            "Tag": 959,
+            "ActionTag": 1271735076,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "img_Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 77,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 442,
+            "ActionTag": 1969307908,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "VisibleForFrame": false,
+            "Name": "background_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -244,
+            "Scale9OriginY": -125,
+            "Scale9Width": 488,
+            "Scale9Height": 250,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 425.016
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5903
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 0.5781,
+              "Y": 0.5278
+            },
+            "LeftMargin": 270.016,
+            "RightMargin": 270.016,
+            "TopMargin": 104.984,
+            "BottomMargin": 235.016,
+            "Tag": 205,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HkFiveCard/gameresult/GAME_RESULT_LOSE.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 369.984,
+                  "Y": 189.7633
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4994
+                },
+                "PreSize": {
+                  "X": 1.7271,
+                  "Y": 1.5368
+                },
+                "LeftMargin": -269.016,
+                "RightMargin": -269.016,
+                "TopMargin": -101.7633,
+                "BottomMargin": -102.2367,
+                "Tag": 1191,
+                "ActionTag": -78129107,
+                "Size": {
+                  "X": 1278.0,
+                  "Y": 584.0
+                },
+                "Name": "Settlement_BG",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.3291,
+                  "Y": 149.834
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.3943
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1184
+                },
+                "LeftMargin": 1.3291,
+                "RightMargin": -1.3611,
+                "TopMargin": 185.166,
+                "BottomMargin": 149.834,
+                "Tag": 89,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "玩家姓名",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 194.9606,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2635,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1405,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 142.9606,
+                    "RightMargin": 493.0394,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 90,
+                    "ActionTag": 1458294669,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_type",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.6516,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1824,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 298.1516,
+                    "RightMargin": 306.8484,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 91,
+                    "ActionTag": -903253726,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_score",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 541.3728,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7316,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2014,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 466.8728,
+                    "RightMargin": 124.1272,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 92,
+                    "ActionTag": 1849799375,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2009248755,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 45.0
+                },
+                "Name": "player_result_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 2.4129,
+                  "Y": 105.412
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0033,
+                  "Y": 0.2774
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1184
+                },
+                "LeftMargin": 2.4129,
+                "RightMargin": -2.4449,
+                "TopMargin": 229.588,
+                "BottomMargin": 105.412,
+                "Tag": 97,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "玩家姓名",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 194.9603,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2635,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1405,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 142.9603,
+                    "RightMargin": 493.0397,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 98,
+                    "ActionTag": -1374534017,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_type",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.6512,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1824,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 298.1512,
+                    "RightMargin": 306.8488,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 99,
+                    "ActionTag": 500545196,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_score",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 541.3729,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7316,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2014,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 466.8729,
+                    "RightMargin": 124.1271,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 100,
+                    "ActionTag": 759539563,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 399208266,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 45.0
+                },
+                "Name": "player_result_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 3.4969,
+                  "Y": 60.952
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0047,
+                  "Y": 0.1604
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1184
+                },
+                "LeftMargin": 3.4969,
+                "RightMargin": -3.5289,
+                "TopMargin": 274.048,
+                "BottomMargin": 60.952,
+                "Tag": 101,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "玩家姓名",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 194.962,
+                      "Y": 22.5045
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2635,
+                      "Y": 0.5001
+                    },
+                    "PreSize": {
+                      "X": 0.1405,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 142.962,
+                    "RightMargin": 493.038,
+                    "TopMargin": 6.9955,
+                    "BottomMargin": 7.0045,
+                    "Tag": 102,
+                    "ActionTag": -1879266153,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_type",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.6516,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1824,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 298.1516,
+                    "RightMargin": 306.8484,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 103,
+                    "ActionTag": -1958575291,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_score",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 541.3734,
+                      "Y": 22.5045
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7316,
+                      "Y": 0.5001
+                    },
+                    "PreSize": {
+                      "X": 0.2014,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 466.8734,
+                    "RightMargin": 124.1266,
+                    "TopMargin": 6.9955,
+                    "BottomMargin": 7.0045,
+                    "Tag": 104,
+                    "ActionTag": 925220256,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -735409004,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 45.0
+                },
+                "Name": "player_result_3",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5746,
+                  "Y": 17.366
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0021,
+                  "Y": 0.0457
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1184
+                },
+                "LeftMargin": 1.5746,
+                "RightMargin": -1.6066,
+                "TopMargin": 317.634,
+                "BottomMargin": 17.366,
+                "Tag": 105,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "玩家姓名",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 194.9622,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2635,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1405,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 142.9622,
+                    "RightMargin": 493.0378,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 106,
+                    "ActionTag": 460770058,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_type",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.6518,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1824,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 298.1518,
+                    "RightMargin": 306.8482,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 107,
+                    "ActionTag": -1807286440,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_score",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 541.374,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7316,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2014,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 466.874,
+                    "RightMargin": 124.126,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 108,
+                    "ActionTag": -1298815633,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1963070419,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 45.0
+                },
+                "Name": "player_result_4",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 2.9037,
+                  "Y": -30.59
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0039,
+                  "Y": -0.0805
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1184
+                },
+                "LeftMargin": 2.9037,
+                "RightMargin": -2.9357,
+                "TopMargin": 365.59,
+                "BottomMargin": -30.59,
+                "Tag": 109,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "玩家姓名",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 194.9601,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2635,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1405,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 142.9601,
+                    "RightMargin": 493.0399,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 110,
+                    "ActionTag": 311130161,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_type",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.6513,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4941,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1824,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 298.1513,
+                    "RightMargin": 306.8487,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 111,
+                    "ActionTag": 793273476,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "player_score",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 541.3734,
+                      "Y": 22.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7316,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2014,
+                      "Y": 0.6889
+                    },
+                    "LeftMargin": 466.8734,
+                    "RightMargin": 124.1266,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 112,
+                    "ActionTag": 718438022,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 31.0
+                    },
+                    "Name": "player_score",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1977110796,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 45.0
+                },
+                "Name": "player_result_5",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 87402139,
+            "Size": {
+              "X": 739.968,
+              "Y": 380.0
+            },
+            "Name": "Panel_result",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../../Image/HkFiveCard/gameresult/GAME_RESULT_LOSE.png",
+        "../../../Image/Public/Tips_Body_Square.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

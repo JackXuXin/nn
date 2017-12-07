@@ -1,0 +1,973 @@
+{
+  "ID": "93209ef0-53cf-4994-bea5-7723f2cb58a9",
+  "Version": "2.3.4",
+  "Name": "SettingsLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 73,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Public/Tips_Body_Square.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 3,
+            "Scale9Width": 4,
+            "Scale9Height": 4,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 642.2997,
+              "Y": 360.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5018,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.2997,
+            "RightMargin": -2.2997,
+            "TopMargin": -0.0001,
+            "BottomMargin": 0.0001,
+            "Tag": 99,
+            "ActionTag": 1381712786,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 0,
+            "Name": "Background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Node/PopBox.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": 640.0,
+            "TopMargin": 360.0,
+            "BottomMargin": 360.0,
+            "Tag": 117,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/Public/yellow_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 276,
+                "Scale9OriginY": 164,
+                "Scale9Width": 285,
+                "Scale9Height": 171,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0004,
+                  "Y": -45.9989
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.4996,
+                "RightMargin": -418.5004,
+                "TopMargin": -203.5011,
+                "BottomMargin": -295.4989,
+                "Tag": 119,
+                "ActionTag": -1423441338,
+                "Size": {
+                  "X": 837.0,
+                  "Y": 499.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_context.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 241,
+                "Scale9OriginY": 76,
+                "Scale9Width": 249,
+                "Scale9Height": 81,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1.55,
+                  "Y": 31.1687
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -363.95,
+                "RightMargin": -367.05,
+                "TopMargin": -147.6687,
+                "BottomMargin": -85.3313,
+                "Tag": 120,
+                "ActionTag": -113404464,
+                "Size": {
+                  "X": 731.0,
+                  "Y": 233.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -346.4436,
+                  "Y": 64.2794
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.4436,
+                "RightMargin": 330.4436,
+                "TopMargin": -79.7794,
+                "BottomMargin": 48.7794,
+                "Tag": 232,
+                "ActionTag": 575712342,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_Win",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "0",
+                "PlaceHolderText": "",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 2,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -164.0873,
+                  "Y": 64.278
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -164.0873,
+                "RightMargin": 100.0873,
+                "TopMargin": -78.278,
+                "BottomMargin": 50.278,
+                "Tag": 294,
+                "ActionTag": -673559753,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 28.0
+                },
+                "Name": "Win_Input",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -346.5128,
+                  "Y": 130.4998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.5128,
+                "RightMargin": 330.5128,
+                "TopMargin": -145.9998,
+                "BottomMargin": 114.9998,
+                "Tag": 289,
+                "ActionTag": 1930795130,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_Escape",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "0",
+                "PlaceHolderText": "",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 2,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -166.3272,
+                  "Y": 131.3626
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -166.3272,
+                "RightMargin": 97.3272,
+                "TopMargin": -145.3626,
+                "BottomMargin": 117.3626,
+                "Tag": 296,
+                "ActionTag": 139129909,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 28.0
+                },
+                "Name": "Escape_Input",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -346.5815,
+                  "Y": -70.5454
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.5815,
+                "RightMargin": 330.5815,
+                "TopMargin": 55.0454,
+                "BottomMargin": -86.0454,
+                "Tag": 290,
+                "ActionTag": -1983130693,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_Score",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "0",
+                "PlaceHolderText": "",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -167.2238,
+                  "Y": -69.6134
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -167.2238,
+                "RightMargin": 31.2238,
+                "TopMargin": 55.6134,
+                "BottomMargin": -83.6134,
+                "Tag": 301,
+                "ActionTag": 326783259,
+                "Size": {
+                  "X": 136.0,
+                  "Y": 28.0
+                },
+                "Name": "LowScore_Input",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "0",
+                "PlaceHolderText": "",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -1.991,
+                  "Y": -69.5453
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -1.991,
+                "RightMargin": -131.009,
+                "TopMargin": 55.5453,
+                "BottomMargin": -83.5453,
+                "Tag": 304,
+                "ActionTag": -1318854636,
+                "Size": {
+                  "X": 133.0,
+                  "Y": 28.0
+                },
+                "Name": "HightScore_Input",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 97.58,
+                  "Y": 130.9002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 81.58,
+                "RightMargin": -113.58,
+                "TopMargin": -146.4002,
+                "BottomMargin": 115.4002,
+                "Tag": 291,
+                "ActionTag": 336485553,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_BlackList",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -346.5124,
+                  "Y": -2.6916
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.5124,
+                "RightMargin": 330.5124,
+                "TopMargin": -12.8084,
+                "BottomMargin": -18.1916,
+                "Tag": 292,
+                "ActionTag": 847177883,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_IP",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_ok.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/TableList/setting_not_ok.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96.991,
+                  "Y": 63.3929
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 80.991,
+                "RightMargin": -112.991,
+                "TopMargin": -78.8929,
+                "BottomMargin": 47.8929,
+                "Tag": 293,
+                "ActionTag": -28038131,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 31.0
+                },
+                "Name": "CheckBox_Pwd",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "",
+                "MaxLengthEnable": true,
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 254.9384,
+                  "Y": 63.3918
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 112,
+                  "G": 128,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 254.9384,
+                "RightMargin": -368.9384,
+                "TopMargin": -77.3918,
+                "BottomMargin": 49.3918,
+                "Tag": 309,
+                "ActionTag": 2018795299,
+                "Size": {
+                  "X": 114.0,
+                  "Y": 28.0
+                },
+                "Name": "Pwd_Input",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_cancel_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_cancel_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_cancel_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 175,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 155.7462,
+                  "Y": -209.3543
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 53.2462,
+                "RightMargin": -258.2462,
+                "TopMargin": 175.3543,
+                "BottomMargin": -243.3543,
+                "Tag": 310,
+                "ActionTag": -961088546,
+                "Size": {
+                  "X": 205.0,
+                  "Y": 68.0
+                },
+                "Name": "Cancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_confirm_1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_confirm_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/HonorLayer/bind_confirm_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 175,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -145.2516,
+                  "Y": -212.3539
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -247.7516,
+                "RightMargin": 42.7516,
+                "TopMargin": 178.3539,
+                "BottomMargin": -246.3539,
+                "Tag": 311,
+                "ActionTag": 597649294,
+                "Size": {
+                  "X": 205.0,
+                  "Y": 68.0
+                },
+                "Name": "Confirm",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1089661096,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Node",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Image/HonorLayer/bind_cancel_0.png",
+        "../../Image/HonorLayer/bind_cancel_1.png",
+        "../../Image/HonorLayer/bind_confirm_0.png",
+        "../../Image/HonorLayer/bind_confirm_1.png",
+        "../../Image/Public/Tips_Body_Square.png",
+        "../../Image/Public/yellow_bg.png",
+        "../../Image/TableList/setting_context.png",
+        "../../Image/TableList/setting_not_ok.png",
+        "../../Image/TableList/setting_ok.png",
+        "../../Node/PopBox.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

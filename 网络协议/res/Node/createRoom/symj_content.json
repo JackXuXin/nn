@@ -1,0 +1,3599 @@
+{
+  "ID": "010fda3d-ac76-4fb1-975b-ce37a09a7ddb",
+  "Version": "2.3.4",
+  "Name": "symj_content",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 308,
+        "Children": [
+          {
+            "IsBounceEnabled": true,
+            "InnerNodeSize": {
+              "Width": 891,
+              "Height": 466
+            },
+            "ScrollDirectionType": "Vertical",
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/PrivateRoom/content/img_content_bg.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 294,
+            "Scale9OriginY": 153,
+            "Scale9Width": 303,
+            "Scale9Height": 160,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -445.4999,
+              "Y": -233.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -445.4999,
+            "RightMargin": -445.5001,
+            "TopMargin": -233.0,
+            "BottomMargin": -233.0,
+            "Tag": 704,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 444.0585,
+                  "Y": 234.4307
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.4984,
+                  "Y": 0.5031
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 444.0585,
+                "RightMargin": 446.9415,
+                "TopMargin": 231.5693,
+                "BottomMargin": 234.4307,
+                "Tag": 621,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 154.3403
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": -155.3403,
+                    "BottomMargin": 153.3403,
+                    "Tag": 622,
+                    "ActionTag": 1182943714,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 74.9585
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": -75.9585,
+                    "BottomMargin": 73.9585,
+                    "Tag": 627,
+                    "ActionTag": -1959508268,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 628,
+                    "ActionTag": 875292920,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -78.1426
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": 77.1426,
+                    "BottomMargin": -79.1426,
+                    "Tag": 629,
+                    "ActionTag": 142753378,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -156.109
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": 155.109,
+                    "BottomMargin": -157.109,
+                    "Tag": 630,
+                    "ActionTag": -1874152311,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -232.8016
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": 231.8016,
+                    "BottomMargin": -233.8016,
+                    "Tag": 809,
+                    "ActionTag": 584468873,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_xian.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -312.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -418.0,
+                    "RightMargin": -418.0,
+                    "TopMargin": 311.0,
+                    "BottomMargin": -313.0,
+                    "Tag": 810,
+                    "ActionTag": -1237498347,
+                    "Size": {
+                      "X": 836.0,
+                      "Y": 2.0
+                    },
+                    "Alpha": 0,
+                    "Name": "img_xian",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 855966807,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nd_xian",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5843,
+                  "Y": 428.2469
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.919
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5843,
+                "RightMargin": 889.4157,
+                "TopMargin": 37.7531,
+                "BottomMargin": 428.2469,
+                "Tag": 311,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_RenShu.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.4512,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 29.4512,
+                    "RightMargin": -121.4512,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 338,
+                    "ActionTag": -384163241,
+                    "Size": {
+                      "X": 92.0,
+                      "Y": 37.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 351,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 175.6461,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.9476,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 151.1461,
+                        "RightMargin": -200.1461,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 339,
+                        "ActionTag": 1659231699,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 490.9534,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 466.4534,
+                        "RightMargin": -515.4534,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 341,
+                        "ActionTag": -585528197,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1046652198,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nd_dian",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "2人",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 242.0526,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 217.0526,
+                    "RightMargin": -267.0526,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 342,
+                    "ActionTag": 767620651,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "4人",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 556.1196,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 531.1196,
+                    "RightMargin": -581.1196,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 344,
+                    "ActionTag": -835167813,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_gou.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_gou.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.4202,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 144.9202,
+                    "RightMargin": -315.9202,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 312,
+                    "ActionTag": 276621442,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_SeatCnt_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_gou.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_gou.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 547.0049,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 461.5049,
+                    "RightMargin": -632.5049,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 313,
+                    "ActionTag": -1815841847,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_SeatCnt_4",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1588901234,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5843,
+                  "Y": 352.3446
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.7561
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5843,
+                "RightMargin": 889.4157,
+                "TopMargin": 113.6554,
+                "BottomMargin": 352.3446,
+                "Tag": 316,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_JuShu.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.7136,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 28.2136,
+                    "RightMargin": -121.2136,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 345,
+                    "ActionTag": 823519318,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 37.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 354,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 175.6461,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.9476,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 151.1461,
+                        "RightMargin": -200.1461,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 355,
+                        "ActionTag": -665161867,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 490.2538,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 465.7538,
+                        "RightMargin": -514.7538,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 356,
+                        "ActionTag": -1086873029,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 174.6499,
+                          "Y": -77.9544
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 150.1499,
+                        "RightMargin": -199.1499,
+                        "TopMargin": 53.9544,
+                        "BottomMargin": -101.9544,
+                        "Tag": 357,
+                        "ActionTag": -347131128,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -609956267,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nd_dian",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "8局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 241.3851,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 216.3851,
+                    "RightMargin": -266.3851,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 358,
+                    "ActionTag": 833121354,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "16局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 560.9684,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 526.9684,
+                    "RightMargin": -594.9684,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 360,
+                    "ActionTag": -1760184142,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "24局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 251.2781,
+                      "Y": -77.6927
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 217.2781,
+                    "RightMargin": -285.2781,
+                    "TopMargin": 59.1927,
+                    "BottomMargin": -96.1927,
+                    "Tag": 359,
+                    "ActionTag": -1876768492,
+                    "Size": {
+                      "X": 68.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 336.4763,
+                      "Y": -1.9212
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 316.4763,
+                    "RightMargin": -356.4763,
+                    "TopMargin": -15.5788,
+                    "BottomMargin": -19.4212,
+                    "Tag": 323,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "LabelText": "（",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -20.72,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.518,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 0.65,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": -33.72,
+                        "RightMargin": 47.72,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 362,
+                        "ActionTag": -586617808,
+                        "Size": {
+                          "X": 26.0,
+                          "Y": 31.0
+                        },
+                        "Name": "tx_",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "X0）",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 49.9992,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.25,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 1.45,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": 49.9992,
+                        "RightMargin": -67.9992,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 361,
+                        "ActionTag": 972999071,
+                        "Size": {
+                          "X": 58.0,
+                          "Y": 31.0
+                        },
+                        "Name": "ta_DNumber1",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -559504067,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_dam",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 646.0768,
+                      "Y": -0.9211
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 626.0768,
+                    "RightMargin": -666.0768,
+                    "TopMargin": -16.5789,
+                    "BottomMargin": -18.4211,
+                    "Tag": 365,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "LabelText": "（",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -20.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.5,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 0.65,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": -33.0,
+                        "RightMargin": 47.0,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 364,
+                        "ActionTag": -99527281,
+                        "Size": {
+                          "X": 26.0,
+                          "Y": 31.0
+                        },
+                        "Name": "tx_",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "X4)",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 50.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.25,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 1.025,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": 50.0,
+                        "RightMargin": -51.0,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 363,
+                        "ActionTag": 745195420,
+                        "Size": {
+                          "X": 41.0,
+                          "Y": 31.0
+                        },
+                        "Name": "ta_DNumber2",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -391791315,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_dam",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/img_Dam.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 336.4761,
+                      "Y": -81.2163
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 316.4761,
+                    "RightMargin": -356.4761,
+                    "TopMargin": 63.7163,
+                    "BottomMargin": -98.7163,
+                    "Tag": 368,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "LabelText": "（",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -20.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.5,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 0.65,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": -33.0,
+                        "RightMargin": 47.0,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 367,
+                        "ActionTag": 639338311,
+                        "Size": {
+                          "X": 26.0,
+                          "Y": 31.0
+                        },
+                        "Name": "tx_",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "X8)",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 50.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 25,
+                          "G": 247
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.25,
+                          "Y": 0.5714
+                        },
+                        "PreSize": {
+                          "X": 1.025,
+                          "Y": 0.8857
+                        },
+                        "LeftMargin": 50.0,
+                        "RightMargin": -51.0,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 366,
+                        "ActionTag": -410702805,
+                        "Size": {
+                          "X": 41.0,
+                          "Y": 31.0
+                        },
+                        "Name": "ta_DNumber3",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 571012913,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 35.0
+                    },
+                    "Name": "img_dam",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.2818,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 144.7818,
+                    "RightMargin": -315.7818,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 317,
+                    "ActionTag": 415363988,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_RoomType_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.5425,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 459.0425,
+                    "RightMargin": -630.0425,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 318,
+                    "ActionTag": 796744201,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_RoomType_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.2818,
+                      "Y": -78.5191
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 144.7818,
+                    "RightMargin": -315.7818,
+                    "TopMargin": 49.5191,
+                    "BottomMargin": -107.5191,
+                    "Tag": 319,
+                    "ActionTag": -941401120,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_RoomType_3",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1740227415,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5846,
+                  "Y": 195.8661
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.4203
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5846,
+                "RightMargin": 889.4154,
+                "TopMargin": 270.1339,
+                "BottomMargin": 195.8661,
+                "Tag": 326,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_FangFen.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 76.1155,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 29.6155,
+                    "RightMargin": -122.6155,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 369,
+                    "ActionTag": 1472871783,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 37.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 370,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 175.6461,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.9476,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 151.1461,
+                        "RightMargin": -200.1461,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 371,
+                        "ActionTag": 1844161092,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 490.2538,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 465.7538,
+                        "RightMargin": -514.7538,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 372,
+                        "ActionTag": 1253236538,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1686076168,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nd_dian",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "AA支付",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 269.9088,
+                      "Y": 0.284
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 216.4088,
+                    "RightMargin": -323.4088,
+                    "TopMargin": -18.784,
+                    "BottomMargin": -18.216,
+                    "Tag": 375,
+                    "ActionTag": -2095383953,
+                    "Size": {
+                      "X": 107.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "房主支付",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 593.3817,
+                      "Y": 0.0019
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 529.3817,
+                    "RightMargin": -657.3817,
+                    "TopMargin": -18.5019,
+                    "BottomMargin": -18.4981,
+                    "Tag": 376,
+                    "ActionTag": -950183550,
+                    "Size": {
+                      "X": 128.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.3,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 458.8,
+                    "RightMargin": -629.8,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 327,
+                    "ActionTag": -926989523,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.5761,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 145.0761,
+                    "RightMargin": -316.0761,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 328,
+                    "ActionTag": -1026401750,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_Room_Pay_Type_2",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1853057478,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5846,
+                  "Y": 118.3382
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.2539
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5846,
+                "RightMargin": 889.4154,
+                "TopMargin": 347.6618,
+                "BottomMargin": 118.3382,
+                "Tag": 329,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_DiHua.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.8034,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 30.8034,
+                    "RightMargin": -124.8034,
+                    "TopMargin": -19.0,
+                    "BottomMargin": -19.0,
+                    "Tag": 384,
+                    "ActionTag": -945449906,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 38.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_hua_di.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 267.0446,
+                      "Y": -1.2778
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 151.5446,
+                    "RightMargin": -382.5446,
+                    "TopMargin": -22.7222,
+                    "BottomMargin": -25.2778,
+                    "Tag": 816,
+                    "ActionTag": 269815778,
+                    "Size": {
+                      "X": 231.0,
+                      "Y": 48.0
+                    },
+                    "Name": "img_hua_di",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/img_H2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 16,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 18,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 265.7023,
+                      "Y": -0.8004
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 240.7023,
+                    "RightMargin": -290.7023,
+                    "TopMargin": -14.6996,
+                    "BottomMargin": -16.3004,
+                    "Tag": 812,
+                    "ActionTag": -1242343201,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 31.0
+                    },
+                    "Name": "Image_seleHua",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/btn_select_hua_2.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/btn_select_hua_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 19,
+                    "Scale9Height": 26,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 358.6535,
+                      "Y": -0.3403
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 334.1535,
+                    "RightMargin": -383.1535,
+                    "TopMargin": -23.6597,
+                    "BottomMargin": -24.3403,
+                    "Tag": 813,
+                    "ActionTag": 1671878840,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 48.0
+                    },
+                    "Name": "Button_right",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/btn_select_hua_2.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/btn_select_hua_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 19,
+                    "Scale9Height": 26,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 175.2783,
+                      "Y": -0.3404
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 150.7783,
+                    "RightMargin": -199.7783,
+                    "TopMargin": -23.6596,
+                    "BottomMargin": -24.3404,
+                    "Tag": 814,
+                    "ActionTag": -1625082747,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 48.0
+                    },
+                    "Name": "Button_left",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1567831828,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_4",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5846,
+                  "Y": 37.2659
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": 0.08
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5846,
+                "RightMargin": 889.4154,
+                "TopMargin": 428.7341,
+                "BottomMargin": 37.2659,
+                "Tag": 817,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_ChengBao.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.4512,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 28.4512,
+                    "RightMargin": -122.4512,
+                    "TopMargin": -19.0,
+                    "BottomMargin": -19.0,
+                    "Tag": 818,
+                    "ActionTag": -1718964638,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 38.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 175.6461,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9476,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 151.1461,
+                    "RightMargin": -200.1461,
+                    "TopMargin": -24.0,
+                    "BottomMargin": -24.0,
+                    "Tag": 820,
+                    "ActionTag": 748196616,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 48.0
+                    },
+                    "Name": "img_dian",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "5倍",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 242.21,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 216,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 217.21,
+                    "RightMargin": -267.21,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 822,
+                    "ActionTag": -1810648669,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.4202,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 144.9202,
+                    "RightMargin": -315.9202,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 824,
+                    "ActionTag": 1376772423,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_baozi",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -2093612605,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_5",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1.5845,
+                  "Y": -37.542
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0018,
+                  "Y": -0.0806
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.5845,
+                "RightMargin": 889.4155,
+                "TopMargin": 503.542,
+                "BottomMargin": -37.542,
+                "Tag": 826,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/tx_WanFa.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 76.1155,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 29.6155,
+                    "RightMargin": -122.6155,
+                    "TopMargin": -18.5,
+                    "BottomMargin": -18.5,
+                    "Tag": 827,
+                    "ActionTag": -1020408166,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 37.0
+                    },
+                    "Name": "img_title",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 828,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 175.6461,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.9476,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 151.1461,
+                        "RightMargin": -200.1461,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 829,
+                        "ActionTag": -1255182587,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "Image/Lobby/PrivateRoom/content/img_select_di.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 490.2538,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 465.7538,
+                        "RightMargin": -514.7538,
+                        "TopMargin": -24.0,
+                        "BottomMargin": -24.0,
+                        "Tag": 830,
+                        "ActionTag": 222289887,
+                        "Size": {
+                          "X": 49.0,
+                          "Y": 48.0
+                        },
+                        "Name": "img_dian",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -63572395,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nd_dian",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "豹子翻倍",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 281.4522,
+                      "Y": 0.2841
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 216,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 217.4522,
+                    "RightMargin": -345.4522,
+                    "TopMargin": -18.7841,
+                    "BottomMargin": -18.2159,
+                    "Tag": 831,
+                    "ActionTag": 426311135,
+                    "Size": {
+                      "X": 128.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 32,
+                    "LabelText": "超一进十",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 595.3818,
+                      "Y": -2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 531.3818,
+                    "RightMargin": -659.3818,
+                    "TopMargin": -16.5,
+                    "BottomMargin": -20.5,
+                    "Tag": 832,
+                    "ActionTag": 2105974246,
+                    "Size": {
+                      "X": 128.0,
+                      "Y": 37.0
+                    },
+                    "Name": "tx_zi_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_di.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 544.3,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 458.8,
+                    "RightMargin": -629.8,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 833,
+                    "ActionTag": -1313029080,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_chaoyjs",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 230.5761,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 145.0761,
+                    "RightMargin": -316.0761,
+                    "TopMargin": -29.0,
+                    "BottomMargin": -29.0,
+                    "Tag": 834,
+                    "ActionTag": 379382999,
+                    "Size": {
+                      "X": 171.0,
+                      "Y": 58.0
+                    },
+                    "Name": "CheckBox_chengbao",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Wen_1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/btn_Wen_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 12,
+                    "Scale9Height": 19,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 696.0602,
+                      "Y": -2.1096
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 675.0602,
+                    "RightMargin": -717.0602,
+                    "TopMargin": -18.3904,
+                    "BottomMargin": -22.6096,
+                    "Tag": 835,
+                    "ActionTag": 1680409214,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Button_Wen",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Image/PrivateRoom/img_WenTip.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 695.5281,
+                      "Y": 20.1717
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 534.0281,
+                    "RightMargin": -857.0281,
+                    "TopMargin": -115.1717,
+                    "BottomMargin": 20.1717,
+                    "Tag": 836,
+                    "ActionTag": -614510060,
+                    "Size": {
+                      "X": 323.0,
+                      "Y": 95.0
+                    },
+                    "Name": "img_WenTip",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1906868384,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_6",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -82467538,
+            "Size": {
+              "X": 891.0,
+              "Y": 466.0
+            },
+            "Name": "scroll_view",
+            "ctype": "ScrollViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/PrivateRoom/content/img_tiao_di.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 4,
+            "Scale9OriginY": 145,
+            "Scale9Width": 7,
+            "Scale9Height": 151,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 439.8301,
+              "Y": -1.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 432.3301,
+            "RightMargin": -447.3301,
+            "TopMargin": -225.5,
+            "BottomMargin": -227.5,
+            "Tag": 756,
+            "ActionTag": 39339904,
+            "Size": {
+              "X": 15.0,
+              "Y": 453.0
+            },
+            "Name": "img_bian_tiao",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Image/Lobby/PrivateRoom/content/btn_create_room.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 244,
+            "Scale9Height": 59,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.45,
+              "Y": -284.2727
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -261.45,
+            "RightMargin": -12.55,
+            "TopMargin": 243.7727,
+            "BottomMargin": -324.7727,
+            "Tag": 317,
+            "ActionTag": 1753441118,
+            "Size": {
+              "X": 274.0,
+              "Y": 81.0
+            },
+            "Name": "btn_create_room",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Image/Lobby/img_Dam.png",
+        "../../Image/Lobby/PrivateRoom/content/btn_create_room.png",
+        "../../Image/Lobby/PrivateRoom/content/btn_select_hua_1.png",
+        "../../Image/Lobby/PrivateRoom/content/btn_select_hua_2.png",
+        "../../Image/Lobby/PrivateRoom/content/cb_select_di.png",
+        "../../Image/Lobby/PrivateRoom/content/cb_select_dian.png",
+        "../../Image/Lobby/PrivateRoom/content/cb_select_gou.png",
+        "../../Image/Lobby/PrivateRoom/content/img_content_bg.png",
+        "../../Image/Lobby/PrivateRoom/content/img_hua_di.png",
+        "../../Image/Lobby/PrivateRoom/content/img_select_di.png",
+        "../../Image/Lobby/PrivateRoom/content/img_tiao_di.png",
+        "../../Image/Lobby/PrivateRoom/content/img_xian.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_ChengBao.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_DiHua.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_FangFen.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_JuShu.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_RenShu.png",
+        "../../Image/Lobby/PrivateRoom/content/tx_WanFa.png",
+        "../../Image/PrivateRoom/btn_Wen_0.png",
+        "../../Image/PrivateRoom/btn_Wen_1.png",
+        "../../Image/PrivateRoom/img_H2.png",
+        "../../Image/PrivateRoom/img_WenTip.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
