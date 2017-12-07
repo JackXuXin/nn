@@ -103,8 +103,8 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Text_4" ActionTag="43573752" Tag="272" IconVisible="False" LeftMargin="-180.2959" RightMargin="-177.7041" TopMargin="207.4966" BottomMargin="-235.4966" FontSize="24" LabelText="更多精彩活动请关注公众号wwcixi" HorizontalAlignmentType="HT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="358.0000" Y="28.0000" />
+              <AbstractNodeData Name="Text_4" ActionTag="43573752" Tag="272" IconVisible="False" LeftMargin="-145.2959" RightMargin="-142.7041" TopMargin="207.4966" BottomMargin="-235.4966" FontSize="24" LabelText="更多精彩活动请关注公众号" HorizontalAlignmentType="HT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="288.0000" Y="28.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="-1.2959" Y="-221.4966" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />

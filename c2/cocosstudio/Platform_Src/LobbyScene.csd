@@ -238,11 +238,11 @@
                   </AbstractNodeData>
                   <AbstractNodeData Name="Avatar" ActionTag="1624199654" Tag="143" IconVisible="False" RightMargin="327.0000" TopMargin="-0.1500" BottomMargin="0.1500" TouchEnable="True" FontSize="14" LeftEage="62" RightEage="62" TopEage="62" BottomEage="62" Scale9OriginX="62" Scale9OriginY="62" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="70.0000" Y="71.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="35.0000" Y="35.6500" />
+                    <AnchorPoint ScaleX="0.5152" ScaleY="0.4557" />
+                    <Position X="36.0606" Y="32.5069" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0882" Y="0.5021" />
+                    <PrePosition X="0.0908" Y="0.4578" />
                     <PreSize X="0.1763" Y="1.0000" />
                     <TextColor A="255" R="65" G="65" B="70" />
                     <NormalFileData Type="Normal" Path="Image/Common/Avatar/female_1.png" Plist="" />
@@ -598,7 +598,7 @@
             <PreSize X="1.0000" Y="0.1208" />
             <FileData Type="Normal" Path="Image/Lobby/bottom_bar.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel_Bg1" Visible="False" ActionTag="940117932" Tag="178" IconVisible="False" LeftMargin="60.0500" RightMargin="19.9500" TopMargin="140.8892" BottomMargin="129.1108" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_Bg1" ActionTag="940117932" VisibleForFrame="False" Tag="178" IconVisible="False" LeftMargin="60.0500" RightMargin="19.9500" TopMargin="140.8892" BottomMargin="129.1108" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="1200.0000" Y="450.0000" />
             <Children>
               <AbstractNodeData Name="Button_House1" ActionTag="-366913902" Tag="179" IconVisible="False" LeftMargin="660.5355" RightMargin="96.4645" TopMargin="18.5000" BottomMargin="12.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="413" Scale9Height="397" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">

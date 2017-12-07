@@ -492,7 +492,7 @@
               },
               {
                 "FontSize": 24,
-                "LabelText": "更多精彩活动请关注公众号wwcixi",
+                "LabelText": "更多精彩活动请关注公众号",
                 "HorizontalAlignmentType": "HT_Center",
                 "OutlineColor": {
                   "G": 0,
@@ -531,14 +531,14 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": -180.2959,
-                "RightMargin": -177.7041,
+                "LeftMargin": -145.2959,
+                "RightMargin": -142.7041,
                 "TopMargin": 207.4966,
                 "BottomMargin": -235.4966,
                 "Tag": 272,
                 "ActionTag": 43573752,
                 "Size": {
-                  "X": 358.0,
+                  "X": 288.0,
                   "Y": 28.0
                 },
                 "Name": "Text_4",

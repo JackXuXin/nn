@@ -3743,9 +3743,9 @@ function util.BtnScaleFunEx(button)
         return
 
     end
-     local o = button:getScale()
+     
      button:onButtonPressed( function (event)  button:setScale(button:getScaleX()*0.92)   end)
-     button:onButtonRelease( function (event)  button:setScale(o)  end)
+     button:onButtonRelease( function (event)  button:setScale(1)  end)
 
 end
 

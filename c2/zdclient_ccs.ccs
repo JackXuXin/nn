@@ -255,6 +255,131 @@
             <Folder Name="Table">
               <Image Name="Image_Table_Lock.png" />
             </Folder>
+            <Image Name="mask.png" />
+          </Folder>
+          <Folder Name="CreateRoom">
+            <Folder Name="a">
+              <Image Name="btn(1)@2x.png" />
+              <Image Name="btn(10)@2x.png" />
+              <Image Name="btn(2)@2x.png" />
+              <Image Name="btn(3)@2x.png" />
+              <Image Name="btn(4)@2x.png" />
+              <Image Name="btn(5)@2x.png" />
+              <Image Name="btn(6)@2x.png" />
+              <Image Name="btn(7)@2x.png" />
+              <Image Name="btn(8)@2x.png" />
+              <Image Name="btn(9)@2x.png" />
+              <Image Name="btn2(1)@2x.png" />
+              <Image Name="btn2(10)@2x.png" />
+              <Image Name="btn2(2)@2x.png" />
+              <Image Name="btn2(3)@2x.png" />
+              <Image Name="btn2(4)@2x.png" />
+              <Image Name="btn2(5)@2x.png" />
+              <Image Name="btn2(6)@2x.png" />
+              <Image Name="btn2(7)@2x.png" />
+              <Image Name="btn2(8)@2x.png" />
+              <Image Name="btn2(9)@2x.png" />
+            </Folder>
+            <Folder Name="b">
+              <Image Name="1_15-@2x.png" />
+              <Image Name="1_21-@2x.png" />
+              <Image Name="1_27-@2x.png" />
+              <Image Name="2_15-@2x.png" />
+              <Image Name="2_21-@2x.png" />
+              <Image Name="2_27-@2x.png" />
+              <Image Name="bg(1)_18-@2x.png" />
+              <Image Name="bg(1)_23-@2x.png" />
+              <Image Name="close_23-@2x.png" />
+              <Image Name="open_23-@2x.png" />
+            </Folder>
+            <Folder Name="c">
+              <Image Name="btn(1)@2x.png" />
+              <Image Name="btn(10)@2x.png" />
+              <Image Name="btn(11)@2x.png" />
+              <Image Name="btn(12)@2x.png" />
+              <Image Name="btn(13)@2x.png" />
+              <Image Name="btn(14)@2x.png" />
+              <Image Name="btn(15)@2x.png" />
+              <Image Name="btn(2)@2x.png" />
+              <Image Name="btn(3)@2x.png" />
+              <Image Name="btn(4)@2x.png" />
+              <Image Name="btn(5)@2x.png" />
+              <Image Name="btn(6)@2x.png" />
+              <Image Name="btn(7)@2x.png" />
+              <Image Name="btn(8)@2x.png" />
+              <Image Name="btn(9)@2x.png" />
+              <Image Name="btn2(1)@2x.png" />
+              <Image Name="btn2(10)@2x.png" />
+              <Image Name="btn2(11)@2x.png" />
+              <Image Name="btn2(12)@2x.png" />
+              <Image Name="btn2(13)@2x.png" />
+              <Image Name="btn2(14)@2x.png" />
+              <Image Name="btn2(15)@2x.png" />
+              <Image Name="btn2(2)@2x.png" />
+              <Image Name="btn2(3)@2x.png" />
+              <Image Name="btn2(4)@2x.png" />
+              <Image Name="btn2(5)@2x.png" />
+              <Image Name="btn2(6)@2x.png" />
+              <Image Name="btn2(7)@2x.png" />
+              <Image Name="btn2(8)@2x.png" />
+              <Image Name="btn2(9)@2x.png" />
+            </Folder>
+            <Folder Name="d">
+              <Image Name="all_22-@2x.png" />
+              <Image Name="bg_07-@2x.png" />
+              <Image Name="bg_12-@2x.png" />
+              <Image Name="btn1(1)@2x.png" />
+              <Image Name="btn1(2)@2x.png" />
+              <Image Name="btn1(3)@2x.png" />
+              <Image Name="btn1(4)@2x.png" />
+              <Image Name="btn1(5)@2x.png" />
+              <Image Name="btn1(6)@2x.png" />
+              <Image Name="btn2(1)@2x.png" />
+              <Image Name="btn2(2)@2x.png" />
+              <Image Name="btn2(3)@2x.png" />
+              <Image Name="btn2(4)@2x.png" />
+              <Image Name="btn2(5)@2x.png" />
+              <Image Name="btn2(6)@2x.png" />
+              <Image Name="close_23-@2x.png" />
+              <Image Name="open_23-@2x.png" />
+              <Image Name="part_12-@2x.png" />
+            </Folder>
+            <Folder Name="images">
+              <Image Name="btn(1)@2x.png" />
+              <Image Name="btn(11)@2x.png" />
+              <Image Name="btn(12)@2x.png" />
+              <Image Name="btn(13)@2x.png" />
+              <Image Name="btn(14)@2x.png" />
+              <Image Name="btn(15)@2x.png" />
+              <Image Name="btn(16)@2x.png" />
+              <Image Name="btn(17)@2x.png" />
+              <Image Name="btn(18)@2x.png" />
+              <Image Name="btn(19)@2x.png" />
+              <Image Name="btn(2)@2x.png" />
+              <Image Name="btn(3)@2x.png" />
+              <Image Name="btn(4)@2x.png" />
+              <Image Name="btn(5)@2x.png" />
+              <Image Name="btn(6)@2x.png" />
+              <Image Name="btn(7)@2x.png" />
+              <Image Name="btn(8)@2x.png" />
+              <Image Name="btn(9)@2x.png" />
+            </Folder>
+            <Image Name="bg@2x.png" />
+            <Image Name="cjfj_38-@2x.png" />
+            <Image Name="exit@2x.png" />
+            <Image Name="msg@2x.png" />
+            <Image Name="msg_2@2x.png" />
+            <Image Name="msg1@2x.png" />
+            <Image Name="tab1@2x.png" />
+            <Image Name="tab10@2x.png" />
+            <Image Name="tab2@2x.png" />
+            <Image Name="tab3@2x.png" />
+            <Image Name="tab4@2x.png" />
+            <Image Name="tab5@2x.png" />
+            <Image Name="tab6@2x.png" />
+            <Image Name="tab7@2x.png" />
+            <Image Name="tab8@2x.png" />
+            <Image Name="tab9@2x.png" />
           </Folder>
           <Folder Name="DDZ">
             <Folder Name="font">
@@ -607,6 +732,34 @@
             <Image Name="img_huaBg3.png" />
             <Image Name="img_HuaNum.png" />
             <Image Name="img_HuaX.png" />
+          </Folder>
+          <Folder Name="JoinRoom">
+            <Image Name="(0)@2x.png" />
+            <Image Name="(1)@2x.png" />
+            <Image Name="(10)@2x.png" />
+            <Image Name="(11)@2x.png" />
+            <Image Name="(12)@2x.png" />
+            <Image Name="(13)@2x.png" />
+            <Image Name="(14)@2x.png" />
+            <Image Name="(15)@2x.png" />
+            <Image Name="(16)@2x.png" />
+            <Image Name="(17)@2x.png" />
+            <Image Name="(18)@2x.png" />
+            <Image Name="(19)@2x.png" />
+            <Image Name="(2)@2x.png" />
+            <Image Name="(3)@2x.png" />
+            <Image Name="(4)@2x.png" />
+            <Image Name="(5)@2x.png" />
+            <Image Name="(6)@2x.png" />
+            <Image Name="(7)@2x.png" />
+            <Image Name="(8)@2x.png" />
+            <Image Name="(9)@2x.png" />
+            <Image Name="07_22.png" />
+            <Image Name="07_23.png" />
+            <Image Name="07_24.png" />
+            <Image Name="07_25.png" />
+            <Image Name="bg@2x.png" />
+            <Image Name="number(9)@2x.png" />
           </Folder>
           <Folder Name="Lobby">
             <Folder Name="certification">
@@ -1988,6 +2141,8 @@
             <Project Name="RegisterLayer.csd" Type="Layer" />
             <Project Name="UpdateLayer.csd" Type="Layer" />
           </Folder>
+          <Project Name="AddRoomLayer.csd" Type="Layer" />
+          <Project Name="CreateRoomLayer.csd" Type="Layer" />
           <Project Name="ErrorLayer.csd" Type="Layer" />
           <Project Name="GamePopBoxLayer.csd" Type="Layer" />
           <Project Name="MiddlePopBoxLayer.csd" Type="Layer" />
@@ -1995,6 +2150,13 @@
           <Project Name="TipsLayer.csd" Type="Layer" />
         </Folder>
         <Folder Name="Node">
+          <Folder Name="createRoom">
+            <Project Name="CooperationLayer.csd" Type="Layer" />
+            <Project Name="ddz_content.csd" Type="Node" />
+            <Project Name="nn_content.csd" Type="Node" />
+            <Project Name="sss_content.csd" Type="Node" />
+            <Project Name="symj_content.csd" Type="Node" />
+          </Folder>
           <Project Name="Btn_VoiceType1.csd" Type="Node" />
           <Project Name="Chat_RecvItem.csd" Type="Node" />
           <Project Name="Chat_SendItem.csd" Type="Node" />

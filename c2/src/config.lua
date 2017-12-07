@@ -29,7 +29,7 @@ CONFIG_SCREEN_AUTOSCALE = "EXACT_FIT"
 -- channel_id--不同平台对应唯一渠道号，请参照渠道管理文档-"1.0.0.8"
 
 --"3550"-旺旺余姚，“3551”－旺旺慈溪，“3552”－旺旺东阳，“3553”－旺旺绍兴，“1801”－旺旺金陵
-CONFIG_APP_CHANNEL = "3550"
+CONFIG_APP_CHANNEL = "3553"
 
 CONFIG_VERSION_ID = "1.0.0.0"
 

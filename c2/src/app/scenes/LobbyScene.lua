@@ -474,7 +474,7 @@ function LobbyScene:ctor()
     )
 
     util.BtnScaleFun(private_room_record)
-
+--[[
     --比赛按钮
     local btn_match = cc.uiloader:seekNodeByNameFast(self.scene, "btn_match")
     local img_btn_effect = cc.uiloader:seekNodeByNameFast(btn_match, "img_btn_effect"):hide()
@@ -513,7 +513,7 @@ function LobbyScene:ctor()
     img_embellishment_top:moveBy(3.5, -1500, 0)
     img_embellishment_bottom:moveBy(3.5, 1500, 0)
 	end, 8)
-
+--]]
     local btn_RequestCode = cc.uiloader:seekNodeByNameFast(self.scene, "btn_RequestCode")
 
     if btn_RequestCode ~= nil then
@@ -541,6 +541,7 @@ function LobbyScene:ctor()
     -- end
 
 --,node, ani_str, node1, ani_light
+--[[
 local function playHouseBtnAction(param)
 
   local node = param.node
@@ -822,7 +823,7 @@ local function playHouseBtnAction(param)
         sp:runAction(seq)
   end
 
-
+--
 local panel_Bg1 = cc.uiloader:seekNodeByNameFast(self.scene, "Panel_Bg1")
 
 self.scene.panel_Bg1 = panel_Bg1
@@ -857,7 +858,7 @@ local w = gameListView:getViewRect().width
 local x = gameListView:getPositionX()
 
 gameListView:setPosition(display.width+(display.width-x-w),0)
-
+--]]
 local Image_BottomBar = cc.uiloader:seekNodeByNameFast(self.scene, "Image_BottomBar")
 local TopBar = cc.uiloader:seekNodeByNameFast(self.scene, "TopBar")
 
@@ -872,898 +873,45 @@ UserInfoBar:setPositionX(0)
 self.scene.TopBar = TopBar
 self.scene.Image_BottomBar = Image_BottomBar
 
--- if btn_RichRank ~= nil then
-
---   local posX = btn_RichRank:getPositionX()
---   local posY = btn_RichRank:getPositionY()
-
---   btn_RichRank:setPosition(-posX,posY)
-
--- end
-
-if TopBar ~= nil then
-
-  local posX = TopBar:getPositionX()
-  local posY = TopBar:getPositionY()
-
-  local H = 77
- -- local y = display.height-math.abs(posY)
- -- posY = display.height+y-H
-
-  TopBar:setPosition(posX, posY+77)
-
-end
-
-if Image_BottomBar ~= nil then
-
-  local posX = Image_BottomBar:getPositionX()
-  local posY = Image_BottomBar:getPositionY()
-
-  local H = 98
-
-  Image_BottomBar:setPosition(posX,posY-H)
-
-end
-
-local aniHandler = scheduler.scheduleGlobal(
-    function()
-
-        --随机是否出现花
-        local rand_display = math.random(1,2)
-        if rand_display == 1 then
-          return
-        end
-        local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-        local button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-        local ani_str = string.format(platConfig.gameIconBg,2)
-        playGameBtnAction(button_House1,ani_str)
-
-    end, 0.2)
-  table.insert(aniHandlers,aniHandler)
-
-
- local aniHandler2 = scheduler.scheduleGlobal(
-    function()
-
-        --随机是否出现花
-        local rand_display = math.random(1,2)
-        if rand_display == 1 then
-          return
-        end
-        local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-        local button_House2= cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-        local ani_str2 = string.format(platConfig.gameIconBg,1)
-        playGameBtnAction(button_House2,ani_str2)
-
-    end, 0.2)
-  table.insert(aniHandlers,aniHandler2)
-
-button_House1:onButtonClicked(
-  function()
-
-      if app.constant.isOpening == true then
-          return
-      end
-      app.constant.isOpening = true
-
-	  self.curRoomType = "create"
-	  self:setPrivateRoomType(self.curRoomType)
-	  if true then
-		return
-	  end
-		
-      if self.scene.gameListView ~= nil and self.scene.Image_BottomBar ~= nil then
-
-          local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-          local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-          local param = {  top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}}
-
-          self:TurnMenuAni(param)
-
-          local aniHandler = scheduler.performWithDelayGlobal(
-          function ()
-
-              app.constant.isOpening = false
-              if self.scene.home ~= nil then
-                  self.scene.home:show()
-              end
-              if self.scene.userInfoBar ~= nil then
-                  self.scene.userInfoBar:setPositionX(84)
-              end
-
-              -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",1))
-              -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",2))
-              local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-              local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
-              local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
-              local param = { right = self.scene.gameListView, rightItem = {game1,game2}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar}
-
-              self:TurnMenuAni(param)
-
-          end, 0.6)
-          table.insert(aniHandlers,aniHandler)
-      end
-
-end)
-
-button_House2:onButtonClicked(
-  function()
-
-      if app.constant.isOpening == true then
-          return
-      end
-      app.constant.isOpening = true
-
-      self.curRoomType = "login"
-      self:setPrivateRoomType(self.curRoomType)
-
-  end)
-
-if Home ~= nil then
-
-   Home:onButtonClicked(
-  function()
-
-      if app.constant.isOpening == true then
-          return
-      end
-      app.constant.isOpening = true
-
-      if self.scene.gameListView ~= nil and self.scene.Image_BottomBar ~= nil then
-
-          -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",1))
-          -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",2))
-          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-          local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
-          local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
-          local param = {right = self.scene.gameListView, rightItem = {game1,game2}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar}
-          self:TurnMenuAni(param)
-
-          local aniHandler = scheduler.performWithDelayGlobal(
-            function ()
-
-                app.constant.isOpening = false
-
-                if self.scene.home ~= nil then
-                    self.scene.home:hide()
-                end
-                if self.scene.userInfoBar ~= nil then
-                    self.scene.userInfoBar:setPositionX(0)
-                end
-
-                local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-                local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-                local param = {  top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}}
-                self:TurnMenuAni(param)
-
-             end, 0.6)
-           table.insert(aniHandlers,aniHandler)
-      end
-
-   end)
-
- util.BtnScaleFun(Home)
-
-end
-
-
-local function addOneStar(parent, pos)
-
-  local star = display.newSprite("Image/Lobby/star.png")
-  star:setPosition(pos.x, pos.y)
-  parent:addChild(star,20)
-  star:setScale(0.3)
-
-  local callback = cc.CallFunc:create(function()
-
-    star:setScale(0.3)
-
-    end)
-
-  local rand_scale2 = 0.4
-  local scale1_star = cc.ScaleTo:create(1.0,rand_scale2)
-  local scale2_star = cc.ScaleTo:create(1.0,0.01)
-  local seq_star = cc.Sequence:create(scale1_star,scale2_star)
-  local rand_delay = 3 + math.random(1,4)
-  local dt_star = cc.DelayTime:create(rand_delay)
-  local ret_star = cc.RotateBy:create(2.0,180)
-  local spawn_star = cc.Spawn:create(seq_star,ret_star)
-  local seq2_star = cc.Sequence:create(spawn_star,dt_star,callback)
-  local rep_star = cc.RepeatForever:create(seq2_star)
-
-  star:runAction(rep_star)
-
-end
-
-local points = cc.p(11.01, 30.74)
-
-local image14 = cc.uiloader:seekNodeByNameFast(self.scene, "Image_14")
-
-addOneStar(image14, points)
-
-    -- local particle = cc.ParticleSystemQuad:create("Image/effect/particle_texture.plist")
-    -- particle:setPosition(0,-40)
-    -- local startColor = particle:getStartColor()    --设置粒子开始的颜色
-    -- startColor.r = 53
-    -- startColor.g = 213
-    -- startColor.b = 120
-    -- particle:setStartColor(startColor)
-    -- button_House1:addChild(particle,11)
-
-
-    -- local particle = cc.ParticleSystemQuad:create("Image/effect/particle_texture.plist")
-    -- particle:setPosition(0,-40)
-    -- local startColor = particle:getStartColor()    --设置粒子开始的颜色
-
-    -- particle:setStartColor(startColor)
-    -- button_House2:addChild(particle,11)
-
-    -- local particle = cc.ParticleSystemQuad:create("Image/effect/particle_texture.plist")
-    -- particle:setPosition(0,-40)
-    -- local startColor = particle:getStartColor()    --设置粒子开始的颜色
-    -- startColor.r = 238
-    -- startColor.g = 119
-    -- startColor.b = 8
-    -- particle:setStartColor(startColor)
-    -- button_House3:addChild(particle,11)
-
-     --local particle2 = cc.ParticleSystemQuad:create("Image/effect/particle_texture.png")
-     -- local snow = cc.ParticleRain:create()
-
-     -- local sprite = display.newSprite("Image/effect/particle_texture.png")
-     -- local texture = sprite:getTexture()
-     -- snow:setTexture(texture)
-     -- --snow:setTexture("Image/effect/particle_texture.png")
-     -- snow:setPosition(display.cx,display.top-50)
-     -- snow:addTo(self.scene,30)
-
-     -- snow:setSpeed(100)                         --设置粒子速度
-     -- snow:setSpeedVar(40)
-     --snow:setTotalParticles(20)
-
-      -- local param = {node = img_MajingIcon, ani_str = "Image/Lobby/img_Ml.png", node1 = img_GLight, ani_light = "Image/Lobby/img_GLight.png" }
-
-      -- playHouseNameLight(button_House1, "1", "Image/Lobby/img_Gtest.png", "Image/Lobby/img_Gtest2.png", param)
-
-      -- local pos = { [1] = {x = 64, y = 139}, [2] = {x = 70.92, y = 66.83}, [3] = {x = 38.70, y = 160.42},
-      -- [4] = {x = 19.31, y = 111.23},[5] = {x = 37.28, y = 140.09},[6] = {x = 80.38, y = 133.05} }
-
-      -- add_star_ani(img_MajingIcon, 6, pos)
-
-
-      local function setlobbyMenu(mtype, mNode)
-
-            local posX = mNode:getPositionX()
-            local posY = mNode:getPositionY()
-            if mtype == 1 then
-                local w = mNode:getContentSize().width
-                local x = display.width-math.abs(posX)
-                posX = display.width+x-w
-            else
-                local lastPosX = posX
-                local w = 100
-                print("setlobbyMenu-w = ",w)
-                if posX > display.width then
-                   posX = posX-(display.width-w)
-                else
-                   posX = posX+(display.width-w)
-                end
-            end
-
-            mNode:setPosition(posX,posY)
-
-      end
-
-     if button_House1 ~= nil then
-
-        local param1 = { root = button_House1, size = 20,
-        x = 0, y = -167, text = "创建房间  精彩无限",
-        color1 = cc.c4b(255,255,255,255), color2 = cc.c4b(0,83,73,255), w = 2
-      }
-
-      util.SetStroke(param1)
-
-      util.BtnScaleFun(button_House1)
-
-    end
-
-    if button_House2 ~= nil then
-
-       local param1 = { root = button_House2, size = 20,
-       x = 0, y = -167, text = "输入密码  好友对战",
-       color1 = cc.c4b(255,255,255,255), color2 = cc.c4b(213,87,36,255), w = 2
-     }
-     util.SetStroke(param1)
-
-     util.BtnScaleFun(button_House2)
-
-   end
-
-    setlobbyMenu(1,panel_Bg1)
-    setlobbyMenu(2,button_House1)
-    setlobbyMenu(3,button_House2)
-  -- if button_House3 ~= nil then
-
-  --     local img_OLight = display.newSprite("Image/Lobby/img_OLight.png")
-  --     img_OLight:setPosition(0, 40)
-  --     img_OLight:addTo(button_House3, 5)
-
-  --     local img_MatchIcon = display.newSprite("Image/Lobby/img_MatchIcon.png")
-  --     img_MatchIcon:setPosition(0, 44)
-  --     img_MatchIcon:addTo(button_House3, 8)
-
-  --     local img_OTitle = display.newSprite("Image/Lobby/img_OTitle.png")
-  --     img_OTitle:setPosition(0, -78.51)
-  --     img_OTitle:addTo(button_House3, 12)
-
-  --     local img_Otest2 = display.newSprite("Image/Lobby/img_Otest2.png")
-  --     img_Otest2:setPosition(0, -73.5)
-  --     img_Otest2:addTo(button_House3, 13)
-
-  --     local param = {node = img_MatchIcon , ani_str = "Image/Lobby/img_Jl.png", node1 = img_OLight, ani_light = "Image/Lobby/img_OLight.png" }
-
-  --     playHouseNameLight(button_House3, "3", "Image/Lobby/img_Otest.png", "Image/Lobby/img_Otest2.png", param)
-
-  --     local pos = { [1] = {x = 144.5, y = 142}}
-
-  --     add_star_aniEx(img_MatchIcon, 1, pos, 3)
-
-  --        -- playHouseBtnAction(img_MatchIcon, "Image/Lobby/img_Jl.png", img_OLight, "Image/Lobby/img_OLight.png")
-
-  --        local param1 = { root = button_House3, size = 20,
-  --        x = 0, y = -157, text = "旺旺麻将比赛房",
-  --        color1 = cc.c4b(255,255,255,255), color2 = cc.c4b(173,44,50,255), w = 2
-  --      }
-  --      util.SetStroke(param1)
-
-  --      util.BtnScaleFun(button_House3)
-
-  --  end
-
-   local function RandomIndex(tabNum,indexNum)
-    indexNum = indexNum or tabNum
-    local t = {}
-    local rt = {}
-    for i = 1,indexNum do
-      local ri = math.random(1,tabNum + 1 - i)
-      local v = ri
-      for j = 1,tabNum do
-        if not t[j] then
-          ri = ri - 1
-          if ri == 0 then
-            table.insert(rt,j)
-            t[j] = true
+    
+
+
+   local  BtnCreateRoom = cc.uiloader:seekNodeByNameFast(self.scene, "BtnCreateRoom")
+   local  BtnJoinRoom = cc.uiloader:seekNodeByNameFast(self.scene, "BtnJoinRoom")
+   local  BtnClubRoom = cc.uiloader:seekNodeByNameFast(self.scene, "BtnClubRoom")
+    
+    BtnCreateRoom:onButtonClicked(function()  
+          if app.constant.isOpening == true then
+              return
           end
-        end
-      end
-    end
-    return rt
-  end
+          app.constant.isOpening = true
 
-  local aniHandler = scheduler.scheduleGlobal(
-    function()
+        self.curRoomType = "create"  --login
+        self:setPrivateRoomType(self.curRoomType,116)
 
-          local tab = {1,2,3}
-          local s = RandomIndex(3,3)
-          --随机选择一个播放动画
-          local rand = tab[s[lastRand]]
-
-          if lastRand%3 == 0 then
-            s = RandomIndex(3,3)
+    end)   
+    
+    BtnJoinRoom:onButtonClicked(function()  
+          if app.constant.isOpening == true then
+              return
           end
+          app.constant.isOpening = true
 
-          lastRand = lastRand + 1
+          self.curRoomType = "login"  --
+          self:setPrivateRoomType(self.curRoomType,116)
 
-          if lastRand > 3 then
+    end)   
 
-            lastRand = 1
 
-          end
+    BtnClubRoom:onButtonClicked(function()  
 
-          local clippingNode = nil
-          local content = nil
-          if aniParent[rand] ~= nil then
 
-              clippingNode = aniParent[rand]:getChildByTag(rand)
-              if clippingNode ~= nil then
-                  content = clippingNode:getChildByTag(rand)
-                  if content ~= nil then
-                       content:show()
-                       local move1 = cc.MoveTo:create(2.5,cc.p(145,0))
-                       local move2 = cc.Place:create(cc.p(-145,0))
-                       local callback2 = cc.CallFunc:create(
-                          function()
-                              if aniParent[rand+3] ~= nil then
+    end)   
 
-                                  playHouseBtnAction(aniParent[rand+3])
+    util.BtnScaleFun(BtnCreateRoom,2)
+    util.BtnScaleFun(BtnJoinRoom,2)
+    util.BtnScaleFun(BtnClubRoom,2)
 
-                              end
-                          end)
-                       local seq = cc.Sequence:create(move1, callback2, move2)
-                       content:runAction(seq)
-                  end
-              end
-          end
-      end, 4)
-  table.insert(aniHandlers,aniHandler)
-
-  local function playShopBtnAction(parent, ani_str, ani_light)
-
-    local ShopText = display.newSprite(ani_str)
-    ShopText:setAnchorPoint(0, 1)
-    ShopText:setPosition(71.41-54, 39.40-37)
-    ShopText:addTo(parent)
-
-    local rotate = cc.RotateTo:create(1.2, -10)
-    local rev_rotate = cc.RotateTo:create(1.4, 0)
-    local dt_star = cc.DelayTime:create(0.2)
-    local seq = cc.Sequence:create(rotate, rev_rotate, dt_star)
-    local rep_seq = cc.RepeatForever:create(seq)
-
-    ShopText:runAction(rep_seq)
-
-    local ShopLight = display.newSprite(ani_light)
-          -- local w, h = recharge:getLayoutSize()
-          -- print("w,h",w,h)
-          ShopLight:setAnchorPoint(0.5, 0.5)
-          ShopLight:setPosition(0, 0)
-          ShopLight:addTo(parent)
-
-          local fto = cc.FadeIn:create(0.1)
-          local dt_2 = cc.DelayTime:create(0.2)
-          local sTo = cc.ScaleTo:create(0.7,1.15)
-          local color = cc.TintTo:create(0.7,255,255,255)
-          local spTo = cc.Spawn:create(dt_2,fto,sTo,color)
-
-          local sTo2 = cc.ScaleTo:create(0.1,1.0)
-
-          local dt_1 = cc.DelayTime:create(1.4)
-          --local spTo3 = cc.Spawn:create(dt_1,sTo2)
-          local fto2 = cc.FadeOut:create(0.8)
-          local sTo3 = cc.ScaleTo:create(0.8,1.25)
-          local spTo2 = cc.Spawn:create(fto2,sTo3)
-          seq = cc.Sequence:create(spTo, spTo2, sTo2, dt_1)
-          rep_seq = cc.RepeatForever:create(seq)
---
-    ShopLight:runAction(rep_seq)
-
-  end
-
-if recharge ~= nil then
-  --购物车动作效果实现
-  playShopBtnAction(recharge, "Image/Lobby/recharge_text.png", "Image/Lobby/recharge_light.png")
-
-end
-
-    local function star_ani(parent, gameName, posX, posY, delay)
-        --添加星星
-        local pos_star = cc.p(0,-100)
-
-        pos_star = cc.p(posX,posY)
-
-        local star = display.newSprite("Image/Lobby/star.png")
-        star:setPosition(pos_star)
-        parent:addChild(star,11)
-        star:setScale(0.01)
-
-        local scale1_star = cc.ScaleTo:create(1.0,1.0)
-        local scale2_star = cc.ScaleTo:create(1.0,0.01)
-        local seq_star = cc.Sequence:create(scale1_star,scale2_star)
-        local ret_star = cc.RotateBy:create(2.0,180)
-        local spawn_star = cc.Spawn:create(seq_star,ret_star)
-       -- local dt_star = cc.DelayTime:create(delay)
-        local removeSelf = cc.RemoveSelf:create()
-        local seq2_star = cc.Sequence:create(spawn_star,removeSelf)
-
-        --local rep_star = cc.RepeatForever:create(seq2_star,removeSelf)
-
-        star:runAction(seq2_star)
-    end
-
-    local function playHouseNameLight(parent,gameName,short_name,game_index)
-
-        local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-        --调整位置
-        local pos = cc.p(0,-95)
-        local length = platConfig.game[game_index].length
-        local time = platConfig.game[game_index].dt_time
-
-        local clippingNode = cc.ClippingNode:create()
-        clippingNode:setPosition(pos)
-        clippingNode:setAlphaThreshold( 0.1 )
-        clippingNode:setInverted( false )
-        parent:addChild( clippingNode, 10)
-        clippingNode:setName("clippingNode")
-        --创建模版
-        local stencil = display.newSprite(short_name)
-        stencil:setPosition( 0, 0 )
-        stencil:setAnchorPoint( 0.5, 0.5)
-        clippingNode:setStencil(stencil)
-        --设置要裁剪的底板
-       local content = display.newSprite("Image/Lobby/word_light2.png")
-        --local content = display.newSprite("Image/Lobby/word_light.png")
-        content:setAnchorPoint( 0.5, 0.5)
-        --content:setPosition(-20,0)
-        clippingNode:addChild(content ,2)
-        content:setName("content")
-       -- content:setPosition(-145,0)
-        local move1 = cc.MoveTo:create(time,cc.p(length,0))
-        local move2 = cc.Place:create(cc.p(-length,0))
-        local dt = cc.DelayTime:create(4)
-
-        local posX = platConfig.game[game_index].starPosX
-        local posY = platConfig.game[game_index].starPosY
-
-        local callback = cc.CallFunc:create(
-        function()
-            star_ani(parent, gameName, posX, posY)
-        end)
-        --star_ani(parent, gameName, posX, posY)
-        local seq = cc.Sequence:create(move1,callback,dt,move2)
-        local rep = cc.RepeatForever:create(seq)
-        content:runAction(rep)
-    end
-
-    --文字闪光
-    local function playBtnLight(parent,gameName,short_name)
-        print("gameName:" .. tostring(gameName))
-        print("short_name:" .. tostring(short_name))
-        --调整位置
-        local pos = cc.p(1,-52)
-        if gameName == "1" then
-            pos = cc.p(-4,-56)
-        elseif gameName == "2" then
-            pos = cc.p(-1,-50)
-        end
-        --左边的先闪，右边的再闪
-        local isDelay = false
-        if gameName == "2" or gameName == "4" then
-            isDelay = true
-        end
-
-        local clippingNode = cc.ClippingNode:create()
-        clippingNode:setPosition(pos)
-        clippingNode:setAlphaThreshold( 0.1 )
-        clippingNode:setInverted( false )
-        parent:addChild( clippingNode, 10 )
-
-        local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-
-        --创建模版
-        print("ziyuan1::" ..short_name)
-        print("ziyuan2::" ..string.format(platConfig.word_1,short_name))
-        local stencil = display.newSprite(string.format(platConfig.word_1,short_name))
-        stencil:setPosition( 0, 0 )
-        stencil:setAnchorPoint( 0.5, 0.5)
-        clippingNode:setStencil(stencil)
-        --设置要裁剪的底板
-        local content = display.newSprite("Image/Lobby/word_light.png")
-        content:setAnchorPoint( 0.5, 0.5)
-        content:setPosition(-80,0)
-        clippingNode:addChild(content ,2)
-
-        local s = display.newSprite(string.format(platConfig.word,short_name))
-        s:setPosition( 0, 0 )
-        s:setAnchorPoint(0.5, 0.5)
-        clippingNode:addChild(s,1)
-
-        local move1 = cc.MoveTo:create(1.5,cc.p(140,0))
-        local move2 = cc.Place:create(cc.p(-140,0))
-        local dt = cc.DelayTime:create(3.0)
-
-        local seq = cc.Sequence:create(move1,dt,move2)
-        local rep = cc.RepeatForever:create(seq)
-        content:runAction(rep)
-
-    end
-    -- --旋转光晕效果
-    -- local img_LightCircle = cc.uiloader:seekNodeByNameFast(self.scene,"img_LightCircle")
-    -- local ret_star = cc.RotateBy:create(15,360)
-    -- img_LightCircle:setOpacity(200)
-    -- local rep = cc.RepeatForever:create(ret_star)
-    -- img_LightCircle:runAction(rep)
-    -- local img_LightSss = cc.uiloader:seekNodeByNameFast(self.scene,"img_LightSss")
-    -- ret_star = cc.RotateBy:create(15,360)
-    -- img_LightSss:setOpacity(200)
-    -- rep = cc.RepeatForever:create(ret_star)
-    -- img_LightSss:runAction(rep)
-
-    local function UpDownMoveAni(node, time, height, ball)
-
-      if node == nil then
-        return
-      end
-
-        local action1 = cc.MoveBy:create(time,cc.p(0,height))
-        local action11 = action1:reverse()
-
-      if ball then
-
-             action1 = cc.EaseSineOut:create(action1)
-             action11 = cc.EaseSineIn:create(action11)
-
-        else
-              action1 = cc.EaseSineInOut:create(action1)
-              action11 = cc.EaseSineInOut:create(action11)
-        end
-        local sequence = cc.Sequence:create(action1,action11)
-        local bitcamera = cc.OrbitCamera:create(time,1,0, 0,720, 0, 0)
-        local sequence2 = cc.Sequence:create(bitcamera)
-        local spwan = nil
-        -- if ball then
-        --       spwan = cc.Spawn:create(sequence2,sequence)
-        -- end
-        local rep = nil
-        if spwan ~= nil  then
-            rep = cc.RepeatForever:create(spwan)
-        else
-            rep = cc.RepeatForever:create(sequence)
-        end
-        node:runAction(rep)
-
-    end
-
-    -- local img_Shai1 = cc.uiloader:seekNodeByNameFast(self.scene,"img_Shai1")
-    -- UpDownMoveAni(img_Shai1, 2, 3)
-    -- local aniHandler = scheduler.performWithDelayGlobal(
-    -- function ()
-    --     local img_Shai2 = cc.uiloader:seekNodeByNameFast(self.scene,"img_Shai2")
-    --     UpDownMoveAni(img_Shai2, 2, 3)
-    -- end, 2.8)
-    --  table.insert(aniHandlers,aniHandler)
-
-    local function RotateAni(node, time, angle)
-        if node == nil then
-            return
-        end
-        local rotate1 = cc.RotateBy:create(time,angle)
-        local revRotate1 = rotate1:reverse()
-        local sequence = cc.Sequence:create(rotate1, revRotate1)
-        local rep = cc.RepeatForever:create(sequence)
-        node:runAction(rep)
-
-    end
-
-    -- local img_LBang = cc.uiloader:seekNodeByNameFast(self.scene,"img_LBang")
-    -- local img_RBang = cc.uiloader:seekNodeByNameFast(self.scene,"img_RBang")
-    -- RotateAni(img_LBang, 2, -5)
-    -- RotateAni(img_RBang, 2, 5)
-
-    -- local aniHandler = scheduler.performWithDelayGlobal(
-    -- function ()
-    --     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    --     local img_Ball = cc.uiloader:seekNodeByNameFast(self.scene,"img_Ball")
-    --     UpDownMoveAni(img_Ball, 2, 10, true)
-
-    --     local Game_1 = cc.uiloader:seekNodeByNameFast(self.scene,platConfig.game[1].Node_Name)
-    --     local Image_Icon = cc.uiloader:seekNodeByNameFast(Game_1,"Image_Icon")
-    --     UpDownMoveAni(Image_Icon, 2, 5)
-
-    -- end, 2)
-    -- table.insert(aniHandlers,aniHandler)
-
-
-    -- local img_L = cc.uiloader:seekNodeByNameFast(self.scene,"img_L")
-    -- local img_R = cc.uiloader:seekNodeByNameFast(self.scene,"img_R")
-    -- if img_L then
-    --     RotateAni(img_L, 2, -10)
-    -- end
-    -- if img_R then
-    --     RotateAni(img_R, 2, 10)
-    -- end
-
-    -- local aniHandler = scheduler.performWithDelayGlobal(
-    -- function ()
-    --     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-
-    --     local img_Ball = cc.uiloader:seekNodeByNameFast(self.scene,"wangguan")
-    --     if img_Ball then
-    --       UpDownMoveAni(img_Ball, 2, 10, true)
-    --     end
-
-    --     -- local Game_1 = cc.uiloader:seekNodeByNameFast(self.scene,"Game_1")
-    --     -- local Image_Icon = cc.uiloader:seekNodeByNameFast(Game_1,"Image_Icon")
-    --     -- UpDownMoveAni(Image_Icon, 2, 5)
-
-    -- end, 2)
-    -- table.insert(aniHandlers,aniHandler)
-
---枪火花动画
-   -- local function BlinkAnim(node,time,rate)
-   --     if not node then
-   --       return
-   --     end
-   --     local blink = cc.Blink:create(time, rate)
-
-   --     local delay = cc.DelayTime:create(2)
-   --     local callback =  cc.CallFunc:create(function()  node:hide()  end)
-   --     local sequence = cc.Sequence:create(blink,callback,delay)
-   --     local rep = cc.RepeatForever:create(sequence)
-   --     node:runAction(rep)
-
-   -- end
-   --  local huohua_R = cc.uiloader:seekNodeByNameFast(self.scene,"huohua_R")
-   --  local huohua_L = cc.uiloader:seekNodeByNameFast(self.scene,"huohua_L")
-
-
-   --  BlinkAnim(huohua_R,1,5)
-   --  BlinkAnim(huohua_L,1,5)
-
-    local function GamePlayAct(Node_Name)
-        local game = cc.uiloader:seekNodeByNameFast(self.scene, Node_Name)
-        if game == nil then
-            return
-        end
-        --旋转光晕效果
-        local img_LightCircle = cc.uiloader:seekNodeByNameFast(game,"img_LightCircle")
-        if img_LightCircle then
-          print("chishu1")
-          local ret_star = cc.RotateBy:create(15,360)
-          img_LightCircle:setOpacity(200)
-          local rep = cc.RepeatForever:create(ret_star)
-          img_LightCircle:runAction(rep)
-        end
-
-        -- local img_LightSss = cc.uiloader:seekNodeByNameFast(game,"img_LightSss")
-        -- if img_LightSss then
-        --   ret_star = cc.RotateBy:create(15,360)
-        --   img_LightSss:setOpacity(200)
-        --   rep = cc.RepeatForever:create(ret_star)
-        --   img_LightSss:runAction(rep)
-        -- end
-
-
-        --左右挥动动作
-        local img_LBang = cc.uiloader:seekNodeByNameFast(game,"img_LBang")
-        local img_RBang = cc.uiloader:seekNodeByNameFast(game,"img_RBang")
-        if img_LBang then
-          if Node_Name== "Game_nn" then
-            RotateAni(img_LBang, 2, -10)
-          else
-            RotateAni(img_LBang, 2, -5)
-          end
-
-        end
-        if img_RBang then
-          if Node_Name== "Game_nn" then
-            RotateAni(img_RBang, 2, 10)
-          else
-            RotateAni(img_RBang, 2, 5)
-          end
-
-        end
-        --上下浮动动作
-
-        local img_Ball = cc.uiloader:seekNodeByNameFast(game,"img_Ball")
-        if img_Ball then
-          UpDownMoveAni(img_Ball, 2, 10, true)
-        end
-
-        local Image_Icon = cc.uiloader:seekNodeByNameFast(game,"Image_Icon")
-        if Image_Icon then
-          UpDownMoveAni(Image_Icon, 2, 5)
-        end
-
-
-        --
-
-    end
-
-    -- local aniHandler = scheduler.performWithDelayGlobal(
-    -- function ()
-    --     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    --     local Game_2 = cc.uiloader:seekNodeByNameFast(self.scene,platConfig.game[2].Node_Name)
-    --     local Image_Icon = cc.uiloader:seekNodeByNameFast(Game_2,"Image_Icon")
-    --     UpDownMoveAni(Image_Icon, 2, 5)
-    -- end, 3.5)
-    --  table.insert(aniHandlers,aniHandler)
-
-    --动态生成游戏图标
-    -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    -- self.scene.game = {}
-    -- for game_index,conf in ipairs(platConfig.game) do
-    --   local gameid = conf.gameid
-    --   local game_config = RoomConfig:getGameConfig(gameid)
-    --   -- local game = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",game_index))
-    --   local game = cc.uiloader:seekNodeByNameFast(self.scene, conf.Node_Name)
-    --   game:show()
-    --   GamePlayAct(conf.Node_Name)
-
-    --   self.scene.game[game_index] = game
-    --   if game then
-    --        if CONFIG_APP_CHANNEL=="3552" then
-    --         --todo
-    --           -- if game_index == 1 then
-    --           --     game:setPositionX(606.2)
-    --           -- else
-    --           --     game:hide()
-    --           -- end
-    --        elseif CONFIG_APP_CHANNEL=="3556" then
-    --           if game_index == 2 then
-    --               game:setPositionX(606.2)
-    --           else
-    --               game:hide()
-    --           end
-    --        end
-
-    --         game:setButtonImage(cc.ui.UIPushButton.NORMAL, platConfig.game[game_index].IconRes)
-    --         game:setButtonImage(cc.ui.UIPushButton.PRESSED, platConfig.game[game_index].IconRes)
-    --         game:setButtonImage(cc.ui.UIPushButton.DISABLED, platConfig.game[game_index].IconRes)
-
-    --         local icon = cc.uiloader:seekNodeByNameFast(game, "Image_Icon")
-    --         icon:setTexture(platConfig.game[game_index].Image_Icon)
-    --         local x = platConfig.game[game_index].IconPosX
-    --         local y = platConfig.game[game_index].IconPosY
-    --         icon:setPosition(x, y)
-
-    --         --添加动画
-    --         local n = cc.uiloader:seekNodeByNameFast(game, "Name")
-    --         if n and n:getString() ~= "" then
-    --           local gameName = n:getString()
-    --             if platConfig.gameani ~= nil then
-    --                 local aniHandler = scheduler.scheduleGlobal(
-    --                   function()
-    --                       --随机是否出现花
-    --                       local rand_display = math.random(1,2)
-    --                       if rand_display == 1 then
-    --                           return
-    --                       end
-
-    --                       if self.scene.game[game_index] ~= nil then
-    --                           local n = cc.uiloader:seekNodeByNameFast(self.scene.game[game_index], "Name")
-    --                           local gameName = n:getString()
-    --                           --print("playGameBtnActionEx-----",self.scene.game[game_index], gameName)
-    --                           -- local ani_str = string.format(platConfig.gameani[game_index],gameName)
-    --                           -- playGameBtnActionEx(self.scene.game[game_index],ani_str)
-    --                       end
-    --                   end, 0.4)
-    --                 table.insert(aniHandlers,aniHandler)
-    --             end
-
-    --             --加文字闪光
-    --             local word_1 = string.format(platConfig.word_1,game_config.icon)
-    --             local word = string.format(platConfig.word,game_config.icon)
-    --             print("word_1 = ",word_1,word)
-    --             local img_Otest2 = display.newSprite(word)
-    --             img_Otest2:setPosition(0, -95)
-    --             img_Otest2:addTo(game, 10)
-    --             print("gameName = ",gameName)
-    --             if gameName == "2" then
-    --                 local aniHandler = scheduler.performWithDelayGlobal(
-    --                     function ()
-
-    --                         --print("playBtnLight-----")
-    --                         local n = cc.uiloader:seekNodeByNameFast(self.scene.game[game_index], "Name")
-    --                         local gameName = n:getString()
-    --                         playHouseNameLight(self.scene.game[game_index], gameName, word_1,2)
-    --                     end, 2.1)
-    --                 table.insert(aniHandlers,aniHandler)
-    --             else
-
-    --                 playHouseNameLight(game, gameName, word_1,1)
-    --             end
-
-    --           end
-
-    --           game:onButtonClicked(
-    --             function()
-    --                 print("future:" .. tostring(game_config.future))
-    --                 if game_config.future then
-    --                     ErrorLayer.new(app.lang.future_game):addTo(self)
-    --                   else
-    --                     print("create-gameID = ",gameid)
-    --                     if app.constant.isOpening == true then
-    --                         return
-    --                     end
-    --                     app.constant.isOpening = true
-    --                     self:setPrivateRoomType(self.curRoomType, gameid)
-    --                 end
-    --             end)
-
-    --          util.BtnScaleFun(game)
-
-    --       end
-    --   end
 
     --add by whb 0914
     self:addGuideLayer(guideInfo.guideMenu[1])
@@ -1783,10 +931,10 @@ end
 --add by whb 0324
 
     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
-    local logoSprite = display.newSprite(platConfig.logo_small)
-    local logoframe = logoSprite:getSpriteFrame()
-    Logo:setSpriteFrame(logoframe)
+    -- local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
+    -- local logoSprite = display.newSprite(platConfig.logo_small)
+    -- local logoframe = logoSprite:getSpriteFrame()
+    -- Logo:setSpriteFrame(logoframe)
 
     -- local Image_Girl = cc.uiloader:seekNodeByNameFast(self.scene, "Image_Girl")
     -- --print("Image_Girl.res:",platConfig.Image_Girl.res)
@@ -1911,140 +1059,142 @@ end
 
 --检查是否显示活动页面
 function LobbyScene:checkShowActivity()
-  local today = os.date("*t",os.time())
-  local today_str = string.format("%d%02d%02d",today.year,today.month,today.day)
-  print("today_str:" .. today_str)
-  if GameData.lastLoginDate == nil or GameData.lastLoginDate ~= today_str then
-    -- if true then
-        --todo
-        if CONFIG_APP_CHANNEL == "3552" then
-          self:showActivityLayer()
-        else
-          self:showLotteryLayer()
-        end
 
-        -- self:showLotteryLayer()
-        util.GameStateSave("lastLoginDate",today_str)
-      end
-    end
-    function LobbyScene:showActivityBtn(startIndex,endIndex,listID,group,isLucky)
-    local index=1
-    if endIndex<=0 then
-        --todo
-        return
-      end
-      for i = startIndex,endIndex do
-      print("startIndex" ..startIndex)
-      print("endIndex" ..endIndex)
-      local activityConfig = ActivityConfig:getActConfig(CONFIG_APP_CHANNEL)
-      local unselected = string.format(activityConfig.activityRes.unselected,listID[index])
-      local selected = string.format(activityConfig.activityRes.selected,listID[index])
+  
+  -- local today = os.date("*t",os.time())
+  -- local today_str = string.format("%d%02d%02d",today.year,today.month,today.day)
+  -- print("today_str:" .. today_str)
+  -- if GameData.lastLoginDate == nil or GameData.lastLoginDate ~= today_str then
+  --   -- if true then
+  --       --todo
+  --       if CONFIG_APP_CHANNEL == "3552" then
+  --         self:showActivityLayer()
+  --       else
+  --         self:showLotteryLayer()
+  --       end
 
-      local checkbox = cc.ui.UICheckBoxButton.new({
-        off = unselected,
-        off_pressed = selected,
-        off_disabled = unselected,
-        on = {selected, selected},
-        on_pressed = {unselected, selected},
-        on_disabled = {unselected, unselected},
-        })
-      checkbox:addTo(self.scene.activeLayer)
-      checkbox:setPosition(340, 500 - (i - 1) * 80)
-      checkbox.index = listID[index]
-      checkbox.Lucky = isLucky
+  --       -- self:showLotteryLayer()
+  --       util.GameStateSave("lastLoginDate",today_str)
+  --     end
+  --   end
+  --   function LobbyScene:showActivityBtn(startIndex,endIndex,listID,group,isLucky)
+  --   local index=1
+  --   if endIndex<=0 then
+  --       --todo
+  --       return
+  --     end
+  --     for i = startIndex,endIndex do
+  --     print("startIndex" ..startIndex)
+  --     print("endIndex" ..endIndex)
+  --     local activityConfig = ActivityConfig:getActConfig(CONFIG_APP_CHANNEL)
+  --     local unselected = string.format(activityConfig.activityRes.unselected,listID[index])
+  --     local selected = string.format(activityConfig.activityRes.selected,listID[index])
 
-      group:addButtons({
-        [checkbox] = handler(self, self.showActivity)
-        })
-      index=index+1
-      if i == 1 and curActIndex == 1 then
-        checkbox:setButtonSelected(true)
-        elseif i == 2 and curActIndex == 2 then
-          checkbox:setButtonSelected(true)
-        end
+  --     local checkbox = cc.ui.UICheckBoxButton.new({
+  --       off = unselected,
+  --       off_pressed = selected,
+  --       off_disabled = unselected,
+  --       on = {selected, selected},
+  --       on_pressed = {unselected, selected},
+  --       on_disabled = {unselected, unselected},
+  --       })
+  --     checkbox:addTo(self.scene.activeLayer)
+  --     checkbox:setPosition(340, 500 - (i - 1) * 80)
+  --     checkbox.index = listID[index]
+  --     checkbox.Lucky = isLucky
 
-
-
-        for j=1,#lucky_profile do
-          if lucky_profile[j]==i then
-            print("显示小红点")
-            local hongdianSp = display.newSprite("Image/Common/Avatar/info.png")
-            :setScale(0.8)
-            :setPosition(85,20)
-            :setTag(1056)
-            :addTo(checkbox)
-          end
-        end
-      end
-    end
-    function LobbyScene:LuckyProfileRep(msg)
-      print("LuckyProfileRep++=")
-      local activity = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Lottery")
-      local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_LotteryTip")
-      Img_ChatTip:show()
-      if Account.tags.activity_tag == "1" then
-        local isShow=false
-        lucky_profile = {}
-
-        if #msg.lucky_profile>0  then
-            --todo
-            for i=1,#msg.lucky_profile do
-             if msg.lucky_profile[i].status==1 then
-                    --todo
-                    isShow=true
-
-                    local ActPos = ActivityConfig:getActPos(CONFIG_APP_CHANNEL,msg.lucky_profile[i].id)
-                    table.insert(lucky_profile,#lucky_profile+1,ActPos)
-                  end
+  --     group:addButtons({
+  --       [checkbox] = handler(self, self.showActivity)
+  --       })
+  --     index=index+1
+  --     if i == 1 and curActIndex == 1 then
+  --       checkbox:setButtonSelected(true)
+  --       elseif i == 2 and curActIndex == 2 then
+  --         checkbox:setButtonSelected(true)
+  --       end
 
 
-                end
-                if isShow then
-                  Img_ChatTip:show()
-                else
-                  Img_ChatTip:hide()
-                end
 
-              end
+  --       for j=1,#lucky_profile do
+  --         if lucky_profile[j]==i then
+  --           print("显示小红点")
+  --           local hongdianSp = display.newSprite("Image/Common/Avatar/info.png")
+  --           :setScale(0.8)
+  --           :setPosition(85,20)
+  --           :setTag(1056)
+  --           :addTo(checkbox)
+  --         end
+  --       end
+  --     end
+  --   end
+  --   function LobbyScene:LuckyProfileRep(msg)
+  --     print("LuckyProfileRep++=")
+  --     local activity = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Lottery")
+  --     local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_LotteryTip")
+  --     Img_ChatTip:show()
+  --     if Account.tags.activity_tag == "1" then
+  --       local isShow=false
+  --       lucky_profile = {}
+
+  --       if #msg.lucky_profile>0  then
+  --           --todo
+  --           for i=1,#msg.lucky_profile do
+  --            if msg.lucky_profile[i].status==1 then
+  --                   --todo
+  --                   isShow=true
+
+  --                   local ActPos = ActivityConfig:getActPos(CONFIG_APP_CHANNEL,msg.lucky_profile[i].id)
+  --                   table.insert(lucky_profile,#lucky_profile+1,ActPos)
+  --                 end
 
 
-            else
-              Img_ChatTip:hide()
-            end
-            dump(lucky_profile, "小红点的表")
-          end
-  function LobbyScene:showActivityLayer()
-            if app.constant.isOpening == true then
-                return
-            end
-            sound_common.menu()
+  --               end
+  --               if isShow then
+  --                 Img_ChatTip:show()
+  --               else
+  --                 Img_ChatTip:hide()
+  --               end
 
-            local activeLayer = cc.uiloader:load("Layer/Lobby/ActivityLayer.json"):addTo(self.scene)
-            self.scene.activeLayer = activeLayer
+  --             end
 
-            activeLayer.popBoxNode = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_bg")
-            util.setMenuAniEx(activeLayer.popBoxNode)
-            -- activeLayer.popBoxNode:setScale(0)
-            -- transition.scaleTo(activeLayer.popBoxNode, {scale = 1, time = app.constant.lobby_popbox_trasition_time})
 
-            local close = cc.uiloader:seekNodeByNameFast(activeLayer, "Button_Close"):onButtonClicked(function ()
-              self.scene.activeLayer:removeFromParent()
-              self.scene.activeLayer = nil
-              sound_common:cancel()
-              end)
-            util.BtnScaleFun(close)
+  --           else
+  --             Img_ChatTip:hide()
+  --           end
+  --           dump(lucky_profile, "小红点的表")
+  --         end
+  -- function LobbyScene:showActivityLayer()
+  --           if app.constant.isOpening == true then
+  --               return
+  --           end
+  --           sound_common.menu()
 
-            close:setLocalZOrder(10)
+  --           local activeLayer = cc.uiloader:load("Layer/Lobby/ActivityLayer.json"):addTo(self.scene)
+  --           self.scene.activeLayer = activeLayer
 
-            local Image_Act = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_Act")
-            --Image_Act:hide()
+  --           activeLayer.popBoxNode = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_bg")
+  --           util.setMenuAniEx(activeLayer.popBoxNode)
+  --           -- activeLayer.popBoxNode:setScale(0)
+  --           -- transition.scaleTo(activeLayer.popBoxNode, {scale = 1, time = app.constant.lobby_popbox_trasition_time})
 
-    --test url
-          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-          local urlStr = platConfig.activityImg
-          local image = "Platform_Src/Image/active.png"
+  --           local close = cc.uiloader:seekNodeByNameFast(activeLayer, "Button_Close"):onButtonClicked(function ()
+  --             self.scene.activeLayer:removeFromParent()
+  --             self.scene.activeLayer = nil
+  --             sound_common:cancel()
+  --             end)
+  --           util.BtnScaleFun(close)
 
-          util.setActivityImage(Image_Act:getParent(), urlStr, Image_Act, image, 1, nil, "activity1")
+  --           close:setLocalZOrder(10)
+
+  --           local Image_Act = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_Act")
+  --           --Image_Act:hide()
+
+  --   --test url
+  --         local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+  --         local urlStr = platConfig.activityImg
+  --         local image = "Platform_Src/Image/active.png"
+
+  --         util.setActivityImage(Image_Act:getParent(), urlStr, Image_Act, image, 1, nil, "activity1")
 
 
   end
@@ -2272,13 +1422,13 @@ function LobbyScene:onEnterTransitionFinish()
 
           -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",1))
           -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",2))
-          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-          local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
-          local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
-          local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-          local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-          local param = {center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, rightItem = {game1,game2}}
-          self:TurnMenuAni(param,0)
+          -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+          -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
+          -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
+          -- local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
+          -- local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
+          -- local param = {center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, rightItem = {game1,game2}}
+          -- self:TurnMenuAni(param,0)
 
       end
 
@@ -2291,8 +1441,8 @@ function LobbyScene:onEnterTransitionFinish()
       end
       -- end, 1.5)
 
-      MatchMessage.MatchConfigReq()
-      MatchMessage.MatchListReq(106)
+      -- MatchMessage.MatchConfigReq()
+      -- MatchMessage.MatchListReq(106)
 
       if Account.tags.free_gold_tag == "1" then
       --申请福利消息

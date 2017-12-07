@@ -534,8 +534,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 666.4565,
-                  "Y": -7.0564
+                  "X": 669.3744,
+                  "Y": -21.6456
                 },
                 "Scale": {
                   "ScaleX": 2.0,
@@ -545,17 +545,17 @@
                 "IconVisible": false,
                 "PositionPercentXEnabled": true,
                 "PrePosition": {
-                  "X": 0.5207,
-                  "Y": -0.0905
+                  "X": 0.5229,
+                  "Y": -0.2775
                 },
                 "PreSize": {
                   "X": 0.2406,
                   "Y": 1.0769
                 },
-                "LeftMargin": 512.4565,
-                "RightMargin": 459.5435,
-                "TopMargin": 43.0564,
-                "BottomMargin": -49.0564,
+                "LeftMargin": 515.3744,
+                "RightMargin": 456.6256,
+                "TopMargin": 57.6456,
+                "BottomMargin": -63.6456,
                 "Tag": 348,
                 "ActionTag": -1602919121,
                 "Size": {
@@ -1150,12 +1150,12 @@
                     "ShadowOffsetY": -2.0,
                     "TouchEnable": true,
                     "AnchorPoint": {
-                      "ScaleX": 0.5,
-                      "ScaleY": 0.5
+                      "ScaleX": 0.5152,
+                      "ScaleY": 0.4557
                     },
                     "Position": {
-                      "X": 35.0,
-                      "Y": 35.65
+                      "X": 36.0606,
+                      "Y": 32.5069
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -1164,8 +1164,8 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.0882,
-                      "Y": 0.5021
+                      "X": 0.0908,
+                      "Y": 0.4578
                     },
                     "PreSize": {
                       "X": 0.1763,
@@ -2711,7 +2711,6 @@
             },
             "Scale9Width": 1,
             "Scale9Height": 1,
-            "TouchEnable": true,
             "AnchorPoint": {
               "ScaleY": 1.0
             },
@@ -3079,6 +3078,7 @@
               "X": 1200.0,
               "Y": 450.0
             },
+            "VisibleForFrame": false,
             "Name": "Panel_Bg1",
             "ctype": "PanelObjectData"
           },
