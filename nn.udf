@@ -1,5 +1,14 @@
 <UserData Version="3.10.0.0">
   <Properties>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="Layer/CreateRoomLayer.csd" />
+          <FilePathData Path="Layer/AddRoomLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="Layer/AddRoomLayer.csd" />
+      </Value>
+    </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />

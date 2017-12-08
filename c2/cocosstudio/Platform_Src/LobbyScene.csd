@@ -6,26 +6,83 @@
       <ObjectData Name="Scene" Tag="279" ctype="GameNodeObjectData">
         <Size X="1280.0000" Y="720.0000" />
         <Children>
-          <AbstractNodeData Name="Background" CanEdit="False" ActionTag="1234263612" Tag="307" IconVisible="False" LeftMargin="0.0002" RightMargin="-0.0002" TopMargin="-0.0002" BottomMargin="0.0002" ctype="SpriteObjectData">
-            <Size X="1280.0000" Y="720.0000" />
+          <AbstractNodeData Name="Background" ActionTag="1234263612" Tag="307" IconVisible="False" LeftMargin="320.0002" RightMargin="319.9998" TopMargin="179.9998" BottomMargin="180.0002" ctype="SpriteObjectData">
+            <Size X="640.0000" Y="360.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="640.0002" Y="360.0002" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
-            <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="Image/Lobby/img_mainmenu_Background.png" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
+            <PreSize X="0.5000" Y="0.5000" />
+            <FileData Type="Normal" Path="Image/Lobby2/bg.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_Girl" ActionTag="1117782492" VisibleForFrame="False" Tag="85" IconVisible="False" LeftMargin="8.3901" RightMargin="837.6099" TopMargin="62.3647" BottomMargin="54.6353" LeftEage="147" RightEage="147" TopEage="206" BottomEage="206" Scale9OriginX="147" Scale9OriginY="206" Scale9Width="140" Scale9Height="191" ctype="ImageViewObjectData">
-            <Size X="434.0000" Y="603.0000" />
+          <AbstractNodeData Name="Image_5" ActionTag="1261340006" VisibleForFrame="False" Tag="98" IconVisible="False" LeftMargin="320.0000" RightMargin="320.0000" TopMargin="180.0000" BottomMargin="180.0000" LeftEage="211" RightEage="211" TopEage="118" BottomEage="118" Scale9OriginX="211" Scale9OriginY="118" Scale9Width="218" Scale9Height="124" ctype="ImageViewObjectData">
+            <Size X="640.0000" Y="360.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="225.3901" Y="356.1353" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position X="640.0000" Y="360.0000" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1761" Y="0.4946" />
-            <PreSize X="0.3391" Y="0.8375" />
-            <FileData Type="Normal" Path="Image/Lobby/girl.png" Plist="" />
+            <PrePosition X="0.5000" Y="0.5000" />
+            <PreSize X="0.5000" Y="0.5000" />
+            <FileData Type="Normal" Path="Image/dt.png" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Image_Girl" ActionTag="1117782492" Tag="85" IconVisible="False" LeftMargin="621.3973" RightMargin="456.6027" TopMargin="307.2338" BottomMargin="140.7662" LeftEage="66" RightEage="66" TopEage="89" BottomEage="89" Scale9OriginX="66" Scale9OriginY="89" Scale9Width="70" Scale9Height="94" ctype="ImageViewObjectData">
+            <Size X="202.0000" Y="272.0000" />
+            <Children>
+              <AbstractNodeData Name="Image_13" ActionTag="1217393052" Tag="107" IconVisible="False" LeftMargin="147.4130" RightMargin="14.5870" TopMargin="77.5280" BottomMargin="151.4720" LeftEage="13" RightEage="13" TopEage="14" BottomEage="14" Scale9OriginX="13" Scale9OriginY="14" Scale9Width="14" Scale9Height="15" ctype="ImageViewObjectData">
+                <Size X="40.0000" Y="43.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="167.4130" Y="172.9720" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.8288" Y="0.6359" />
+                <PreSize X="0.1980" Y="0.1581" />
+                <FileData Type="Normal" Path="Image/Lobby2/xin.png" Plist="" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="722.3973" Y="276.7662" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5644" Y="0.3844" />
+            <PreSize X="0.1578" Y="0.3778" />
+            <FileData Type="Normal" Path="Image/Lobby2/g.png" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Button_12" ActionTag="-54872703" Tag="106" IconVisible="False" LeftMargin="223.4904" RightMargin="1012.5096" TopMargin="218.9962" BottomMargin="457.0038" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="14" Scale9Height="22" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="44.0000" Y="44.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="245.4904" Y="479.0038" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.1918" Y="0.6653" />
+            <PreSize X="0.0344" Y="0.0611" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Normal" Path="Image/Lobby2/jh.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Image_9" ActionTag="2103715443" Tag="104" IconVisible="False" LeftMargin="189.3115" RightMargin="956.6885" TopMargin="331.0366" BottomMargin="349.9634" LeftEage="44" RightEage="44" TopEage="12" BottomEage="12" Scale9OriginX="44" Scale9OriginY="12" Scale9Width="46" Scale9Height="15" ctype="ImageViewObjectData">
+            <Size X="134.0000" Y="39.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="256.3115" Y="369.4634" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2002" Y="0.5131" />
+            <PreSize X="0.1047" Y="0.0542" />
+            <FileData Type="Normal" Path="Image/Lobby2/t1.png" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Image_9_0" ActionTag="-780640117" Tag="105" IconVisible="False" LeftMargin="359.0316" RightMargin="830.9684" TopMargin="293.4042" BottomMargin="168.5958" LeftEage="44" RightEage="44" TopEage="12" BottomEage="12" Scale9OriginX="44" Scale9OriginY="12" Scale9Width="2" Scale9Height="234" ctype="ImageViewObjectData">
+            <Size X="90.0000" Y="258.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="404.0316" Y="297.5958" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.3156" Y="0.4133" />
+            <PreSize X="0.0703" Y="0.3583" />
+            <FileData Type="Normal" Path="Image/Lobby2/x.png" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="TopBar" ActionTag="-952201987" Tag="340" IconVisible="False" LeftMargin="0.0002" RightMargin="-0.0002" BottomMargin="642.0000" ctype="SpriteObjectData">
             <Size X="1280.0000" Y="78.0000" />
@@ -41,13 +98,13 @@
                 <FileData Type="Normal" Path="Image/Lobby/img_embellishment.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Home" ActionTag="1339977507" Tag="170" IconVisible="False" LeftMargin="8.5000" RightMargin="1208.5000" TopMargin="9.0000" BottomMargin="12.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="33" Scale9Height="35" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Home" ActionTag="1339977507" Tag="170" IconVisible="False" LeftMargin="12.2798" RightMargin="1204.7202" TopMargin="-102.4958" BottomMargin="123.4958" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="33" Scale9Height="35" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="63.0000" Y="57.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="40.0000" Y="40.5000" />
+                <Position X="43.7798" Y="151.9958" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0313" Y="0.5192" />
+                <PrePosition X="0.0342" Y="1.9487" />
                 <PreSize X="0.0492" Y="0.7308" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -56,48 +113,48 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Logo" ActionTag="-1602919121" Tag="348" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="497.0000" RightMargin="497.0000" TopMargin="15.2029" BottomMargin="13.7971" ctype="SpriteObjectData">
-                <Size X="286.0000" Y="49.0000" />
+              <AbstractNodeData Name="Logo" ActionTag="-1602919121" Tag="348" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="515.3744" RightMargin="456.6256" TopMargin="57.6456" BottomMargin="-63.6456" ctype="SpriteObjectData">
+                <Size X="308.0000" Y="84.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="640.0000" Y="38.2971" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="669.3744" Y="-21.6456" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5000" Y="0.4910" />
-                <PreSize X="0.2234" Y="0.6282" />
-                <FileData Type="Normal" Path="Platform_Src/Image/Lobby/logo_small.png" Plist="" />
+                <PrePosition X="0.5229" Y="-0.2775" />
+                <PreSize X="0.2406" Y="1.0769" />
+                <FileData Type="Normal" Path="Image/Lobby2/tian.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_ShareFriend" ActionTag="-701879720" Tag="2749" IconVisible="False" LeftMargin="1211.5043" RightMargin="21.4957" TopMargin="3.4152" BottomMargin="5.5848" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="17" Scale9Height="47" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="47.0000" Y="69.0000" />
+              <AbstractNodeData Name="btn_ShareFriend" ActionTag="-701879720" Tag="2749" IconVisible="False" LeftMargin="809.6022" RightMargin="400.3978" TopMargin="647.4294" BottomMargin="-599.4294" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="40" Scale9Height="8" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="70.0000" Y="30.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="1235.0043" Y="40.0848" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="844.6022" Y="-584.4294" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.9648" Y="0.5139" />
-                <PreSize X="0.0367" Y="0.8846" />
+                <PrePosition X="0.6598" Y="-7.4927" />
+                <PreSize X="0.0547" Y="0.3846" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Normal" Path="Image/Lobby/btn_Share.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Image/Lobby/btn_Share.png" Plist="" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/fx.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/fx.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_Certification" ActionTag="595466588" Tag="962" IconVisible="False" LeftMargin="1119.9456" RightMargin="108.0544" TopMargin="4.6614" BottomMargin="8.3386" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="22" Scale9Height="43" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="52.0000" Y="65.0000" />
+              <AbstractNodeData Name="btn_Certification" ActionTag="595466588" Tag="962" IconVisible="False" LeftMargin="1163.6921" RightMargin="77.3079" TopMargin="129.1981" BottomMargin="-88.1981" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="9" Scale9Height="15" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="39.0000" Y="37.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="1145.9456" Y="40.8386" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="1183.1921" Y="-69.6981" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.8953" Y="0.5236" />
-                <PreSize X="0.0406" Y="0.8333" />
+                <PrePosition X="0.9244" Y="-0.8936" />
+                <PreSize X="0.0305" Y="0.4744" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Normal" Path="Image/Lobby/certification/btn_Renzhen.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Image/Lobby/certification/btn_Renzhen.png" Plist="" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/shiminngrenzheng.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/shiminngrenzheng.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="UserInfoBar" ActionTag="2084844009" Tag="200" IconVisible="False" LeftMargin="86.0000" RightMargin="797.0000" TopMargin="4.4999" BottomMargin="2.5001" LeftEage="107" RightEage="107" TopEage="23" BottomEage="23" Scale9OriginX="107" Scale9OriginY="23" Scale9Width="183" Scale9Height="25" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="UserInfoBar" ActionTag="2084844009" Tag="200" IconVisible="False" LeftMargin="27.4175" RightMargin="855.5825" TopMargin="21.5070" BottomMargin="-14.5070" LeftEage="107" RightEage="107" TopEage="23" BottomEage="23" Scale9OriginX="107" Scale9OriginY="23" Scale9Width="183" Scale9Height="25" ctype="ImageViewObjectData">
                 <Size X="397.0000" Y="71.0000" />
                 <Children>
                   <AbstractNodeData Name="Text_5" ActionTag="2014021947" Tag="2759" IconVisible="False" LeftMargin="75.3544" RightMargin="281.6456" TopMargin="43.7111" BottomMargin="4.2889" FontSize="20" LabelText="ID：" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -179,30 +236,30 @@
                     <PreSize X="0.4736" Y="2.6479" />
                     <FileData Type="Normal" Path="Image/Common/Avatar/male_1.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Avatar" ActionTag="1624199654" Tag="143" IconVisible="False" RightMargin="327.0000" TopMargin="-0.1500" BottomMargin="0.1500" TouchEnable="True" FontSize="14" Scale9Width="188" Scale9Height="188" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                  <AbstractNodeData Name="Avatar" ActionTag="1624199654" Tag="143" IconVisible="False" RightMargin="327.0000" TopMargin="-0.1500" BottomMargin="0.1500" TouchEnable="True" FontSize="14" LeftEage="62" RightEage="62" TopEage="62" BottomEage="62" Scale9OriginX="62" Scale9OriginY="62" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="70.0000" Y="71.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="35.0000" Y="35.6500" />
+                    <AnchorPoint ScaleX="0.5152" ScaleY="0.4557" />
+                    <Position X="36.0606" Y="32.5069" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0882" Y="0.5021" />
+                    <PrePosition X="0.0908" Y="0.4578" />
                     <PreSize X="0.1763" Y="1.0000" />
                     <TextColor A="255" R="65" G="65" B="70" />
                     <NormalFileData Type="Normal" Path="Image/Common/Avatar/female_1.png" Plist="" />
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Image_14" ActionTag="-919832566" Tag="364" IconVisible="False" LeftMargin="237.3467" RightMargin="119.6533" TopMargin="36.5169" BottomMargin="-0.5169" LeftEage="13" RightEage="13" TopEage="11" BottomEage="11" Scale9OriginX="13" Scale9OriginY="11" Scale9Width="14" Scale9Height="13" ctype="ImageViewObjectData">
-                    <Size X="40.0000" Y="35.0000" />
+                  <AbstractNodeData Name="Image_14" ActionTag="-919832566" Tag="364" IconVisible="False" LeftMargin="248.1707" RightMargin="128.8293" TopMargin="43.2001" BottomMargin="8.7999" LeftEage="6" RightEage="6" TopEage="6" BottomEage="6" Scale9OriginX="6" Scale9OriginY="6" Scale9Width="8" Scale9Height="7" ctype="ImageViewObjectData">
+                    <Size X="20.0000" Y="19.0000" />
                     <AnchorPoint ScaleX="0.5412" ScaleY="0.5823" />
                     <Position X="258.9947" Y="19.8636" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <Scale ScaleX="2.0000" ScaleY="2.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.6524" Y="0.2798" />
-                    <PreSize X="0.1008" Y="0.4930" />
-                    <FileData Type="Normal" Path="Image/Lobby/img_Dam.png" Plist="" />
+                    <PreSize X="0.0504" Y="0.2676" />
+                    <FileData Type="Normal" Path="Image/Lobby2/zs.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Add_D" ActionTag="1410278352" Tag="365" IconVisible="False" LeftMargin="366.4018" RightMargin="-5.4018" TopMargin="32.8701" BottomMargin="1.1299" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="14" Scale9Height="15" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                  <AbstractNodeData Name="Add_D" ActionTag="1410278352" VisibleForFrame="False" Tag="365" IconVisible="False" LeftMargin="366.4018" RightMargin="-5.4018" TopMargin="32.8701" BottomMargin="1.1299" FontSize="14" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="14" Scale9Height="15" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="36.0000" Y="37.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="384.4018" Y="19.6299" />
@@ -218,20 +275,20 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleY="0.5000" />
-                <Position X="86.0000" Y="38.0001" />
+                <Position X="27.4175" Y="20.9930" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0672" Y="0.4872" />
+                <PrePosition X="0.0214" Y="0.2691" />
                 <PreSize X="0.3102" Y="0.9103" />
                 <FileData Type="Normal" Path="Image/Lobby/head_bar.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_Cooperation" ActionTag="-2145792712" Tag="142" IconVisible="False" LeftMargin="1011.3872" RightMargin="198.6128" TopMargin="3.5106" BottomMargin="6.4894" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="40" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_Cooperation" ActionTag="-2145792712" Tag="142" IconVisible="False" LeftMargin="1003.8282" RightMargin="206.1718" TopMargin="-126.8829" BottomMargin="136.8829" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="40" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="70.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="1046.3872" Y="40.4894" />
+                <Position X="1038.8282" Y="170.8829" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.8175" Y="0.5191" />
+                <PrePosition X="0.8116" Y="2.1908" />
                 <PreSize X="0.0547" Y="0.8718" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -261,15 +318,15 @@
             <FileData Type="Normal" Path="Image/Lobby/top_bar.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Paomadeng" ActionTag="-1255587676" Tag="346" IconVisible="False" LeftMargin="133.9985" RightMargin="134.0015" TopMargin="87.0010" BottomMargin="586.9990" ctype="SpriteObjectData">
-            <Size X="1012.0000" Y="46.0000" />
+          <AbstractNodeData Name="Paomadeng" ActionTag="-1255587676" Tag="346" IconVisible="False" LeftMargin="320.0000" RightMargin="320.0000" TopMargin="103.0000" BottomMargin="599.0000" ctype="SpriteObjectData">
+            <Size X="640.0000" Y="18.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="639.9985" Y="609.9990" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position X="640.0000" Y="608.0000" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.8472" />
-            <PreSize X="0.7906" Y="0.0639" />
-            <FileData Type="Normal" Path="Image/Lobby/hallpaomadengbg.png" Plist="" />
+            <PrePosition X="0.5000" Y="0.8444" />
+            <PreSize X="0.5000" Y="0.0250" />
+            <FileData Type="Normal" Path="Image/Login/jx_4.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_BottomBar" ActionTag="1917189840" Tag="88" IconVisible="False" LeftMargin="-0.0001" RightMargin="0.0001" TopMargin="633.0000" LeftEage="422" RightEage="422" TopEage="25" BottomEage="25" Scale9OriginX="422" Scale9OriginY="25" Scale9Width="436" Scale9Height="37" ctype="ImageViewObjectData">
@@ -286,7 +343,7 @@
                 <FileData Type="Normal" Path="Image/Lobby/img_embellishment.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_Lottery" ActionTag="714577025" Tag="76" IconVisible="False" LeftMargin="212.1547" RightMargin="1016.8453" TopMargin="7.4400" BottomMargin="3.5600" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="54" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_Lottery" ActionTag="714577025" Tag="76" IconVisible="False" LeftMargin="204.1550" RightMargin="1024.8450" TopMargin="116.2398" BottomMargin="-105.2398" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="54" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="51.0000" Y="76.0000" />
                 <Children>
                   <AbstractNodeData Name="Img_LotteryTip" ActionTag="-864286560" VisibleForFrame="False" Tag="77" IconVisible="False" LeftMargin="-19.5000" RightMargin="37.5000" TopMargin="42.5000" BottomMargin="0.5000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="13" Scale9Height="13" ctype="ImageViewObjectData">
@@ -314,10 +371,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="237.6547" Y="41.5600" />
+                <Position X="229.6550" Y="-67.2398" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.1857" Y="0.4777" />
+                <PrePosition X="0.1794" Y="-0.7729" />
                 <PreSize X="0.0398" Y="0.8736" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -326,22 +383,22 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Recharge" ActionTag="-323466370" Tag="133" IconVisible="False" LeftMargin="15.9474" RightMargin="1158.0526" TopMargin="10.9398" BottomMargin="9.0602" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="76" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="106.0000" Y="67.0000" />
+              <AbstractNodeData Name="Recharge" ActionTag="-323466370" Tag="133" IconVisible="False" LeftMargin="1121.9507" RightMargin="56.0493" TopMargin="-596.8624" BottomMargin="642.8624" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="72" Scale9Height="19" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="102.0000" Y="41.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="68.9474" Y="42.5602" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="1172.9507" Y="663.3624" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0539" Y="0.4892" />
-                <PreSize X="0.0828" Y="0.7701" />
+                <PrePosition X="0.9164" Y="7.6249" />
+                <PreSize X="0.0797" Y="0.4713" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Normal" Path="Image/Lobby/recharge_0.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Image/Lobby/recharge_0.png" Plist="" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/shangcheng.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/shangcheng.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Activity" ActionTag="2076576095" Tag="47" IconVisible="False" LeftMargin="649.1804" RightMargin="580.8196" TopMargin="6.9399" BottomMargin="3.0601" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="20" Scale9Height="55" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Activity" ActionTag="2076576095" Tag="47" IconVisible="False" LeftMargin="642.7810" RightMargin="587.2190" TopMargin="117.3396" BottomMargin="-107.3396" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="20" Scale9Height="55" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="50.0000" Y="77.0000" />
                 <Children>
                   <AbstractNodeData Name="Img_ChatTip_2" ActionTag="-1903485953" VisibleForFrame="False" Tag="94" IconVisible="False" LeftMargin="-19.5000" RightMargin="36.5000" TopMargin="43.5000" BottomMargin="0.5000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="13" Scale9Height="13" ctype="ImageViewObjectData">
@@ -369,10 +426,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="674.1804" Y="41.5601" />
+                <Position X="667.7810" Y="-68.8396" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5267" Y="0.4777" />
+                <PrePosition X="0.5217" Y="-0.7913" />
                 <PreSize X="0.0391" Y="0.8851" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -381,7 +438,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Service" ActionTag="-1098667877" Tag="131" IconVisible="False" LeftMargin="790.4015" RightMargin="438.5985" TopMargin="6.9400" BottomMargin="3.0600" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="55" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Service" ActionTag="-1098667877" Tag="131" IconVisible="False" LeftMargin="788.8013" RightMargin="440.1987" TopMargin="130.1397" BottomMargin="-120.1397" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="21" Scale9Height="55" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="51.0000" Y="77.0000" />
                 <Children>
                   <AbstractNodeData Name="Img_Info" ActionTag="-1014314796" VisibleForFrame="False" Tag="46" IconVisible="False" LeftMargin="23.2391" RightMargin="-5.2391" TopMargin="19.4222" BottomMargin="24.5778" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="13" Scale9Height="13" ctype="ImageViewObjectData">
@@ -409,10 +466,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="815.9015" Y="41.5600" />
+                <Position X="814.3013" Y="-81.6397" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.6374" Y="0.4777" />
+                <PrePosition X="0.6362" Y="-0.9384" />
                 <PreSize X="0.0398" Y="0.8851" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -421,42 +478,70 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="private_room_record" ActionTag="1628227044" Tag="1408" IconVisible="False" LeftMargin="355.4486" RightMargin="868.5514" TopMargin="9.9400" BottomMargin="4.0600" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="26" Scale9Height="51" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="56.0000" Y="73.0000" />
+              <AbstractNodeData Name="private_room_record" ActionTag="1628227044" Tag="1408" IconVisible="False" LeftMargin="234.6495" RightMargin="981.3505" TopMargin="24.3399" BottomMargin="37.6601" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="34" Scale9Height="3" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="64.0000" Y="25.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="383.4486" Y="40.5600" />
-                <Scale ScaleX="0.9500" ScaleY="0.9500" />
+                <Position X="266.6495" Y="50.1601" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.2996" Y="0.4662" />
-                <PreSize X="0.0437" Y="0.8391" />
+                <PrePosition X="0.2083" Y="0.5766" />
+                <PreSize X="0.0500" Y="0.2874" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <PressedFileData Type="Normal" Path="Image/Lobby/btn_record_01.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Image/Lobby/btn_record_01.png" Plist="" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/zj.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/zj.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_RequestCode" ActionTag="1228314262" Tag="2755" IconVisible="False" LeftMargin="493.5631" RightMargin="718.4369" TopMargin="9.9399" BottomMargin="6.0601" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="38" Scale9Height="49" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-                <Size X="68.0000" Y="71.0000" />
+              <AbstractNodeData Name="private_msg" ActionTag="1182853577" Tag="99" IconVisible="False" LeftMargin="413.8792" RightMargin="799.1208" TopMargin="10.8728" BottomMargin="49.1272" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="37" Scale9Height="5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="67.0000" Y="27.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="527.5631" Y="41.5601" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="447.3792" Y="62.6272" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4122" Y="0.4777" />
-                <PreSize X="0.0531" Y="0.8161" />
+                <PrePosition X="0.3495" Y="0.7199" />
+                <PreSize X="0.0523" Y="0.3103" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/xx.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/xx.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="private_menu" ActionTag="1049698440" Tag="100" IconVisible="False" LeftMargin="984.4956" RightMargin="226.5044" TopMargin="12.8822" BottomMargin="43.1178" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="39" Scale9Height="9" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="69.0000" Y="31.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="1018.9956" Y="58.6178" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.7961" Y="0.6738" />
+                <PreSize X="0.0539" Y="0.3563" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/cd.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/cd.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="btn_RequestCode" ActionTag="1228314262" Tag="2755" IconVisible="False" LeftMargin="640.8635" RightMargin="584.1365" TopMargin="27.3395" BottomMargin="42.6605" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="5" BottomEage="5" Scale9OriginX="15" Scale9OriginY="5" Scale9Width="25" Scale9Height="7" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="55.0000" Y="17.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="668.3635" Y="51.1605" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5222" Y="0.5881" />
+                <PreSize X="0.0430" Y="0.1954" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Normal" Path="Image/Lobby/btn_RequestCode.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Image/Lobby/btn_RequestCode.png" Plist="" />
+                <PressedFileData Type="Normal" Path="Image/Lobby2/yqm.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Image/Lobby2/yqm.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Button_Setting" ActionTag="98443463" Tag="343" IconVisible="False" LeftMargin="937.1337" RightMargin="294.8663" TopMargin="8.4400" BottomMargin="4.5600" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="18" Scale9Height="52" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_Setting" ActionTag="98443463" Tag="343" IconVisible="False" LeftMargin="937.1340" RightMargin="294.8660" TopMargin="147.7218" BottomMargin="-134.7218" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="18" Scale9Height="52" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="48.0000" Y="74.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="961.1337" Y="41.5600" />
+                <Position X="961.1340" Y="-97.7218" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.7509" Y="0.4777" />
+                <PrePosition X="0.7509" Y="-1.1232" />
                 <PreSize X="0.0375" Y="0.8506" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -465,7 +550,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_match" ActionTag="-391204098" Tag="172" IconVisible="False" LeftMargin="1023.0000" TopMargin="-8.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="227" Scale9Height="73" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_match" ActionTag="-391204098" Tag="172" IconVisible="False" LeftMargin="1021.5024" RightMargin="1.4976" TopMargin="120.7980" BottomMargin="-128.7980" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="227" Scale9Height="73" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="257.0000" Y="95.0000" />
                 <Children>
                   <AbstractNodeData Name="img_match_guang" CanEdit="False" Visible="False" ActionTag="-588410896" Tag="174" IconVisible="False" LeftMargin="-253.5039" RightMargin="253.5039" TopMargin="-3.4994" BottomMargin="3.4994" ctype="SpriteObjectData">
@@ -492,10 +577,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="1.0000" />
-                <Position X="1280.0000" />
+                <Position X="1278.5024" Y="-128.7980" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="1.0000" />
+                <PrePosition X="0.9988" Y="-1.4804" />
                 <PreSize X="0.2008" Y="1.0920" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -513,7 +598,7 @@
             <PreSize X="1.0000" Y="0.1208" />
             <FileData Type="Normal" Path="Image/Lobby/bottom_bar.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel_Bg1" Visible="False" ActionTag="940117932" Tag="178" IconVisible="False" LeftMargin="60.0500" RightMargin="19.9500" TopMargin="140.8892" BottomMargin="129.1108" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_Bg1" ActionTag="940117932" VisibleForFrame="False" Tag="178" IconVisible="False" LeftMargin="60.0500" RightMargin="19.9500" TopMargin="140.8892" BottomMargin="129.1108" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="1200.0000" Y="450.0000" />
             <Children>
               <AbstractNodeData Name="Button_House1" ActionTag="-366913902" Tag="179" IconVisible="False" LeftMargin="660.5355" RightMargin="96.4645" TopMargin="18.5000" BottomMargin="12.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="413" Scale9Height="397" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -606,7 +691,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="GameListView" ActionTag="-1956748683" Tag="127" IconVisible="False" LeftMargin="36.9988" RightMargin="43.0012" TopMargin="114.0000" BottomMargin="106.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="Horizontal" ctype="ScrollViewObjectData">
+          <AbstractNodeData Name="GameListView" Visible="False" ActionTag="-1956748683" Tag="127" IconVisible="False" LeftMargin="36.9988" RightMargin="43.0012" TopMargin="114.0000" BottomMargin="106.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="Horizontal" ctype="ScrollViewObjectData">
             <Size X="1200.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="Game_symj" ActionTag="1959264196" VisibleForFrame="False" Tag="97" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="704.4000" RightMargin="243.6000" TopMargin="77.0000" BottomMargin="87.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="310" Scale9Height="314" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -974,6 +1059,51 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
             <InnerNodeSize Width="1280" Height="500" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="BtnCreateRoom" ActionTag="1577696085" Tag="101" IconVisible="False" LeftMargin="1002.2295" RightMargin="124.7705" TopMargin="226.6866" BottomMargin="431.3134" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="123" Scale9Height="40" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="153.0000" Y="62.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1078.7295" Y="462.3134" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8428" Y="0.6421" />
+            <PreSize X="0.1195" Y="0.0861" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="Image/Lobby2/cjfj.png" Plist="" />
+            <NormalFileData Type="Normal" Path="Image/Lobby2/cjfj.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="BtnJoinRoom" ActionTag="502036842" Tag="102" IconVisible="False" LeftMargin="999.5986" RightMargin="127.4014" TopMargin="360.4757" BottomMargin="297.5243" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="123" Scale9Height="40" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="153.0000" Y="62.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1076.0986" Y="328.5243" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8407" Y="0.4563" />
+            <PreSize X="0.1195" Y="0.0861" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="Image/Lobby2/jrfj.png" Plist="" />
+            <NormalFileData Type="Normal" Path="Image/Lobby2/jrfj.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="BtnClubRoom" ActionTag="1109260026" Tag="103" IconVisible="False" LeftMargin="1011.1239" RightMargin="113.8761" TopMargin="514.4748" BottomMargin="143.5252" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="125" Scale9Height="40" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="155.0000" Y="62.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="1088.6239" Y="174.5252" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.8505" Y="0.2424" />
+            <PreSize X="0.1211" Y="0.0861" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="Image/Lobby2/jlb.png" Plist="" />
+            <NormalFileData Type="Normal" Path="Image/Lobby2/jlb.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

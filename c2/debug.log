@@ -4,7 +4,7 @@
 	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.1 Release
 	gl.vendor: Intel Inc.
 	gl.supports_PVRTC: false
-	gl.renderer: Intel Iris OpenGL Engine
+	gl.renderer: Intel(R) Iris(TM) Graphics 6100
 	cocos2d.x.compiled_with_profiler: false
 	gl.max_texture_size: 16384
 	gl.supports_ETC1: false
@@ -21,17 +21,25 @@
 
 
 Quick-Cocos2dx-Community C++ support ready.
-lua_loadChunksFromZIP() - not found or invalid zip file: /Users/mashizhou/Desktop/svn_client/wangwang/quick-cocos2dx-community/quick/lib/framework_precompiled/framework_precompiled.zip
+lua_loadChunksFromZIP() - not found or invalid zip file: /Users/NFFYyueqiu/Desktop/Quick-Cocos2dx-Community/quick/lib/framework_precompiled/framework_precompiled.zip
 ------------------------------------------------
+<<<<<<< HEAD
 LOAD LUA FILE: /Users/mashizhou/Desktop/xxnn/nn/c2/src/main.lua
 ------------------------------------------------
 [LUA-print] lastHotState:	0
 [LUA-print] new_version:/Users/mashizhou/Desktop/xxnn/nn/c2/new_version/
+=======
+LOAD LUA FILE: /Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/main.lua
+------------------------------------------------
+[LUA-print] lastHotState:	0
+[LUA-print] new_version:/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/new_version/
+>>>>>>> 1c535e7474490a7a111490c97759adef4a5f1ef0
 [LUA-print] 删掉下载未完成的new_version
 [LUA-print] ===========================================================
 [LUA-print]               LOAD QUICK FRAMEWORK
 [LUA-print] ===========================================================
 libpng warning: iCCP: known incorrect sRGB profile
+<<<<<<< HEAD
 [LUA-print] [2017-12-07 10:31:25] [DEBUG] [MyApp.lua:42] language 1
 [LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:6] voiceState:true
 [LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:7] musicState:true
@@ -67,3 +75,185 @@ libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] - }
 [LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:1006] updateLoginTypes-----
 libpng warning: iCCP: known incorrect sRGB profile
+=======
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [MyApp.lua:42] language 1
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [sound_common.lua:6] voiceState:true
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [sound_common.lua:7] musicState:true
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [util.lua:325] hello common util !
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [manager.lua:35] registerHandle:game
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:515] getRealIp
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:530] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3553
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:898] App_Channel:3553
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:558] real response: table: 0x12d4d930
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:559] real ip tt.gametea.me:6001 tt.gametea.me:7001
+[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:567] checkUpdate---:
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [LoginScene.lua:624] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3553
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:648: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:632>
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "account_login_tag" = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "activity_tag"      = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "free_gold_tag"     = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "give_gold_tag"     = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "honor_tag"         = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "not_hotfix"        = "0"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "qq_login_tag"      = "0"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "recharge_tag"      = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "safebox_tag"       = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "service_tag"       = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "weixin_login_tag"  = "1"
+[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1595] x:525
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1596] height:290
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:1612: in function 'initAccountList'
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     1 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx401"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     2 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwyy101"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     3 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx402"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     4 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx406"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     5 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx405"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     6 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx403"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     7 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx407"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     8 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx408"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     9 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx404"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     10 = {
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx102"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
+[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1647] children:10
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:145] 77--auth:3553
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:126] login-request--begin---
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:19] result222:0
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:19] result222:1
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:29] resp:Nc3L25K5GPxxIn1HaivrrKNmhuV70k9W3pg21+JuGOq5KUp+Za8LZ0dsSl68I3SnohBuqCPd6rwEiuO7eb74AGcDDpKxV34m6+6G06rxgMYnO3v2/6UnbqLVb6rfh32EHrVG38NOg140DUsTW/OMZxyCG72Y0n4txQzeSH3PBLmtB93B++oR5QQ20Z2thMHQ
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:83] success result=0&uid=10251&token=FBcK9wDFX54=&secret=vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t&sign=nB57C97yp1q037kHcLVuXWsESLU=
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] result 0
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] uid 10251
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] token FBcK9wDFX54=
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] secret vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] sign nB57C97yp1q037kHcLVuXWsESLU=
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/LoginNet.lua"]:117: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/LoginNet.lua"]:17>
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "result" = "0"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "secret" = "vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "sign"   = "nB57C97yp1q037kHcLVuXWsESLU="
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "token"  = "FBcK9wDFX54="
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "uid"    = "10251"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:316] GateNet.connect-----
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:345] gate realConnect:
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:273] gate connected
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:84] gate auth00000-- table: 0x1de76fb0 true
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:88] auth,isConnect: true
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:99] gate auth1111
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:108] gate auth2222
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:115] gate auth,message: 
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:119] gate auth3333
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:204] GateNet.auth success! 
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:221] receive:update-----
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:260] start player
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [FreeGold.lua:488] LobbyScene:imgInfo: userdata: 0x1221a7b0
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:BankOperateRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:BankOperateRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:RechargeRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:RechargeRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1031] LobbyScene:onEnte
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:19] UserMessage.UserInfoRequest:10251
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:357] UserMessage.RoomListReq---------
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:269] UserMessage.LuckyListReq---------
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:UserInfoResonpse
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:UserInfoResonpse
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:25] UserMessage.UserInfoResonpse
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/UserMessage.lua"]:26: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/UserMessage.lua"]:24>
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - "userinfo = " = {
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "diamond"       = "9946"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "dynamicpwd"    = "70971477"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "gold"          = "0"
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "havesecondpwd" = 1
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "honor"         = 0
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "nickname"      = "55So5oi3MDAwMTAyNTE="
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "sex"           = 1
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "uid"           = 10251
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:LuckyListRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:LuckyListRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:276] UserMessage.LuckyListRep---------
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:RoomListRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:RoomListRep
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:408] ----UserMessage.RoomListRep--config:2
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:419] newRoom id:10500,key:2
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:431] room.players-config:0
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1874] moneyChanged---
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [util.lua:3772] val=  9946
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [PersonalCenter.lua:79] updateGoldAndDiamond-dam =  9946
+[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1885] LobbyScene:nicknameChanged, 用户00010251
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:350] UserMessage.LuckyProfileReq---------
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [LobbyScene.lua:1462] LobbyScene:onEnterTransitionFinish---
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [Message.lua:66] module:method-user:SigninInfoRep
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:580] module:user-method:SigninInfoRep
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [FreeGold.lua:295] LobbyScene:SigninInfoRep
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/User/FreeGold.lua"]:296: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/User/FreeGold.lua"]:294>
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "continuous_signin_count" = 0
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "grant_gold"              = "5000"
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "residual_grant_count"    = 3
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "share_gold"              = "10000"
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "signin_gold"             = "2000"
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "signin_today"            = false
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [FreeGold.lua:361] LobbyScene:Welf--
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [Message.lua:66] module:method-user:LuckyProfileRep
+[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:580] module:user-method:LuckyProfileRep
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:27] setPrivateRoomType-gameid =  116
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PRMessage.lua:124] 进入房间请求
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [Message.lua:66] module:method-private:EnterPrivateRep
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PRMessage.lua:136] 进入房间回复 result = 21
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:36] page_type =  create
+[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:1371] LobbyScene:showCreateMenu---
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [2017-12-07 22:16:06] [DEBUG] [PrivateRoom.lua:1537] param.hostplay false
+>>>>>>> 1c535e7474490a7a111490c97759adef4a5f1ef0

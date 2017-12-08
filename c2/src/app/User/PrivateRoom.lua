@@ -1376,84 +1376,184 @@ function LobbyScene:showCreateMenu()
 
 	sound_common.menu()
 
-	local createRoomLayer = cc.uiloader:load("Layer/Lobby/CreateRoomLayer.json"):addTo(self)
+	local createRoomLayer = cc.uiloader:load("Layer/CreateRoomLayer.json"):addTo(self)
 	self.createRoomLayer = createRoomLayer
-	self.createRoomLayer.nd_all = util.setMenuAniEx(cc.uiloader:seekNodeByNameFast(createRoomLayer, "nd_all"))
-
-	--执行标题动作
-	_play_title_action(cc.uiloader:seekNodeByNameFast(createRoomLayer, "nd_title"))
-
-	--选择游戏
-	local function game_selected(button)
-		--获取配置信息
-		local param
-		for i,v in pairs(PRConfig) do
-			if v.gameid == button.gameid then
-				param = v
-				break
-			end
-		end
-
-		if not param then
-			print("服务器没有对应的游戏配置。。。")
-			return
-		end
-		
-		--隐藏所有开房界面
-		_hide_all_content(self)
-
-		--创建开房界面
-		if button.gameid == 101 then
-			_create_symj_content(self, param)
-		elseif button.gameid == 106 then
-			_create_sss_content(self, param)
-		elseif button.gameid == 116 then
-			_create_nn_content(self, param)
-		elseif button.gameid == 110 then
-			_create_ddz_content(self, param)
-		end
-	end
-
-	local list_ment = cc.uiloader:seekNodeByNameFast(createRoomLayer, "list_ment")
-	local group = RadioButtonGroup.new()
-	local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-	for _,conf in ipairs(platConfig.game) do
-		--创建复选按钮
-		local images = {
-			off = conf.Image_off,
-			off_pressed = conf.Image_on,
-			off_disabled = conf.Image_off,
-			on = conf.Image_on,
-			on_pressed = conf.Image_on,
-			on_disabled = conf.Image_on,
-		}
-		local checkBox = cc.ui.UICheckBoxButton.new(images)
-
-		--添加复选按钮
-		group:addButtons({[checkBox] = game_selected})
-
-		--保存gameid
-		checkBox.gameid = conf.gameid
-
-		--添加Item
-		local item = list_ment:newItem()
-		item:addContent(checkBox)
-		item:setItemSize(232, 88)
-		list_ment:addItem(item)
-
-		--默认显示配置的第一个
-		if not group:getSelected() then
-			checkBox:setButtonSelected(true)
-		end
-	end
-
-	list_ment:reload()
 	
+	-- --执行标题动作
+	-- _play_title_action(cc.uiloader:seekNodeByNameFast(createRoomLayer, "nd_title"))
+
+	-- --选择游戏
+	-- local function game_selected(button)
+	-- 	--获取配置信息
+	-- 	local param
+	-- 	for i,v in pairs(PRConfig) do
+	-- 		if v.gameid == button.gameid then
+	-- 			param = v
+	-- 			break
+	-- 		end
+	-- 	end
+
+	-- 	if not param then
+	-- 		print("服务器没有对应的游戏配置。。。")
+	-- 		return
+	-- 	end
+		
+	-- 	--隐藏所有开房界面
+	-- 	_hide_all_content(self)
+
+	-- 	--创建开房界面
+	-- 	if button.gameid == 101 then
+	-- 		_create_symj_content(self, param)
+	-- 	elseif button.gameid == 106 then
+	-- 		_create_sss_content(self, param)
+	-- 	elseif button.gameid == 116 then
+	-- 		_create_nn_content(self, param)
+	-- 	elseif button.gameid == 110 then
+	-- 		_create_ddz_content(self, param)
+	-- 	end
+	-- end
+
+	-- local list_ment = cc.uiloader:seekNodeByNameFast(createRoomLayer, "list_ment")
+	-- local group = RadioButtonGroup.new()
+	-- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+	-- for _,conf in ipairs(platConfig.game) do
+	-- 	--创建复选按钮
+	-- 	local images = {
+	-- 		off = conf.Image_off,
+	-- 		off_pressed = conf.Image_on,
+	-- 		off_disabled = conf.Image_off,
+	-- 		on = conf.Image_on,
+	-- 		on_pressed = conf.Image_on,
+	-- 		on_disabled = conf.Image_on,
+	-- 	}
+	-- 	local checkBox = cc.ui.UICheckBoxButton.new(images)
+
+	-- 	--添加复选按钮
+	-- 	group:addButtons({[checkBox] = game_selected})
+
+	-- 	--保存gameid
+	-- 	checkBox.gameid = conf.gameid
+
+	-- 	--添加Item
+	-- 	local item = list_ment:newItem()
+	-- 	item:addContent(checkBox)
+	-- 	item:setItemSize(232, 88)
+	-- 	list_ment:addItem(item)
+
+	-- 	--默认显示配置的第一个
+	-- 	if not group:getSelected() then
+	-- 		checkBox:setButtonSelected(true)
+	-- 	end
+	-- end
+
+	-- list_ment:reload()
+	
+
+    --房间参数
+    local param  
+	if  param == nil then
+	 	 param = {}
+	 	 --设置默认值
+	 	 param.bankerType={1,0,0,0}
+	     param.baseScoreType={1,0,0}
+	     param.doubleType={0,1}
+	     param.bankscoreType={1,0,0,0}
+	     param.specialType = {[1]=0,[2]=0,[3]=0}   --特殊牌型
+	     param.setting={[1]=0,[2]=0}               --高级设置
+	     param.seatCount = 3
+	     param.baseScoreType2 = 0
+	     param.roundType = 10
+	     param.hostplay = false
+
+	     --print("---------------本地没有初始房间信息------------")
+	 
+	end
+
+
+
+
+
+
+
+
 	--关闭按钮
-	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(createRoomLayer, "btn_exit"))
+	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_closed"))
 		:onButtonClicked(function ()
 			createRoomLayer:removeSelf()
 		end)
+    
+   
+	    --[[玩法类型按钮]]
+    local btn_bks= {}  
+    for i =1,4 do         
+          local Btn_Bk = cc.uiloader:seekNodeByNameFast(createRoomLayer, string.format("CheckBox_Banker_%d",i))      
+              Btn_Bk.bankerType = i-1
+              btn_bks[i] = Btn_Bk 
+         
+    end
+
+
+     local function bank_selected(button)
+        --print("bankType "..button.bankerType)
+
+        for i=1,4 do
+        	if (i-1) == button.bankerType then
+        	    param.bankerType[i] = 1
+        	else
+        		 param.bankerType[i] =0
+        	end
+        	
+        end
+        if button.bankerType == 1 then  -- 固定庄家 
+            -- item_4:show()
+            -- item_5:setPositionY(-41)
+            -- item_6:setPositionY(-196)
+            -- item_7:setPositionY(-275)
+			param.hostplay = true
+        else
+            -- item_4:hide()
+            -- item_5:setPositionY(-41+79)
+            -- item_6:setPositionY(-196+79)
+            -- item_7:setPositionY(-275+79)
+			param.hostplay = false
+        end
+
+    end
+    local btn_bk_group = RadioButtonGroup.new({
+		  [ btn_bks[1] ] = bank_selected,
+    	  [ btn_bks[2] ] = bank_selected,
+    	  [ btn_bks[3] ] = bank_selected,
+    	  [ btn_bks[4] ] = bank_selected,
+     })
+     
+
+     btn_bks[1]:setButtonSelected(true)
+
+
+
+---------创建房间
+	local create_btn = 	cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_create")
+
+	print("param.hostplay",param.hostplay)
+
+	create_btn:onButtonClicked(function()
+		 --print("---------------------")
+	     --print(param.baseScoreType2+1)
+	     local rule =  code.encode({param.bankerType,param.baseScoreType,param.bankscoreType,param.doubleType, param.specialType, param.setting})     
+	     -- print(rule)
+	     PRMessage.PrivateRoomCreateReq(31600, param.paymode , param.roundType , param.seatCount, param.baseScoreType2+1, 0--[[param.base_count]], rule, param.hostplay)
+
+	    end)
+
+	util.BtnScaleFun(create_btn)
+
+
+
+
+
+
+
+
 end
 -----------------------------------------加入房间-----------------------------------------
 
@@ -1467,26 +1567,15 @@ function LobbyScene:showLoginRoom()
 	sound_common.menu()
 
 	--界面
-	local createMenu = cc.uiloader:load("Node/PopBox_2.json"):addTo(self)
-	createMenu:setPosition(display.width/2, display.height/2)
-	local popBoxNode = cc.uiloader:seekNodeByNameFast(createMenu, "Node")
-	util.setMenuAniEx(popBoxNode)
+	local createMenu = cc.uiloader:load("Layer/AddRoomLayer.json"):addTo(self)
+	--createMenu:setPosition(display.width/2, display.height/2)
+	
 	self.scene.privateRoomLogin = createMenu
-	self.scene.privateRoomLogin.popBoxNode = popBoxNode
-
-	--标题
-	local title = cc.uiloader:seekNodeByNameFast(createMenu, "Image_Title")
-	local frame = nil
-	frame = cc.SpriteFrame:create("Image/PrivateRoom/img_JoinRoom.png",cc.rect(0,0,255,72))
-	if frame ~= nil  then
-		 title:setSpriteFrame(frame)
-	end
-
-	--显示
+	
 	self:onLoginRoom()
 
 	--关闭按钮
-	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(createMenu, "Close"))
+	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(createMenu, "Btn_Close"))
 		:onButtonClicked(
 			function ()
 				createMenu:removeFromParent()
@@ -1511,28 +1600,25 @@ end
     * 密码按键
 --]]
 function LobbyScene:onLoginRoom()
-	local parentSize = self.scene.privateRoomLogin.popBoxNode:getContentSize()
-
-	local subNode = cc.uiloader:load("Layer/Lobby/LoginRoomLayer.json")
-		:addTo(self.scene.privateRoomLogin.popBoxNode)
-		:setPosition(parentSize.width / 2 - 640, parentSize.height / 2 - 383)
-
-	self.scene.privateRoomLogin.LoginRoomLayer = subNode
-
+	
+    local subNode = self.scene.privateRoomLogin
 	local input = {}
 	for i = 1,6 do
-		input[i] = cc.uiloader:seekNodeByNameFast(subNode, string.format("Text_%d",i))
+		input[i] = cc.uiloader:seekNodeByNameFast(subNode, string.format("AtlasLabel_%d",i))
+		input[i]:setString("")
+		--input[i]:hide()
 	end
 
 	local input_btn = {}
 	for i = 1,10 do
-		input_btn[i] = cc.uiloader:seekNodeByNameFast(subNode, string.format("Button_%d",i - 1))
+		input_btn[i] = cc.uiloader:seekNodeByNameFast(subNode, string.format("Btn_Num_%d",i - 1))
 		input_btn[i]:onButtonClicked(function()
 			print("iiii:" .. tostring(i - 1))
 			local isEnterGame = true
 			for j = 1,6 do
 				if input[j]:getString() == "" then
 					input[j]:setString(tostring(i - 1))
+					
 					if j ~= 6 then
 						isEnterGame = false					
 					end
@@ -1564,6 +1650,7 @@ function LobbyScene:onLoginRoom()
 			function()
 				for i = 1,6 do
 					input[i]:setString("")
+					
 				end
 			end
 		)
@@ -1574,6 +1661,7 @@ function LobbyScene:onLoginRoom()
 				for i = 6,1,-1 do
 					if input[i]:getString() ~= "" then
 						input[i]:setString("")
+						
 						break
 					end
 				end

@@ -1,27 +1,32 @@
 local LoginScene = class("LoginScene", function()
     return display.newScene("LoginScene")
 end)
+
 local scheduler = require(cc.PACKAGE_NAME .. ".scheduler")
-local net = require("framework.cc.net.init")
+local net = require("framework.cc.net.init") 
 local LoginNet = require("app.net.LoginNet")
 local GateNet = require("app.net.GateNet")
 local UserMessage = require("app.net.UserMessage")
+
 local MiddlePopBoxLayer = require("app.layers.MiddlePopBoxLayer")
 local ProgressLayer = require("app.layers.ProgressLayer")
 local ErrorLayer = require("app.layers.ErrorLayer")
-local web = require("app.net.web")
+local web = require("app.net.web")  
+
 local PreloadRes = require("app.config.PreloadRes")
 local util = require("app.Common.util")
 local crypt = require("crypt")
+
 local GameState = require("framework.cc.utils.GameState")
 local sound_common = require("app.Common.sound_common")
+
 local PlatConfig = require("app.config.PlatformConfig")
+
 local msgMgr = require("app.room.msgMgr")
 local message = require("app.net.Message")
+
 local NetSprite = require("app.config.NetSprite")
 local isUpFailed = false
-local isSelect = true
-local strUser = ""
 
 LoginScene.accountHistory = nil
 
@@ -42,33 +47,21 @@ local function decodePwd(pwd)
     if not pwd or pwd == "" then
         return ""
     end
-
+    
     local ret = crypt.base64decode(pwd)
     ret = crypt.desdecode(passwordCryptKey, ret)
     return ret
 end
 
 function LoginScene:ctor()
-
-    -- local textTable = {{text="杠开", color=cc.c3b(31, 173, 157)}, {text="2", color=cc.c3b(221, 150, 68)}, {text="番", color=cc.c3b(31, 173, 157)}}
-    -- util.setRichText(self, cc.p(200, 360), textTable, 400, 40, 22)
-
---clear
+--clear 
     util.DestroyChatVoiceLayer()
 --end
-    util.GameStateInit()
+   -- util.GameStateInit()
     sound_common.setVoiceState(app.constant.voiceOn)
     sound_common.setMusicState(app.constant.musicOn)
-    -- init
+    -- init 
     app.userdata:clear()
-
-    local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-
-    if platConfig.loadingImg ~= nil  then
-
-        util.preDownloading(self, "loadingImage")
-
-    end
 
     if not self.class.accountHistory then
         self:readAccountHistory()
@@ -76,11 +69,13 @@ function LoginScene:ctor()
 
     self.scene  = cc.uiloader:load("Scene/LoginScene.json"):addTo(self)
 
-    -- self.scene.background = cc.uiloader:seekNodeByNameFast(self.scene, "Background");
-    -- self.scene.background:addNodeEventListener(cc.NODE_TOUCH_EVENT, handler(self, self.hideAccountList))
+    self.scene.background = cc.uiloader:seekNodeByNameFast(self.scene, "Background");
+    self.scene.background:addNodeEventListener(cc.NODE_TOUCH_EVENT, handler(self, self.hideAccountList))
 
-
+    
     -- local Image_logo = cc.uiloader:seekNodeByNameFast(self.scene, "Image_logo");
+
+    -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
 
     -- local logosprite = display.newSprite(platConfig.Image_logo) --创建下载成功的sprite
     -- local texture = logosprite:getTexture()--获取纹理
@@ -89,87 +84,64 @@ function LoginScene:ctor()
     -- print("logosize:",logosize.width, logosize.height)
 
     -- Image_logo:setLayoutSize(logosize.width, logosize.height)
-    -- Image_logo:setTexture(platConfig.Image_logo)
+    -- Image_logo:setTexture(platConfig.Image_logo)  
 
     app.constant.show_leaveTip = false
 
-    local loginWeixin = cc.uiloader:seekNodeByNameFast(self.scene, "LoginWeixin")
-    --local login = cc.uiloader:seekNodeByNameFast(self.scene, "Login")
-    
-    -- local  btn_Publick = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Publick")
-    -- if device.platform ~= "mac" then
-    --     login:hide()
-    --     login:setPosition(640,194)
-    --     loginWeixin:hide()
-    --     loginWeixin:setPosition(640,194)
-    --     if CONFIG_APP_CHANNEL=="3552" or CONFIG_APP_CHANNEL=="3556" then
-    --         btn_Publick:hide()
-    --     end
+    -- self.scene.downList = cc.uiloader:seekNodeByNameFast(self.scene, "DownList");
+    -- self.scene.downList:onButtonClicked(handler(self, self.showAccountList))
+
+    -- self.scene.upList = cc.uiloader:seekNodeByNameFast(self.scene, "UpList");
+    -- self.scene.upList:onButtonClicked(handler(self, self.hideAccountList))
+
+    -- self.scene.accountList = cc.uiloader:seekNodeByNameFast(self.scene, "AccountList");
+    -- self:initAccountList()
+
+    -- self.scene.rememberPassword = cc.uiloader:seekNodeByNameFast(self.scene, "RememberPassword");
+
+    -- local accountInputPanel = cc.uiloader:seekNodeByNameFast(self.scene, "AccountInputPanel")
+    -- self.scene.accountInput = util.createInput(accountInputPanel)
+    -- local passwordInputPanel = cc.uiloader:seekNodeByNameFast(self.scene, "PasswordInputPanel")
+    -- self.scene.passwordInput = util.createInput(passwordInputPanel, { password = true })
+    -- if self.class.accountHistory[1] then
+    --     self.scene.accountInput:setString(self.class.accountHistory[1].account)
+    --     self.scene.passwordInput:setString(self.class.accountHistory[1].password)
     -- end
 
-    -- login:onButtonClicked(function (event)
-    --     if isSelect == false then
-    --         ErrorLayer.new(app.lang.not_login, nil, nil, nil):addTo(self)
-    --         return
-    --     end
-
-    --     if app.constant.autoLogin and self.class.accountHistory[1] then
-    --         --dump(self.class.accountHistory)
-    --         local account,password = self.class.accountHistory[1].account, self.class.accountHistory[1].password
-
-    --         if account ~= nil and account ~= "" and password ~= nil and password ~= "" then
-    --             print("auto---login--1111--")
-    --             self:login({
-    --                 channel = app.constant.channel_game,
-    --                 account = account,
-    --                 password = password,
-    --             })
-    --         else
-    --             self:createLoginLayer()
-    --         end
-    --     else
-    --         self:createLoginLayer()
-    --     end
+    -- local deletePassword = cc.uiloader:seekNodeByNameFast(self.scene, "DeletePassword");
+    -- deletePassword:onButtonClicked(function ()
+    --     self.scene.passwordInput:setString("")
     -- end)
 
-    -- --加载loading界面
+    -- local register = cc.uiloader:seekNodeByNameFast(self.scene, "Register");
+    -- register:onButtonClicked(handler(self, self.createRegisterLayer))
+   --[--[
+    local login = cc.uiloader:seekNodeByNameFast(self.scene, "Login");
+    login:onButtonClicked(function (event)
+        if app.constant.autoLogin and self.class.accountHistory[1] then
+            dump(self.class.accountHistory)
+            local account,password = self.class.accountHistory[1].account, self.class.accountHistory[1].password
 
-    -- if platConfig.loadingImg ~= nil  then
-
-    --     local isLoading = cc.UserDefault:getInstance():getBoolForKey("loading")
-
-    --     print("isLoading = ", isLoading)
-
-    --     if isLoading == nil or isLoading == false then
-
-    --         self:setLoadingLayer()
-
-    --         cc.UserDefault:getInstance():setBoolForKey("loading", true)
-
-
-    --         local isLoading2 = cc.UserDefault:getInstance():getBoolForKey("loading")
-
-    --         print("isLoading111 = ", isLoading2)
-
-    --     end
-
-    -- end
-
-    local path = cc.FileUtils:getInstance():fullPathForFilename(app.constant.userProtocol)
-    local file = cc.FileUtils:getInstance():getStringFromFile(path)
-
-    if not file then
-        return
-    end
-
-   --  local path2 = cc.FileUtils:getInstance():fullPathForFilename("Rule/badword")
-   --   print("login_path2 = ",path2)
-   -- local file2 = cc.HelperFunc:getFileData(path2)
+            if account ~= nil and account ~= "" and password ~= nil and password ~= "" then
+                self:login({
+                    channel = app.constant.channel_game, 
+                    account = account, 
+                    password = password,
+                })
+            else
+                self:createLoginLayer()
+            end
+        else
+            self:createLoginLayer()
+        end
+    end)
+    --]]
 
 
-   -- print("login_file = ",file2)
 
-    strUser = file
+
+
+
 
 end
 
@@ -181,6 +153,98 @@ function LoginScene:onEnter()
     util.unscheduleMatch()
 end
 
+
+
+function LoginScene:onEnterTransitionFinish()
+    self:init()
+
+    self.loginRequest = scheduler.scheduleGlobal(function()
+
+        if app.constant.hot_Finish == false then
+
+           return
+
+        end
+
+
+        if app.constant.isInvite == false then
+
+             function callback(param)
+
+            --print("shareWeixin:gameid--")
+
+            self.info = param
+
+            self:RequestFromWChat()
+
+           end
+
+            if device.platform == "ios" then
+
+                 luaoc.callStaticMethod("WeixinSDK", "loginReady", { callback = callback})
+
+            -- elseif device.platform == "android" then
+
+            --     luaj.callStaticMethod("app/WeixinSDK", "loginReady", { callback })
+
+            end
+
+        end
+
+        --saveLoginfo("onEnterTransitionFinish------" .. tostring(app.constant.isInvite))
+
+        if app.constant.isInvite or app.constant.isReuqestWchat == 2 then
+
+
+            local account,password = "",""
+
+             if self.class.accountHistory[1] then
+
+                    account,password = self.class.accountHistory[1].account, self.class.accountHistory[1].password
+             end
+             
+            --local account, password = self.scene.accountInput:getString(), self.scene.passwordInput:getString()
+
+           -- saveLoginfo("account:,password:"..account.."p"..password)
+           
+            local astr = string.len(account)
+            local pstr = string.len(password)
+
+            if astr>0 and pstr>0 then
+
+                --saveLoginfo("account:,password111:")
+
+                    self:login({
+                    channel = app.constant.channel_game, 
+                    account = account, 
+                    password = password,
+                })
+
+            else
+
+               -- saveLoginfo("account:,password2222:")
+                
+                self:loginWeixin()
+
+            end
+
+            app.constant.isLoginGame = true
+
+            scheduler.unscheduleGlobal(self.loginRequest)
+            self.loginRequest = nil
+
+         end
+
+        end, 0.5)
+
+--测试
+    -- local url = "http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/96"
+    -- local icontest = NetSprite.new(url):addTo(self):align(display.CENTER,0,0)
+    -- icontest:setPosition(640,360)
+    --icontest:setScale(0.2)
+--end
+end
+
 function LoginScene:onExit()
 
     if self.loginRequest then
@@ -189,9 +253,6 @@ function LoginScene:onExit()
         self.loginRequest = nil
 
     end
-    strUser = ""
-
-    util.clearActivityImage(self, 1)
 
 end
 
@@ -245,7 +306,7 @@ function LoginScene:RequestFromWChat()
     if device.platform == "android" then
         param = json.decode(self.info)
         xmlPath = param.path
-
+       
     else
         param = self.info
     end
@@ -419,7 +480,7 @@ function LoginScene:init()
     -- functions definition
     createPopbox = function (callback)
         if not popbox then
-            popbox = MiddlePopBoxLayer.new(app.lang.system, app.lang.network_invalid,
+            popbox = MiddlePopBoxLayer.new(app.lang.system, app.lang.network_invalid, 
                 MiddlePopBoxLayer.ConfirmSingle, false, nil, nil, function ()
                     sound_common.confirm()
                     popbox:removeFromParent()
@@ -429,7 +490,7 @@ function LoginScene:init()
                     end
                 end)
             :addTo(self.scene)
-            --cc.uiloader:seekNodeByNameFast(popbox, "Close"):hide()
+            cc.uiloader:seekNodeByNameFast(popbox, "Close"):hide()
         end
     end
 
@@ -439,10 +500,10 @@ function LoginScene:init()
 
             popbox:removeFromParent()
             popbox = nil
-
+            
         end
         ProgressLayer.removeProgressLayer(progressLayer)
-        progressLayer = nil
+        progressLayer = nil        
         progressLayer = ProgressLayer.new(app.lang.resource_loading, nil, function ()
 
             if BigUpdate == false then
@@ -469,12 +530,12 @@ function LoginScene:init()
         print("url:"..url)
         local request = network.createHTTPRequest(function (event)
             local result = web.checkResponse(event)
-            print("result:"..result)
+   --         print("result:"..result)
             if result == 0 then
                 return
             elseif result == -1 then
                 ProgressLayer.removeProgressLayer(progressLayer)
-                progressLayer = nil
+                progressLayer = nil        
                 createPopbox(getRealIp)
                 --checkUpdate()
                 return
@@ -516,12 +577,12 @@ function LoginScene:init()
    --modify end
         local request = network.createHTTPRequest(function (event)
             local result = web.checkResponse(event)
-            print("re:"..result)
+          --  print("re:"..result)
             if result == 0 then
                 return
             elseif result == -1 then
                 ProgressLayer.removeProgressLayer(progressLayer)
-                progressLayer = nil
+                progressLayer = nil        
                 createPopbox(checkUpdate)
                 --getTags()
                 return
@@ -535,7 +596,7 @@ function LoginScene:init()
                 -- cc.uiloader:seekNodeByNameFast(updateLayer, "Title"):setString(app.lang.update)
 
                 local title_sprite = cc.uiloader:seekNodeByNameFast(updateLayer, "Image_Title")
-                local s = display.newSprite("Image/Public/tip_title.png")
+                local s = display.newSprite("")
                 local frame = s:getSpriteFrame()
                 title_sprite:setSpriteFrame(frame)
 
@@ -544,10 +605,10 @@ function LoginScene:init()
                     :onButtonClicked(function ()
                         device.openURL(updateUrl)
                     end)
-
+                
                 BigUpdate = true
 
-                return
+                return  
             end
 
             getTags()
@@ -557,7 +618,7 @@ function LoginScene:init()
 
     getTags = function ()
     --modify by whb 161020
-
+ 
         local url = "http://"..LOGIN_SERVER.ip..":"..LOGIN_SERVER.port.."/tags?version="..
                     util.getVersion().."&platform="..device.platform.."&app_channel="..CONFIG_APP_CHANNEL
         print("tags:" .. url)
@@ -570,7 +631,7 @@ function LoginScene:init()
    --modify end
         local request = network.createHTTPRequest(function (event)
             local result = web.checkResponse(event)
-            print("r:"..result)
+          --  print("r:"..result)
             if result == 0 then
                 return
             elseif result == -1 then
@@ -580,11 +641,11 @@ function LoginScene:init()
                 --self:updateLoginTypes()
                 return
             end
-
+            
             local response = event.request:getResponseString()
             if response ~= "" then
                 Account.tags = json.decode(response)
-                dump(Account.tags,"kaiguan:")
+                dump(Account.tags)
                 -- DEVELOPMENT because quick-cocos2dx AssertManager will triger one "assert" in debug mode
                 if DEVELOPMENT or Account.tags.not_hotfix == "1" then
                     ProgressLayer.removeProgressLayer(progressLayer)
@@ -603,7 +664,7 @@ function LoginScene:init()
 
         local lastHotState = cc.UserDefault:getInstance():getIntegerForKey("HotState")
         local begin = false
-        local function handleAssetsManagerEx(event)
+        local function handleAssetsManagerEx(event) 
             if (cc.EventAssetsManagerEx.EventCode.ALREADY_UP_TO_DATE == event:getEventCode()) then
                 print("已经是最新版本了，进入游戏主界面")
                 cc.UserDefault:getInstance():setIntegerForKey("HotState", 1)
@@ -642,7 +703,7 @@ function LoginScene:init()
             if (cc.EventAssetsManagerEx.EventCode.UPDATE_PROGRESSION == event:getEventCode()) then
                 print("更新进度=" .. event:getPercent() .." ".. event:getMessage())
                 print(type(event:getMessage()))
-
+                
                 print(tostring(begin))
                 if event:getMessage() ~= "" then
                     begin = true
@@ -653,13 +714,13 @@ function LoginScene:init()
 
                         popbox:removeFromParent()
                         popbox = nil
-
+                            
                     end
 
                     local percent = tonumber(event:getPercentByFile())
                     local  a = app.lang.hotfix_process .. math.floor(percent) .. "%"
                     -- if percent == 0 and virPercent <= 93 then
-
+                        
                     --    virPercent = virPercent + 1
 
                     -- end
@@ -682,29 +743,11 @@ function LoginScene:init()
                 cc.UserDefault:getInstance():setIntegerForKey("HotState", 1)
                 ProgressLayer.removeProgressLayer(progressLayer)
                 progressLayer = nil
-
-                cc.UserDefault:getInstance():setBoolForKey("loading", true)
-
-                if self.loadingLayer == nil then
-
-                    ErrorLayer.new(app.lang.hotfix_successful, nil, nil, function ()
-
-                        app:restart()
-
-                    end):addTo(self)
-
-                else
-
-                    local a = cc.UserDefault:getInstance():getBoolForKey("loading")
-
-                    print("isLoading222 = ", a)
-
-                    self.needRestart = true
-
-                end
-
+                ErrorLayer.new(app.lang.hotfix_successful, nil, nil, function ()
+                    app:restart()
+                end):addTo(self)
             end
-
+            
             if (cc.EventAssetsManagerEx.EventCode.ERROR_NO_LOCAL_MANIFEST == event:getEventCode()) then
                 print("发生错误:本地找不到manifest文件")
                 ProgressLayer.removeProgressLayer(progressLayer)
@@ -731,23 +774,23 @@ function LoginScene:init()
 
             end
 
-
+            
             if (cc.EventAssetsManagerEx.EventCode.UPDATE_FAILED == event:getEventCode()) then
 
                  print("下载更新失败的文件")
-
-                failCount = failCount + 1
-                if (failCount < 5) then
-                    assetsManagerEx:downloadFailedAssets()
-                else
-                    print("Reach maximum fail count, exit update process")
-                    failCount = 0
+            
+                failCount = failCount + 1  
+                if (failCount < 5) then  
+                    assetsManagerEx:downloadFailedAssets()  
+                else  
+                    print("Reach maximum fail count, exit update process")  
+                    failCount = 0  
 
                      ProgressLayer.removeProgressLayer(progressLayer)
                      progressLayer = nil
 
                     app:restart()
-                end
+                end  
 
 
             elseif (cc.EventAssetsManagerEx.EventCode.ERROR_UPDATING == event:getEventCode()) then
@@ -767,7 +810,7 @@ function LoginScene:init()
                  local dispatcher = cc.Director:getInstance():getEventDispatcher()
 
                  dispatcher:removeEventListener(self.listenUpdate)
-
+                 
                 --createPopbox(hotfix)
 
                 hotfix()
@@ -816,7 +859,7 @@ function LoginScene:init()
         self.listenUpdate = eventListenerAssetsManagerEx
         dispatcher:addEventListenerWithFixedPriority(eventListenerAssetsManagerEx, 1)
 
-
+ 
         assetsManagerEx:update()
         print("update start")
 
@@ -828,7 +871,7 @@ function LoginScene:init()
         --      cc.FileUtils:getInstance():removeDirectory(new_version)
 
         --      print("准备更新:删掉下载未完成的new_version")
-
+        
         -- end
 
         --local localManifest = assetsManagerEx:getLocalManifest()
@@ -840,11 +883,11 @@ function LoginScene:init()
 
     -- trigger sounds
     audio.setSoundsVolume(0)
-    audio.playSound("Sound/HkFiveCard/SEND_CARD.wav")
+    audio.playSound("res/Sound/HkFiveCard/SEND_CARD.wav")
     scheduler.performWithDelayGlobal(function ()
         audio.setSoundsVolume(1)
     end, 0.5)
-
+    
     -- startgg
     --if app.constant.isturn then
 
@@ -864,133 +907,9 @@ function LoginScene:init()
     text_Name:setPosition(15, 20)
 
     --end by whb
-
+    
 
      -- print("Version:" .. localManifest:getVersion())
-end
-
-function LoginScene:onEnterTransitionFinish()
-
-    --if device.platform == "android" then
-
-    local progressLayer = nil
-    progressLayer = ProgressLayer.new(app.lang.resource_loading, nil, nil)
-    :addTo(self.scene)
-
-    local aniHandler = scheduler.performWithDelayGlobal(
-    function ()
-
-        ProgressLayer.removeProgressLayer(progressLayer)
-        progressLayer = nil
-        self:init()
-
-    end, 0.5)
-    --end
-
-    --self:init()
-    local netState = network.getInternetConnectionStatus()
-    app.constant.lastNetState = netState
-
-    --提前获取活动图
-    util.preDownActivety(self, "activity1")
-
-    self.loginRequest = scheduler.scheduleGlobal(function()
-
-        if app.constant.hot_Finish == false then
-
-           return
-
-        end
-
-
-        if app.constant.isInvite == false then
-
-             function callback(param)
-
-            --print("shareWeixin:gameid--")
-
-            self.info = param
-
-            self:RequestFromWChat()
-
-           end
-            if device.platform == "ios" then
-                 luaoc.callStaticMethod("WeixinSDK", "loginReady", { callback = callback})
-            -- elseif device.platform == "android" then
-            --     luaj.callStaticMethod("app/WeixinSDK", "loginReady", { callback })
-            end
-
-        end
-
-        --saveLoginfo("onEnterTransitionFinish------" .. tostring(app.constant.isInvite))
-
-        if app.constant.isInvite or app.constant.isReuqestWchat == 2 then
-
-            local account,password = "",""
-
-             if self.class.accountHistory[1] then
-
-                    account,password = self.class.accountHistory[1].account, self.class.accountHistory[1].password
-             end
-
-            local astr = string.len(account)
-            local pstr = string.len(password)
-
-            if astr>0 and pstr>0 then
-
-                --saveLoginfo("account:,password111:")
-
-                    self:login({
-                    channel = app.constant.channel_game,
-                    account = account,
-                    password = password,
-                })
-
-            else
-
-                self:loginWeixin()
-
-            end
-
-            app.constant.isLoginGame = true
-
-            scheduler.unscheduleGlobal(self.loginRequest)
-            self.loginRequest = nil
-
-         end
-
-        end, 0.5)
-
---测试
-    -- local url = "http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/96"
-    -- local icontest = NetSprite.new(url):addTo(self):align(display.CENTER,0,0)
-    -- icontest:setPosition(640,360)
-    -- icontest:setScale(0.2)
---end
-
--- ---测试 http请求网络图片 的代码
---    local function HttpRequestCompleted(statusCode,tagNum,image)
---         print("图片数据请求结果 statusCode:"..statusCode.."  tag:"..tagNum)
-
--- ---200表示获取网络图片成功，否则失败
---         if statusCode==200 then
-
---             print("HttpRequestCompleted---------")
-
---             local texture=cc.Texture2D:new()
---             texture:initWithImage(image)
---             local sp_goodsItem=cc.Sprite:createWithTexture(texture)  --直接创建请求的网络图片精灵，不用再保存到本地，很方便的
-
---         end
-
---     end
-
---      ---最后一个参数是tag值，缺省是-1，这个参数与回调函数HttpRequestCompleted的第2个参数对应
---      yvcc.HclcData:sharedHD():requestGoodsImageFromWeb("http://h.hiphotos.baidu.com/zhidao/pic/item/5bafa40f4bfbfbed0470471b78f0f736afc31fac.jpg",HttpRequestCompleted,123)
-
-        -- local isWeiIcon = util.isWeiIcon("http://wx.qlogo.cn/mmopen/BmTDvkQTDBkKqLgEaSlCflPEkkqvfRXDiblicgSqPYIIvCkUxgMiarnsKVCr6vJcvDUhohfsyHRYESx8bsIcfqPLdYLfBgq8XpC/0")
-
-        -- print("isWeiIcon = ",isWeiIcon)
 end
 
 function LoginScene:showPublicInfo()
@@ -1003,89 +922,29 @@ function LoginScene:updateLoginTypes()
     -- self.scene.accountInput:setTouchEnabled(true)
     -- self.scene.passwordInput:setTouchEnabled(true)
 
-    print("updateLoginTypes-----")
-
-    cc.UserDefault:getInstance():setBoolForKey("loading", false)
-
-    -- local  btn_Publick = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Publick")
+    local  btn_Publick = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Publick")
 
     local loginWeixin = cc.uiloader:seekNodeByNameFast(self.scene, "LoginWeixin")
+    if Account.tags.weixin_login_tag == "1" then
+        loginWeixin:show()
+        loginWeixin:onButtonClicked(handler(self, self.loginWeixin))
 
-    -- local login = cc.uiloader:seekNodeByNameFast(self.scene, "Login")
+        if btn_Publick ~= nil then
 
-    -- --提审时显示登录按钮，金陵不显示登录按钮
-    -- if Account.tags.account_login_tag == "1" then
-    --     print("登录开关的值：1")
-    --     login:show()
-    --     login:setPosition(640,194)
-    -- elseif Account.tags.account_login_tag == "0" and device.platform ~= "mac" then
-    --     print("登录开关的值：2")
-    --     login:hide()
-    -- end
-    -- print("登录开关的值：3" ..device.platform)
+            btn_Publick:show()
+            btn_Publick:onButtonClicked(handler(self, self.showPublicInfo))
 
-    -- if Account.tags.weixin_login_tag == "1" then
-    --     loginWeixin:show()
-    --     if device.platform ~= "mac" then
-    --         --todo
-    --         loginWeixin:setPosition(640,194)
-    --     end
-    --     loginWeixin:onButtonClicked(handler(self, self.loginWeixin))
-    --     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    --     if btn_Publick ~= nil and platConfig.publick_btn == nil then
+        end
+    else
+        loginWeixin:hide()
 
-    --         btn_Publick:show()
-    --         btn_Publick:onButtonClicked(handler(self, self.showPublicInfo))
-    --     end
-    -- else
-    --     loginWeixin:hide()
+        if btn_Publick ~= nil then
 
-    --     if btn_Publick ~= nil then
-    --         btn_Publick:hide()
-    --     end
-    -- end
-
-    -- util.BtnScaleFun(login)
-    util.BtnScaleFun(loginWeixin)
+            btn_Publick:hide()
+        end
+    end
 
     app.constant.hot_Finish = true
-
-
-    -- if Account.tags.recharge_tag ~= "1" then
-
-    --     login:setPosition(640,194)
-    -- else
-
-    --     login:setPosition(440,194)
-
-    -- end
-
-    -- local Button_Kuang = cc.uiloader:seekNodeByNameFast(self.scene, "Button_Kuang")
-    -- local img_dui = cc.uiloader:seekNodeByNameFast(self.scene, "img_dui")
-    -- local Button_User = cc.uiloader:seekNodeByNameFast(self.scene, "Button_User")
-
-    -- if img_dui ~= nil then
-    --     img_dui:setVisible(isSelect)
-    -- end
-    -- if Button_Kuang ~= nil then
-    --     Button_Kuang:onButtonClicked(
-    --     function ()
-    --         local isVisible = not isSelect
-    --         img_dui:setVisible(isVisible)
-    --         isSelect = img_dui:isVisible()
-    --     end)
-    -- end
-    -- if Button_User ~= nil then
-    --     Button_User:onButtonClicked(
-    --     function ()
-    --         self:showUserLayer()
-    --     end)
-    -- end
-
-    -- util.BtnScaleFun(Button_User)
-    -- Button_Kuang:hide()
-    -- img_dui:hide()
-    -- Button_User:hide()
 
 
     function callback(param)
@@ -1109,18 +968,10 @@ function LoginScene:updateLoginTypes()
 end
 
 function LoginScene:createLoginLayer()
-
-    if app.constant.isOpening == true then
-          return
-    end
-
     self.loginLayer = cc.uiloader:load("Layer/Login/LoginLayer.json"):addTo(self)
 
-    local popBoxNode = cc.uiloader:seekNodeByNameFast(self.loginLayer, "PopBoxNode")
-    util.setMenuAni(popBoxNode)
-
     local title = cc.uiloader:seekNodeByNameFast(self.loginLayer, "Image_Title")
-    local frame = cc.SpriteFrame:create("Image/Logon/Login_Logo.png",cc.rect(0,0,144,37))
+    local frame = cc.SpriteFrame:create("Image/Logon/Login_Logo.png",cc.rect(0,0,198,55))
     title:setSpriteFrame(frame)
 
     local close = cc.uiloader:seekNodeByNameFast(self.loginLayer, "Close")
@@ -1128,8 +979,6 @@ function LoginScene:createLoginLayer()
         self:destroyLoginLayer()
         sound_common.cancel()
     end)
-
-    util.BtnScaleFun(close)
 
     self.loginLayer.downList = cc.uiloader:seekNodeByNameFast(self.loginLayer, "DownList");
     self.loginLayer.downList:onButtonClicked(handler(self, self.showAccountList))
@@ -1143,9 +992,9 @@ function LoginScene:createLoginLayer()
     self.loginLayer.rememberPassword = cc.uiloader:seekNodeByNameFast(self.loginLayer, "RememberPassword");
 
     local accountInputPanel = cc.uiloader:seekNodeByNameFast(self.loginLayer, "AccountInputPanel")
-    self.loginLayer.accountInput = util.createInput(accountInputPanel, { color = cc.c4b(255,255,255, 255) })
+    self.loginLayer.accountInput = util.createInput(accountInputPanel)
     local passwordInputPanel = cc.uiloader:seekNodeByNameFast(self.loginLayer, "PasswordInputPanel")
-    self.loginLayer.passwordInput = util.createInput(passwordInputPanel, { password = true, color = cc.c4b(255,255,255, 255) })
+    self.loginLayer.passwordInput = util.createInput(passwordInputPanel, { password = true })
     if self.class.accountHistory[1] then
         self.loginLayer.accountInput:setString(self.class.accountHistory[1].account)
         self.loginLayer.passwordInput:setString(self.class.accountHistory[1].password)
@@ -1158,26 +1007,19 @@ function LoginScene:createLoginLayer()
 
     local login = cc.uiloader:seekNodeByNameFast(self.loginLayer, "Button_Login");
     login:onButtonClicked(function (event)
-        print("begin--click---0000--")
         local account, password = self.loginLayer.accountInput:getString(), self.loginLayer.passwordInput:getString()
         self:login({
-            channel = app.constant.channel_game,
-            account = account,
+            channel = app.constant.channel_game, 
+            account = account, 
             password = password,
         })
     end)
-
-    util.BtnScaleFun(login)
 
     local regist = cc.uiloader:seekNodeByNameFast(self.loginLayer, "Button_Regist");
     regist:onButtonClicked(function (event)
         self:destroyLoginLayer()
         self:createRegisterLayer()
     end)
-
-    util.BtnScaleFun(regist)
-
-
 end
 
 function LoginScene:createRegisterLayer()
@@ -1185,7 +1027,7 @@ function LoginScene:createRegisterLayer()
 
     -- title
     local title = cc.uiloader:seekNodeByNameFast(self.registerLayer, "Image_Title")
-    local frame = cc.SpriteFrame:create("Image/Logon/Regist_Logo.png",cc.rect(0,0,145,37))
+    local frame = cc.SpriteFrame:create("Image/Logon/Regist_Logo.png",cc.rect(0,0,198,55))
     title:setSpriteFrame(frame)
 
     -- close self
@@ -1199,16 +1041,14 @@ function LoginScene:createRegisterLayer()
 
     -- password show or not
     local accountInputPanel = cc.uiloader:seekNodeByNameFast(self.registerLayer, "AccountInputPanel")
-    self.registerLayer.accountInput = util.createInput(accountInputPanel, {color = cc.c4b(255,255,255, 255)})
-
+    self.registerLayer.accountInput = util.createInput(accountInputPanel)
     -- if DEVELOPMENT then
     --     self.registerLayer.accountInput:setString("account" .. os.time())
     -- end
-
+    
     local passwordInputPanel = cc.uiloader:seekNodeByNameFast(self.registerLayer, "PasswordInputPanel")
     local passwordInput = util.createInput(passwordInputPanel, {password = true})
     self.registerLayer.passwordInput = passwordInput
-    passwordInput:setTextColor(cc.c4b(255,255,255, 255))
     -- if DEVELOPMENT then
     --     self.registerLayer.passwordInput:setString("password" .. os.time())
     -- end
@@ -1247,7 +1087,7 @@ function LoginScene:createRegisterLayer()
 
     end
 
---modify end
+--modify end 
 
     local register = cc.uiloader:seekNodeByNameFast(self.registerLayer, "Register")
     register:onButtonClicked(handler(self, self.registerOnClick))
@@ -1259,7 +1099,7 @@ function LoginScene:createRegisterLayer()
         if text_Zengsong then
             text_Zengsong:show()
         end
-
+  
     else
 
         if text_Zengsong then
@@ -1284,54 +1124,11 @@ function LoginScene:createRegisterLayer()
             register:setPositionY(-185)
             iphoneInputPanel:hide()
             codeInputPanel:hide()
-            txt_Count:hide()
 
         end
-
+        
     end
 
-end
-
---用户协议界面
-function LoginScene:showUserLayer()
-
-    if app.constant.isOpening == true then
-      return
-    end
-
-    sound_common.menu()
-    local userLayer = cc.uiloader:load("Layer/Lobby/UserLayer.json"):addTo(self.scene)
-    local popBoxNode = cc.uiloader:seekNodeByNameFast(userLayer, "PopBoxNode")
-    util.setMenuAni(popBoxNode)
-    self.scene.userLayer = userLayer
-
-    local title = cc.uiloader:seekNodeByNameFast(userLayer, "Image_Title")
-    local s = display.newSprite("Image/Lobby/img_UserTitle.png")
-    local frame = s:getSpriteFrame()
-    title:setSpriteFrame(frame)
-    local ScrollView_5 = cc.uiloader:seekNodeByNameFast(userLayer, "ScrollView_5")
-    local Text_14 = cc.uiloader:seekNodeByNameFast(userLayer, "Text_14")
-    ScrollView_5:hide()
-
-    local close = cc.uiloader:seekNodeByNameFast(userLayer, "Close")
-    :onButtonClicked(
-        function ()
-
-          userLayer:removeFromParent()
-          userLayer = nil
-          self.scene.userLayer = nil
-          sound_common:cancel()
-
-        end)
-    util.BtnScaleFun(close)
-
-    scheduler.performWithDelayGlobal(
-        function ()
-             local ScrollView_5 = cc.uiloader:seekNodeByNameFast( self.scene.userLayer, "ScrollView_5")
-             local Text_14 = cc.uiloader:seekNodeByNameFast( self.scene.userLayer, "Text_14")
-             ScrollView_5:show()
-             Text_14:setString(strUser)
-        end, 0.4)
 end
 
 function LoginScene:destroyLoginLayer()
@@ -1358,7 +1155,7 @@ function LoginScene:updateCount()
     local strTime =  "重发(" .. app.constant.countTime .. "秒)"
     self.registerLayer.txt_Count:setString(strTime)
 
-    if app.constant.countTime <= 0 then
+    if app.constant.countTime <= 0 then 
 
         scheduler.unscheduleGlobal(codeScheduler)
         codeScheduler = nil
@@ -1369,10 +1166,10 @@ function LoginScene:updateCount()
         if self.registerLayer.btn_SendMess ~= nil then
             self.registerLayer.btn_SendMess:show()
         end
-
-        self.registerLayer.txt_Count:setString("重发(60秒)")
+        
+        self.registerLayer.txt_Count:setString("重发(60秒)") 
         self.registerLayer.txt_Count:hide()
-
+    
     end
     --print("11111----")
 end
@@ -1395,7 +1192,7 @@ function LoginScene:BeginInCount()
         if self.registerLayer.txt_Count ~= nil then
             self.registerLayer.txt_Count:show()
         end
-
+ 
         codeScheduler = scheduler.scheduleGlobal(handler(self, self.updateCount), 1.0)
 
 end
@@ -1416,9 +1213,9 @@ function LoginScene:SendMessage()
     iphoneInput:setTouchEnabled(false)
 
      if err then
-
+        
         ErrorLayer.new(err, nil, nil, function ()
-
+            
             iphoneInput:setTouchEnabled(true)
 
         end):addTo(self)
@@ -1427,11 +1224,11 @@ function LoginScene:SendMessage()
          self:BeginInCount()
 
          self:getCode({
-
-                mobile = iphone,
+     
+                mobile = iphone, 
             },
             app.lang.register_loading, app.lang.getCode_error, function ()
-
+          
             iphoneInput:setTouchEnabled(true)
 
         end)
@@ -1447,20 +1244,16 @@ function LoginScene:registerOnClick()
 
     local err = self:checkInput(account, password, iphone, code, true)
 
-    err = self:checkInput(account, password)
+    if Account.tags.recharge_tag == "1" then
 
-    -- if Account.tags.recharge_tag == "1" then
+        --err = self:checkInput(account, password, iphone, code, true)
+        err = self:checkInput(account, password)
 
-    --     err = self:checkInput(account, password, iphone, code, true)
-    --    -- err = self:checkInput(account, password)
+    else
 
-    -- else
+        err = self:checkInput(account, password)
 
-    --     err = self:checkInput(account, password)
-
-    -- end
-
-    app.constant.isRelogin = true
+    end
 
     iphoneInput:setTouchEnabled(false)
     codeInput:setTouchEnabled(false)
@@ -1481,8 +1274,8 @@ function LoginScene:registerOnClick()
 
         self:auth({
                 cmd = "register",
-                channel = app.constant.channel_game,
-                account = account,
+                channel = app.constant.channel_game, 
+                account = account, 
                 password = password,
 
  --modify by whb 161019
@@ -1502,7 +1295,6 @@ function LoginScene:registerOnClick()
 end
 
 function LoginScene:login(params)
-
     self:hideAccountList()
 
     local accountInput, passwordInput
@@ -1512,14 +1304,11 @@ function LoginScene:login(params)
         passwordInput:setTouchEnabled(false)
     end
 
-    app.constant.isRelogin = true
-
     params.cmd = "login"
 
     --add by whb 161019
     params.app_channel = CONFIG_APP_CHANNEL
 
-    print("click--login----")
     --add by end
     self:auth(params, app.lang.login_loading, app.lang.login_error, function ()
         if self.loginLayer then
@@ -1531,23 +1320,35 @@ end
 
 function LoginScene:loginWeixin()
 
-    if isSelect == false then
-        ErrorLayer.new(app.lang.not_login, nil, nil, nil):addTo(self)
-        return
-    end
+    function callback(param)
+        if device.platform == "android" then
+            param = json.decode(param)
+            if param.result == 1002 then
+                param.result = 0
+            end
+        end
 
-    app.constant.isRelogin = true
+        local result = param.result or 0
+        local access_token = param.access_token or ""
+        local expires_in = param.expires_in or 0
+        local refresh_token = param.refresh_token or ""
+        local openid = param.openid or ""
+        print("loginWeixin", result, access_token, expires_in, refresh_token, openid)
+        if result == 0 and #openid > 0 and #access_token > 0 then
+            self:login({
+                channel = app.constant.channel_weixin, 
+                account = openid, 
+                password = access_token, 
+                expires_in = expires_in,
+                refresh_token = refresh_token,
+            })
 
-    local progressLayer = ProgressLayer.new(app.lang.login_loading, nil, function ()
-                ErrorLayer.new(app.lang.network_disabled, nil, nil, errorLayerCallBack):addTo(self)
-            end)
-        :addTo(self)
+--test get weixin headImage 
 
---test get weixin headImage
-    local getWChatImage = function (access_token, openid)
+        local getWChatImage = function ()
 
         local url = "https://api.weixin.qq.com/sns/userinfo?access_token="..access_token.."&openid="..openid
-
+        
         print("url:"..url)
         local request = network.createHTTPRequest(function (event)
             local result = web.checkResponse(event)
@@ -1562,7 +1363,6 @@ function LoginScene:loginWeixin()
             response = json.decode(response)
             local nick = nil
             local headIcon = nil
-            local sex = nil
             if response.headimgurl then
                 headIcon = response.headimgurl
             end
@@ -1571,145 +1371,18 @@ function LoginScene:loginWeixin()
                 nick = response.nickname
             end
 
-            if response.sex then
-                sex = response.sex
-            end
+           -- print("wChat response:", response)
+           -- print("wChat:info-", nick..":"..headIcon)
 
-
-           print("wChat response:", response)
-           print("wChat:info-", nick..":"..headIcon .. ":" .. sex)
-           -- local len = #nick
-           --  for i=1,len do
-
-           --      local curByte = string.byte(nick, i)
-           --      print("nick-byte:", i .. ":" .. curByte)
-
-           --  end
-
-            app.constant.wChatInfo.icon = headIcon
-            -- if device.platform == "android" then
-
-            --     app.constant.wChatInfo.nick = util.filter_spec_chars(nick)
-
-            -- else
-
-                app.constant.wChatInfo.nick = nick
-
-            --end
-
-            print("new--nickname---", app.constant.wChatInfo.nick)
-            if sex == 1 then
-                sex = 2
-            else
-                sex = 1
-            end
-            app.constant.wChatInfo.sex = sex
+            app.constant.wchatIcon = headIcon
+            app.constant.wchatnick = nick
 
         end, url, "GET")
         request:start()
       end
 
-    --如果已经登陆过就直接登陆不在调用第三方SDK
-    local refresh_token = util.read_wx_refresh_token()
-    if refresh_token ~= nil and refresh_token ~= "" then
-
-        local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-        local appid = platConfig.wChat_Appid
-        local grant_type = "refresh_token"
-        local url = "https://api.weixin.qq.com/sns/oauth2/refresh_token?appid=" .. appid .. "&grant_type=" .. grant_type .. "&refresh_token=" .. refresh_token
-
-        local request = network.createHTTPRequest(
-            function (event)
-                local result = web.checkResponse(event)
-                print("result:"..result)
-                if result == 0 then
-                    return
-                elseif result == -1 then
-                    return
-                end
-
-                local param = event.request:getResponseString()
-                param = json.decode(param)
-
-                if param.errcode ~= nil then
-                    --抹掉refresh_token
-                    util.write_wx_refresh_token()
-                    return self:loginWeixin()
-                end
-
-                --local result = param.result or 0
-                local access_token = param.access_token or ""
-                local expires_in = param.expires_in or 0
-                local refresh_token = param.refresh_token or ""
-                local openid = param.openid or ""
-
-                if progressLayer ~= nil then
-                    ProgressLayer.removeProgressLayer(progressLayer)
-                    progressLayer = nil
-                end
-
-                 print("loginWeixin", result, access_token, expires_in, refresh_token, openid)
-                if #openid > 0 and #access_token > 0 then
-                    self:login({
-                        channel = app.constant.channel_weixin,
-                        account = openid,
-                        password = access_token,
-                        expires_in = expires_in,
-                        refresh_token = refresh_token,
-                    })
-
-                     app.constant.isReChangeNick = false
-
-                     app.constant.isWchatLogin = true
-                     getWChatImage(access_token, openid)
-                --end
-
-                end
-
-                --获取微信名称头像之后登陆游戏
-                --getWChatImage(access_token,expires_in,refresh_token,openid)
-
-            end, url, "GET")
-
-        request:start()
-        return
-    end
-
-    function callback(param)
-        if device.platform == "android" then
-            param = json.decode(param)
-            if param.result == 1002 then
-                param.result = 0
-            end
-        end
-
-        if progressLayer ~= nil then
-            ProgressLayer.removeProgressLayer(progressLayer)
-            progressLayer = nil
-        end
-
-        local result = param.result or 0
-        local access_token = param.access_token or ""
-        local expires_in = param.expires_in or 0
-        local refresh_token = param.refresh_token or ""
-        local openid = param.openid or ""
-        print("loginWeixin", result, access_token, expires_in, refresh_token, openid)
-        if result == 0 and #openid > 0 and #access_token > 0 then
-            self:login({
-                channel = app.constant.channel_weixin,
-                account = openid,
-                password = access_token,
-                expires_in = expires_in,
-                refresh_token = refresh_token,
-            })
-
-            --refresh_token 记录在本地
-             util.write_wx_refresh_token(refresh_token)
-
-             app.constant.isReChangeNick = true
-             app.constant.isWchatLogin = true
-             getWChatImage(access_token, openid)
-        --end
+     --getWChatImage()
+--end
 
         end
     end
@@ -1753,38 +1426,6 @@ function LoginScene:loginQQ()
     end
 end
 
-function LoginScene:registerXPush()
-    function callback(param)
-        if device.platform == "android" then
-            param = json.decode(param)
-        end
-
-        param = checktable(param)
-        local result = param.result
-        print("registerXPush =", result)
-
-    end
-
-    local params = {}
-
-     params.account = Account.uid .. ""
-
-     print("registerXPush-uid:",Account.uid)
-
-
-    if device.platform == "ios" then
-
-         params.callback = callback
-         luaoc.callStaticMethod("XgSdk", "registerXPush", params)
-
-    elseif device.platform == "android" then
-
-        local str = json.encode(params)
-        luaj.callStaticMethod("app/XingePush", "registerXPush", { str, callback })
-
-    end
-end
-
 --[[
     params 必须有:
     cmd : register, login 第三方渠道只能用login
@@ -1805,7 +1446,6 @@ function LoginScene:auth(params, loading, failure, errorLayerCallBack)
 
     local progressLayer = ProgressLayer.new(loading, nil, function ()
                 ErrorLayer.new(app.lang.network_disabled, nil, nil, errorLayerCallBack):addTo(self)
-                print("LoginScene:auth----")
                 GateNet.disconnect()
             end)
         :addTo(self)
@@ -1814,14 +1454,14 @@ function LoginScene:auth(params, loading, failure, errorLayerCallBack)
         if not ok then
             print("failed:", failure .. (msg or ""))
   --modify by whb
-
+  
             if msg ~= nil then
                 ErrorLayer.new( msg, nil, nil, errorLayerCallBack):addTo(self)
             else
                 ErrorLayer.new(failure .. (msg or ""), nil, nil, errorLayerCallBack):addTo(self)
             end
   --end
-
+            
            -- ErrorLayer.new(failure .. (msg or ""), nil, nil, errorLayerCallBack):addTo(self)
             ProgressLayer.removeProgressLayer(progressLayer)
             progressLayer = nil
@@ -1852,28 +1492,16 @@ function LoginScene:auth(params, loading, failure, errorLayerCallBack)
                     -- enter Lobby
                     ProgressLayer.removeProgressLayer(progressLayer)
                     progressLayer = nil
-
-                    local PRMessage = require("app.net.PRMessage")
-                    PRMessage.PrivateRoomConfigReq()
-
-                    --注册启动推送
-                    self:registerXPush()
-
                     app:enterScene("LobbyScene", nil, "fade", 0.5)
                 else
-                   -- if tostring(msg) ~= "104" then
-                   print("login_error = ",msg)
-                        ProgressLayer.removeProgressLayer(progressLayer)
-                        progressLayer = nil
-                        ErrorLayer.new(app.lang.gate_error .. (msg or ""), nil, nil, errorLayerCallBack):addTo(self)
-                    --end
-
+                    ProgressLayer.removeProgressLayer(progressLayer)
+                    progressLayer = nil
+                    ErrorLayer.new(app.lang.gate_error .. (msg or ""), nil, nil, errorLayerCallBack):addTo(self)
                 end
             end)
         end
     end
 
-    print("LoginNet.auth---getServerTime--")
     LoginNet.auth(loginCallback, params)
 end
 
@@ -1895,7 +1523,7 @@ function LoginScene:getCode(params, loading, failure, errorLayerCallBack)
             else
                 ErrorLayer.new(failure .. (msg or ""), nil, nil, errorLayerCallBack):addTo(self)
             end
-
+       
             ProgressLayer.removeProgressLayer(progressLayer)
             progressLayer = nil
         else
@@ -1981,7 +1609,7 @@ function LoginScene:initAccountList()
     end)
 
     if self.class.accountHistory then
-        --dump(self.class.accountHistory)
+        dump(self.class.accountHistory)
         for i,v in ipairs(self.class.accountHistory) do
 
             local bg = display.newScale9Sprite("Image/Logon/inputbg.png", -420,250 - i * 86,cc.size(420, 82))
@@ -2108,7 +1736,7 @@ end
 function G_RequestFromWChat(info)
 
  local gameid, roomid, uid, session, tableid, seatid, password
-
+ 
     if device.platform == "android" then
         param = json.decode(info)
         gameid = param.gameid
@@ -2146,7 +1774,7 @@ function G_RequestFromWChat(info)
          end
 
          print("RequestFromWChat:uid", uid)
-
+         
          SetInvitation()
 
     else
@@ -2192,21 +1820,21 @@ function G_RequestFromWChat(info)
             if astr>0 and pstr>0 then
 
                     scene:login({
-                    channel = app.constant.channel_game,
-                    account = account,
+                    channel = app.constant.channel_game, 
+                    account = account, 
                     password = password,
                 })
 
             else
 
                 --saveLoginfo("account:,password2222:")
-
+                
                 scene:loginWeixin()
 
             end
+          
 
-
-         elseif scene.name ~= "LobbyScene" and  scene.name ~= "RoomScene" then
+         elseif scene.name ~= "LobbyScene" and  scene.name ~= "RoomScene" then 
 
              local curGameID =  app.constant.cur_GameID
              local cur_RoomID = app.constant.cur_RoomID
@@ -2251,7 +1879,7 @@ function G_RequestFromWChat(info)
              app.constant.isReuqestWchat = 2
 
               setEnterScene()
-
+             
          end
          -- if g_watching == false then
 
@@ -2264,87 +1892,6 @@ function G_RequestFromWChat(info)
 end
 
 function LoginScene:message(name, msg, ...)
-end
-
-function LoginScene:destroyLoadingLayer()
-
-    print("clickloading-------")
-    self.loadingLayer:removeFromParent(true)
-    self.loadingLayer = nil
-
-    if self.needRestart == true then
-
-        print("restart game-----")
-
-        self.needRestart = false
-
-        app:restart()
-
-    end
-end
-
-function LoginScene:setLoadingLayer()
-   self.loadingLayer = cc.uiloader:load("Layer/Lobby/LoadingLayer.json"):addTo(self)
-
-    local lastloadRand = cc.UserDefault:getInstance():getIntegerForKey("LoadRand")
-
-    local sprite_Jump = cc.uiloader:seekNodeByNameFast(self.loadingLayer, "Sprite_Jump")
-     :setTouchEnabled(true)
-
-    local to1 = cc.ProgressTo:create(6, 0)
-
-    local left = cc.ProgressTimer:create(cc.Sprite:create("Image/Lobby/img_LoadPro.png"))
-      -- 设置进度计时的类型，这里是绕圆心
-      left:setType(cc.PROGRESS_TIMER_TYPE_RADIAL)
-
-      local size = sprite_Jump:getContentSize()
-      -- 设置显示位置
-      left:setPosition(cc.p(size.width/2, size.height/2))
-      -- 运行动作
-      --left:runAction(cc.RepeatForever:create(to1))
-      left:addTo(sprite_Jump)
-      left:setReverseDirection(true)
-      left:setPercentage(100)
-
-      transition.execute(left, to1, {
-        delay = 0,
-        easing = nil,
-        onComplete = function()
-           if lastloadRand ~= nil and lastloadRand > 0 then
-                util.clearActivityImage(self, 100+lastloadRand)
-            end
-            self:destroyLoadingLayer()
-        end,
-    })
-
-     sprite_Jump:addNodeEventListener(cc.NODE_TOUCH_EVENT,
-        function (event)
-        --local x, y, prevX, prevY = event.x, event.y, event.prevX, event.prevY
-            if event.name == "began" then
-                sprite_Jump:setScale(0.9)
-            elseif event.name == "ended" then
-                sprite_Jump:setScale(1)
-                if lastloadRand ~= nil and lastloadRand > 0 then
-                    util.clearActivityImage(self, 100+lastloadRand)
-                end
-                self:destroyLoadingLayer()
-            end
-
-        return true
-    end)
-    local sprite_Gg = cc.uiloader:seekNodeByNameFast(self.loadingLayer, "Sprite_Gg")
-
-    local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-
-    local urlStr = platConfig.loadingImg[lastloadRand]
-    local image = "Platform_Src/Image/loading.png"
-
-    util.setActivityImage(sprite_Gg:getParent(), urlStr, sprite_Gg, image, 100+lastloadRand, nil, "loadingImage")
-
-    sprite_Jump:setLocalZOrder(100)
-
-   -- sprite_Gg:addNodeEventListener(cc.NODE_TOUCH_EVENT, handler(self, self.hideAccountList))
-
 end
 
 return LoginScene
