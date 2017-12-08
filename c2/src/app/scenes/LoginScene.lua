@@ -1007,7 +1007,7 @@ function LoginScene:updateLoginTypes()
 
     cc.UserDefault:getInstance():setBoolForKey("loading", false)
 
-    local  btn_Publick = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Publick")
+   -- local  btn_Publick = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Publick")
 
     local loginWeixin = cc.uiloader:seekNodeByNameFast(self.scene, "LoginWeixin")
 
@@ -1032,17 +1032,17 @@ function LoginScene:updateLoginTypes()
         end
         loginWeixin:onButtonClicked(handler(self, self.loginWeixin))
         local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-        if btn_Publick ~= nil and platConfig.publick_btn == nil then
+        -- if btn_Publick ~= nil and platConfig.publick_btn == nil then
 
-            btn_Publick:show()
-            btn_Publick:onButtonClicked(handler(self, self.showPublicInfo))
-        end
+        --     btn_Publick:show()
+        --     btn_Publick:onButtonClicked(handler(self, self.showPublicInfo))
+        -- end
     else
         loginWeixin:hide()
 
-        if btn_Publick ~= nil then
-            btn_Publick:hide()
-        end
+        -- if btn_Publick ~= nil then
+        --     btn_Publick:hide()
+        -- end
     end
 
     util.BtnScaleFun(login)

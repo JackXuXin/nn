@@ -111,7 +111,7 @@ local function auth(callback, time, msg, params)
     --end
 
         if CONFIG_APP_CHANNEL ~= "3553" and (device.platform == "android" or device.platform == "ios") then
-             buglySetUserId(CONFIG_APP_CHANNEL .. "-" .. CONFIG_VERSION_ID .. "-id:" .. Account.uid )
+          --   buglySetUserId(CONFIG_APP_CHANNEL .. "-" .. CONFIG_VERSION_ID .. "-id:" .. Account.uid )
         end
 
         dump(resp)
