@@ -31,7 +31,7 @@ CONFIG_SCREEN_AUTOSCALE = "EXACT_FIT"
 --"3550"-旺旺余姚，“3551”－旺旺慈溪，“3552”－旺旺东阳，“3553”－旺旺绍兴，“1801”－旺旺金陵
 CONFIG_APP_CHANNEL = "3553"
 
-CONFIG_VERSION_ID = "1.0.0.0"
+CONFIG_VERSION_ID = "1.2.3.9"
 
 -- login server
 LOGIN_SERVER = {

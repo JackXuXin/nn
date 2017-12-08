@@ -766,7 +766,12 @@ function UIScrollView:drawScrollBar()
 		local posY = (self.viewRect_.y - bound.y)*(self.viewRect_.height - size.height)/(bound.height - self.viewRect_.height)
 			+ self.viewRect_.y + size.height/2
 		local x, y = self.sbV:getPosition()
-		self.sbV:setPosition(x, posY)
+
+		if self.offsetV then
+			self.sbV:setPosition(x, posY + self.viewRect_.height/2)
+		else
+			self.sbV:setPosition(x, posY)
+		end
 	end
 	if self.sbH then
 		self.sbH:setVisible(true)

@@ -396,6 +396,7 @@ function LobbyScene:createProfileGameRecord(profileinfos, progressLayer)
                 end
             )
 
+        
         for i,info in ipairs(v.record) do
             local ui_player = cc.uiloader:seekNodeByNameFast(ui_content,"player_record_" .. i):show()
             --头像

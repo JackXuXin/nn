@@ -6,6 +6,7 @@ local RadioButtonGroup = require("app.Common.RadioButtonGroup")
 local ErrorLayer = require("app.layers.ErrorLayer")
 
 local PRMessage = require("app.net.PRMessage")
+local UserMessage = require("app.net.UserMessage")
 local PRConfig = require("app.config.PrivateRoomConfig")
 
 local AvatarConfig = require("app.config.AvatarConfig")
@@ -13,8 +14,8 @@ local util = require("app.Common.util")
 local PlatConfig = require("app.config.PlatformConfig")
 local ProgressLayer = require("app.layers.ProgressLayer")
 local code = require("app.Common.code")
+local MatchMessage = require("app.net.MatchMessage")
 local page_type = nil
-local gID = nil
 
 local ROOM_CONTENT_POS = {x=115,y=0}
 
@@ -23,17 +24,19 @@ local ROOM_CONTENT_POS = {x=115,y=0}
 --]]
 function LobbyScene:setPrivateRoomType(page, gameID)
 	page_type = page
-	gID = gameID
-	print("setPrivateRoomType-gameid = ",gameID)
-	PRMessage.EnterPrivateRoomReq(nil)
+	-- PRMessage.EnterPrivateRoomReq(nil)
+	UserMessage.CheckReconnectReq()
+
 	app.constant.isOpening = false
 end
+
+
 
 --[[ --
     * 显示界面
 --]]
 function LobbyScene:showPrivateRoom(page)
-	print("page_type = ",page_type)
+	
 
 	page = page or page_type
 	if page == "create" or page == "" or not page then
@@ -123,6 +126,11 @@ local function _create_symj_content(self, param)
 		:pos(ROOM_CONTENT_POS.x, ROOM_CONTENT_POS.y)
 		:addTo(self.createRoomLayer.nd_all)
 	self.createRoomLayer.symj_content = ui_SYMJ
+
+	--滑块
+	local scroll_view = cc.uiloader:seekNodeByNameFast(ui_SYMJ, "scroll_view")
+	scroll_view.sbV = display.newScale9Sprite("Image/Lobby/PrivateRoom/content/img_tiao.png", 0,0,cc.size(9,420)):addTo(scroll_view):hide()
+	scroll_view.offsetV = true
 
 	local roomid = param.roomid 					--房间ID
 	local seats = 2 								--玩家人数
@@ -399,6 +407,11 @@ local function _create_sss_content(self, param)
 	:pos(ROOM_CONTENT_POS.x, ROOM_CONTENT_POS.y)
 	:addTo(self.createRoomLayer.nd_all)
 	self.createRoomLayer.sss_content = ui_SSS
+
+	--滑块
+	-- local scroll_view = cc.uiloader:seekNodeByNameFast(ui_SSS, "scroll_view")
+	-- scroll_view.sbV = display.newScale9Sprite("Image/Lobby/PrivateRoom/content/bar.png", 0,0,cc.size(12,38)):addTo(scroll_view):hide()
+	-- scroll_view.offsetV = true
 
 	local roomid = param.roomid 						--房间ID
 	local mode = 1 									--支付类型 1 = 房主支付 2 = AA支付
@@ -722,9 +735,8 @@ local function _create_nn_content(self, cfg)
 
     --滚动视图
     local ItemContaner = cc.uiloader:seekNodeByNameFast(createMenu, "ItemContaner")
-
-    ItemContaner.sbV = display.newScale9Sprite("Image/Lobby/PrivateRoom/content/img_tiao.png",0,0,cc.size(9,410)):addTo(ItemContaner)
-    ItemContaner.sbV:hide()
+    ItemContaner.sbV = display.newScale9Sprite("Image/Lobby/PrivateRoom/content/img_tiao.png",0,0,cc.size(9,410)):hide():addTo(ItemContaner)
+	ItemContaner.offsetV = true
     local item_4 = cc.uiloader:seekNodeByNameFast(createMenu, "item_4")
     local item_5 = cc.uiloader:seekNodeByNameFast(createMenu, "item_5")
     local item_6 = cc.uiloader:seekNodeByNameFast(createMenu, "item_6")
@@ -1200,6 +1212,11 @@ local function _create_ddz_content(self, param)
 	:addTo(self.createRoomLayer.nd_all)
 	self.createRoomLayer.ddz_content = ui_DDZ
 
+	--滑块
+	-- local scroll_view = cc.uiloader:seekNodeByNameFast(ui_DDZ, "scroll_view")
+	-- scroll_view.sbV = display.newScale9Sprite("Image/Lobby/PrivateRoom/content/img_tiao.png", 0,0,cc.size(9,420)):addTo(scroll_view):hide()
+	-- scroll_view.offsetV = true
+
 	local roomid = param.roomid 					--房间ID
 	local mode = 1 									--支付类型 1 = 房主支付 2 = AA支付
 	local round = 0  								--游戏局数
@@ -1461,6 +1478,7 @@ function LobbyScene:showCreateMenu()
 	     param.specialType = {[1]=0,[2]=0,[3]=0}   --特殊牌型
 	     param.setting={[1]=0,[2]=0}               --高级设置
 	     param.seatCount = 3
+	     param.paymode   = 2
 	     param.baseScoreType2 = 0
 	     param.roundType = 10
 	     param.hostplay = false
@@ -1468,13 +1486,6 @@ function LobbyScene:showCreateMenu()
 	     --print("---------------本地没有初始房间信息------------")
 	 
 	end
-
-
-
-
-
-
-
 
 	--关闭按钮
 	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_closed"))
@@ -1494,7 +1505,7 @@ function LobbyScene:showCreateMenu()
 
 
      local function bank_selected(button)
-        --print("bankType "..button.bankerType)
+        print("bankType "..button.bankerType)
 
         for i=1,4 do
         	if (i-1) == button.bankerType then
@@ -1518,6 +1529,7 @@ function LobbyScene:showCreateMenu()
 			param.hostplay = false
         end
 
+
     end
     local btn_bk_group = RadioButtonGroup.new({
 		  [ btn_bks[1] ] = bank_selected,
@@ -1531,16 +1543,17 @@ function LobbyScene:showCreateMenu()
 
 
 
----------创建房间
+    -----创建房间
 	local create_btn = 	cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_create")
 
-	print("param.hostplay",param.hostplay)
+	
 
 	create_btn:onButtonClicked(function()
-		 --print("---------------------")
-	     --print(param.baseScoreType2+1)
+		 print("---------------------")
+	    -- print(param.baseScoreType2+1)
+	     --dump(param)
 	     local rule =  code.encode({param.bankerType,param.baseScoreType,param.bankscoreType,param.doubleType, param.specialType, param.setting})     
-	     -- print(rule)
+	      print(rule)
 	     PRMessage.PrivateRoomCreateReq(31600, param.paymode , param.roundType , param.seatCount, param.baseScoreType2+1, 0--[[param.base_count]], rule, param.hostplay)
 
 	    end)
@@ -1684,6 +1697,7 @@ function LobbyScene:clearLoginPassword()
 		progressLayer:removeSelf()
 	end
 end
+
 
 
 

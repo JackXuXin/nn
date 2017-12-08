@@ -445,436 +445,6 @@ function LobbyScene:ctor()
 
     --self.scene.btnFreeGold = btnFreeGold
 
-    local activity = cc.uiloader:seekNodeByNameFast(self.scene, "Activity")
-    -- local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_ChatTip_2")
-    -- Img_ChatTip:show()
-    if Account.tags.activity_tag == "1" then
-      activity:show()
-      activity:onButtonClicked(function ()
-        self:showActivityLayer()
-        end)
-    else
-      activity:hide()
-    end
-
-    util.BtnScaleFun(activity)
-
-    --创建房间 加入房间 查看战绩 按钮
-    --local private_room_create = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_create")
-    --local private_room_login = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_login")
-    local private_room_record = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_record")
-
-    --private_room_create:onButtonClicked(function(event) self:setPrivateRoomType("create") end)
-    --private_room_login:onButtonClicked(function(event)  self:setPrivateRoomType("login")  end)
-    private_room_record:onButtonClicked(
-      function(event)
-        self:showGameRecordMenu()
-        PRMessage.PrivateGameRecordProfileReq()
-      end
-    )
-
-    util.BtnScaleFun(private_room_record)
---[[
-    --比赛按钮
-    local btn_match = cc.uiloader:seekNodeByNameFast(self.scene, "btn_match")
-    local img_btn_effect = cc.uiloader:seekNodeByNameFast(btn_match, "img_btn_effect"):hide()
-    local img_match_guang = cc.uiloader:seekNodeByNameFast(btn_match, "img_match_guang"):hide()
-    util.BtnScaleFun(btn_match, 1 ,0.95)
-      :onButtonClicked(function()
-        -- MatchMessage.MatchListReq(106)
-        -- self:showRoomList(106)
-        self:showMatchLayer()
-        MatchMessage.MatchListReq(106)
-	  end)
-
-	--比赛按钮滑动光
-	btn_match:schedule(function()
-		img_btn_effect:pos(-195.00, 46)
-		local seq = cca.seq{cca.show(), cca.moveBy(0.8, 257, 0), cca.hide()}
-		img_btn_effect:runAction(seq)
-  	end, 5)
-
-	--比赛按钮的边光
-	btn_match:schedule(function()
-		img_match_guang:scale(1)
-		img_match_guang:setOpacity(255)
-		local spawn = cca.spawn{cca.scaleBy(1.2,1.07), cca.fadeOut(1.2)}
-		local seq = cca.seq{cca.show(), spawn, cca.hide()}
-		img_match_guang:runAction(seq)
-	end, 8)
-
-	--上下两个移动光点
-	local img_embellishment_top = cc.uiloader:seekNodeByNameFast(self.scene, "img_embellishment_top")
-	local img_embellishment_bottom = cc.uiloader:seekNodeByNameFast(self.scene, "img_embellishment_bottom")
-	img_embellishment_top:schedule(function()
-		img_embellishment_top:pos(1400, img_embellishment_top:getPositionY())
-    img_embellishment_bottom:pos(-120, img_embellishment_bottom:getPositionY())
-
-    img_embellishment_top:moveBy(3.5, -1500, 0)
-    img_embellishment_bottom:moveBy(3.5, 1500, 0)
-	end, 8)
---]]
-    local btn_RequestCode = cc.uiloader:seekNodeByNameFast(self.scene, "btn_RequestCode")
-
-    if btn_RequestCode ~= nil then
-
-        btn_RequestCode:onButtonClicked(
-          function ()
-            self:showRequestCode()
-          end)
-
-        util.BtnScaleFun(btn_RequestCode)
-
-    end
-
-    -- local btn_GameRule = cc.uiloader:seekNodeByNameFast(self.scene, "btn_GameRule")
-
-    -- if btn_GameRule ~= nil then
-
-    --   btn_GameRule:onButtonClicked(
-    --     function ()
-    --       self:showRuleLayer()
-    --     end)
-
-    --   util.BtnScaleFun(btn_GameRule)
-
-    -- end
-
---,node, ani_str, node1, ani_light
---[[
-local function playHouseBtnAction(param)
-
-  local node = param.node
-  local ani_str = param.ani_str
-  local node1 = param.node1
-  local ani_light = param.ani_light
-
-  local target = display.newSprite(ani_str)
-
-  if ani_str == "Image/Lobby/img_Ml.png" then
-    target:setPosition(node:getPositionX()-13,node:getPositionY()+13)
-  else
-    target:setPosition(node:getPositionX(),node:getPositionY())
-  end
-
-  target:addTo(node:getParent(),9)
-
-       -- local blik = cc.Blink:create(2.0, 2)
-
-       -- target:setOpacity(65)
-       local fadein = cc.FadeIn:create(0.1)
-       local scaleTo = cc.ScaleTo:create(0.7,1.04)
-       local fadeout = cc.FadeOut:create(0.8)
-       local sTo3 = cc.ScaleTo:create(0.8,1.07)
-       local spTo2 = cc.Spawn:create(fadeout,sTo3)
-       local spawn = cc.Spawn:create(fadein,scaleTo)
-
-       local removeSelf = cc.RemoveSelf:create(true)
-        -- local dt_1 = cc.DelayTime:create(5)
-
-        -- local callback = cc.CallFunc:create(function()
-
-        --    target:setScale(1.0)
-        --  end)
-
-        local seq = cc.Sequence:create(spawn, spTo2, removeSelf)
-        --local rep_seq = cc.RepeatForever:create(seq)
-
-        target:runAction(seq)
-
-        local ligth = display.newSprite(ani_light)
-        ligth:setPosition(node1:getPositionX(),node1:getPositionY())
-        ligth:addTo(node1:getParent(),6)
-        ligth:setAnchorPoint(0.5,0.5)
-
-        local scaleTo = cc.ScaleTo:create(0.7,1.07)
-        local fadeTo = cc.FadeIn:create(0.7)
-        local fadeTo2 = cc.FadeTo:create(0.8,0)
-        local moveby = cc.MoveBy:create(0.8,cc.p(0,-8))
-
-        local spawn1 = cc.Spawn:create(scaleTo,fadeTo)
-        local spawn2 = cc.Spawn:create(fadeTo2,moveby)
-
-        local removeSelf = cc.RemoveSelf:create(true)
-
-         -- local callback2 = cc.CallFunc:create(function()
-         --   --ligth:setOpacity(0)
-         --   ligth:setScale(1.0)
-         --   ligth:setPosition(node1:getPositionX(),node1:getPositionY())
-         -- end)
-
-         local seq = cc.Sequence:create(spawn1, spawn2, removeSelf)
-        --local rep_seq = cc.RepeatForever:create(seq)
-
-        ligth:runAction(seq)
-
-      end
-
-  local function add_star_ani(parent, num, pos)
-    --添加星星
-
-    for i = 1, num do
-
-      local star = display.newSprite("Image/Lobby/star.png")
-
-       -- local rand_x = math.random(60,240)
-       -- local rand_y = math.random(160,300)
-       local rand_x = pos[i].x
-       local rand_y = pos[i].y
-        --print("rand_x,rand_y:",rand_x,rand_y)
-        local pos_star = cc.p(rand_x,rand_y)
-        star:setPosition(pos_star)
-        parent:addChild(star,20)
-
-        local rand_scale = 0.01 + math.random(1,7) / 100
-        star:setScale(rand_scale)
-
-        local rand_scale2 = 0.5 + math.random(1,5) / 50
-
-        local rand_rotate = 160 + math.random(1,8)*10
-        local rand_delay = 1.5 + math.random(1,4)
-        local rand_dur = 1.7 + math.random(1,4)/5
-
-        if i == 2 or i == 3 or i == 5 then
-
-          rand_scale2 = 0.7 + math.random(1,5) / 20
-          rand_delay = 5 + math.random(1,4)
-          elseif i == 4 or i == 6 then
-
-            rand_delay = 8.5 + math.random(1,4)
-          end
-
-          local scale1_star = cc.ScaleTo:create(1.0,rand_scale2)
-          local scale2_star = cc.ScaleTo:create(1.0,rand_scale)
-          local seq_star = cc.Sequence:create(scale1_star,scale2_star)
-          local ret_star = cc.RotateBy:create(rand_dur,rand_rotate)
-
-          if i == 4 or i == 6 then
-
-            ret_star = ret_star:reverse()
-
-          end
-
-          local spawn_star = cc.Spawn:create(seq_star,ret_star)
-
-          if i == 2 or i == 3 or i == 5 then
-
-            spawn_star = cc.Spawn:create(seq_star)
-
-          end
-
-          local dt_star = cc.DelayTime:create(rand_delay)
-          local seq2_star = cc.Sequence:create(spawn_star,dt_star)
-          local rep_star = cc.RepeatForever:create(seq2_star)
-
-          star:runAction(rep_star)
-        end
-
-      end
-
-    local function add_star_aniEx(parent, num, pos, index)
-        --添加星星
-
-        for i = 1, num do
-
-           local star = display.newSprite("Image/Lobby/star.png")
-
-           -- local rand_x = math.random(60,240)
-           -- local rand_y = math.random(160,300)
-           local rand_x = pos[i].x
-           local rand_y = pos[i].y
-            --print("rand_x2,rand_y2:",rand_x,rand_y)
-            local pos_star = cc.p(rand_x,rand_y)
-            star:setPosition(pos_star)
-            parent:addChild(star,20)
-
-            star:setScale(0.5)
-
-        --+ math.random(1,8)*10
-            local rand_rotate = 360
-            local rand_delay = 3 + math.random(1,4)
-            local rand_dur = 3.0
-
-            local scale1_star = cc.ScaleTo:create(0.7,1.1)
-            local scale2_star = cc.ScaleTo:create(0.7,0.1)
-            local scale_star = cc.Sequence:create(scale1_star, scale2_star)
-
-            local ret_star = cc.RotateBy:create(rand_dur,rand_rotate)
-
-            local fadein = cc.FadeIn:create(rand_dur/2)
-            local fadeout = cc.FadeTo:create(rand_dur/2, 150)
-            local fade_star = cc.Sequence:create(fadeout, fadein)
-
-            local points = { cc.p(43.44, 211.49), cc.p(63.37, 209.16), cc.p(83.32, 204.86), cc.p(103.66, 205.64), cc.p(123.61, 206.42), cc.p(143.56, 207.20),
-            cc.p(163.90, 209.94), cc.p(174.07, 213.45), cc.p(163.90, 209.94), cc.p(143.56, 207.20), cc.p(123.61, 206.42), cc.p(103.66, 205.64), cc.p(88.81, 207.18)}
-
-            if i == num and index == 3 then
-
-            points = { cc.p(144.50, 162), cc.p(135.55, 182.26), cc.p(110.11, 193.57), cc.p(84.20, 182.73), cc.p(76.19, 161.53),
-            cc.p(84.67, 138.51), cc.p(109.17, 127.20), cc.p(134.14, 137.80), cc.p(144.50, 162)}
-
-            elseif index == 2 then
-
-              if i == 1 then
-               points = { cc.p(66.82, 223.39), cc.p(44.21, 223.39), cc.p(42.32, 192.77), cc.p(42.32, 158.52), cc.p(77.42, 155.75),
-               cc.p(110.87, 155.75), cc.p(144.79, 155.75)}
-              else
-               points = { cc.p(144.79, 155.75), cc.p(180.59, 155.75), cc.p(182.53, 190.61), cc.p(182.53, 222.65), cc.p(143.43, 222.65),
-               cc.p(106.68,  222.65), cc.p(66.82, 222.65)}
-              end
-
-            end
-
-            local orbit = cc.CardinalSplineTo:create(rand_dur, points, 0)
-            spawn_star = cc.Spawn:create(ret_star,orbit,fade_star)
-
-            local callback = cc.CallFunc:create(
-            function()
-
-              star:setScale(0.5)
-              star:setOpacity(255)
-
-            end)
-
-            local dt_star = cc.DelayTime:create(rand_delay)
-            local seq2_star = cc.Sequence:create(spawn_star,scale_star, dt_star,callback)
-            local rep_star = cc.RepeatForever:create(seq2_star)
-
-            star:runAction(rep_star)
-      end
-
-   end
-
- local function playGameBtnAction(parent,ani_str)
-       local sp = display.newSprite(ani_str)
-        --local gameSize = game:getContentSize()
-        local gameSize = cc.size(324,225)
-        local gPos_x = gameSize.width / 2 - 15
-        local gPos_y = -50
-
-        --随机坐标
-        local rand_x = math.random(1,gameSize.width - 30)
-        local rand_y = math.random(1,40)
-        sp:setPosition(gPos_x - rand_x ,gPos_y - rand_y)
-        sp:addTo(parent,-1)
-        sp:setScale(0.1)
-
-        --随机淡入淡出时间
-        local rand_in = math.random(1,2) / 10
-        local rand_in_fade = math.random(100,255)
-        local rand_out = math.random(1,20) / 10
-        --随机停留时间
-        local rand_delay = 0.5 + math.random(1,10) / 10
-        --随机放大倍数
-        local rand_scale = 0.1 + math.random(1,7) / 10
-        --随机移动位置
-        local rand_posy = sp:getPositionY() + math.random(1,150)
-
-        local fto = cc.FadeTo:create(rand_in,rand_in_fade)
-        local sTo = cc.ScaleTo:create(rand_in,rand_scale)
-        local spTo = cc.Spawn:create(fto,sTo)
-        local dt = cc.DelayTime:create(rand_delay)
-        local fout = cc.FadeOut:create(rand_out)
-        local s = cc.Sequence:create(dt,fout)
-        local moveTo = cc.MoveTo:create(rand_delay + rand_out,cc.p(sp:getPositionX(), rand_posy))
-        local spawn = cc.Spawn:create(s,moveTo)
-        local removeSelf = cc.RemoveSelf:create()
-        local seq = cc.Sequence:create(spTo,spawn,removeSelf)
-
-        sp:runAction(seq)
-  end
-
-  local function playGameBtnActionEx(parent,ani_str)
-       local sp = display.newSprite(ani_str)
-        --local gameSize = game:getContentSize()
-        local gameSize = cc.size(300,310)
-        local gPos_x = gameSize.width / 2
-        local gPos_y = -50
-
-        --随机坐标
-        local rand_x = math.random(10,gameSize.width-20)
-        local rand_y = math.random(1,40)
-        sp:setPosition(gPos_x - rand_x ,gPos_y - rand_y)
-        sp:addTo(parent,9)
-        sp:setScale(0.1)
-
-        --随机淡入淡出时间
-        local rand_in = math.random(1,2) / 10
-        local rand_in_fade = math.random(100,255)
-        local rand_out = math.random(1,20) / 10
-        --随机停留时间
-        local rand_delay = 0.5 + math.random(1,10) / 10
-        --随机放大倍数
-        local rand_scale = 0.1 + math.random(1,7) / 10
-        --随机移动位置
-        local rand_posy = sp:getPositionY() + math.random(30,150)
-
-        local fto = cc.FadeTo:create(rand_in,rand_in_fade)
-        local sTo = cc.ScaleTo:create(rand_in,rand_scale)
-        local spTo = cc.Spawn:create(fto,sTo)
-        local dt = cc.DelayTime:create(rand_delay)
-        local fout = cc.FadeOut:create(rand_out)
-        local s = cc.Sequence:create(dt,fout)
-        local moveTo = cc.MoveTo:create(rand_delay + rand_out,cc.p(sp:getPositionX(), rand_posy))
-        local spawn = cc.Spawn:create(s,moveTo)
-        local removeSelf = cc.RemoveSelf:create()
-        local seq = cc.Sequence:create(spTo,spawn,removeSelf)
-
-        sp:runAction(seq)
-  end
-
---
-local panel_Bg1 = cc.uiloader:seekNodeByNameFast(self.scene, "Panel_Bg1")
-
-self.scene.panel_Bg1 = panel_Bg1
-
-local button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-local button_House2= cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-
--- 交换两个游戏图标位置
-if CONFIG_APP_CHANNEL == "3553" then
-
-  local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-  local gameLeft = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
-  local gameRight = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
-  local leftName = cc.uiloader:seekNodeByNameFast(gameLeft, "Name")
-  local RightName = cc.uiloader:seekNodeByNameFast(gameRight, "Name")
-  local leftPosX,leftPosY = gameLeft:getPosition()
-  local rightPosX,rightPosY = gameRight:getPosition()
-
-  gameLeft:setPosition(cc.p(rightPosX, rightPosY))
-  gameRight:setPosition(cc.p(leftPosX, leftPosY))
-  leftName:setString("2")
-  RightName:setString("1")
-
-end
-
-local gameListView = cc.uiloader:seekNodeByNameFast(self.scene, "GameListView")
-
-self.scene.gameListView = gameListView
-
-local w = gameListView:getViewRect().width
-
-local x = gameListView:getPositionX()
-
-gameListView:setPosition(display.width+(display.width-x-w),0)
---]]
-local Image_BottomBar = cc.uiloader:seekNodeByNameFast(self.scene, "Image_BottomBar")
-local TopBar = cc.uiloader:seekNodeByNameFast(self.scene, "TopBar")
-
-local Home = cc.uiloader:seekNodeByNameFast(self.scene, "Home")
-Home:hide()
-self.scene.home = Home
-
-local UserInfoBar = cc.uiloader:seekNodeByNameFast(self.scene, "UserInfoBar")
-self.scene.userInfoBar = UserInfoBar
-UserInfoBar:setPositionX(0)
-
-self.scene.TopBar = TopBar
-self.scene.Image_BottomBar = Image_BottomBar
-
-    
-
 
    local  BtnCreateRoom = cc.uiloader:seekNodeByNameFast(self.scene, "BtnCreateRoom")
    local  BtnJoinRoom = cc.uiloader:seekNodeByNameFast(self.scene, "BtnJoinRoom")
@@ -913,6 +483,222 @@ self.scene.Image_BottomBar = Image_BottomBar
     util.BtnScaleFun(BtnClubRoom,2)
 
 
+     self:setNickandChatLogin()
+
+
+
+
+
+
+
+
+
+
+
+
+    local activity = cc.uiloader:seekNodeByNameFast(self.scene, "Activity")
+    -- local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_ChatTip_2")
+    -- Img_ChatTip:show()
+    if Account.tags.activity_tag == "1" then
+      activity:show()
+      activity:onButtonClicked(function ()
+     --   self:showActivityLayer()
+        end)
+    else
+      activity:hide()
+    end
+
+    util.BtnScaleFun(activity)
+
+    --创建房间 加入房间 查看战绩 按钮
+    --local private_room_create = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_create")
+    --local private_room_login = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_login")
+    local private_room_record = cc.uiloader:seekNodeByNameFast(self.scene, "private_room_record")
+
+    --private_room_create:onButtonClicked(function(event) self:setPrivateRoomType("create") end)
+    --private_room_login:onButtonClicked(function(event)  self:setPrivateRoomType("login")  end)
+    private_room_record:onButtonClicked(
+      function(event)
+        self:showGameRecordMenu()
+        PRMessage.PrivateGameRecordProfileReq()
+      end
+    )
+
+    util.BtnScaleFun(private_room_record)
+
+    --比赛按钮
+    local btn_match = cc.uiloader:seekNodeByNameFast(self.scene, "btn_match")
+    local img_btn_effect = cc.uiloader:seekNodeByNameFast(btn_match, "img_btn_effect"):hide()
+    local img_match_guang = cc.uiloader:seekNodeByNameFast(btn_match, "img_match_guang"):hide()
+    util.BtnScaleFun(btn_match, 1 ,0.95)
+      :onButtonClicked(function()
+        -- MatchMessage.MatchListReq(106)
+        -- self:showRoomList(106)
+        self:showMatchLayer()
+        MatchMessage.MatchListReq(110)
+    end)
+
+  --比赛按钮滑动光
+  btn_match:schedule(function()
+    img_btn_effect:pos(-195.00, 46)
+    local seq = cca.seq{cca.show(), cca.moveBy(0.8, 257, 0), cca.hide()}
+    img_btn_effect:runAction(seq)
+    end, 5)
+
+  --比赛按钮的边光
+  btn_match:schedule(function()
+    img_match_guang:scale(1)
+    img_match_guang:setOpacity(255)
+    local spawn = cca.spawn{cca.scaleBy(1.2,1.07), cca.fadeOut(1.2)}
+    local seq = cca.seq{cca.show(), spawn, cca.hide()}
+    img_match_guang:runAction(seq)
+  end, 8)
+
+  --上下两个移动光点
+  local img_embellishment_top = cc.uiloader:seekNodeByNameFast(self.scene, "img_embellishment_top")
+  local img_embellishment_bottom = cc.uiloader:seekNodeByNameFast(self.scene, "img_embellishment_bottom")
+  img_embellishment_top:schedule(function()
+    img_embellishment_top:pos(1400, img_embellishment_top:getPositionY())
+    img_embellishment_bottom:pos(-120, img_embellishment_bottom:getPositionY())
+
+    img_embellishment_top:moveBy(3.5, -1500, 0)
+    img_embellishment_bottom:moveBy(3.5, 1500, 0)
+  end, 8)
+
+    local btn_RequestCode = cc.uiloader:seekNodeByNameFast(self.scene, "btn_RequestCode")
+
+    if btn_RequestCode ~= nil then
+
+        btn_RequestCode:onButtonClicked(
+          function ()
+            self:showRequestCode()
+          end)
+
+        util.BtnScaleFun(btn_RequestCode)
+
+    end
+
+    -- local btn_GameRule = cc.uiloader:seekNodeByNameFast(self.scene, "btn_GameRule")
+
+    -- if btn_GameRule ~= nil then
+
+    --   btn_GameRule:onButtonClicked(
+    --     function ()
+    --       self:showRuleLayer()
+    --     end)
+
+    --   util.BtnScaleFun(btn_GameRule)
+
+    -- end
+
+--,node, ani_str, node1, ani_light
+
+
+
+
+
+
+
+local gameListView = cc.uiloader:seekNodeByNameFast(self.scene, "GameListView")
+
+self.scene.gameListView = gameListView
+
+local w = gameListView:getViewRect().width
+
+local x = gameListView:getPositionX()
+
+gameListView:setPosition(display.width+(display.width-x-w),0)
+
+local Image_BottomBar = cc.uiloader:seekNodeByNameFast(self.scene, "Image_BottomBar")
+local TopBar = cc.uiloader:seekNodeByNameFast(self.scene, "TopBar")
+
+local Home = cc.uiloader:seekNodeByNameFast(self.scene, "Home")
+Home:hide()
+self.scene.home = Home
+
+local UserInfoBar = cc.uiloader:seekNodeByNameFast(self.scene, "UserInfoBar")
+self.scene.userInfoBar = UserInfoBar
+UserInfoBar:setPositionX(0)
+
+self.scene.TopBar = TopBar
+self.scene.Image_BottomBar = Image_BottomBar
+
+-- if btn_RichRank ~= nil then
+
+--   local posX = btn_RichRank:getPositionX()
+--   local posY = btn_RichRank:getPositionY()
+
+--   btn_RichRank:setPosition(-posX,posY)
+
+-- end
+
+if TopBar ~= nil then
+
+  local posX = TopBar:getPositionX()
+  local posY = TopBar:getPositionY()
+
+  local H = 77
+ -- local y = display.height-math.abs(posY)
+ -- posY = display.height+y-H
+
+  TopBar:setPosition(posX, posY+77)
+
+end
+
+
+
+if Home ~= nil then
+
+   Home:onButtonClicked(
+  function()
+
+      if app.constant.isOpening == true then
+          return
+      end
+      app.constant.isOpening = true
+
+      if self.scene.gameListView ~= nil and self.scene.Image_BottomBar ~= nil then
+
+          -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",1))
+          -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",2))
+          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+          local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
+          local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
+          local param = {right = self.scene.gameListView, rightItem = {game1,game2}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar}
+         
+
+          local aniHandler = scheduler.performWithDelayGlobal(
+            function ()
+
+                app.constant.isOpening = false
+
+                if self.scene.home ~= nil then
+                    self.scene.home:hide()
+                end
+                if self.scene.userInfoBar ~= nil then
+                    self.scene.userInfoBar:setPositionX(0)
+                end
+
+                local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
+                local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
+                local param = {  top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}}
+                
+
+             end, 0.6)
+           table.insert(aniHandlers,aniHandler)
+      end
+
+   end)
+
+ util.BtnScaleFun(Home)
+
+end
+
+
+
+
+
+
     --add by whb 0914
     self:addGuideLayer(guideInfo.guideMenu[1])
     self:getTxtLayer()
@@ -931,10 +717,10 @@ self.scene.Image_BottomBar = Image_BottomBar
 --add by whb 0324
 
     local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    -- local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
-    -- local logoSprite = display.newSprite(platConfig.logo_small)
-    -- local logoframe = logoSprite:getSpriteFrame()
-    -- Logo:setSpriteFrame(logoframe)
+    local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
+    local logoSprite = display.newSprite(platConfig.logo_small)
+    local logoframe = logoSprite:getSpriteFrame()
+    Logo:setSpriteFrame(logoframe)
 
     -- local Image_Girl = cc.uiloader:seekNodeByNameFast(self.scene, "Image_Girl")
     -- --print("Image_Girl.res:",platConfig.Image_Girl.res)
@@ -950,6 +736,9 @@ self.scene.Image_BottomBar = Image_BottomBar
     local btn_Cooperation = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Cooperation")
     btn_Cooperation:onButtonClicked(handler(self,self.showCooperation))
     util.BtnScaleFun(btn_Cooperation)
+    if CONFIG_APP_CHANNEL == "3552" then
+        btn_Cooperation:hide()
+    end
 
     --setting
     local btn_setting = cc.uiloader:seekNodeByNameFast(self.scene, "Button_Setting")
@@ -998,7 +787,7 @@ self.scene.Image_BottomBar = Image_BottomBar
 
     end
 
-    --notice
+    -- --notice
     -- local btn_notice = cc.uiloader:seekNodeByNameFast(self.scene, "Button_Notice")
     -- if Account.tags.activity_tag == "1" then
     --   btn_notice:show()
@@ -1008,6 +797,17 @@ self.scene.Image_BottomBar = Image_BottomBar
     -- end
 
     -- util.BtnScaleFun(btn_notice)
+    
+    -----------------------------------------------
+    --测试斗地主按钮
+    -- local doudizhu_create = cc.ui.UIPushButton.new({normal="Image/ChatFriend/btn_voice1.png",pressed="Image/ChatFriend/btn_voice1.png",disabled="Image/ChatFriend/btn_voice1.png"})
+    -- doudizhu_create:setPosition(640,500)
+    -- doudizhu_create:addTo(self.scene)
+    -- doudizhu_create:onButtonClicked(
+    --   function()
+    --       self:setPrivateRoomType("create", 110)
+    --     end)
+    ---------------------------------------------
 
   end
 
@@ -1059,142 +859,140 @@ self.scene.Image_BottomBar = Image_BottomBar
 
 --检查是否显示活动页面
 function LobbyScene:checkShowActivity()
+  local today = os.date("*t",os.time())
+  local today_str = string.format("%d%02d%02d",today.year,today.month,today.day)
+  print("today_str:" .. today_str)
+  if GameData.lastLoginDate == nil or GameData.lastLoginDate ~= today_str then
+    -- if true then
+        --todo
+        if CONFIG_APP_CHANNEL == "3552" then
+          self:showActivityLayer()
+        else
+          self:showLotteryLayer()
+        end
 
-  
-  -- local today = os.date("*t",os.time())
-  -- local today_str = string.format("%d%02d%02d",today.year,today.month,today.day)
-  -- print("today_str:" .. today_str)
-  -- if GameData.lastLoginDate == nil or GameData.lastLoginDate ~= today_str then
-  --   -- if true then
-  --       --todo
-  --       if CONFIG_APP_CHANNEL == "3552" then
-  --         self:showActivityLayer()
-  --       else
-  --         self:showLotteryLayer()
-  --       end
+        -- self:showLotteryLayer()
+        util.GameStateSave("lastLoginDate",today_str)
+      end
+    end
+    function LobbyScene:showActivityBtn(startIndex,endIndex,listID,group,isLucky)
+    local index=1
+    if endIndex<=0 then
+        --todo
+        return
+      end
+      for i = startIndex,endIndex do
+      print("startIndex" ..startIndex)
+      print("endIndex" ..endIndex)
+      local activityConfig = ActivityConfig:getActConfig(CONFIG_APP_CHANNEL)
+      local unselected = string.format(activityConfig.activityRes.unselected,listID[index])
+      local selected = string.format(activityConfig.activityRes.selected,listID[index])
 
-  --       -- self:showLotteryLayer()
-  --       util.GameStateSave("lastLoginDate",today_str)
-  --     end
-  --   end
-  --   function LobbyScene:showActivityBtn(startIndex,endIndex,listID,group,isLucky)
-  --   local index=1
-  --   if endIndex<=0 then
-  --       --todo
-  --       return
-  --     end
-  --     for i = startIndex,endIndex do
-  --     print("startIndex" ..startIndex)
-  --     print("endIndex" ..endIndex)
-  --     local activityConfig = ActivityConfig:getActConfig(CONFIG_APP_CHANNEL)
-  --     local unselected = string.format(activityConfig.activityRes.unselected,listID[index])
-  --     local selected = string.format(activityConfig.activityRes.selected,listID[index])
+      local checkbox = cc.ui.UICheckBoxButton.new({
+        off = unselected,
+        off_pressed = selected,
+        off_disabled = unselected,
+        on = {selected, selected},
+        on_pressed = {unselected, selected},
+        on_disabled = {unselected, unselected},
+        })
+      checkbox:addTo(self.scene.activeLayer)
+      checkbox:setPosition(340, 500 - (i - 1) * 80)
+      checkbox.index = listID[index]
+      checkbox.Lucky = isLucky
 
-  --     local checkbox = cc.ui.UICheckBoxButton.new({
-  --       off = unselected,
-  --       off_pressed = selected,
-  --       off_disabled = unselected,
-  --       on = {selected, selected},
-  --       on_pressed = {unselected, selected},
-  --       on_disabled = {unselected, unselected},
-  --       })
-  --     checkbox:addTo(self.scene.activeLayer)
-  --     checkbox:setPosition(340, 500 - (i - 1) * 80)
-  --     checkbox.index = listID[index]
-  --     checkbox.Lucky = isLucky
-
-  --     group:addButtons({
-  --       [checkbox] = handler(self, self.showActivity)
-  --       })
-  --     index=index+1
-  --     if i == 1 and curActIndex == 1 then
-  --       checkbox:setButtonSelected(true)
-  --       elseif i == 2 and curActIndex == 2 then
-  --         checkbox:setButtonSelected(true)
-  --       end
+      group:addButtons({
+        [checkbox] = handler(self, self.showActivity)
+        })
+      index=index+1
+      if i == 1 and curActIndex == 1 then
+        checkbox:setButtonSelected(true)
+        elseif i == 2 and curActIndex == 2 then
+          checkbox:setButtonSelected(true)
+        end
 
 
 
-  --       for j=1,#lucky_profile do
-  --         if lucky_profile[j]==i then
-  --           print("显示小红点")
-  --           local hongdianSp = display.newSprite("Image/Common/Avatar/info.png")
-  --           :setScale(0.8)
-  --           :setPosition(85,20)
-  --           :setTag(1056)
-  --           :addTo(checkbox)
-  --         end
-  --       end
-  --     end
-  --   end
-  --   function LobbyScene:LuckyProfileRep(msg)
-  --     print("LuckyProfileRep++=")
-  --     local activity = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Lottery")
-  --     local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_LotteryTip")
-  --     Img_ChatTip:show()
-  --     if Account.tags.activity_tag == "1" then
-  --       local isShow=false
-  --       lucky_profile = {}
+        for j=1,#lucky_profile do
+          if lucky_profile[j]==i then
+            print("显示小红点")
+            local hongdianSp = display.newSprite("Image/Common/Avatar/info.png")
+            :setScale(0.8)
+            :setPosition(85,20)
+            :setTag(1056)
+            :addTo(checkbox)
+          end
+        end
+      end
+    end
+    function LobbyScene:LuckyProfileRep(msg)
+      print("LuckyProfileRep++=")
+      local activity = cc.uiloader:seekNodeByNameFast(self.scene, "btn_Lottery")
+      local Img_ChatTip = cc.uiloader:seekNodeByNameFast(activity, "Img_LotteryTip")
+      Img_ChatTip:show()
+      if Account.tags.activity_tag == "1" then
+        local isShow=false
+        lucky_profile = {}
 
-  --       if #msg.lucky_profile>0  then
-  --           --todo
-  --           for i=1,#msg.lucky_profile do
-  --            if msg.lucky_profile[i].status==1 then
-  --                   --todo
-  --                   isShow=true
+        if #msg.lucky_profile>0  then
+            --todo
+            for i=1,#msg.lucky_profile do
+             if msg.lucky_profile[i].status==1 then
+                    --todo
+                    isShow=true
 
-  --                   local ActPos = ActivityConfig:getActPos(CONFIG_APP_CHANNEL,msg.lucky_profile[i].id)
-  --                   table.insert(lucky_profile,#lucky_profile+1,ActPos)
-  --                 end
-
-
-  --               end
-  --               if isShow then
-  --                 Img_ChatTip:show()
-  --               else
-  --                 Img_ChatTip:hide()
-  --               end
-
-  --             end
+                    local ActPos = ActivityConfig:getActPos(CONFIG_APP_CHANNEL,msg.lucky_profile[i].id)
+                    table.insert(lucky_profile,#lucky_profile+1,ActPos)
+                  end
 
 
-  --           else
-  --             Img_ChatTip:hide()
-  --           end
-  --           dump(lucky_profile, "小红点的表")
-  --         end
-  -- function LobbyScene:showActivityLayer()
-  --           if app.constant.isOpening == true then
-  --               return
-  --           end
-  --           sound_common.menu()
+                end
+                if isShow then
+                  Img_ChatTip:show()
+                else
+                  Img_ChatTip:hide()
+                end
 
-  --           local activeLayer = cc.uiloader:load("Layer/Lobby/ActivityLayer.json"):addTo(self.scene)
-  --           self.scene.activeLayer = activeLayer
+              end
 
-  --           activeLayer.popBoxNode = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_bg")
-  --           util.setMenuAniEx(activeLayer.popBoxNode)
-  --           -- activeLayer.popBoxNode:setScale(0)
-  --           -- transition.scaleTo(activeLayer.popBoxNode, {scale = 1, time = app.constant.lobby_popbox_trasition_time})
 
-  --           local close = cc.uiloader:seekNodeByNameFast(activeLayer, "Button_Close"):onButtonClicked(function ()
-  --             self.scene.activeLayer:removeFromParent()
-  --             self.scene.activeLayer = nil
-  --             sound_common:cancel()
-  --             end)
-  --           util.BtnScaleFun(close)
+            else
+              Img_ChatTip:hide()
+            end
+            -- dump(lucky_profile, "小红点的表")
+          end
+  function LobbyScene:showActivityLayer()
+            if app.constant.isOpening == true then
+                return
+            end
+            sound_common.menu()
 
-  --           close:setLocalZOrder(10)
+            local activeLayer = cc.uiloader:load("Layer/Lobby/ActivityLayer.json"):addTo(self.scene)
+            self.scene.activeLayer = activeLayer
 
-  --           local Image_Act = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_Act")
-  --           --Image_Act:hide()
+            activeLayer.popBoxNode = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_bg")
+            util.setMenuAniEx(activeLayer.popBoxNode)
+            -- activeLayer.popBoxNode:setScale(0)
+            -- transition.scaleTo(activeLayer.popBoxNode, {scale = 1, time = app.constant.lobby_popbox_trasition_time})
 
-  --   --test url
-  --         local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-  --         local urlStr = platConfig.activityImg
-  --         local image = "Platform_Src/Image/active.png"
+            local close = cc.uiloader:seekNodeByNameFast(activeLayer, "Button_Close"):onButtonClicked(function ()
+              self.scene.activeLayer:removeFromParent()
+              self.scene.activeLayer = nil
+              sound_common:cancel()
+              end)
+            util.BtnScaleFun(close)
 
-  --         util.setActivityImage(Image_Act:getParent(), urlStr, Image_Act, image, 1, nil, "activity1")
+            close:setLocalZOrder(10)
+
+            local Image_Act = cc.uiloader:seekNodeByNameFast(activeLayer, "Image_Act")
+            --Image_Act:hide()
+
+    --test url
+          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+          local urlStr = platConfig.activityImg
+          local image = "Platform_Src/Image/active.png"
+
+          util.setActivityImage(Image_Act:getParent(), urlStr, Image_Act, image, 1, nil, "activity1")
 
 
   end
@@ -1422,13 +1220,13 @@ function LobbyScene:onEnterTransitionFinish()
 
           -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",1))
           -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, string.format("Game_%d",2))
-          -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-          -- local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
-          -- local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
-          -- local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
-          -- local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
-          -- local param = {center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, rightItem = {game1,game2}}
-          -- self:TurnMenuAni(param,0)
+          local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+          local game1 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[1].Node_Name)
+          local game2 = cc.uiloader:seekNodeByNameFast(self.scene, platConfig.game[2].Node_Name)
+          local Button_House1 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House1")
+          local Button_House2 = cc.uiloader:seekNodeByNameFast(self.scene, "Button_House2")
+          local param = {center = self.scene.panel_Bg1, centerItem = {Button_House2,Button_House1}, top = self.scene.TopBar, bottom = self.scene.Image_BottomBar, rightItem = {game1,game2}}
+          self:TurnMenuAni(param,0)
 
       end
 
@@ -1436,13 +1234,13 @@ function LobbyScene:onEnterTransitionFinish()
        -- 判断是否第一天
       if Account.tags.activity_tag == "1" then
 
-          self:checkShowActivity()
+          -- self:checkShowActivity()
 
       end
       -- end, 1.5)
 
-      -- MatchMessage.MatchConfigReq()
-      -- MatchMessage.MatchListReq(106)
+      MatchMessage.MatchConfigReq()
+      MatchMessage.MatchListReq(110)
 
       if Account.tags.free_gold_tag == "1" then
       --申请福利消息
@@ -1748,7 +1546,7 @@ function LobbyScene:showSetting()
         local noticeNum = 0
         --记录最后一条信息label y坐标
         local last_y = 340
-        dump(localNoticeValue)
+        -- dump(localNoticeValue)
         for i = #localNoticeValue,1,-1 do
           noticeNum = noticeNum + 1
           local content,line_num = util.stringFormat(tostring(#localNoticeValue - i + 1) .. "、" .. localNoticeValue[i].content,87)
@@ -2482,47 +2280,47 @@ function LobbyScene:BindUserRepEx(msg)
 -- ---------------------------------------------下面是比赛相关的方法----------------------------------------
 
 -- --[[ --
--- 	* 显示比赛房间List界面
--- 	@param int		gameId			游戏ID
+--  * 显示比赛房间List界面
+--  @param int    gameId      游戏ID
 -- --]]
 -- function LobbyScene:showMatchRoomList(gameId)
--- 	--比赛房间列表界面
--- 	local matchListLayer = cc.uiloader:load("Layer/Lobby/MatchListLayer.json"):addTo(self.scene)
+--  --比赛房间列表界面
+--  local matchListLayer = cc.uiloader:load("Layer/Lobby/MatchListLayer.json"):addTo(self.scene)
 
--- 	--滚动scrillView 列表
--- 	local list = cc.uiloader:seekNodeByNameFast(matchListLayer, "List")
--- 	self.scene.scrollNode = list:getScrollNode()
--- 	self.scene.scrollNode:removeAllChildren()
+--  --滚动scrillView 列表
+--  local list = cc.uiloader:seekNodeByNameFast(matchListLayer, "List")
+--  self.scene.scrollNode = list:getScrollNode()
+--  self.scene.scrollNode:removeAllChildren()
 
--- 	--房间配置
--- 	local config = RoomConfig:getGameConfig(gameId)
--- 	assert(config)
+--  --房间配置
+--  local config = RoomConfig:getGameConfig(gameId)
+--  assert(config)
 
--- 	--标题
--- 	local title = config.name .. "比赛房" or ""
--- 	cc.uiloader:seekNodeByNameFast(matchListLayer, "Title")
--- 	:setString(title)
+--  --标题
+--  local title = config.name .. "比赛房" or ""
+--  cc.uiloader:seekNodeByNameFast(matchListLayer, "Title")
+--  :setString(title)
 
--- 	--关闭按钮
--- 	cc.uiloader:seekNodeByNameFast(matchListLayer, "Close")
--- 	:onButtonClicked(function ()
--- 		sound_common.cancel()
--- 		matchListLayer:removeFromParent()
--- 		matchListLayer = nil
+--  --关闭按钮
+--  cc.uiloader:seekNodeByNameFast(matchListLayer, "Close")
+--  :onButtonClicked(function ()
+--    sound_common.cancel()
+--    matchListLayer:removeFromParent()
+--    matchListLayer = nil
 
--- 		--关闭某某定时器
--- 		if self.leftTimeHandler then
--- 			scheduler.unscheduleGlobal(self.leftTimeHandler)
--- 					self.leftTimeHandler = nil
--- 		end
--- 	end)
+--    --关闭某某定时器
+--    if self.leftTimeHandler then
+--      scheduler.unscheduleGlobal(self.leftTimeHandler)
+--          self.leftTimeHandler = nil
+--    end
+--  end)
 
 -- end
 
 -- --[[ --
--- 	* 显示比赛列表
--- 	@param table		msg			比赛列表数据
--- 	@param table		oldMsg		发送请求的数据
+--  * 显示比赛列表
+--  @param table    msg     比赛列表数据
+--  @param table    oldMsg    发送请求的数据
 -- --]]
 -- function LobbyScene:MatchListRep(msg,oldMsg)
 --     print("LobbyScene:MatchListRep")
@@ -2531,434 +2329,434 @@ function LobbyScene:BindUserRepEx(msg)
 --     assert(config)
 --     dump(config)
 
--- 	--断线重连
+--  --断线重连
 --     if config.matchroom then
--- 		for i = 1,#config.matchroom do
--- 			for k,v in pairs(msg.matches) do
--- 				if v.matchid == config.matchroom[i].matchid then
--- 					if v.online then
--- 						MatchMessage.EnterMatchReq(v.matchid,true)
--- 						return
--- 					end
--- 				end
--- 			end
--- 		end
+--    for i = 1,#config.matchroom do
+--      for k,v in pairs(msg.matches) do
+--        if v.matchid == config.matchroom[i].matchid then
+--          if v.online then
+--            MatchMessage.EnterMatchReq(v.matchid,true)
+--            return
+--          end
+--        end
+--      end
+--    end
 --     end
 
--- 	--显示比赛房间List界面
+--  --显示比赛房间List界面
 --     self:showMatchRoomList(oldMsg.gameid)
 
 --     --名字太长，换行显示
 --     local function matchNameFormat(name)
---       	return util.stringFormat(name,32)
+--        return util.stringFormat(name,32)
 --     end
 
 --     --奖品太长，换行显示
 --     local function prizeFormat(name)
---       	return util.stringFormat(name,39)
+--        return util.stringFormat(name,39)
 --     end
 
--- 	if config.matchroom then
--- 		self.scene.matchItem = {}
+--  if config.matchroom then
+--    self.scene.matchItem = {}
 
--- 		--星期
--- 		local week = os.date("%w",os.time())
--- 		print("week:",week)
+--    --星期
+--    local week = os.date("%w",os.time())
+--    print("week:",week)
 
--- 		--循环比赛房间
--- 		for i = 1,#config.matchroom do
--- 			local mroom = config.matchroom[i]					--比赛配置
--- 			local invisible = mroom.invisible					--nil
--- 			local matchid = msg.matchid							--比赛ID	0
--- 			local itemMatchid = config.matchroom[i].matchid
--- 			print("matchid:",matchid)
--- 			print("itemMatchid:",itemMatchid)
+--    --循环比赛房间
+--    for i = 1,#config.matchroom do
+--      local mroom = config.matchroom[i]         --比赛配置
+--      local invisible = mroom.invisible         --nil
+--      local matchid = msg.matchid             --比赛ID  0
+--      local itemMatchid = config.matchroom[i].matchid
+--      print("matchid:",matchid)
+--      print("itemMatchid:",itemMatchid)
 
--- 			--添加比赛通知
--- 			-- if invisible == nil or invisible ~= 1 then
--- 			--      self:addMatchNotication(mroom)
--- 			-- end
+--      --添加比赛通知
+--      -- if invisible == nil or invisible ~= 1 then
+--      --      self:addMatchNotication(mroom)
+--      -- end
 
--- 			if itemMatchid ~= 20602 or (itemMatchid == 20602 or week == 6) then
--- 				if matchid ~= nil and matchid>0 and mroom.matchid == matchid then
--- 					--Item
--- 					local item = cc.uiloader:load("Node/MatchItem.json")
--- 						:addTo(self.scene.scrollNode)
--- 					item:setPosition(cc.p(20,300 - 120))
--- 					item.matchId = mroom.matchid
--- 					self.scene.matchItem[i] = item
+--      if itemMatchid ~= 20602 or (itemMatchid == 20602 or week == 6) then
+--        if matchid ~= nil and matchid>0 and mroom.matchid == matchid then
+--          --Item
+--          local item = cc.uiloader:load("Node/MatchItem.json")
+--            :addTo(self.scene.scrollNode)
+--          item:setPosition(cc.p(20,300 - 120))
+--          item.matchId = mroom.matchid
+--          self.scene.matchItem[i] = item
 
--- 					--比赛时间
--- 					local hour = string.format("%02d",mroom.startHour)
--- 					local minute = string.format("%02d",mroom.startMinute)
--- 					local strtime = hour .. ":" .. minute
--- 					cc.uiloader:seekNodeByNameFast(item, "Text_StartTime")
--- 						:setString(strtime)
+--          --比赛时间
+--          local hour = string.format("%02d",mroom.startHour)
+--          local minute = string.format("%02d",mroom.startMinute)
+--          local strtime = hour .. ":" .. minute
+--          cc.uiloader:seekNodeByNameFast(item, "Text_StartTime")
+--            :setString(strtime)
 
--- 					--比赛图标
--- 					local frameName = mroom.icon
--- 					dump(mroom)
--- 					print("111frameName:"..frameName)
--- 					local icon = cc.uiloader:seekNodeByNameFast(item, "Image_Icon")
--- 					icon:setSpriteFrame(cc.SpriteFrame:create("Image/Match/" .. frameName, cc.rect(0,0,113, 113)))
+--          --比赛图标
+--          local frameName = mroom.icon
+--          dump(mroom)
+--          print("111frameName:"..frameName)
+--          local icon = cc.uiloader:seekNodeByNameFast(item, "Image_Icon")
+--          icon:setSpriteFrame(cc.SpriteFrame:create("Image/Match/" .. frameName, cc.rect(0,0,113, 113)))
 
--- 					--比赛房名字
--- 					local name = mroom.name
--- 					local len = string.len(name)
--- 					print("name len:" .. len)
--- 					name = matchNameFormat(name)
--- 					cc.uiloader:seekNodeByNameFast(item, "Text_MatchTitle")
--- 						:setString(name)
+--          --比赛房名字
+--          local name = mroom.name
+--          local len = string.len(name)
+--          print("name len:" .. len)
+--          name = matchNameFormat(name)
+--          cc.uiloader:seekNodeByNameFast(item, "Text_MatchTitle")
+--            :setString(name)
 
--- 					--参加金额
--- 					local fee = mroom.fee
--- 					if not fee  then
--- 						fee = "免费"
--- 					else
--- 						fee = mroom.fee.display
--- 					end
--- 					if mroom.matchid == 20801 then
--- 						fee = fee
--- 					elseif mroom.matchid == 20802 then
--- 						fee = fee
--- 					end
--- 					cc.uiloader:seekNodeByNameFast(item, "Text_ConstValue")
--- 					:setString(fee)
+--          --参加金额
+--          local fee = mroom.fee
+--          if not fee  then
+--            fee = "免费"
+--          else
+--            fee = mroom.fee.display
+--          end
+--          if mroom.matchid == 20801 then
+--            fee = fee
+--          elseif mroom.matchid == 20802 then
+--            fee = fee
+--          end
+--          cc.uiloader:seekNodeByNameFast(item, "Text_ConstValue")
+--          :setString(fee)
 
--- 					--比赛奖品
--- 					local rewards = mroom.rewards
--- 					for i = 1,3 do
--- 						local rstart = rewards[i].startRank
--- 						local rend = rewards[i].endRank
+--          --比赛奖品
+--          local rewards = mroom.rewards
+--          for i = 1,3 do
+--            local rstart = rewards[i].startRank
+--            local rend = rewards[i].endRank
 
--- 						local rank
--- 						if rstart == rend then
--- 							rank = "第"..rstart .. "名:"
--- 						else
--- 							rank = "第"..rstart .. "~" .. rend .. "名:"
--- 						end
+--            local rank
+--            if rstart == rend then
+--              rank = "第"..rstart .. "名:"
+--            else
+--              rank = "第"..rstart .. "~" .. rend .. "名:"
+--            end
 
--- 						local str = rank .. rewards[i].name
--- 						str = prizeFormat(str)
--- 						cc.uiloader:seekNodeByNameFast(item, string.format("Text_Prize_%d",i))
--- 							:setString(str)
--- 					end
+--            local str = rank .. rewards[i].name
+--            str = prizeFormat(str)
+--            cc.uiloader:seekNodeByNameFast(item, string.format("Text_Prize_%d",i))
+--              :setString(str)
+--          end
 
--- 					print("2222matchid:", matchid)
+--          print("2222matchid:", matchid)
 
--- 					--比赛状态按钮显示
--- 					local state = 1
--- 					for k,v in pairs(msg.matches) do
--- 						if v.matchid == config.matchroom[i].matchid then
+--          --比赛状态按钮显示
+--          local state = 1
+--          for k,v in pairs(msg.matches) do
+--            if v.matchid == config.matchroom[i].matchid then
 
--- 							state = v.status				--比赛状态
--- 							item.state = state				--比赛状态
--- 							local isSignup = v.signup		--是否报名过比赛
+--              state = v.status        --比赛状态
+--              item.state = state        --比赛状态
+--              local isSignup = v.signup   --是否报名过比赛
 
--- 							--进入比赛按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("enter")
--- 									MatchMessage.EnterMatchReq(v.matchid,false)
--- 								end)
+--              --进入比赛按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("enter")
+--                  MatchMessage.EnterMatchReq(v.matchid,false)
+--                end)
 
--- 							--退出比赛按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("exit")
--- 									MatchMessage.MatchSignupReq(2,v.matchid)
--- 								end)
+--              --退出比赛按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("exit")
+--                  MatchMessage.MatchSignupReq(2,v.matchid)
+--                end)
 
--- 							--报名比赛按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("signup")
--- 									MatchMessage.MatchSignupReq(1,v.matchid)
--- 								end)
+--              --报名比赛按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("signup")
+--                  MatchMessage.MatchSignupReq(1,v.matchid)
+--                end)
 
--- 							--比赛进行中按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Playing")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("playing")
--- 								end)
+--              --比赛进行中按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Playing")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("playing")
+--                end)
 
--- 							--报名按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("end")
--- 									self:showMatchRankList(v.matchid)
--- 								end)
+--              --报名按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("end")
+--                  self:showMatchRankList(v.matchid)
+--                end)
 
--- 							--已取消按钮
--- 							cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("end")
--- 									--self:showMatchRankList(matchId)
--- 								end)
+--              --已取消按钮
+--              cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("end")
+--                  --self:showMatchRankList(matchId)
+--                end)
 
--- 							--刷新按钮状态
--- 							self:updateMatchState(v.matchid, state, isSignup)
--- 						end
--- 					end
+--              --刷新按钮状态
+--              self:updateMatchState(v.matchid, state, isSignup)
+--            end
+--          end
 
--- 					--比赛倒计时
--- 					item.labelLeftTime = cc.uiloader:seekNodeByNameFast(item, "Text_LeftTime")
--- 					local startTime = {}
--- 					startTime.startHour = mroom.startHour
--- 					startTime.startMinute = mroom.startMinute
--- 					item.startTime = startTime		--比赛开始时间
--- 				elseif matchid == nil or matchid == 0 then
--- 					if invisible == nil or invisible ~= 1 then
--- 						print("444444:", matchid)
+--          --比赛倒计时
+--          item.labelLeftTime = cc.uiloader:seekNodeByNameFast(item, "Text_LeftTime")
+--          local startTime = {}
+--          startTime.startHour = mroom.startHour
+--          startTime.startMinute = mroom.startMinute
+--          item.startTime = startTime    --比赛开始时间
+--        elseif matchid == nil or matchid == 0 then
+--          if invisible == nil or invisible ~= 1 then
+--            print("444444:", matchid)
 
--- 						--Item
--- 						local item = cc.uiloader:load("Node/MatchItem.json")
--- 							:addTo(self.scene.scrollNode)
--- 						item:setPosition(cc.p(20,300 - 120 - (i - 1) * 160))
--- 						item.matchId = mroom.matchid
--- 						self.scene.matchItem[i] = item
+--            --Item
+--            local item = cc.uiloader:load("Node/MatchItem.json")
+--              :addTo(self.scene.scrollNode)
+--            item:setPosition(cc.p(20,300 - 120 - (i - 1) * 160))
+--            item.matchId = mroom.matchid
+--            self.scene.matchItem[i] = item
 
--- 						--比赛图标
--- 						local frameName = mroom.icon
--- 						dump(mroom)
--- 						print("frameName:"..frameName)
--- 						local icon = cc.uiloader:seekNodeByNameFast(item, "Image_Icon")
--- 						icon:setSpriteFrame(cc.SpriteFrame:create("Image/Match/" .. frameName, cc.rect(0,0,113, 113)))
+--            --比赛图标
+--            local frameName = mroom.icon
+--            dump(mroom)
+--            print("frameName:"..frameName)
+--            local icon = cc.uiloader:seekNodeByNameFast(item, "Image_Icon")
+--            icon:setSpriteFrame(cc.SpriteFrame:create("Image/Match/" .. frameName, cc.rect(0,0,113, 113)))
 
--- 						--比赛时间
--- 						local hour = string.format("%02d",mroom.startHour)
--- 						local minute = string.format("%02d",mroom.startMinute)
--- 						local strtime = hour .. ":" .. minute
--- 						cc.uiloader:seekNodeByNameFast(item, "Text_StartTime")
--- 						:setString(strtime)
+--            --比赛时间
+--            local hour = string.format("%02d",mroom.startHour)
+--            local minute = string.format("%02d",mroom.startMinute)
+--            local strtime = hour .. ":" .. minute
+--            cc.uiloader:seekNodeByNameFast(item, "Text_StartTime")
+--            :setString(strtime)
 
--- 						--比赛房名字
--- 						local name = mroom.name
--- 						name = matchNameFormat(name)
--- 						cc.uiloader:seekNodeByNameFast(item, "Text_MatchTitle")
--- 						:setString(name)
+--            --比赛房名字
+--            local name = mroom.name
+--            name = matchNameFormat(name)
+--            cc.uiloader:seekNodeByNameFast(item, "Text_MatchTitle")
+--            :setString(name)
 
--- 						--参与金额
--- 						local fee = mroom.fee
--- 						print("fee::::",fee)
--- 						if fee then
--- 							cc.uiloader:seekNodeByNameFast(item, "Text_ConstValue")
--- 								:setString(fee.val .. "钻石")
--- 						end
+--            --参与金额
+--            local fee = mroom.fee
+--            print("fee::::",fee)
+--            if fee then
+--              cc.uiloader:seekNodeByNameFast(item, "Text_ConstValue")
+--                :setString(fee.val .. "钻石")
+--            end
 
--- 						--比赛奖品
--- 						local rewards = mroom.rewards
--- 						for i = 1,3 do
--- 							local rstart = rewards[i].startRank
--- 							local rend = rewards[i].endRank
+--            --比赛奖品
+--            local rewards = mroom.rewards
+--            for i = 1,3 do
+--              local rstart = rewards[i].startRank
+--              local rend = rewards[i].endRank
 
--- 							local rank
--- 							if rstart == rend then
--- 								rank = "第"..rstart .. "名:"
--- 							else
--- 								rank = "第"..rstart .. "~" .. rend .. "名:"
--- 							end
+--              local rank
+--              if rstart == rend then
+--                rank = "第"..rstart .. "名:"
+--              else
+--                rank = "第"..rstart .. "~" .. rend .. "名:"
+--              end
 
--- 							local str = rank .. rewards[i].name
--- 							str = prizeFormat(str)
--- 							cc.uiloader:seekNodeByNameFast(item, string.format("Text_Prize_%d",i))
--- 								:setString(str)
--- 						end
+--              local str = rank .. rewards[i].name
+--              str = prizeFormat(str)
+--              cc.uiloader:seekNodeByNameFast(item, string.format("Text_Prize_%d",i))
+--                :setString(str)
+--            end
 
--- 						--比赛状态
--- 						local state = 1
--- 						for k,v in pairs(msg.matches) do
--- 							if v.matchid == config.matchroom[i].matchid then
--- 								state = v.status				--比赛状态
--- 								item.state = state				--比赛状态
--- 								local isSignup = v.signup		--是否报名过
+--            --比赛状态
+--            local state = 1
+--            for k,v in pairs(msg.matches) do
+--              if v.matchid == config.matchroom[i].matchid then
+--                state = v.status        --比赛状态
+--                item.state = state        --比赛状态
+--                local isSignup = v.signup   --是否报名过
 
--- 								--进入比赛按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
--- 									:hide()
--- 									:onButtonClicked(function ()
--- 										print("enter")
--- 										MatchMessage.EnterMatchReq(v.matchid,false)
--- 									end)
+--                --进入比赛按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
+--                  :hide()
+--                  :onButtonClicked(function ()
+--                    print("enter")
+--                    MatchMessage.EnterMatchReq(v.matchid,false)
+--                  end)
 
--- 								--退出比赛按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
--- 									:hide()
--- 									:onButtonClicked(function ()
--- 										print("exit")
--- 										MatchMessage.MatchSignupReq(2,v.matchid)
--- 									end)
+--                --退出比赛按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
+--                  :hide()
+--                  :onButtonClicked(function ()
+--                    print("exit")
+--                    MatchMessage.MatchSignupReq(2,v.matchid)
+--                  end)
 
--- 								--报名比赛按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 									:hide()
--- 									:onButtonClicked(function ()
--- 											print("signup")
--- 											MatchMessage.MatchSignupReq(1,v.matchid)
--- 											--self:showMatchRankList(20100)
--- 										end)
+--                --报名比赛按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--                  :hide()
+--                  :onButtonClicked(function ()
+--                      print("signup")
+--                      MatchMessage.MatchSignupReq(1,v.matchid)
+--                      --self:showMatchRankList(20100)
+--                    end)
 
--- 								--比赛进行中按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Playing")
--- 								:onButtonClicked(function ()
--- 									print("playing")
--- 									end)
--- 								:hide()
+--                --比赛进行中按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Playing")
+--                :onButtonClicked(function ()
+--                  print("playing")
+--                  end)
+--                :hide()
 
--- 								--比赛排名按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
--- 								:hide()
--- 								:onButtonClicked(function ()
--- 									print("end")
--- 									self:showMatchRankList(v.matchid)
--- 								end)
+--                --比赛排名按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
+--                :hide()
+--                :onButtonClicked(function ()
+--                  print("end")
+--                  self:showMatchRankList(v.matchid)
+--                end)
 
--- 								--已取消按钮
--- 								cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
--- 									:hide()
--- 									:onButtonClicked(function ()
--- 										print("end")
--- 										--self:showMatchRankList(matchId)
--- 									end)
+--                --已取消按钮
+--                cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
+--                  :hide()
+--                  :onButtonClicked(function ()
+--                    print("end")
+--                    --self:showMatchRankList(matchId)
+--                  end)
 
--- 								--刷新按钮状态
--- 								self:updateMatchState(v.matchid,state,isSignup)
--- 							end
--- 						end
+--                --刷新按钮状态
+--                self:updateMatchState(v.matchid,state,isSignup)
+--              end
+--            end
 
--- 						--倒计时
--- 						item.labelLeftTime = cc.uiloader:seekNodeByNameFast(item, "Text_LeftTime")
--- 						local startTime = {}
--- 						startTime.startHour = mroom.startHour
--- 						startTime.startMinute = mroom.startMinute
--- 						item.startTime = startTime
+--            --倒计时
+--            item.labelLeftTime = cc.uiloader:seekNodeByNameFast(item, "Text_LeftTime")
+--            local startTime = {}
+--            startTime.startHour = mroom.startHour
+--            startTime.startMinute = mroom.startMinute
+--            item.startTime = startTime
 
--- 					end
--- 				end
--- 			end
--- 		end
+--          end
+--        end
+--      end
+--    end
 
--- 		--获取服务器时间开始倒计时刷新比赛时间
--- 		web.getServerTime(function (time)
--- 			leftTime = time
--- 			self:updateLeftTime()
--- 			self.leftTimeHandler = scheduler.scheduleGlobal(function()
--- 				leftTime = leftTime + 1
--- 				self:updateLeftTime()
--- 			end, 1.0)
--- 		end)
+--    --获取服务器时间开始倒计时刷新比赛时间
+--    web.getServerTime(function (time)
+--      leftTime = time
+--      self:updateLeftTime()
+--      self.leftTimeHandler = scheduler.scheduleGlobal(function()
+--        leftTime = leftTime + 1
+--        self:updateLeftTime()
+--      end, 1.0)
+--    end)
 --     end
 -- end
 
 -- --[[ --
--- 	* 刷新比赛倒计时时间
+--  * 刷新比赛倒计时时间
 -- --]]
 -- function LobbyScene:updateLeftTime()
 --     local servertime = os.date("*t", leftTime)
 
---    	for i = 1,#self.scene.matchItem do
---     	local item = self.scene.matchItem[i]
---     	if item ~= nil then
---           	--print("updateMatchTime11111--")
---           	local s = os.time({year=servertime.year, month=servertime.month, day=servertime.day,hour = item.startTime.startHour,min = item.startTime.startMinute,sec = 0})
---           	local diff = os.difftime(s,leftTime)
+--      for i = 1,#self.scene.matchItem do
+--      local item = self.scene.matchItem[i]
+--      if item ~= nil then
+--            --print("updateMatchTime11111--")
+--            local s = os.time({year=servertime.year, month=servertime.month, day=servertime.day,hour = item.startTime.startHour,min = item.startTime.startMinute,sec = 0})
+--            local diff = os.difftime(s,leftTime)
 --             --print("diff:" .. diff)
--- 			item.labelLeftTime:setVisible(true)
+--      item.labelLeftTime:setVisible(true)
 
 --             if item.state ~= 4 and item.state ~= 16 then
 --                 --print("updateMatchTime2222--")
 --                 if diff <= 0 then
 --                     item.labelLeftTime:setString("00:00:00")
---                	else
+--                  else
 --                     local left = string.format("%02d:%02d:%02d", math.floor(diff/(60*60)), math.floor((diff/60)%60), diff%60)
 --                     item.labelLeftTime:setString(left)
 --                 end
 --             else
--- 				item.labelLeftTime:setString("00:00:00")
--- 				local btn_signup = cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 					:show()
--- 				btn_signup:setButtonEnabled(false)
+--        item.labelLeftTime:setString("00:00:00")
+--        local btn_signup = cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--          :show()
+--        btn_signup:setButtonEnabled(false)
 --             end
 --         end
 --     end
 -- end
 
 -- --[[ --
--- 	* 刷新比赛按钮状态
--- 	@param int		matchId			比赛ID
--- 	@param int		state			比赛状态
--- 	@param bool		signup			是否报名过
+--  * 刷新比赛按钮状态
+--  @param int    matchId     比赛ID
+--  @param int    state     比赛状态
+--  @param bool   signup      是否报名过
 -- --]]
 -- function LobbyScene:updateMatchState(matchId,state,signup)
--- 	print("matchId:" .. matchId ..",state:" .. tostring(state))
--- 	local item
--- 	for k,v in pairs(self.scene.matchItem) do
--- 		if v.matchId == matchId then
--- 			item = v
--- 			break
--- 		end
--- 	end
+--  print("matchId:" .. matchId ..",state:" .. tostring(state))
+--  local item
+--  for k,v in pairs(self.scene.matchItem) do
+--    if v.matchId == matchId then
+--      item = v
+--      break
+--    end
+--  end
 
 --     -- cc.uiloader:seekNodeByNameFast(item, "Text_ConstValue")
 --     --    :setString(fee)
 
 --     if state == 1 then
--- 		if signup then
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
--- 				:show()
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
--- 				:show()
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 				:hide()
--- 		else
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
--- 				:hide()
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
--- 				:hide()
--- 			cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 				:show()
--- 		end
+--    if signup then
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
+--        :show()
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
+--        :show()
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--        :hide()
+--    else
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Enter")
+--        :hide()
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Exit")
+--        :hide()
+--      cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--        :show()
+--    end
 --     elseif state == 2 or state == 8 then
 --         cc.uiloader:seekNodeByNameFast(item, "Button_Playing")
---         	:show()
+--          :show()
 --     elseif state == 16 then
--- 		cc.uiloader:seekNodeByNameFast(item, "Button_Ended")
--- 			:show()
--- 		cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
--- 			:show()
--- 		cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
--- 			:hide()
+--    cc.uiloader:seekNodeByNameFast(item, "Button_Ended")
+--      :show()
+--    cc.uiloader:seekNodeByNameFast(item, "Button_Rank")
+--      :show()
+--    cc.uiloader:seekNodeByNameFast(item, "Button_Signup")
+--      :hide()
 --     elseif state == 4 then
--- 		cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
--- 			:show()
+--    cc.uiloader:seekNodeByNameFast(item, "Button_Cancel")
+--      :show()
 --     end
 -- end
 
 -- --[[ --
--- 	* 报名比赛
--- 	@param table		msg			报名数据
--- 	@param table		oldMsg		发送请求的数据
+--  * 报名比赛
+--  @param table    msg     报名数据
+--  @param table    oldMsg    发送请求的数据
 -- --]]
 -- function LobbyScene:MatchSignupRep(msg,oldMsg)
 --     print("MatchSignupRep:" .. msg.result)
--- 	--dump(msg)
+--  --dump(msg)
 
 --     if msg.result == 0 then
 --         if oldMsg.optype == 1 then  --报名成功
---           	self:updateMatchState(oldMsg.matchid,1,true)
+--            self:updateMatchState(oldMsg.matchid,1,true)
 --         elseif oldMsg.optype == 2 then  --取消成功
---           	self:updateMatchState(oldMsg.matchid,1,false)
+--            self:updateMatchState(oldMsg.matchid,1,false)
 --         end
 --     else
 --         local string = "报名失败！"
 --         if msg.result == 4 then
---           	string = "报名失败，已经报名过"
+--            string = "报名失败，已经报名过"
 --         elseif msg.result == 6 then
 --             string = "报名失败，名额已满"
 --         elseif msg.result == 7 then
@@ -2967,43 +2765,43 @@ function LobbyScene:BindUserRepEx(msg)
 --             string = "报名失败，报名费用不足"
 --         end
 --         ErrorLayer.new(string):addTo(self.scene)
--- 	end
+--  end
 -- end
 
 -- --[[ --
--- 	* 显示比赛排名
--- 	@param int		matchid			比赛ID
+--  * 显示比赛排名
+--  @param int    matchid     比赛ID
 -- --]]
 -- function LobbyScene:showMatchRankList(matchid)
 --     print("match--rank111-----")
 --     --比赛排名界面
 --     local matchRankListLayer = cc.uiloader:load("Layer/Lobby/MatchRankLayer.json"):addTo(self.scene)
 
--- 	--比赛列表
+--  --比赛列表
 --     local list = cc.uiloader:seekNodeByNameFast(matchRankListLayer, "List")
 --     self.scene.rankscrollNode = list:getScrollNode()
 --     self.scene.rankscrollNode:removeAllChildren()
 
--- 	--标题
+--  --标题
 --     cc.uiloader:seekNodeByNameFast(matchRankListLayer, "Title")
--- 		--:setString(title)
+--    --:setString(title)
 
--- 	--关闭按钮
--- 	cc.uiloader:seekNodeByNameFast(matchRankListLayer, "Close")
--- 		:onButtonClicked(function ()
--- 			sound_common.cancel()
--- 			matchRankListLayer:removeFromParent()
--- 			matchRankListLayer = nil
--- 		end)
+--  --关闭按钮
+--  cc.uiloader:seekNodeByNameFast(matchRankListLayer, "Close")
+--    :onButtonClicked(function ()
+--      sound_common.cancel()
+--      matchRankListLayer:removeFromParent()
+--      matchRankListLayer = nil
+--    end)
 
--- 	--发送比赛排名数据请求
+--  --发送比赛排名数据请求
 --     MatchMessage.MatchRankReq(matchid)
 -- end
 
 -- --[[ --
--- 	* 比赛排名
--- 	@param table		msg			排名数据
--- 	@param table		oldMsg		发送请求的数据
+--  * 比赛排名
+--  @param table    msg     排名数据
+--  @param table    oldMsg    发送请求的数据
 -- --]]
 -- function LobbyScene:MatchRankRep(msg,oldMsg)
 --     -- msg = {}
@@ -3014,149 +2812,149 @@ function LobbyScene:BindUserRepEx(msg)
 --     -- dump(msg)
 
 --     if msg.result == 0 then         --成功
--- 		for i = 1,#msg.players do
--- 			--Item底图
--- 			local itemBg = display.newSprite("Image/Match/rank_bg_2.png")
--- 			itemBg:setPosition(498,340 - i * 100)
--- 			itemBg:setContentSize(993,85)
--- 			self.scene.rankscrollNode:addChild(itemBg)
+--    for i = 1,#msg.players do
+--      --Item底图
+--      local itemBg = display.newSprite("Image/Match/rank_bg_2.png")
+--      itemBg:setPosition(498,340 - i * 100)
+--      itemBg:setContentSize(993,85)
+--      self.scene.rankscrollNode:addChild(itemBg)
 
--- 			--排名玩家数据
--- 			local player
--- 			for k,v in pairs(msg.players) do
--- 				if v.rank == i then
--- 					player = v
--- 					break
--- 				end
--- 			end
+--      --排名玩家数据
+--      local player
+--      for k,v in pairs(msg.players) do
+--        if v.rank == i then
+--          player = v
+--          break
+--        end
+--      end
 
--- 			--显示第几名
---             if player.rank <= 3 then	--前三名
--- 				local rankNode = display.newSprite(string.format("Image/Match/r_%d.png",player.rank))
--- 				rankNode:setPosition(180,40)
--- 				rankNode:setAnchorPoint(cc.p(0.5,0.5))
--- 				itemBg:addChild(rankNode)
+--      --显示第几名
+--             if player.rank <= 3 then --前三名
+--        local rankNode = display.newSprite(string.format("Image/Match/r_%d.png",player.rank))
+--        rankNode:setPosition(180,40)
+--        rankNode:setAnchorPoint(cc.p(0.5,0.5))
+--        itemBg:addChild(rankNode)
 --             else
--- 				cc.ui.UILabel.new({
--- 					color = cc.c3b(131, 52, 28),
--- 					size = 23,
--- 					text = tostring(player.rank),
--- 					})
--- 				:addTo(itemBg)
--- 				:setAnchorPoint(cc.p(0.5, 0.5))
--- 				:setPosition(180,40)
--- 			end
+--        cc.ui.UILabel.new({
+--          color = cc.c3b(131, 52, 28),
+--          size = 23,
+--          text = tostring(player.rank),
+--          })
+--        :addTo(itemBg)
+--        :setAnchorPoint(cc.p(0.5, 0.5))
+--        :setPosition(180,40)
+--      end
 
--- 			--排名颜色
+--      --排名颜色
 --             local labelColor
 --             if player.rank == 1 then
---               	labelColor = cc.c3b(255,108,0)
+--                labelColor = cc.c3b(255,108,0)
 --             elseif player.rank == 2 then
 --                 labelColor = cc.c3b(141,27,39)
 --             elseif player.rank == 3 then
 --                 labelColor = cc.c3b(3,175,76)
 --             else
---             	labelColor = cc.c3b(131, 52, 28)
--- 			end
+--              labelColor = cc.c3b(131, 52, 28)
+--      end
 
 --             --玩家名字
 --             cc.ui.UILabel.new({color = labelColor, size = 23, text = tostring(crypt.base64decode(util.checkNickName(player.nickname)))})
--- 				:addTo(itemBg)
--- 				:setAnchorPoint(cc.p(0.5, 0.5))
--- 				:setPosition(497,40)
+--        :addTo(itemBg)
+--        :setAnchorPoint(cc.p(0.5, 0.5))
+--        :setPosition(497,40)
 
 --             --奖品
 --             cc.ui.UILabel.new({color = labelColor, size = 23, text = tostring(player.reward)})
--- 				:addTo(itemBg)
--- 				:setAnchorPoint(cc.p(0.5, 0.5))
--- 				:setPosition(814,40)
+--        :addTo(itemBg)
+--        :setAnchorPoint(cc.p(0.5, 0.5))
+--        :setPosition(814,40)
 --         end
 --     end
 -- end
 
 -- --[[ --
--- 	* 检查某个游戏房间配置数据   目前没啥用了
--- 	@param int		gameid			游戏ID
+--  * 检查某个游戏房间配置数据   目前没啥用了
+--  @param int    gameid      游戏ID
 -- --]]
 -- function LobbyScene:checkRoomList(gameId)
 --     local config = RoomConfig:getGameConfig(gameId)
 --     if config == nil then
---     	return false
+--      return false
 --     end
 
--- 	if #config.room == 0 then
--- 		return false
--- 	end
+--  if #config.room == 0 then
+--    return false
+--  end
 
 --     return true
 -- end
 
 -- --[[ --
--- 	* 显示房间列表
---     @param int 			gameId 				游戏ID
+--  * 显示房间列表
+--     @param int       gameId        游戏ID
 -- --]]
 -- function LobbyScene:showRoomList(gameId)
 --     local roomListLayer = cc.uiloader:load("Layer/Lobby/RoomListLayer.json"):addTo(self.scene)
 --     self.scene.roomListLayer = roomListLayer
 --     self.scene.roomListLayer.gameId = gameId
 
--- 	local popBoxNode = cc.uiloader:seekNodeByNameFast(roomListLayer, "PopBoxNode")
--- 	popBoxNode:setScale(0)
+--  local popBoxNode = cc.uiloader:seekNodeByNameFast(roomListLayer, "PopBoxNode")
+--  popBoxNode:setScale(0)
 
--- 	transition.scaleTo(popBoxNode, {
--- 		scale = 1,
--- 		time = app.constant.lobby_popbox_trasition_time,
--- 		onComplete = function ()
--- 			local config = RoomConfig:getGameConfig(gameId)
--- 			assert(config)
+--  transition.scaleTo(popBoxNode, {
+--    scale = 1,
+--    time = app.constant.lobby_popbox_trasition_time,
+--    onComplete = function ()
+--      local config = RoomConfig:getGameConfig(gameId)
+--      assert(config)
 
--- 			--标题
--- 			cc.uiloader:seekNodeByNameFast(roomListLayer, "Title")
--- 			:setString(config.name)
--- 			--关闭按钮
--- 			cc.uiloader:seekNodeByNameFast(roomListLayer, "Close")
--- 			:onButtonClicked(function ()
--- 				sound_common.cancel()
--- 				roomListLayer:removeFromParent()
--- 				self.scene.roomListLayer = nil
--- 			end)
+--      --标题
+--      cc.uiloader:seekNodeByNameFast(roomListLayer, "Title")
+--      :setString(config.name)
+--      --关闭按钮
+--      cc.uiloader:seekNodeByNameFast(roomListLayer, "Close")
+--      :onButtonClicked(function ()
+--        sound_common.cancel()
+--        roomListLayer:removeFromParent()
+--        self.scene.roomListLayer = nil
+--      end)
 
--- 			--加载房间配置  目前只有比赛房
--- 			self:loadRoomConfig()
+--      --加载房间配置  目前只有比赛房
+--      self:loadRoomConfig()
 
--- 			-- if #config.room == 0 then
--- 			--   MatchMessage.MatchConfigReq()
--- 			--   UserMessage.RoomListReq()
--- 			-- else
--- 			--   self:loadRoomConfig()
--- 			-- end
--- 		end,
--- 	})
+--      -- if #config.room == 0 then
+--      --   MatchMessage.MatchConfigReq()
+--      --   UserMessage.RoomListReq()
+--      -- else
+--      --   self:loadRoomConfig()
+--      -- end
+--    end,
+--  })
 -- end
 
 
 -- --[[ --
--- 	* 加载房间配置
+--  * 加载房间配置
 -- --]]
 -- function LobbyScene:loadRoomConfig()
--- 	if not self.scene.roomListLayer then
--- 		return
--- 	end
+--  if not self.scene.roomListLayer then
+--    return
+--  end
 
--- 	local roomListLayer = self.scene.roomListLayer
--- 	local gameId = roomListLayer.gameId
+--  local roomListLayer = self.scene.roomListLayer
+--  local gameId = roomListLayer.gameId
 
--- 	local list = cc.uiloader:seekNodeByNameFast(roomListLayer, "List")
--- 	local scrollNode = list:getScrollNode()
--- 	scrollNode:removeAllChildren()
+--  local list = cc.uiloader:seekNodeByNameFast(roomListLayer, "List")
+--  local scrollNode = list:getScrollNode()
+--  scrollNode:removeAllChildren()
 
--- 	local config = RoomConfig:getGameConfig(gameId)
--- 	assert(config)
--- 	dump(config)
+--  local config = RoomConfig:getGameConfig(gameId)
+--  assert(config)
+--  dump(config)
 
--- 	--房间配置 空表
+--  --房间配置 空表
 --     for i,room in ipairs(config.room) do
--- 		--if config.room.invisible == nil or config.room.invisible ~= 1 then
+--    --if config.room.invisible == nil or config.room.invisible ~= 1 then
 
 --         local players = room.players or 0
 --         local maxPlayers = room.maxRoomPlayer or room.tables * room.seats * 2
@@ -3165,18 +2963,18 @@ function LobbyScene:BindUserRepEx(msg)
 --         local fixedbase = room.fixedbase
 
 --         self:loadRoomItem(i,list,name,players,maxPlayers,gold,nil,fixedbase,function()
--- 			UserMessage.EnterRoomRequest(gameId, room.roomid)
+--      UserMessage.EnterRoomRequest(gameId, room.roomid)
 
--- 			app.constant.cur_GameID = gameId
--- 			app.constant.cur_RoomID = room.roomid
--- 		end)
+--      app.constant.cur_GameID = gameId
+--      app.constant.cur_RoomID = room.roomid
+--    end)
 
 --         --end
 --     end
 
--- 	--比赛配置
+--  --比赛配置
 --     local hasFriendRoom = false
--- 	if config.matchroom and #config.matchroom > 0 then
+--  if config.matchroom and #config.matchroom > 0 then
 
 --         local players = 0
 --         local maxPlayers = 1
@@ -3184,165 +2982,165 @@ function LobbyScene:BindUserRepEx(msg)
 --         local name = config.name .. "比赛房" or ""
 
 --         local times = {}
--- 		for k,mroom in pairs(config.matchroom) do
--- 			if mroom.invisible == nil or mroom.invisible ~= 1 then
--- 				local hour = string.format("%02d",mroom.startHour)
--- 				local minute = string.format("%02d",mroom.startMinute)
--- 				local str = ""
--- 				if #times == 0 then
--- 					str = "比赛时间："
--- 				end
--- 				str = str .. hour .. ":" .. minute
--- 				print("bisai:",str)
--- 				table.insert(times,str)
--- 			elseif mroom.invisible == 1 then
--- 				hasFriendRoom = true
--- 			end
--- 		end
+--    for k,mroom in pairs(config.matchroom) do
+--      if mroom.invisible == nil or mroom.invisible ~= 1 then
+--        local hour = string.format("%02d",mroom.startHour)
+--        local minute = string.format("%02d",mroom.startMinute)
+--        local str = ""
+--        if #times == 0 then
+--          str = "比赛时间："
+--        end
+--        str = str .. hour .. ":" .. minute
+--        print("bisai:",str)
+--        table.insert(times,str)
+--      elseif mroom.invisible == 1 then
+--        hasFriendRoom = true
+--      end
+--    end
 
--- 		--加载一条Item
--- 		self:loadRoomItem(#config.room + 1,list,name,players,maxPlayers,0,times,fixedbase,function()
--- 			--请求比赛List
--- 			MatchMessage.MatchListReq(gameId)
--- 		end)
--- 	end
+--    --加载一条Item
+--    self:loadRoomItem(#config.room + 1,list,name,players,maxPlayers,0,times,fixedbase,function()
+--      --请求比赛List
+--      MatchMessage.MatchListReq(gameId)
+--    end)
+--  end
 
--- 	--如果有好友密码房，加创建入口  --隐藏的比赛房
--- 	if hasFriendRoom == true then
--- 		local name = config.name .. "线下比赛房" or ""
--- 		local players = 0
--- 		local maxPlayers = 1
--- 		local gold = 0
--- 		local times = {}
--- 		table.insert(times,"比赛")
+--  --如果有好友密码房，加创建入口  --隐藏的比赛房
+--  if hasFriendRoom == true then
+--    local name = config.name .. "线下比赛房" or ""
+--    local players = 0
+--    local maxPlayers = 1
+--    local gold = 0
+--    local times = {}
+--    table.insert(times,"比赛")
 
--- 		self:loadRoomItem(#config.room + 2,list,name,players,maxPlayers,0,times,fixedbase,function()
--- 			-- if self.scene.roomListLayer ~= nil then
--- 			--  self.scene.roomListLayer:removeFromParent()
--- 			-- 	self.scene.roomListLayer = nil
--- 			-- end
+--    self:loadRoomItem(#config.room + 2,list,name,players,maxPlayers,0,times,fixedbase,function()
+--      -- if self.scene.roomListLayer ~= nil then
+--      --  self.scene.roomListLayer:removeFromParent()
+--      --  self.scene.roomListLayer = nil
+--      -- end
 
--- 			self:showFriendRoom()
--- 		end, false)
--- 	end
+--      self:showFriendRoom()
+--    end, false)
+--  end
 -- end
 
 -- --[[ --
--- 	* 加载一条Item
---     @param int 			i 				房间数
--- 	@param ScrollView 	list 			列表节点
--- 	@param string 		name			房间名称
--- 	@param int 			players			玩家人数
--- 	@param int 			maxPlayers		最大玩家人数
--- 	@param int			gold			金币限制
--- 	@param table		times			比赛开始时间s
--- 	@param int			fixedbase		低分
--- 	@param function		callback		Item加载完成回调
--- 	@param bool 		isShow			false 没啥用
+--  * 加载一条Item
+--     @param int       i         房间数
+--  @param ScrollView   list      列表节点
+--  @param string     name      房间名称
+--  @param int      players     玩家人数
+--  @param int      maxPlayers    最大玩家人数
+--  @param int      gold      金币限制
+--  @param table    times     比赛开始时间s
+--  @param int      fixedbase   低分
+--  @param function   callback    Item加载完成回调
+--  @param bool     isShow      false 没啥用
 -- --]]
 -- function LobbyScene:loadRoomItem(i, list, name, players, maxPlayers, gold, times, fixedbase, callback, isShow)
---   	local height = list:getCascadeBoundingBox().height
--- 	local width = list:getCascadeBoundingBox().width
--- 	--Label 颜色
--- 	local fontColor = cc.c3b(162, 67, 14)
--- 	if times ~=nil and #times > 0 then
--- 		fontColor = cc.c3b(204, 2, 18)
--- 	end
+--    local height = list:getCascadeBoundingBox().height
+--  local width = list:getCascadeBoundingBox().width
+--  --Label 颜色
+--  local fontColor = cc.c3b(162, 67, 14)
+--  if times ~=nil and #times > 0 then
+--    fontColor = cc.c3b(204, 2, 18)
+--  end
 
--- 	--scrollView 滚动节点
--- 	local scrollNode = list:getScrollNode()
--- 	local node = display.newNode():addTo(scrollNode)
--- 	node:setPosition(0, height - i * 151 - (i - 1) * 40)
+--  --scrollView 滚动节点
+--  local scrollNode = list:getScrollNode()
+--  local node = display.newNode():addTo(scrollNode)
+--  node:setPosition(0, height - i * 151 - (i - 1) * 40)
 
--- 	--Item 标签 ---
+--  --Item 标签 ---
 
--- 	--空闲 普通 火爆 标签
---   	local stateRes
---   	if players <= maxPlayers / 5 then
---     	stateRes = "Image/Match/state_0.png"
+--  --空闲 普通 火爆 标签
+--    local stateRes
+--    if players <= maxPlayers / 5 then
+--      stateRes = "Image/Match/state_0.png"
 --     elseif players <= maxPlayers  / 2 then
---       	stateRes = "Image/Match/state_1.png"
+--        stateRes = "Image/Match/state_1.png"
 --     else
---       	stateRes = "Image/Match/state_2.png"
+--        stateRes = "Image/Match/state_2.png"
 --     end
 
--- 	--比赛房标签
+--  --比赛房标签
 --     if times ~= nil and #times > 0 then
---       	stateRes = "Image/Match/state_m.png"
+--        stateRes = "Image/Match/state_m.png"
 --     end
 
--- 	--添加标签
+--  --添加标签
 --     if stateRes then
---       	display.newSprite(stateRes):addTo(node)
---       		:setPosition(70, 75)
--- 	end
+--        display.newSprite(stateRes):addTo(node)
+--          :setPosition(70, 75)
+--  end
 
--- 	---------------------------------
+--  ---------------------------------
 
--- 	--Item底图
+--  --Item底图
 --     display.newSprite("Image/Match/item_bg.png"):addTo(node)
---     	:setPosition(width / 2 - 50, 75)
+--      :setPosition(width / 2 - 50, 75)
 
--- 	--进入按钮图  比赛为红色图  普通房间为绿色图
+--  --进入按钮图  比赛为红色图  普通房间为绿色图
 --     local nImag, pImag, dImag
 --     if times ~= nil and #times > 0 then
--- 		nImag = "Image/Match/enterm.png"
--- 		pImag = "Image/Match/enter_downm.png"
--- 		dImag = "Image/Match/enter_downm.png"
+--    nImag = "Image/Match/enterm.png"
+--    pImag = "Image/Match/enter_downm.png"
+--    dImag = "Image/Match/enter_downm.png"
 --     else
--- 		nImag = "Image/Match/enter.png"
--- 		pImag = "Image/Match/enter_down.png"
--- 		dImag = "Image/Match/enter_down.png"
+--    nImag = "Image/Match/enter.png"
+--    pImag = "Image/Match/enter_down.png"
+--    dImag = "Image/Match/enter_down.png"
 --     end
 
 --     --进入按钮
 --     local button = cc.ui.UIPushButton.new({normal = nImag, pressed = nImag, disabled = dImag,}, {scale9 = true})
--- 		:onButtonClicked(function ()
--- 			callback()
--- 		end)
--- 		:addTo(node)
--- 		:setPosition(width - 120, 75)
+--    :onButtonClicked(function ()
+--      callback()
+--    end)
+--    :addTo(node)
+--    :setPosition(width - 120, 75)
 
 --     --比赛房名字
 --     cc.ui.UILabel.new({color = fontColor, size = 30, text = name,})
--- 		:addTo(node)
--- 		:setAnchorPoint(cc.p(0, 0))
--- 		:setPosition(70 + 70, 80)
+--    :addTo(node)
+--    :setAnchorPoint(cc.p(0, 0))
+--    :setPosition(70 + 70, 80)
 
 --     --房间固定底注
 --     local pos_x = 0
 --     if fixedbase ~=nil and fixedbase > 0 then
--- 		pos_x = pos_x + 70 + 70
--- 		cc.ui.UILabel.new({color = fontColor, size = 20, text = "固定底分 : " .. fixedbase})
--- 			:addTo(node)
--- 			:setAnchorPoint(cc.p(0, 1))
--- 			:setPosition(pos_x, 75 / 2 + 15)
--- 		pos_x = pos_x + 30
--- 	end
+--    pos_x = pos_x + 70 + 70
+--    cc.ui.UILabel.new({color = fontColor, size = 20, text = "固定底分 : " .. fixedbase})
+--      :addTo(node)
+--      :setAnchorPoint(cc.p(0, 1))
+--      :setPosition(pos_x, 75 / 2 + 15)
+--    pos_x = pos_x + 30
+--  end
 
--- 	--进入房间最小金额
+--  --进入房间最小金额
 --     if gold > 0 then
--- 		pos_x = pos_x + 70 + 70
--- 		cc.ui.UILabel.new({color = fontColor, size = 20, text = "最小金额 : " .. gold})
--- 			:addTo(node)
--- 			:setAnchorPoint(cc.p(0, 1))
--- 			:setPosition(pos_x, 75 / 2 + 15)
+--    pos_x = pos_x + 70 + 70
+--    cc.ui.UILabel.new({color = fontColor, size = 20, text = "最小金额 : " .. gold})
+--      :addTo(node)
+--      :setAnchorPoint(cc.p(0, 1))
+--      :setPosition(pos_x, 75 / 2 + 15)
 --     end
 
 --     --比赛时间
---    	-- print("times----------:")
---    	-- dump(times)
--- 	if times and isShow == nil then
--- 		for k,time in pairs(times) do
--- 			local temp = 100
--- 			pos_x = pos_x + 140 + temp * (k - 1)
+--      -- print("times----------:")
+--      -- dump(times)
+--  if times and isShow == nil then
+--    for k,time in pairs(times) do
+--      local temp = 100
+--      pos_x = pos_x + 140 + temp * (k - 1)
 
--- 			cc.ui.UILabel.new({color = fontColor, size = 20, text = time})
--- 				:addTo(node)
--- 				:setAnchorPoint(cc.p(0, 1))
--- 				:setPosition(pos_x, 75 / 2 + 15)
--- 		end
--- 	end
+--      cc.ui.UILabel.new({color = fontColor, size = 20, text = time})
+--        :addTo(node)
+--        :setAnchorPoint(cc.p(0, 1))
+--        :setPosition(pos_x, 75 / 2 + 15)
+--    end
+--  end
 -- end
 
 -- -----------------------------------------------------------------------------------------------
@@ -5308,7 +5106,30 @@ end
 
       end
 
-  end
+end
 
+function LobbyScene:CheckReconnectRep(msg)
+  print("LobbyScene:CheckReconnectRep")
+  dump(msg, "msg")
+  print(msg.stayinfo)
+  print(msg.stayinfo.roomtype)
+  if msg.stayinfo and msg.stayinfo.roomtype and msg.stayinfo.roomtype~="" then
+    print("CheckReconnectRep1")
+    if msg.stayinfo.roomtype == "private" then
+      PRMessage.EnterPrivateRoomReq(msg.stayinfo.roomid)
+    elseif msg.stayinfo.roomtype == "match" then
+      MatchMessage.EnterMatchReq(msg.stayinfo.roomid,false)
+    end
+  else
+    print("CheckReconnectRep2")
+    print("app.constant.match_id",app.constant.match_id)
+    if app.constant.match_id then
+      MatchMessage.EnterMatchReq(app.constant.match_id,false)
+      app.constant.match_id = nil
+    else
+      PRMessage.EnterPrivateRoomReq(nil)
+    end
+  end
+end
 
 return LobbyScene

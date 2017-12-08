@@ -1,5 +1,5 @@
 
-¿7
+ç8
 
 user.protouser"#
 UserInfoRequest
@@ -36,11 +36,13 @@ isverified"[
 imageid (	Rimageid"+
 ModifyUserInfoRep
 result (Rresult"
-CheckReconnectReq"a
-CheckReconnectRep
-roomid (Rroomid
-session (Rsession
-clientid (Rclientid"[
+CheckReconnectReq"≠
+CheckReconnectRep<
+stayinfo (2 .user.CheckReconnectRep.StayInfoRstayinfoZ
+StayInfo
+roomtype (	Rroomtype
+roomid (Rroomid
+clientid (Rclientid"[
 ReconnectTableReq
 session (Rsession
 result (Rresult

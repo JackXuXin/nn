@@ -135,19 +135,6 @@ local config = {
 		}
 	},
 	{
-		gameid = 110,
-		name = "斗地主",
-		scene = "SRDDZScene",
-		icon = "SRDDZ",
-		popular = 2,
-		rule = {
-			ios = "Rule/SRDDZ.html",
-			android = "Rule/SRDDZ.html",
-		},
-		room = {
-		}
-	},
-	{
 		gameid = 111,
 		name = "四人斗地主",
 		scene = "SRDDZScene",

@@ -4,7 +4,7 @@
 	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.1 Release
 	gl.vendor: Intel Inc.
 	gl.supports_PVRTC: false
-	gl.renderer: Intel(R) Iris(TM) Graphics 6100
+	gl.renderer: Intel Iris OpenGL Engine
 	cocos2d.x.compiled_with_profiler: false
 	gl.max_texture_size: 16384
 	gl.supports_ETC1: false
@@ -21,239 +21,249 @@
 
 
 Quick-Cocos2dx-Community C++ support ready.
-lua_loadChunksFromZIP() - not found or invalid zip file: /Users/NFFYyueqiu/Desktop/Quick-Cocos2dx-Community/quick/lib/framework_precompiled/framework_precompiled.zip
+lua_loadChunksFromZIP() - not found or invalid zip file: /Users/mashizhou/Desktop/svn_client/wangwang/quick-cocos2dx-community/quick/lib/framework_precompiled/framework_precompiled.zip
 ------------------------------------------------
-<<<<<<< HEAD
 LOAD LUA FILE: /Users/mashizhou/Desktop/xxnn/nn/c2/src/main.lua
 ------------------------------------------------
 [LUA-print] lastHotState:	0
 [LUA-print] new_version:/Users/mashizhou/Desktop/xxnn/nn/c2/new_version/
-=======
-LOAD LUA FILE: /Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/main.lua
-------------------------------------------------
-[LUA-print] lastHotState:	0
-[LUA-print] new_version:/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/new_version/
->>>>>>> 1c535e7474490a7a111490c97759adef4a5f1ef0
 [LUA-print] 删掉下载未完成的new_version
 [LUA-print] ===========================================================
 [LUA-print]               LOAD QUICK FRAMEWORK
 [LUA-print] ===========================================================
 libpng warning: iCCP: known incorrect sRGB profile
-<<<<<<< HEAD
-[LUA-print] [2017-12-07 10:31:25] [DEBUG] [MyApp.lua:42] language 1
-[LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:6] voiceState:true
-[LUA-print] [2017-12-07 10:31:25] [DEBUG] [sound_common.lua:7] musicState:true
-[LUA-print] [2017-12-07 10:31:25] [DEBUG] [util.lua:325] hello common util !
-[LUA-print] [2017-12-07 10:31:25] [DEBUG] [manager.lua:35] registerHandle:game
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [MyApp.lua:42] language 1
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [sound_common.lua:6] voiceState:true
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [sound_common.lua:7] musicState:true
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [util.lua:326] hello common util !
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [manager.lua:35] registerHandle:game
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [util.lua:3532] delte has loadimage----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [util.lua:3532] delte has loadimage----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [util.lua:3548] lastloadRand =  3
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:38] self.issaveloadingImage
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:77] isExist, false
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:83] mo ren ----image---
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:140] updateTexture-fileName00: Platform_Src/Image/loading.png
 libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:454] getRealIp
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:469] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3550
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:855] App_Channel:3550
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:0
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:472] result:1
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:497] real response: table: 0x16b52718
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:498] real ip tt.gametea.me:6001 tt.gametea.me:7001
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:506] checkUpdate---:
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:519] re:0
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:519] re:1
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:563] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3550
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:573] r:0
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:573] r:1
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:587: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:571>
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] - "kaiguan:" = {
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "activity_tag"     = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "free_gold_tag"    = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "give_gold_tag"    = "0"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "honor_tag"        = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "qq_login_tag"     = "0"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "recharge_tag"     = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "safebox_tag"      = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "service_tag"      = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] -     "weixin_login_tag" = "1"
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 10:31:26] [DEBUG] [LoginScene.lua:1006] updateLoginTypes-----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [LoginScene.lua:141] isLoading =  true
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:93] requestWchatImage-----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:104] Enter-onRequestFinished-----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:109] not ok-----
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:111] 0 
+[LUA-print] [2017-12-08 14:18:57] [DEBUG] [NetSprite.lua:93] requestWchatImage-----
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:454] getRealIp
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:469] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3553
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:855] App_Channel:3553
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:472] result:0
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:472] result:1
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:497] real response: table: 0x10585c70
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:498] real ip tt.gametea.me:6001 tt.gametea.me:7001
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:506] checkUpdate---:
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:519] re:0
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:519] re:1
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:563] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3553
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:573] r:0
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:573] r:1
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:587: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LoginScene.lua"]:571>
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] - "kaiguan:" = {
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "account_login_tag" = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "activity_tag"      = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "free_gold_tag"     = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "give_gold_tag"     = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "honor_tag"         = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "not_hotfix"        = "0"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "qq_login_tag"      = "0"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "recharge_tag"      = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "safebox_tag"       = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "service_tag"       = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] -     "weixin_login_tag"  = "1"
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:1006] updateLoginTypes-----
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:1018] 登录开关的值：1
+[LUA-print] [2017-12-08 14:18:58] [DEBUG] [LoginScene.lua:1025] 登录开关的值：3mac
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1967] x:0
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1968] height:0
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
 libpng warning: iCCP: known incorrect sRGB profile
-=======
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [MyApp.lua:42] language 1
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [sound_common.lua:6] voiceState:true
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [sound_common.lua:7] musicState:true
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [util.lua:325] hello common util !
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [manager.lua:35] registerHandle:game
-libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:515] getRealIp
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:530] url:http://tt.gametea.me:6001/realip?version=0&platform=mac&app_channel=3553
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:898] App_Channel:3553
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:558] real response: table: 0x12d4d930
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:559] real ip tt.gametea.me:6001 tt.gametea.me:7001
-[LUA-print] [2017-12-07 22:16:00] [DEBUG] [LoginScene.lua:567] checkUpdate---:
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [LoginScene.lua:624] tags:http://tt.gametea.me:6001/tags?version=0&platform=mac&app_channel=3553
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:648: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:632>
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] - "<var>" = {
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "account_login_tag" = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "activity_tag"      = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "free_gold_tag"     = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "give_gold_tag"     = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "honor_tag"         = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "not_hotfix"        = "0"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "qq_login_tag"      = "0"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "recharge_tag"      = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "safebox_tag"       = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "service_tag"       = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] -     "weixin_login_tag"  = "1"
-[LUA-print] [2017-12-07 22:16:01] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1595] x:525
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1596] height:290
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/scenes/LoginScene.lua"]:1612: in function 'initAccountList'
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] - "<var>" = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     1 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx401"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     2 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwyy101"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     3 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx402"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     4 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx406"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     5 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx405"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     6 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx403"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     7 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx407"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     8 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx408"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     9 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx404"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     10 = {
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "account"  = "wwsx102"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -         "password" = "123456"
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] -     }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1620] iiiiiii list:420
-[LUA-print] [2017-12-07 22:16:02] [DEBUG] [LoginScene.lua:1647] children:10
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:145] 77--auth:3553
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:126] login-request--begin---
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:19] result222:0
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:19] result222:1
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:29] resp:Nc3L25K5GPxxIn1HaivrrKNmhuV70k9W3pg21+JuGOq5KUp+Za8LZ0dsSl68I3SnohBuqCPd6rwEiuO7eb74AGcDDpKxV34m6+6G06rxgMYnO3v2/6UnbqLVb6rfh32EHrVG38NOg140DUsTW/OMZxyCG72Y0n4txQzeSH3PBLmtB93B++oR5QQ20Z2thMHQ
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:83] success result=0&uid=10251&token=FBcK9wDFX54=&secret=vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t&sign=nB57C97yp1q037kHcLVuXWsESLU=
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] result 0
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] uid 10251
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] token FBcK9wDFX54=
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] secret vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LoginNet.lua:88] sign nB57C97yp1q037kHcLVuXWsESLU=
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/LoginNet.lua"]:117: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/LoginNet.lua"]:17>
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - "<var>" = {
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "result" = "0"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "secret" = "vT4yBNSaT0pdGLYsl5z+XO0Ewdoq/PiQeb/L54OslaszcmK79YvLfTeVHx62qt8t"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "sign"   = "nB57C97yp1q037kHcLVuXWsESLU="
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "token"  = "FBcK9wDFX54="
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "uid"    = "10251"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:316] GateNet.connect-----
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:345] gate realConnect:
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:273] gate connected
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:84] gate auth00000-- table: 0x1de76fb0 true
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:88] auth,isConnect: true
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:99] gate auth1111
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:108] gate auth2222
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:115] gate auth,message: 
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:119] gate auth3333
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:204] GateNet.auth success! 
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [GateNet.lua:221] receive:update-----
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:260] start player
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [FreeGold.lua:488] LobbyScene:imgInfo: userdata: 0x1221a7b0
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:BankOperateRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:BankOperateRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:RechargeRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:RechargeRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1031] LobbyScene:onEnte
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:19] UserMessage.UserInfoRequest:10251
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:357] UserMessage.RoomListReq---------
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:269] UserMessage.LuckyListReq---------
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:UserInfoResonpse
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:UserInfoResonpse
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:25] UserMessage.UserInfoResonpse
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/UserMessage.lua"]:26: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/net/UserMessage.lua"]:24>
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - "userinfo = " = {
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "diamond"       = "9946"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "dynamicpwd"    = "70971477"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "gold"          = "0"
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "havesecondpwd" = 1
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "honor"         = 0
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "nickname"      = "55So5oi3MDAwMTAyNTE="
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "sex"           = 1
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] -     "uid"           = 10251
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:LuckyListRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:LuckyListRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:276] UserMessage.LuckyListRep---------
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [Message.lua:66] module:method-user:RoomListRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:580] module:user-method:RoomListRep
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:408] ----UserMessage.RoomListRep--config:2
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:419] newRoom id:10500,key:2
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [UserMessage.lua:431] room.players-config:0
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1874] moneyChanged---
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [util.lua:3772] val=  9946
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [PersonalCenter.lua:79] updateGoldAndDiamond-dam =  9946
-[LUA-print] [2017-12-07 22:16:03] [DEBUG] [LobbyScene.lua:1885] LobbyScene:nicknameChanged, 用户00010251
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:350] UserMessage.LuckyProfileReq---------
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [LobbyScene.lua:1462] LobbyScene:onEnterTransitionFinish---
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [Message.lua:66] module:method-user:SigninInfoRep
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:580] module:user-method:SigninInfoRep
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [FreeGold.lua:295] LobbyScene:SigninInfoRep
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:155] dump from: [string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/User/FreeGold.lua"]:296: in function <[string "/Users/NFFYyueqiu/Desktop/xiaoxinnn/nn/c2/src/app/User/FreeGold.lua"]:294>
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] - "<var>" = {
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "continuous_signin_count" = 0
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "grant_gold"              = "5000"
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "residual_grant_count"    = 3
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "share_gold"              = "10000"
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "signin_gold"             = "2000"
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] -     "signin_today"            = false
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [debug.lua:201] - }
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [FreeGold.lua:361] LobbyScene:Welf--
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [Message.lua:66] module:method-user:LuckyProfileRep
-[LUA-print] [2017-12-07 22:16:04] [DEBUG] [UserMessage.lua:580] module:user-method:LuckyProfileRep
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:27] setPrivateRoomType-gameid =  116
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PRMessage.lua:124] 进入房间请求
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [Message.lua:66] module:method-private:EnterPrivateRep
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PRMessage.lua:136] 进入房间回复 result = 21
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:36] page_type =  create
-[LUA-print] [2017-12-07 22:16:05] [DEBUG] [PrivateRoom.lua:1371] LobbyScene:showCreateMenu---
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1992] iiiiiii list:420
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:2019] children:10
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1161] begin--click---0000--
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1522] click--login----
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1876] LoginNet.auth---getServerTime--
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:145] 77--auth:3553
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:126] login-request--begin---
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:19] result222:0
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:19] result222:0
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:19] result222:1
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:29] resp:e2TlbQAs/q80mGiI/O/H3/a1D/lapPgOuRsurxfEbBj8EKnPAmn99MzFugS+XSBQH+J0Su00pt4gBOD3KQ3T3VmElWj+iZIuRB2794huuPWX6rpcnC/I9cn7wofqBdncimVpy+csw+P9Lfng83z+44sDRPk8TaO/BElhwW19/HBdWS8eDmKScnFQ+ZZhCpwx
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:83] success result=0&uid=10252&token=78WYu6fkmoA=&secret=vT4yBNSaT0pwHThfqk1qwbd5UauhgCTFKJUXPfTlAyAzcmK79YvLfSgJASx1M9r2&sign=Zt+skm/ym1RzZGYR/CSWKrpoUns=
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:88] result 0
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:88] uid 10252
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:88] token 78WYu6fkmoA=
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:88] secret vT4yBNSaT0pwHThfqk1qwbd5UauhgCTFKJUXPfTlAyAzcmK79YvLfSgJASx1M9r2
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginNet.lua:88] sign Zt+skm/ym1RzZGYR/CSWKrpoUns=
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/net/LoginNet.lua"]:117: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/net/LoginNet.lua"]:17>
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] -     "result" = "0"
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] -     "secret" = "vT4yBNSaT0pwHThfqk1qwbd5UauhgCTFKJUXPfTlAyAzcmK79YvLfSgJASx1M9r2"
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] -     "sign"   = "Zt+skm/ym1RzZGYR/CSWKrpoUns="
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] -     "token"  = "78WYu6fkmoA="
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] -     "uid"    = "10252"
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:316] GateNet.connect-----
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:345] gate realConnect:
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:273] gate connected
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:84] gate auth00000-- table: 0x119df5f8 true
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:88] auth,isConnect: true
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:99] gate auth1111
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:108] gate auth2222
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:115] gate auth,message: 
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:119] gate auth3333
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:204] GateNet.auth success! 
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [GateNet.lua:221] receive:update-----
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [PRMessage.lua:41] 获取配置请求
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LoginScene.lua:1772] registerXPush-uid: 10252
+[LUA-print] [2017-12-08 14:18:59] [DEBUG] [LobbyScene.lua:260] start player
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1172] setNickandChatLogin--------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1191] account---modify---
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1205] begin---LoginChat------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [FreeGold.lua:488] LobbyScene:imgInfo: userdata: 0x0a645f28
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-private:PrivateConfigRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [PRMessage.lua:51] 获取配置回复 配置信息 = do local ret={[1]={gamekey="wrnn",name="牛牛私人房",customization={count={[1]=0},seats={[1]=2,[2]=3,[3]=4,[4]=5,[5]=6},mode={[1]=1,[2]=2},base={[1]=1,[2]=2,[3]=3},round={[1]=10,[2]=20}},roomid=31600,gameid=116,cost={[1]={ctype="diamond",cval=1},[2]={ctype="diamond",cval=2}}},[2]={gamekey="ddz",name="斗地主私人房",customization={count={[1]=0},seats={[1]=3,[2]=4},mode={[1]=1,[2]=2},base={[1]=1},round={[1]=4,[2]=8,[3]=16}},roomid=31000,gameid=110,cost={[1]={ctype="diamond",cval=1},[2]={ctype="diamond",cval=2},[3]={ctype="diamond",cval=3}}},[3]={gamekey="shymj",name="上虞麻将私人房",customization={ruleSupport=31,count={[1]=0},ruleRadioCheck={[1]={[1]=16,[2]=8,[3]=4,[4]=2}},seats={[1]=2,[2]=4},round={[1]=4,[2]=8,[3]=16},base={[1]=1},mode={[1]=1,[2]=2}},roomid=30100,gameid=101,cost={[1]={ctype="diamond",cval=2},[2]={ctype="diamond",cval=4},[3]={ctype="diamond",cval=6}}},[4]={gamekey="lyddz",name="临沂斗地主私人房",customization={count={[1]=0},seats={[1]=3},mode={[1]=1,[2]=2},base={[1]=1},round={[1]=6,[2]=15}},roomid=32200,gameid=122,cost={[1]={ctype="diamond",cval=100},[2]={ctype="diamond",cval=200}}},[5]={gamekey="sss",name="罗松私人房",customization={count={[1]=0},seats={[1]=2,[2]=3,[3]=4},mode={[1]=1,[2]=2},base={[1]=1},round={[1]=8,[2]=16,[3]=24}},roomid=30600,gameid=106,cost={[1]={ctype="diamond",cval=2},[2]={ctype="diamond",cval=3},[3]={ctype="diamond",cval=4}}},[6]={gamekey="lymj",name="临沂麻将私人房",customization={ruleSupport=7,count={[1]=0},ruleRadioCheck={[1]={[1]=4,[2]=2,[3]=1}},seats={[1]=2,[2]=4},round={[1]=4,[2]=8},base={[1]=1},mode={[1]=1,[2]=2}},roomid=32100,gameid=121,cost={[1]={ctype="diamond",cval=80},[2]={ctype="diamond",cval=120},[3]={ctype="diamond",cval=200}}}} return ret end
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:BankOperateRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:BankOperateRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:RechargeRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:RechargeRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:831] LobbyScene:onEnte
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:19] UserMessage.UserInfoRequest:10252
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:357] UserMessage.RoomListReq---------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:269] UserMessage.LuckyListReq---------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:UserInfoResonpse
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:UserInfoResonpse
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:25] UserMessage.UserInfoResonpse
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1672] moneyChanged---
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [util.lua:3773] val=  9959
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [PersonalCenter.lua:79] updateGoldAndDiamond-dam =  9959
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1683] LobbyScene:nicknameChanged, 用户00010252
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:LuckyListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:LuckyListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:276] UserMessage.LuckyListRep---------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:RoomListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:RoomListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:415] ----UserMessage.RoomListRep--config:2
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:426] newRoom id:10500,key:2
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:438] room.players-config:0
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:14] MatchConfigReq
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:103] MatchListReq110
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:105] matchid
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:350] UserMessage.LuckyProfileReq---------
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:1260] LobbyScene:onEnterTransitionFinish---
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-match:MatchConfigRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:211] module:matchmethod:MatchConfigRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:21] MatchConfigRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:22] config:do local ret={[1]={startHour=13,maxMatchPlayer=300,seats=3,gameid=110,startMinute=50,gamekey="ddz",name="斗地主日赛场1",stages={[1]={intoScore=0,eliminationScore=-15,mode=1,promotionPlayer=6,duration=600,baseScore=1},[2]={duration=0,intoScore=0,promotionPlayer=1,mode=2,baseScore=1}},minMatchPlayer=10,matchid=21001,icon="icon_lx.png",rewards={[1]={type="2018年压岁金钞",endRank=1,startRank=1,name="2018年压岁金钞",val=1},[2]={type="话费20",endRank=10,startRank=2,name="话费20元",val=1},[3]={type="话费10元",endRank=16,startRank=11,name="话费10元",val=1}}},[2]={startHour=20,maxMatchPlayer=300,seats=3,gameid=110,startMinute=30,gamekey="ddz",name="斗地主周赛场",stages={[1]={intoScore=0,eliminationScore=-20,mode=1,promotionPlayer=6,duration=600,baseScore=1},[2]={duration=0,intoScore=0,promotionPlayer=1,mode=2,baseScore=1}},minMatchPlayer=10,matchid=21002,icon="icon_lx.png",rewards={[1]={type="乐视43寸电视机",endRank=1,startRank=1,name="乐视43寸电视机",val=1},[2]={type="话费50",endRank=10,startRank=2,name="话费50元",val=1},[3]={type="话费10元",endRank=16,startRank=11,name="话费10元",val=1}}},[3]={startHour=14,maxMatchPlayer=300,seats=3,gameid=110,startMinute=10,gamekey="ddz",name="斗地主日赛场2",stages={[1]={intoScore=0,eliminationScore=-15,mode=1,promotionPlayer=6,duration=600,baseScore=1},[2]={duration=0,intoScore=0,promotionPlayer=1,mode=2,baseScore=1}},minMatchPlayer=10,matchid=21003,icon="icon_lx.png",rewards={[1]={type="2018年压岁金钞",endRank=1,startRank=1,name="2018年压岁金钞",val=1},[2]={type="话费20",endRank=10,startRank=2,name="话费20元",val=1},[3]={type="话费10元",endRank=16,startRank=11,name="话费10元",val=1}}},[4]={startHour=14,maxMatchPlayer=300,seats=3,gameid=110,startMinute=30,gamekey="ddz",name="斗地主日赛场3",stages={[1]={intoScore=0,eliminationScore=-15,mode=1,promotionPlayer=6,duration=600,baseScore=1},[2]={duration=0,intoScore=0,promotionPlayer=1,mode=2,baseScore=1}},minMatchPlayer=10,matchid=21004,icon="icon_lx.png",rewards={[1]={type="2018年压岁金钞",endRank=1,startRank=1,name="2018年压岁金钞",val=1},[2]={type="话费20",endRank=10,startRank=2,name="话费20元",val=1},[3]={type="话费10元",endRank=16,startRank=11,name="话费10元",val=1}}},[5]={startHour=14,maxMatchPlayer=300,seats=3,gameid=110,startMinute=50,gamekey="ddz",name="斗地主日赛场4",stages={[1]={intoScore=0,eliminationScore=-15,mode=1,promotionPlayer=6,duration=600,baseScore=1},[2]={duration=0,intoScore=0,promotionPlayer=1,mode=2,baseScore=1}},minMatchPlayer=10,matchid=21005,icon="icon_lx.png",rewards={[1]={type="2018年压岁金钞",endRank=1,startRank=1,name="2018年压岁金钞",val=1},[2]={type="话费20",endRank=10,startRank=2,name="话费20元",val=1},[3]={type="话费10元",endRank=16,startRank=11,name="话费10元",val=1}}}} return ret end
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [util.lua:3401] 可写路径 = /Users/mashizhou/Desktop/xxnn/nn/c2/debugLogaaa.txt
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [util.lua:3405] 开始写文件
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [util.lua:3410] 写文件结束
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:37] match------ 21001
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:71] found match room:1
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:37] match------ 21002
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:71] found match room:2
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:37] match------ 21003
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:71] found match room:3
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:37] match------ 21004
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:71] found match room:4
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:37] match------ 21005
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:71] found match room:5
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-match:MatchListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:211] module:matchmethod:MatchListRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchMessage.lua:113] MatchListRep:table
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [MatchRoom.lua:166] MatchListRep---
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:SigninInfoRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:SigninInfoRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [FreeGold.lua:295] LobbyScene:SigninInfoRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/User/FreeGold.lua"]:296: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/User/FreeGold.lua"]:294>
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] - "<var>" = {
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "continuous_signin_count" = 0
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "grant_gold"              = "5000"
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "residual_grant_count"    = 3
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "share_gold"              = "10000"
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "signin_gold"             = "2000"
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] -     "signin_today"            = false
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [FreeGold.lua:361] LobbyScene:Welf--
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [Message.lua:66] module:method-user:LuckyProfileRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [UserMessage.lua:587] module:user-method:LuckyProfileRep
+[LUA-print] [2017-12-08 14:19:00] [DEBUG] [LobbyScene.lua:929] LuckyProfileRep++=
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [UserMessage.lua:364] UserMessage.CheckReconnectReq---------
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [Message.lua:66] module:method-user:CheckReconnectRep
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [UserMessage.lua:587] module:user-method:CheckReconnectRep
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [LobbyScene.lua:5112] LobbyScene:CheckReconnectRep
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [debug.lua:155] dump from: [string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LobbyScene.lua"]:5113: in function <[string "/Users/mashizhou/Desktop/xxnn/nn/c2/src/app/scenes/LobbyScene.lua"]:5111>
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [debug.lua:201] - "msg" = {
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [debug.lua:201] - }
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [LobbyScene.lua:5114] table: 0x12f99858
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [LobbyScene.lua:5115] 
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [LobbyScene.lua:5124] CheckReconnectRep2
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [LobbyScene.lua:5125] app.constant.match_id
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [PRMessage.lua:124] 进入房间请求
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [Message.lua:66] module:method-private:EnterPrivateRep
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [PRMessage.lua:136] 进入房间回复 result = 21
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [PrivateRoom.lua:1388] LobbyScene:showCreateMenu---
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
-[LUA-print] [2017-12-07 22:16:06] [DEBUG] [PrivateRoom.lua:1537] param.hostplay false
->>>>>>> 1c535e7474490a7a111490c97759adef4a5f1ef0
+[LUA-print] [2017-12-08 14:19:01] [DEBUG] [PrivateRoom.lua:1508] bankType 0
+[LUA-print] [2017-12-08 14:19:02] [DEBUG] [PrivateRoom.lua:1508] bankType 1
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PrivateRoom.lua:1552] ---------------------
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PrivateRoom.lua:1556] 35008
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PRMessage.lua:65] 创建房间请求
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [Message.lua:66] module:method-private:CreatePrivateRep
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PRMessage.lua:92] 创建房间回复 privateid = 443098 result = 0
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PRMessage.lua:124] 进入房间请求
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [Message.lua:66] module:method-private:EnterPrivateRep
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [PRMessage.lua:136] 进入房间回复 result = 0
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:749] setRoomId gameid:116 roomid:31600
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [manager.lua:8] loadGameScene name
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [Message.lua:66] module:method-game:SetSession
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:167] get table session.............................................................: -1073283056
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [Message.lua:66] module:method-game:SitdownRep
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:172] 坐下回复
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:173] sit down result:0 table session:-1073283056 tableid:2
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:182] loading game scene: WRNNScene
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:184] matchid = 
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:186] watching: false
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:201] 游戏ID = 116 房间ID = 31600 桌子ID = 2 椅子ID = 1 房间session = -1073348592 人数 = 3
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:213] strChannel =  35532116443098
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:231] 进入游戏场景app:enterScene WRNNScene
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [LocalScheduler.lua:59] new local scheduler...
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNNScene.lua:49] 构造 五人牛牛 场景
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiOperates.lua:154] fanbei_0
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiOperates.lua:154] fanbei_1
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiOperates.lua:154] fanbei_2
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiOperates.lua:154] fanbei_3
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiOperates.lua:154] fanbei_4
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_uiSettings.lua:170] 设置上局回顾按钮状态
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:1029] -------WRNN MESSAGE -----name --room.InitPrivateRoom
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:1037] room InitPrivateRoom
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [Message.lua:66] module:method-game:TableSitdown
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:428] gameMsg.TableSitdown－table_session
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [msgMgr.lua:461] TableSitdown: 
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:1029] -------WRNN MESSAGE -----name --room.EnterGame
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:1037] room EnterGame
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:850] 椅子号: 1 的玩家进入
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNN_MsgMgr.lua:851] gameScene.game_state0
+[LUA-print] [2017-12-08 14:19:03] [DEBUG] [WRNNScene.lua:103] 进入 五人牛牛 场景
+[LUA-print] [2017-12-08 14:19:04] [DEBUG] [LobbyScene.lua:1288] LobbyScene:onExit
+[LUA-print] [2017-12-08 14:19:04] [DEBUG] [LobbyScene.lua:1361] LobbyScene:onCleanup

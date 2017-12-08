@@ -21,6 +21,7 @@ local PinningCardInfo = {}  --要管得牌
 local TiShiCardInfo = {}  --提示的牌型
 local LuTouCardInfo = {}  --已经露头正准备出得牌
 local sendPlayersCard = {[1] = {},[2] = {},[3] = {},[4] = {}}   --桌子上 每个玩家打出去的牌
+local Jiao_rule = {[1] = {1,2,3},[2] = {1,3,5},[3] = {1,2,3},}  --叫分规则，分别对应3人一副牌，3人2副牌，4人2副牌
 
 local chupaiCard = {} --延迟出的牌
 -- local weixinImage = {}
@@ -152,20 +153,21 @@ function DDZ_GamePlayer:init(playerInfo,sceneSelf,seatIndex)
 
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "sortCard_Btn"):onButtonClicked(handler(self,self.sortCardBtnClick))
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "sortCard_Btn"):show()
+    	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(self.m_UINode, "sortCard_Btn"))
 
     	cc.uiloader:seekNodeByNameFast(self.m_sceneSelf.root, "k_btn_TuoGuanQuXiao"):onButtonClicked(handler(self,self.clickTuoGuanQuXiao))
     	--抢地主
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_BuJiao"):onButtonClicked(handler(self,self.clickBuQiang))
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_1"):onButtonClicked(function ()
-    				self:clickQiangDiZhu(1)
+    				self:clickQiangDiZhu(Jiao_rule[self.m_sceneSelf.rule_type][1])
     			end)
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_2"):onButtonClicked(function ()
-    				self:clickQiangDiZhu(2)
+    				self:clickQiangDiZhu(Jiao_rule[self.m_sceneSelf.rule_type][2])
     			end)
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_3"):onButtonClicked(function ()
-    				self:clickQiangDiZhu(3)
+    				self:clickQiangDiZhu(Jiao_rule[self.m_sceneSelf.rule_type][3])
     			end)
-
+    	self:setJiaoBtn()      --修改叫分按钮纹理
     	cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_YaoBuQi"):onButtonClicked(handler(self,self.clickBuChu))
     else
     	--隐藏倒计时
@@ -201,7 +203,30 @@ end
 
 
 
+function DDZ_GamePlayer:setJiaoBtn()
+	if self.m_sceneSelf.rule_type == 2 then
+		local button_2 = cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_2")
+		button_2:setButtonImage(cc.ui.UIPushButton.NORMAL, "res/Image/DDZ/btn_jiao_3_1.png")
+        button_2:setButtonImage(cc.ui.UIPushButton.PRESSED, "res/Image/DDZ/btn_jiao_3_2.png")
+        button_2:setButtonImage(cc.ui.UIPushButton.DISABLED, "res/Image/DDZ/btn_jiao_3_3.png")
 
+        local button_3 = cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_3")
+		button_3:setButtonImage(cc.ui.UIPushButton.NORMAL, "res/Image/DDZ/btn_jiao_5_1.png")
+        button_3:setButtonImage(cc.ui.UIPushButton.PRESSED, "res/Image/DDZ/btn_jiao_5_2.png")
+        button_3:setButtonImage(cc.ui.UIPushButton.DISABLED, "res/Image/DDZ/btn_jiao_5_3.png")
+		
+	else
+		local button_2 = cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_2")
+		button_2:setButtonImage(cc.ui.UIPushButton.NORMAL, "res/Image/DDZ/btn_jiao_2_1.png")
+        button_2:setButtonImage(cc.ui.UIPushButton.PRESSED, "res/Image/DDZ/btn_jiao_2_2.png")
+        button_2:setButtonImage(cc.ui.UIPushButton.DISABLED, "res/Image/DDZ/btn_jiao_2_3.png")
+
+        local button_3 = cc.uiloader:seekNodeByNameFast(self.m_UINode, "k_btn_Jiao_3")
+		button_3:setButtonImage(cc.ui.UIPushButton.NORMAL, "res/Image/DDZ/btn_jiao_3_1.png")
+        button_3:setButtonImage(cc.ui.UIPushButton.PRESSED, "res/Image/DDZ/btn_jiao_3_2.png")
+        button_3:setButtonImage(cc.ui.UIPushButton.DISABLED, "res/Image/DDZ/btn_jiao_3_3.png")
+	end
+end
 
 
 
@@ -258,21 +283,66 @@ function DDZ_GamePlayer:changeCard(card)
 	end
 	return cardTab
 end
+
+
 function DDZ_GamePlayer:clickTiShi()  		--提示
 	print("点击了一次提示按钮")
 
 	self:setPlayerCardAllSuoTou()
 
 	DDZ_Audio.playSoundWithPath(DDZ_Audio.preloadResPath.DDZ_SOUND_BEHAVIOR)
+	if #PinningCardInfo == 0  then
 
-	local TiShiCard = TiShiCardInfo[TiShiCardInfo.TiShiIndex]
-	-- dump(TiShiCard,"点击提示给我的牌index是" .. TiShiCardInfo.TiShiIndex)
-	TiShiCardInfo.TiShiIndex = TiShiCardInfo.TiShiIndex + 1
-	if TiShiCardInfo.TiShiIndex > #TiShiCardInfo then
-		TiShiCardInfo.TiShiIndex = 1
+
+		local TiQuCard = {}
+		for k,v in ipairs(self.m_Cards) do
+			table.insert(TiQuCard,{num = v:getCardNum(),color = v:getCardColor()})
+		end
+		self.m_sceneSelf:SortCards(1,TiQuCard)
+		TiQuCard = cleaeBomp(TiQuCard)
+
+		--提取
+		local cards = DDZ_findSequence(PinningCardInfo,TiQuCard)
+
+		if cards == nil or #cards == 0 or DDZ_GetCardType(cards) == "errorcardtype" then
+			dump(cards,"没有找到智能提取的牌")
+			--当提取不到顺子、连队时，取不为炸弹的最小的数
+			cards = {}
+			for i,v in ipairs(TiQuCard) do
+				if v.num == TiQuCard[#TiQuCard].num then
+					table.insert(cards,v)
+				end
+			end
+		end
+
+		dump(cards,"智能提取的牌")
+		self:XZPlayerCardLuTuo(cards,self.m_Cards)
+	    for k,v in ipairs(self.m_Cards) do
+	    	v:setColor(DDZ_Const.CARD_RELEASE_COLOR)
+
+	    	for kk,vv in ipairs(cards) do
+	    		if v:getCardNum() == vv.num and v:getCardColor() == vv.color and v.index == vv.index then
+	    			if not self.sortCardBtnFlag then
+		        		v:setCardLuTou()
+		        	else
+		        		v:setCardLuTou(1)
+		        	end
+	    			-- print("牌露头")
+	    			break
+	    		end
+	    	end
+	    end
+	else
+		local TiShiCard = TiShiCardInfo[TiShiCardInfo.TiShiIndex]
+		dump(TiShiCard,"点击提示给我的牌index是" .. TiShiCardInfo.TiShiIndex)
+		TiShiCardInfo.TiShiIndex = TiShiCardInfo.TiShiIndex + 1
+		if TiShiCardInfo.TiShiIndex > #TiShiCardInfo then
+			TiShiCardInfo.TiShiIndex = 1
+		end
+
+		self:setPlayerCardLuTuo(TiShiCard)
+		
 	end
-
-	self:setPlayerCardLuTuo(TiShiCard)
 	self:addLuTouCards()
 end
 
@@ -1362,10 +1432,10 @@ function DDZ_GamePlayer:showQiangDiZhu(time,multiple)
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_1"):setButtonEnabled(true)
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_2"):setButtonEnabled(true)
 		
-	elseif multiple == 1 then
+	elseif multiple == Jiao_rule[self.m_sceneSelf.rule_type][1] then
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_1"):setButtonEnabled(false)
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_2"):setButtonEnabled(true)
-	elseif multiple == 2 then
+	elseif multiple == Jiao_rule[self.m_sceneSelf.rule_type][2] then
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_1"):setButtonEnabled(false)
 		cc.uiloader:seekNodeByNameFast(k_nd_QiangDiZhuXingWei,"k_btn_Jiao_2"):setButtonEnabled(false)
 	end
@@ -1552,6 +1622,7 @@ function DDZ_GamePlayer:getTiShiPaiXing()
 
 	--获取提示的牌型
 	local CardInfo = DDZ_remind(PinningCardInfo,allCard)
+	dump(CardInfo, "提示的牌型")
 	CardInfo.TiShiIndex = 1
 
 	return CardInfo
@@ -1975,9 +2046,29 @@ function DDZ_GamePlayer:ZhiNengTiQu(ZhiNengCards)
 
 	--提取
 	local cards = DDZ_findSequence(PinningCardInfo,TiQuCard)
+
+	
 	if cards == nil or #cards == 0 then
-		-- dump(cards,"没有找到智能提取的牌")
-		return  false
+		cards = {}
+		local ret = cleaeBomp(TiQuCard)
+		self.m_sceneSelf:SortCards(1,ret)
+		for i,v in ipairs(ret) do
+			if v.num == ret[#ret].num then
+				table.insert(cards,v)
+			end
+		end
+		
+	else
+		if DDZ_GetCardType(cards) == "errorcardtype" then
+			cards = {}
+			local ret = cleaeBomp(TiQuCard)
+			self.m_sceneSelf:SortCards(1,ret)
+			for i,v in ipairs(ret) do
+				if v.num == ret[#ret].num then
+					table.insert(cards,v)
+				end
+			end
+		end
 	end
 
 	-- dump(cards,"智能提取的牌")

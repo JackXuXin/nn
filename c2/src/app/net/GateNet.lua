@@ -191,7 +191,7 @@ local function receive(event)
 
         local id, data = recvData(param.gateBuff:sub(3, 2+size))
         --NOTE: update buff before process data.
-       -- print("param.gateBuff:",#param.gateBuff)
+        --print("param.gateBuff:",#param.gateBuff)
         --print("param.size:".. tostring(size))
         param.gateBuff = param.gateBuff:sub(3 + size, #param.gateBuff)
         len = #param.gateBuff

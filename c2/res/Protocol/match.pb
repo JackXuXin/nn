@@ -6,24 +6,24 @@
 config (	Rconfig"@
 MatchListReq
 gameid (Rgameid
-matchid (Rmatchid"ç
+matchid (Rmatchid"ç
 MatchListRep7
 matches (2.match.MatchListRep.MatchInfoRmatches
-matchid (Rmatchidƒ
+matchid (Rmatchidƒ
 	MatchInfo
-matchid (Rmatchid
+matchid (Rmatchid
 status (Rstatus
 signup (Rsignup
 online (Ronline
 count (Rcount"B
 MatchSignupReq
 optype (Roptype
-matchid (Rmatchid"B
+matchid (Rmatchid"B
 MatchSignupRep
 result (Rresult
-matchid (Rmatchid"(
+matchid (Rmatchid"(
 MatchRankReq
-matchid (Rmatchid"©
+matchid (Rmatchid"©
 MatchRankRep
 result (Rresult4
 players (2.match.MatchRankRep.PlayerRplayers:
@@ -39,10 +39,10 @@ topscorersŽ
 sex (Rsex"E
 EnterMatchReq
 clientid (Rclientid
-matchid (Rmatchid"q
+matchid (Rmatchid"q
 EnterMatchRep
 result (Rresult
-matchid (Rmatchid
+matchid (Rmatchid
 session (Rsession
 table (Rtable")
 LeaveMatchReq

@@ -406,7 +406,8 @@ end
 function wrnnMsg.EndGame(msg)--BetResult(msg)
 
     	--更新回合数据
-   
+    gameScene.roominfo.curRoomRound = msg.ref or 0
+    gameScene.WRNN_uiOperates:setCurrentRound(""..gameScene.roominfo.curRoomRound)
 
     local banker_seat = gameScene.WRNN_Util.convertSeatToPlayer(msg.banker)
     local banker_pos = gameScene.WRNN_uiPlayerInfos:getHeadIconPos(banker_seat)
@@ -514,7 +515,7 @@ end
 -- }
 function wrnnMsg.GameInfo(msg)
 	print("游戏信息. 断线重进之后")
-	dump(msg," 游戏信息. 断线重进之后")
+	--dump(msg," 游戏信息. 断线重进之后")
 
     
    if gameScene.ReadyState == true then

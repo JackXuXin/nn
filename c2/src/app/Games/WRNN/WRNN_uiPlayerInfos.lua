@@ -230,9 +230,17 @@ end
 function WRNN_uiPlayerInfos:updatePlayerBetUI_2(banker_seat,seatId,gold)
 	
         if seatId ~= banker_seat then --不是庄家
-        	self.ui_infos[seatId].k_tx_XiaZhu_Num:setString(gameScene.WRNN_Util.num2str(gold))
-            self.ui_infos[seatId].k_sp_XiaZhuBG:setVisible(true)
-			self.ui_infos[seatId].k_sp_GoldIcon:setVisible(true)
+        	
+        	if  gold > 0  then
+        		self.ui_infos[seatId].k_tx_XiaZhu_Num:setString(gameScene.WRNN_Util.num2str(gold))
+        		self.ui_infos[seatId].k_sp_XiaZhuBG:setVisible(true)
+				self.ui_infos[seatId].k_sp_GoldIcon:setVisible(true)
+        	end
+            
+		else
+			self.ui_infos[seatId].k_tx_XiaZhu_Num:setString("")
+            self.ui_infos[seatId].k_sp_XiaZhuBG:setVisible(false)
+			self.ui_infos[seatId].k_sp_GoldIcon:setVisible(false)
         end
 
 end

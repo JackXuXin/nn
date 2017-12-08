@@ -24,7 +24,7 @@ function MatchMessage.MatchConfigRep(msg)
 	local newConfig = assert(loadstring(msg.config))()
     newConfig = checktable(newConfig)
 
-    dump(newConfig)
+    -- dump(newConfig)
 
     for _,config in ipairs(RoomConfig) do
 
@@ -164,7 +164,7 @@ function MatchMessage.EnterMatchReq(matchId,online)
 end
 
 function MatchMessage.EnterMatchRep(msg)
-	dump(msg, "MatchMessage.EnterMatchRep")
+	-- dump(msg, "MatchMessage.EnterMatchRep")
 	-- body
 	msgMgr:MatchEnterRoomRep(msg)
 end

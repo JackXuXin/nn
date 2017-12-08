@@ -798,11 +798,11 @@ function Share.createLobbyShareLayer()
     -- transition.scaleTo(popBoxNode, {scale = 1, time = app.constant.lobby_popbox_trasition_time})
 
 --modify by whb 0324
-    local Text_4 = cc.uiloader:seekNodeByNameFast(popBoxNode, "Text_4")
-    local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    Text_4:setString(platConfig.shareLayer_Text_4)
-    local Text_3 = cc.uiloader:seekNodeByNameFast(popBoxNode, "Text_3")
-    Text_3:setString(platConfig.share_Text_3)
+    -- local Text_4 = cc.uiloader:seekNodeByNameFast(popBoxNode, "Text_4")
+    -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+    -- Text_4:setString(platConfig.shareLayer_Text_4)
+    -- local Text_3 = cc.uiloader:seekNodeByNameFast(popBoxNode, "Text_3")
+    -- Text_3:setString(platConfig.share_Text_3)
 
 
 --modify end

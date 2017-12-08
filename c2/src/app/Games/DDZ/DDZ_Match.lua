@@ -21,24 +21,127 @@ local leftTime = nil
 local startTime = nil
 
 local tempCount = 0
+local info
 
 function DDZ_Match:ctor()
     print("DDZ_Match:ctor")
 
+    info = display.newSprite("Image/Match/img_info.png")
+        :pos(2,display.height)
+        :hide()
+        :addTo(self)
+        :setAnchorPoint(0,1)
+
+    --房间号文字
+    cc.ui.UILabel.new({
+        color = cc.c3b(126,152,121), 
+        size = 19, 
+        text = "当前排名"
+    })
+    :addTo(info)
+    :setAnchorPoint(cc.p(0.5, 0.5))
+    :setPosition(70,84)
+
+    --房间号密码
     rankLabel = cc.ui.UILabel.new({
         color = cc.c3b(255,255,255), 
-        size = 26, 
-        text = ""
+        size = 22, 
+        text = "待定"
     })
-    :addTo(self)
-    :setAnchorPoint(cc.p(0, 0.5))
-    :setPosition(204,690)
+    :addTo(info)
+    :setAnchorPoint(cc.p(0.5, 0.5))
+    :setPosition(70,53)
+    
 end
 
 function DDZ_Match:init(callback)
     self.callback = callback
 end
+function DDZ_Match:setDelayTime(rootNode)
+    if self.delayHandler then
+        scheduler.unscheduleGlobal(self.delayHandler)
+        self.delayHandler = nil
+    end
+    if self.delayHandler == nil then
+        --延迟时间
+        local netTime = nil
+        local netBg = nil
+        local netG = nil
+        local netY = nil
+        local delayTime = app.constant.delayTime
+      
+       if rootNode:getChildByTag(30000) == nil then
+            netTime = cc.ui.UILabel.new({
+            color = cc.c3b(255,0,0), 
+            size = 19, 
+            text = delayTime .. "ms"
+        })
+        :addTo(rootNode,nil,30000)
+        :setAnchorPoint(cc.p(1, 0.5))
+        :setPosition(78,16)
+       end
 
+       if rootNode:getChildByTag(30001) == nil then
+            netBg = display.newSprite("Image/PrivateRoom/img_NetBg.png")
+            :setAnchorPoint(cc.p(0, 0.5))
+            :addTo(rootNode,nil,30001)
+            :setPosition(83,22)
+       end
+
+       if rootNode:getChildByTag(30002) == nil then
+            netG = display.newSprite("Image/PrivateRoom/img_NetG.png")
+            :setAnchorPoint(cc.p(0, 0.5))
+            :addTo(rootNode,nil,30002)
+            :setPosition(83,22)
+            :hide()
+       end
+
+       if rootNode:getChildByTag(30003) == nil then
+            netY = display.newSprite("Image/PrivateRoom/img_NetY.png")
+            :setAnchorPoint(cc.p(0, 0.5))
+            :addTo(rootNode,nil,30003)
+            :setPosition(83,22)
+            :hide()
+       end
+
+        local setTime = function()
+
+            delayTime = app.constant.delayTime
+            netTime:setString(delayTime .. "ms")
+
+            if delayTime<100 then
+                netG:show()
+                netY:hide()
+                netTime:setTextColor(cc.c3b(0,255,0))
+                netG:setTextureRect(cc.rect(0,0,37,26))
+            elseif delayTime<200 then
+                netG:show()
+                netY:hide()
+                netTime:setTextColor(cc.c3b(0,255,0))
+                netG:setTextureRect(cc.rect(0,0,30,26))
+            elseif delayTime<1000 then
+                netG:hide()
+                netY:show()
+                netTime:setTextColor(cc.c3b(217,135,79))
+                netY:setTextureRect(cc.rect(0,0,18,26))
+            else
+                netG:hide()
+                netY:show()
+                netTime:setTextColor(cc.c3b(206,46,51))
+                netY:setTextureRect(cc.rect(0,0,8,26))
+            end
+        end
+
+        setTime()
+
+        if self.delayHandler == nil then
+            self.delayHandler = scheduler.scheduleGlobal(
+            function()
+                setTime()
+            end, 1)
+        end
+   end
+end
 function DDZ_Match:removeAll()
     if nodeLeftTime then
         nodeLeftTime:removeFromParent()
@@ -85,7 +188,7 @@ function DDZ_Match:showCancel()
     :setAnchorPoint(cc.p(0.5, 0.5))
     :setPosition(640,300)
 
-    cc.ui.UIPushButton.new({ normal = "Image/Match/ok_1.png", pressed = "Image/Match/ok_2.png" })
+    cc.ui.UIPushButton.new({ normal = "Image/Public/Button_ConfirmRed_0.png", pressed = "Image/Public/Button_ConfirmRed_1.png" })
     :onButtonClicked(function()
         print("ok")
         app:enterScene("LobbyScene", nil, "fade", 0.5)
@@ -110,9 +213,14 @@ function DDZ_Match:showState(state,rank,gold,reward,rewardType)
     end
 end
 
+function DDZ_Match:SetRank()
+    info:show()
+    self:setDelayTime(info)
+end
+
 function DDZ_Match:updateRank(rank,totalRank)
     -- body
-    rankLabel:setString("比赛排名：" .. rank .. "/" .. totalRank)
+    rankLabel:setString(rank .. "/" .. totalRank)
     
 end
 
@@ -157,7 +265,7 @@ function DDZ_Match:showResult(rank,reward,rewardType)
     :setAnchorPoint(cc.p(0, 0.5))
     :setPosition(420,260)
 
-    if rewardType ~= "gold" then
+    if rewardType ~= "diamond" then
         cc.ui.UILabel.new({
             color = cc.c3b(233,167,132), 
             size = 25, 
@@ -168,11 +276,12 @@ function DDZ_Match:showResult(rank,reward,rewardType)
         :setPosition(720,260)
     end
 
-    cc.ui.UIPushButton.new({ normal = "Image/Match/ok_1.png", pressed = "Image/Match/ok_2.png" })
+    cc.ui.UIPushButton.new({ normal = "Image/Public/Button_ConfirmRed_0.png", pressed = "Image/Public/Button_ConfirmRed_1.png" })
     :onButtonClicked(function()
         print("ok")
         app:enterScene("LobbyScene", nil, "fade", 0.5)
-    end)
+
+     end)
     :pos(640,150)
     :addTo(nodeResult)
 end
@@ -220,7 +329,7 @@ function DDZ_Match:showOut(rank,gold,reward)
     :setAnchorPoint(cc.p(0.5, 0.5))
     :setPosition(640,60)
 
-    cc.ui.UIPushButton.new({ normal = "Image/Match/ok_1.png", pressed = "Image/Match/ok_2.png" })
+    cc.ui.UIPushButton.new({ normal = "Image/Public/Button_ConfirmRed_0.png", pressed = "Image/Public/Button_ConfirmRed_1.png" })
     :onButtonClicked(function()
         print("ok")
         app:enterScene("LobbyScene", nil, "fade", 0.5)
@@ -414,12 +523,19 @@ function DDZ_Match:clear()
         scheduler.unscheduleGlobal(self.handler)
         self.handler = nil
     end
+    if self.delayHandler then
+        scheduler.unscheduleGlobal(self.delayHandler)
+        self.delayHandler = nil
+    end
     self:removeAll()
 
     leftTime = nil
     startTime = nil
 
     tempCount = 0
+    rankLabel = nil
+    info = nil 
+
 
     msgMgr:resetMatch()
 end

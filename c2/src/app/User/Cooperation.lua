@@ -2,10 +2,12 @@ local LobbyScene = package.loaded["app.scenes.LobbyScene"] or {}
 
 local util = require("app.Common.util")
 local errorLayer = require("app.layers.ErrorLayer")
+local sound_common = require("app.Common.sound_common")
 
 function LobbyScene:showCooperation()
     local cooperationLayer = cc.uiloader:load("Layer/Lobby/CooperationLayer.json"):addTo(self.scene)
     self.cooperationLayer = cooperationLayer
+    sound_common.menu()
     util.setMenuAniEx(cc.uiloader:seekNodeByNameFast(cooperationLayer, "nd_all"))
 
     local nd_info = cc.uiloader:seekNodeByNameFast(cooperationLayer, "nd_info")
@@ -35,6 +37,7 @@ function LobbyScene:showCooperation()
     --关闭按钮
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(cooperationLayer, "btn_exit"))
         :onButtonClicked(function ( event )
+            sound_common:cancel()
             if nd_rule:isVisible() then
                 nd_info:show()
                 nd_rule:hide()

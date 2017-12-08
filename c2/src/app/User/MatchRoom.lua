@@ -10,6 +10,7 @@ local ErrorLayer = require("app.layers.ErrorLayer")
 local sound_common = require("app.Common.sound_common")
 local AvatarConfig = require("app.config.AvatarConfig")
 local PlatConfig = require("app.config.PlatformConfig")
+local UserMessage = require("app.net.UserMessage")
 
 local _leftTime
 local _matchListInfo
@@ -321,7 +322,9 @@ function LobbyScene:MatchListRep(msg,oldMsg)
 					local fee = mroom.fee
 					if fee then
 						cc.uiloader:seekNodeByNameFast(btn_sign_up, "tx_const_value")
-							-- :setString(fee.val .. "钻石")
+							:setString(fee.val .. "钻石")
+					else
+						cc.uiloader:seekNodeByNameFast(btn_sign_up, "tx_const_value")
 							:setString("(免费)")
 					end
 					
@@ -495,7 +498,8 @@ function LobbyScene:showCompetitionLayer(count, state, startTime, mroom)
 	util.setMenuAniEx(nd_all)
 
 	local nd_info = cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "nd_info")
-	local nd_rule = cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "nd_rule"):hide()
+	local nd_rule_sss = cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "nd_rule_sss"):hide()
+	local nd_rule_ddz = cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "nd_rule_ddz"):hide()
 	MatchCompetitionLayer.state = state
 	MatchCompetitionLayer.startTime = startTime
 
@@ -553,7 +557,9 @@ function LobbyScene:showCompetitionLayer(count, state, startTime, mroom)
 	local fee = mroom.fee
 	if fee then
 		cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "tx_const_value")
-			-- :setString(fee.val .. "钻石")
+			:setString(fee.val .. "钻石")
+	else
+		cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "tx_const_value")
 			:setString("免费")
 	end
 
@@ -577,14 +583,14 @@ function LobbyScene:showCompetitionLayer(count, state, startTime, mroom)
 	end
 
 	--单局最高分奖品
-	cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "tx_prize_info_4")
-		:setString("单局最高分奖品：" .. mroom.topReward.name)
+	-- cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "tx_prize_info_4")
+	-- 	:setString("单局最高分奖品：" .. mroom.topReward.name)
 
 	--关闭按钮
 	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "btn_close"))
 		:onButtonClicked(function ()
-			if nd_rule:isVisible() then
-				nd_rule:hide()
+			if nd_rule_ddz:isVisible() then
+				nd_rule_ddz:hide()
 				nd_info:show()
 				return
 			end
@@ -597,7 +603,7 @@ function LobbyScene:showCompetitionLayer(count, state, startTime, mroom)
 	--详细规则按钮
 	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "btn_rule"))
 		:onButtonClicked(function ()
-			nd_rule:show()
+			nd_rule_ddz:show()
 			nd_info:hide()
 		end)
 
@@ -610,7 +616,9 @@ function LobbyScene:showCompetitionLayer(count, state, startTime, mroom)
 	--进入按钮
 	util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(MatchCompetitionLayer, "btn_enter"))
 		:onButtonClicked(function ()
-			MatchMessage.EnterMatchReq(mroom.matchid,false)
+			app.constant.match_id = mroom.matchid
+			-- MatchMessage.EnterMatchReq(mroom.matchid,false)
+			UserMessage.CheckReconnectReq()
 		end)
 
 	--退赛按钮

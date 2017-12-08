@@ -23,7 +23,7 @@ end
 
 function UserMessage.UserInfoResonpse(msg)
 	print("UserMessage.UserInfoResonpse")
-	dump(msg,"userinfo = ")
+	-- dump(msg,"userinfo = ")
 	if Account.uid == msg.uid then
 		for k,v in pairs(msg) do
 			if k == "nickname" then
@@ -179,7 +179,7 @@ end
 
 function UserMessage.ModifyUserInfoReq(sex, nickname, imageid)
 	UserMessage.oldMessage = {sex = sex, nickname = nickname, imageid = imageid}
-	dump(UserMessage.oldMessage,"modify = ")
+	-- dump(UserMessage.oldMessage,"modify = ")
 	Message.sendMessage("user.ModifyUserInfoReq", UserMessage.oldMessage)
 end
 
@@ -357,6 +357,13 @@ function UserMessage.RoomListReq()
 	print("UserMessage.RoomListReq---------")
 	UserMessage.oldMessage = {}
 	Message.sendMessage("user.RoomListReq", UserMessage.oldMessage)
+end
+
+function UserMessage.CheckReconnectReq()
+
+	print("UserMessage.CheckReconnectReq---------")
+	UserMessage.oldMessage = {}
+	Message.sendMessage("user.CheckReconnectReq", UserMessage.oldMessage)
 end
 
 

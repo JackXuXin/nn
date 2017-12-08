@@ -23,8 +23,15 @@ end
 
 function DDZ_MJPRoom:hideButton()
     print("DDZ_MJPRoom:hideButton---")
-    self:getChildByName("startGame"):hide()
-    self:getChildByName("weixinInvite"):hide()
+    
+    if self:getChildByName("startGame") then
+        self:getChildByName("startGame"):hide()
+    end
+
+    if self:getChildByName("weixinInvite") then
+        self:getChildByName("weixinInvite"):hide()
+    end
+    
 end
 
 function DDZ_MJPRoom:showSeat(params)

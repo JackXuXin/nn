@@ -68,12 +68,13 @@ local PlatConfig = {
 		name = "旺旺诸暨",
 		public_id = "",
 		act = { [1] = "Platform_Src/Image/ActiviLayer/act_%s_context.png" ,[2] = 1},
-
-		game = {[1] = { Node_Name = "Game_sss",gameid = 106,Image_Icon = "Platform_Src/Image/Lobby/GameIcons/sss_2.png", IconPosX = 7, IconPosY = 42,  IconRes = "Platform_Src/Image/Lobby/GameIcons/sss_bg.png"  ,
-			 dt_time = 1.5, starPosX = 77,starPosY = -60, length = 100},
-				[2] = { Node_Name = "Game_nn",gameid = 116,Image_Icon = "Platform_Src/Image/Lobby/GameIcons/nn_1.png", IconPosX = 0, IconPosY = 42, IconRes = "Platform_Src/Image/Lobby/GameIcons/nn_bg.png" ,
-		     dt_time = 1.5 , starPosX = 113,starPosY = -61, length = 130},
-				},
+		game = {
+				[1] = { Node_Name = "Game_sss",gameid = 106,Image_Icon = "Platform_Src/Image/Lobby/GameIcons/sss_2.png", IconPosX = 7, IconPosY = 42,  IconRes = "Platform_Src/Image/Lobby/GameIcons/sss_bg.png"  ,
+					dt_time = 1.5, starPosX = 152,starPosY = -63, length = 160, Image_off="Image/Lobby/PrivateRoom/cb_sss_normal.png", Image_on = "Image/Lobby/PrivateRoom/cb_sss_select.png"},
+				[2] = { Node_Name = "Game_nn",gameid = 116,Image_Icon = "Platform_Src/Image/Lobby/GameIcons/sss_2.png", IconPosX = 0, IconPosY = 42, IconRes = "Platform_Src/Image/Lobby/GameIcons/sss_bg.png" ,
+					dt_time = 1.5 , starPosX = 113,starPosY = -61, length = 130, Image_off="Image/Lobby/PrivateRoom/cb_nn_normal.png", Image_on = "Image/Lobby/PrivateRoom/cb_nn_select.png"},
+				
+			   },
 
 		gameIconBg = "Platform_Src/Image/Lobby/GameIcons/hua_%s.png",
         gameani = { [1] = "Platform_Src/Image/Lobby/GameIcons/img_Point2.png",[2] = "Platform_Src/Image/Lobby/GameIcons/img_LightPic.png" },

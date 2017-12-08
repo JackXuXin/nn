@@ -3,6 +3,8 @@ local SSSScene = class("SSSScene", function()
     require("app.Games.SSS.players")
     require("app.Games.SSS.cards")
     require("app.Games.SSS.match")
+    require("app.Games.SSS.SSS_uiRule")
+    require("app.Games.SSS.SSS_uiPrompt")
     return display.newScene("SSSScene")
 end)
 
@@ -56,9 +58,7 @@ local btnSign                           --报道按钮
 local btnConfirm                        --完成按钮
 local btnStart                          --开始按钮
 local ResultLayer                       --结算
-local ExitTipLayer                      --退出
 local SeeLayer                          --看牌
-local DissolutionLayer                  --解散房间
 local centerBG                          --选牌型
 
 
@@ -112,12 +112,6 @@ local function hideNodes(ui_scene)
     ResultLayer:setLocalZOrder(1000)
     SeeLayer:hide()
     SeeLayer:setLocalZOrder(1000)
-    ExitTipLayer:hide()
-    ExitTipLayer:setScale(0)
-    ExitTipLayer:setLocalZOrder(1001)
-    DissolutionLayer:hide()
-    DissolutionLayer:scale(0)
-    DissolutionLayer:setLocalZOrder(1001)
 
     cc.uiloader:seekNodeByNameFast(ui_scene,"PrivateRoom"):hide()
     cc.uiloader:seekNodeByNameFast(ui_scene,"PRoomRecord"):hide()
@@ -125,8 +119,6 @@ local function hideNodes(ui_scene)
 
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(ResultLayer,"ExitBtn"))
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(ResultLayer,"SureNextBtn"))
-    util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(ui_scene,"cancel_btn"))
-    util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(ui_scene,"okexit_btn"))
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(SeeLayer,"btn_confirm"))
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(SeeLayer,"btn_show_result"))
 
@@ -174,71 +166,6 @@ function SSSScene:ctor()
     util.SetVoiceBtn(self,self.scene)
 
     util.IsShowVoiceBtn(false, self.scene)
-
-    --退出界面
-    ExitTipLayer = cc.uiloader:seekNodeByNameFast(self.scene, "ExitTipLayer")
-
-    --退出的确定按钮
-    cc.uiloader:seekNodeByNameFast(ExitTipLayer, "okexit_btn")
-        :onButtonClicked(function (event)
-            self:onRestart()
-            self:onLeave()
-            sound_common.confirm()
-        end)
-
-    --退出取消按钮
-    cc.uiloader:seekNodeByNameFast(ExitTipLayer, "cancel_btn")
-        :onButtonClicked(function (event)
-            sound_common.menu()
-            transition.scaleTo(ExitTipLayer, {
-                scale = 0,
-                easing = "backIn",
-                time = app.constant.lobby_popbox_trasition_time,
-                onComplete = function()
-                ExitTipLayer:hide()
-            end,
-            })
-        end)
-
-    --解散房间界面---
-    DissolutionLayer = cc.uiloader:seekNodeByNameFast(self.scene, "DissolutionLayer")
-    --解散房间界面确定按钮
-    util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(DissolutionLayer, "dissolution_okexit_btn"))
-        :onButtonClicked(
-            function (event)
-                transition.scaleTo(DissolutionLayer, {
-                    scale = 0,
-                    easing = "backIn",
-                    time = app.constant.lobby_popbox_trasition_time,
-                    onComplete = function()
-                        DissolutionLayer:hide()
-                        message.sendMessage("game.DismissGameReq", {
-                            session = roomSession,
-                            privateid = table_code,
-                            seat = seatIndex,
-                        })
-                        sound_common.confirm()
-                    end,
-                })
-            end
-        )
-
-    --解散房间界面取消按钮
-    util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(DissolutionLayer, "dissolution_cancel_btn"))
-        :onButtonClicked(
-            function (event)
-                transition.scaleTo(DissolutionLayer, {
-                    scale = 0,
-                    easing = "backIn",
-                    time = app.constant.lobby_popbox_trasition_time,
-                    onComplete = function()
-                        DissolutionLayer:hide()
-                        sound_common.confirm()
-                    end,
-                })
-            end
-        )
-    --------------------------------------------------
 
     --下拉栏---
     local nd_drop_bar = cc.uiloader:seekNodeByNameFast(self.scene,"nd_drop_bar")
@@ -314,37 +241,35 @@ function SSSScene:ctor()
     sound.setState(app.constant.voiceOn)
 
 
-    local function onExitLayer(event)
-        sound_common.cancel()
-        ExitTipLayer:show()
-        transition.scaleTo(ExitTipLayer, {
-            scale = 1,
-            easing = "backOut",
-            time = app.constant.lobby_popbox_trasition_time,
-            onComplete = nil,
-        })
+    local function onExitScene()
+        sound_common.confirm()
+        self:onRestart()
+        self:onLeave()
     end
 
     --下拉栏退出按钮
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_exit"))
-        :onButtonClicked(onExitLayer)
+        :onButtonClicked(function ()
+            self:showPromptLayer("确定要离开游戏？", onExitScene)
+        end)
 
     --下拉栏退出比赛按钮
-    util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_exit_match"))
-        :onButtonClicked(onExitLayer)
+    -- util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_exit_match"))
+    --     :onButtonClicked(onExitLayer)
+
+    local function onRoomDissolutionCallback()
+        message.sendMessage("game.DismissGameReq", {
+            session = roomSession,
+            privateid = table_code,
+            seat = seatIndex,
+        })
+    end
 
     --下拉栏解散按钮
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_dissolution_bar"))
         :onButtonClicked(
             function(event)
-                sound_common.confirm()
-                DissolutionLayer:show()
-                transition.scaleTo(DissolutionLayer, {
-                    scale = 1,
-                    easing = "backOut",
-                    time = app.constant.lobby_popbox_trasition_time,
-                    onComplete = nil,
-                })
+                self:showPromptLayer("确定要解散房间？", onRoomDissolutionCallback)
             end
         )
 
@@ -353,7 +278,7 @@ function SSSScene:ctor()
     util.BtnScaleFun(cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_ruleBtn"))
         :onButtonClicked(
             function (event)
-                self:showRuleMenu()
+                self:showGameRule()
             end
         )
 
@@ -536,90 +461,6 @@ function SSSScene:ctor()
     eventDispatcher:addEventListenerWithFixedPriority(self.customListenerFg, 1)
 end
 
-function SSSScene:showRuleContent(checkbox)
-
-      if self.ruleLayer == nil then
-          return
-      end
-      local ruleLayer = self.ruleLayer
-      local CardList = cc.uiloader:seekNodeByNameFast(ruleLayer, "CardList")
-      local img_PlayContent = cc.uiloader:seekNodeByNameFast(ruleLayer, "img_PlayContent")
-
-      CardList:hide()
-      img_PlayContent:hide()
-
-      local curtype = checkbox.index
-
-      if curtype == 1 then
-        CardList:show()
-      else
-        img_PlayContent:show()
-      end
-
-end
-
-function SSSScene:showRuleMenu()
-
-    print("sss-showRuleMenu----")
-
-    sound_common.menu()
-    local ruleLayer = cc.uiloader:load("Layer/Game/GameRuleLayer.json"):addTo(self,1100)
-    self.ruleLayer = ruleLayer
-
-    local popBoxNode = cc.uiloader:seekNodeByNameFast(ruleLayer, "PopBoxNode")
-    popBoxNode:setScale(0)
-    transition.scaleTo(popBoxNode, {
-        scale = 1,
-        time = app.constant.lobby_popbox_trasition_time,
-        onComplete = function ()
-
-        end
-    })
-
-    local close = cc.uiloader:seekNodeByNameFast(ruleLayer, "Close")
-    :onButtonClicked(
-        function ()
-
-          self.ruleLayer:removeFromParent()
-          self.ruleLayer = nil
-          sound_common:cancel()
-
-        end)
-    util.BtnScaleFun(close)
-
-    local CardList = cc.uiloader:seekNodeByNameFast(ruleLayer, "CardList")
-    local img_PlayContent = cc.uiloader:seekNodeByNameFast(ruleLayer, "img_PlayContent")
-    CardList:show()
-    img_PlayContent:hide()
-
-    ruleLayer.Rulegroup = RadioButtonGroup.new()
-    for i = 1,2 do
-          local unselected = string.format("Image/Lobby/ruleImg/btn_SssCtrol%d.png",i)
-          local selected = string.format("Image/Lobby/ruleImg/btn_SssCtrol%dN.png",i)
-          local checkbox = cc.ui.UICheckBoxButton.new({
-              off = unselected,
-              off_pressed = selected,
-              off_disabled = unselected,
-              on = {selected, selected},
-              on_pressed = {unselected, selected},
-              on_disabled = {unselected, unselected},
-          })
-          --print("checkbox11 = ",checkbox)
-          checkbox:addTo(popBoxNode, nil ,1000+i)
-          checkbox:setPosition(-136.34+(i - 1) * 264,171)
-          checkbox.index = i
-
-          ruleLayer.Rulegroup:addButtons({
-              [checkbox] = handler(self, self.showRuleContent)
-          })
-
-          if i == 1 then
-              checkbox:setButtonSelected(true)
-          end
-    end
-
-end
-
 function SSSScene:onEnter()
     print("onEnter")
 
@@ -628,9 +469,7 @@ function SSSScene:onEnter()
     btnStart = cc.uiloader:seekNodeByNameFast(self.scene, "Button_Start")
 
     ResultLayer = cc.uiloader:seekNodeByNameFast(self.scene, "ResultLayer")
-    ExitTipLayer = cc.uiloader:seekNodeByNameFast(self.scene, "ExitTipLayer")
     SeeLayer = cc.uiloader:seekNodeByNameFast(self.scene, "SeeLayer")
-    DissolutionLayer = cc.uiloader:seekNodeByNameFast(self.scene, "DissolutionLayer")
     centerBG = cc.uiloader:seekNodeByNameFast(self.scene, "Image_DaoBG")
 
     --表情相关
@@ -1440,9 +1279,7 @@ function SSSScene:clearScene()
     btnStart = nil
 
     ResultLayer = nil
-    ExitTipLayer = nil
     SeeLayer = nil
-    DissolutionLayer = nil
 
     roomSession = nil
     seatIndex = nil

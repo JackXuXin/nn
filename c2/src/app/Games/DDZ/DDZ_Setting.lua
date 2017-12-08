@@ -16,6 +16,7 @@ local hideButton
 local openSound
 local closeSound
 local outButton
+local outMatchButton
 local shareButton
 
 local usefulSoundBtn    --常用语按钮
@@ -86,6 +87,16 @@ function DDZ_Setting:ctor()
     :addTo(self)
     util.BtnScaleFun(showButton)
 
+    outMatchButton = cc.ui.UIPushButton.new({ normal = "Image/DDZ/setting/button_quit_match.png", pressed = "Image/DDZ/setting/button_quit_match.png" })
+    :onButtonClicked(
+        function()
+            self:onLeaveButton()
+        end)
+    :pos(display.right - 48, 670)
+    :hide()
+    :addTo(background)
+    util.BtnScaleFun(outMatchButton)
+
     -- hideButton = cc.ui.UIPushButton.new({ normal = "ShYMJ/button_ccup_norma.png", pressed = "ShYMJ/button_ccup_selected.png" })
     -- :onButtonClicked(function()
     --         self:onShowButton(false)
@@ -99,6 +110,15 @@ function DDZ_Setting:ctor()
     self:onSoundButton(app.constant.voiceOn)
 end
 
+function DDZ_Setting:showMatchBtn(flag)
+    if flag then
+        outMatchButton:show()
+        showButton:hide()
+    else
+        outMatchButton:hide()
+        showButton:show()
+    end
+end
 --[[
 --常用语按钮回调
 function DDZ_Setting:usefulSoundClick()
@@ -417,6 +437,7 @@ function DDZ_Setting:clear()
     openSound = nil
     closeSound = nil
     outButton = nil
+    outMatchButton = nil 
     shareButton = nil
 
     usefulSoundBtn = nil    --常用语按钮

@@ -44,6 +44,8 @@ function WRNN_CardMgr:sendPlayerCard(seats,cards,time)
 	local CARD_WIDTH_DISTANCE = 0
 	local moveActionTime = 0.1
 
+	local CardIndex = 0  
+
 	for index,cardInfo in pairs(cards) do
 		index = index - 1
 		for _,seat in pairs(seats) do
@@ -59,7 +61,10 @@ function WRNN_CardMgr:sendPlayerCard(seats,cards,time)
                     end
 				    ui_card.self = true 
 					CARD_WIDTH_DISTANCE = 98
-					
+					if cardInfo ~= 0 then  
+					    CardIndex = CardIndex + 1
+					    --print("----CardIndex ----" ..CardIndex)
+					end
 				else
 					ui_card = gameScene.WRNN_Card.new()
 					ui_card:setScale(0.63)
@@ -87,6 +92,12 @@ function WRNN_CardMgr:sendPlayerCard(seats,cards,time)
 
 							if gameScene.roominfo.banker_type  == 4 then
 							    --显示前4张
+							    if CardIndex == 5 then
+							    	--显示牌型完成
+							    	gameScene.SendCardTimes = 2
+									gameScene.WRNN_uiOperates:setCuopaiButtonVisable(false)
+		    						gameScene.WRNN_uiOperates:setCardShowButtonVisable(true)
+							    end
 
 
 							else

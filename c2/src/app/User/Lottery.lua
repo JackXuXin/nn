@@ -364,6 +364,7 @@ function LobbyScene:showLottery(id)
 
              lotteryLayer:removeFromParent()
              lotteryLayer = nil
+             sound_common:cancel()             
 
             --  local scale2_star = cc.ScaleTo:create(0.2,0.1)
             --  transition.execute(popBoxNode, scale2_star,  

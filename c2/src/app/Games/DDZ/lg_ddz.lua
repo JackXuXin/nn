@@ -1867,11 +1867,21 @@ end
 
 function CardTypeFinderDispatch.triblesequence( handcard, cardsLen )
 	local res = CardArrayCollection:new()
+	-- dump(res, "res")
 
 	local alldoubleelement = handcard:getAtleastNsameSequences(3)
+	
+	-- dump(alldoubleelement, "alldoubleelement")
 	if alldoubleelement == nil or #alldoubleelement == 0 then return{} end
 	table.sort(alldoubleelement)
-
+	----------追加
+	-- 2不能包含在3连中
+	for i=#alldoubleelement,1,-1 do
+		if alldoubleelement[i].num == 2 then
+			table.remove(alldoubleelement,i)
+		end
+	end
+	------------
 	local repeatetime = 1
 	local prev = alldoubleelement[1]
 	local doublesequence = DDZCardArray:new()
@@ -2186,6 +2196,7 @@ end
 
 local function RemindAgent( curcard, handcard, sortdeny )
 	print("RemindAgent1")
+	dump(curcard, "curcard")
 	if curcard == nil or #curcard == 0 then
 		--copy
 		local tmp = {}
@@ -2306,7 +2317,14 @@ local function findSequence( curcard, handcard )
 
 	handcard = DDZCardArray:new(handcard)
 	curcard = DDZCardArray:new(curcard)
+
+	dump(handcard, "handcard")
+	dump(curcard, "curcard")
+
 	local handCardType = getCardType(handcard)
+
+	dump(handCardType, "handCardType")
+
 	if curcard == nil or #curcard == 0 and handCardType ~= "errorcardtype" then
 		handcard:clearRepeatetable()
 		return handcard
@@ -2328,15 +2346,18 @@ local function findSequence( curcard, handcard )
 
 	--find sequence
 	local res = CardTypeFinderDispatch.sequence(handcard)
+	dump(res, "find sequence:")
 	if #res > 0 then return res[1] end
 
 
 	--find triblesequence
 	res = CardTypeFinderDispatch.triblesequence(handcard)
+	dump(res, "find triblesequence:")
 	if #res > 0 then return res[1] end
 
 	--find doublesequence
 	res = CardTypeFinderDispatch.doublesequence(handcard)
+	dump(res, "find doublesequence:")
 	if #res > 0 then return res[1] end
 
 	return {}
@@ -2359,12 +2380,235 @@ function DDZ_cardCompare( a,b )
 	b = DDZCardArray:new(b)
 	return b < a
 end
+-- start --
+
+--------------------------------
+-- 排序一组牌  or  排序一组实际的手牌
+-- @function SortCards
+-- @param number order    1 等于从大到小   2 等于从小到大
+-- @param table cards     需要排序的牌信息
+
+-- end --
+local function SortCards(order,cards)
+    for k,v in ipairs(cards) do
+    	if v[1].color == 4 then
+            if v[1].num <= 15 then
+                v[1].num = v[1].num + 2
+            end
+    	else
+    		if v[1].num <= 2 then
+        	    v[1].num = v[1].num + 13
+        	end
+    	end
+    end
+
+    if order == 1 then
+        table.sort(cards,
+        function(a,b) 
+            if a[1].num == b[1].num  then
+                return a[1].color > b[1].color
+            else
+                return a[1].num > b[1].num 
+            end
+        end)
+    elseif order == 2 then
+       table.sort(cards,
+        function(a,b) 
+            if a[1].num == b[1].num  then
+                return a[1].color < b[1].color
+            else
+                return a[1].num < b[1].num 
+            end
+        end)
+    end
+
+    for k,v in ipairs(cards) do
+    	if v[1].color == 4 then
+            if v[1].num >= 16 then
+                v[1].num = v[1].num - 2
+            end
+    	else
+    		if v[1].num >= 14 then
+        	    v[1].num = v[1].num - 13
+        	end
+    	end
+    end
+end
+--对获取到的牌型进行排序  需要管的牌 ，玩家手牌，排序方式
+local function DDZ_SortCardArray(curcard, handcard,order)
+	-- dump(curcard, "curcard")
+	-- dump(handcard, "handcard")
+	local cardType_tab
+	--一副牌 和 两副牌
+	if CardType_Num == 1 then
+		cardType_tab = {rocket = 1,bomb = 2,}
+	else
+		cardType_tab = {rocket_3=1,bomb_8=2,bomb_7=3,bomb_6=4,bomb_5=5,bomb=6}
+	end
+	
+	local card_Tab = copy_table(Remind(curcard, handcard))
+	-- dump(card_Tab, "原来获取的能出的牌：")
+
+	-- print("获取的能出的牌",getCardType(DDZCardArray:new(card_Tab[3])))
+	-- print("获取的能出的牌",cardType_tab[5])
+
+
+	--没有炸弹的牌
+	local ret = {}
+	local isrocket_flag = false
+	--炸弹的牌
+	local ret_bomb = {}
+	for ii,vv in ipairs(card_Tab) do
+		local weight = cardType_tab[tostring(getCardType(DDZCardArray:new(vv)))]
+		if weight then
+			if weight == 1 then
+				isrocket_flag = true
+			end
+			vv.wegiht_type = weight
+			table.insert(ret_bomb,vv)
+		else
+			--将大小王去除掉
+			-- dump(vv, "vvvvvvvvvv:::")
+			-- for iii,vvv in ipairs(vv) do
+			-- 	-- print(vvv.num,"vvv.num")
+			-- 	if vvv.num ~= 14 and vvv.num ~= 15 then
+					-- print(vvv.num,"vvv.num+++")
+			table.insert(ret, vv)
+			-- 	end
+			-- end
+			
+		end
+	end
+	-- dump(ret_bomb, "炸弹的牌")
+	-- dump(ret, "未剔除炸弹的牌")
+
+	for i=#ret,1,-1 do
+		for ii,vv in ipairs(ret_bomb) do
+			-- print("vv[1].num",vv[1].num)
+			if getCardType(DDZCardArray:new(ret[i])) ~= "sequence" and getCardType(DDZCardArray:new(ret[i])) ~= "doublesequence" and getCardType(DDZCardArray:new(ret[i])) ~= "triblesequence" then
+				if ret[i] and ret[i][1].num == vv[1].num then
+					print("i::::::::::",i)
+					print("ii",ii)
+					table.remove(ret,i)
+					break
+				end
+			end
+		end
+	end
+
+	if isrocket_flag then
+		for i=#ret,1,-1 do
+			for ii,vv in ipairs(ret[i]) do
+				if vv.num == 14 or vv.num == 15 then
+					table.remove(ret,i)
+					break
+				end
+			end
+		end
+	end
+	-- dump(ret, "剔除炸弹后的牌")
+	SortCards(2,ret)
+	-- table.sort(card_Tab,function(a, b) return b[1].num > a[1].num end)
+
+	for k,v in ipairs(ret_bomb) do
+    	if v[1].color == 4 then
+            if v[1].num <= 15 then
+                v[1].num = v[1].num + 2
+            end
+    	else
+    		if v[1].num <= 2 then
+        	    v[1].num = v[1].num + 13
+        	end
+    	end
+    end
+
+	table.sort(ret_bomb,
+		function(a, b) 
+			if b.wegiht_type < a.wegiht_type then
+				return true
+			elseif b.wegiht_type == a.wegiht_type then
+				return b[1].num > a[1].num 
+			else
+				return false
+			end
+			end)
+
+	for i,v in ipairs(ret_bomb) do
+		v.wegiht_type = nil
+		if v[1].color == 4 then
+            if v[1].num >= 16 then
+                v[1].num = v[1].num - 2
+            end
+    	else
+    		if v[1].num >= 14 then
+        	    v[1].num = v[1].num - 13
+        	end
+    	end
+		table.insert(ret,v)
+	end
+	return ret
+end
 --传入需要管的牌和当前的手牌
 --输出当前可以管的牌
 --提示按钮的回调
 function DDZ_remind( curcard, handcard )
-	return Remind(curcard, handcard)
+	-- return Remind(curcard, handcard)
+	return DDZ_SortCardArray(curcard, handcard)
 end
+--剔除炸弹的牌
+function cleaeBomp(cards)
+	
+	
+	local ret = copy_table(cards)
+	-- dump(card_Tab, "原来获取的能出的牌：")
+
+	-- print("获取的能出的牌",getCardType(DDZCardArray:new(card_Tab[3])))
+	-- print("获取的能出的牌",cardType_tab[5])
+
+
+	-- --没有炸弹的牌
+	-- local ret = {}
+	--炸弹的牌
+	local ret_bomb = {}
+
+	local card_ret = {}
+	local k = 0
+	for i,v in ipairs(cards) do
+		if v.num ~=card_ret.num then
+			
+			card_ret.num = v.num
+			k = 1
+		else
+			k = k+1
+			local flag = true
+			for ii,vv in ipairs(ret_bomb) do
+				if vv.num == v.num then
+					flag = false
+				end
+			end
+			if k>3 and flag then
+				table.insert(ret_bomb,v)
+			end
+		end
+	end
+	-- dump(ret_bomb, "炸弹的牌")
+	-- dump(ret, "未剔除炸弹的牌")
+	--剔除掉所有包含了炸弹的牌
+	for i=#ret,1,-1 do
+		for ii,vv in ipairs(ret_bomb) do
+			-- print("vv[1].num",vv[1].num)
+			print("vv.num",vv.num)
+			print("ret[i].num",ret[i].num)
+			if ret[i] and vv.num == ret[i].num then
+				table.remove(ret,i)
+				break
+			end
+		end
+	end
+	
+	return ret
+end
+
 --智能提取
 function DDZ_findSequence( curcard, handcard )
 	return findSequence(curcard, handcard)

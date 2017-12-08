@@ -64,6 +64,7 @@ function util.showEmotionsLayer(sceneNode, LayerNode, direct)
         local emotion_btn = cc.ui.UIPushButton.new({ normal = "Image/PrivateRoom/emo" .. i .. ".png", pressed = "Image/PrivateRoom/emo" .. i .. ".png" })
             :onButtonClicked(function()
                 print("emotion--i = ",i)
+                print("direct",direct)
                 --util.RunEmotionInfo(sceneNode, i, beginPos, endPos)
                 sceneNode:SendEmotion(i, direct)
                 LayerNode:hide()
@@ -3743,9 +3744,9 @@ function util.BtnScaleFunEx(button)
         return
 
     end
-     
+
      button:onButtonPressed( function (event)  button:setScale(button:getScaleX()*0.92)   end)
-     button:onButtonRelease( function (event)  button:setScale(1)  end)
+     button:onButtonRelease( function (event)  button:setScale(1.0)  end)
 
 end
 

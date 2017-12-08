@@ -64,8 +64,8 @@ function SSSScene:showMatch()
     cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_ruleBtn"):hide()
     cc.uiloader:seekNodeByNameFast(nd_drop_bar, "btn_exit_match"):show()
 
-    local ExitTipLayer = cc.uiloader:seekNodeByNameFast(self.scene, "ExitTipLayer")
-    cc.uiloader:seekNodeByNameFast(ExitTipLayer, "tx_info"):setString("确定要退出比赛？")
+    -- local ExitTipLayer = cc.uiloader:seekNodeByNameFast(self.scene, "ExitTipLayer")
+    -- cc.uiloader:seekNodeByNameFast(ExitTipLayer, "tx_info"):setString("确定要退出比赛？")
 
     self.match:addTo(self.scene,1000)
 end

@@ -19,6 +19,7 @@ local util = require("app.Common.util")
 
 local MiddlePopBoxLayer = require("app.layers.MiddlePopBoxLayer")
 local MatchMessage = require("app.net.MatchMessage")
+local Message = require("app.net.Message")
 local PRMessage = require("app.net.PRMessage")
 local AvatarConfig = require("app.config.AvatarConfig")
 
@@ -34,8 +35,8 @@ local gamePlayers = {}  --桌子上的玩家  下标是对应当前玩家的椅�
 
 local DiZhuPai = {}  --抢地主得到的牌
 -- local self.maxPlayer = 3  --最大玩家数目
--- local maxCards = 54  --所有的牌  54  108
--- local dipaiNum = 3   --底牌     3  6  8
+-- local self.maxCards = 54  --所有的牌  54  108
+-- local self.dipaiNum = 3   --底牌     3  6  8
 -- local cardScale = 1
 
 local LastPlayer = {} --需要管的牌 、和玩家座位号
@@ -68,6 +69,8 @@ local Share = require("app.User.Share")
 local shareSprite = nil
 
 
+--比赛
+local match_start = false
 
 --微信头像
 local weixinImage = {}
@@ -246,6 +249,7 @@ function DDZScene:onExit()
     isMatchInit = false
     isMatchStatus = false
 
+
     DDZ_SettlementLayer:clear()
 
     LastPlayer = {}
@@ -278,7 +282,7 @@ function DDZScene:onExit()
     isReady = false
     DiZhuPai = {}  --抢地主得到的牌
     
-    
+    match_start = false
     
 end
 --开局显示左上角信息
@@ -400,7 +404,12 @@ end
 function DDZScene:onLeave()
     if matchid then
         print("ts:" .. matchSession)
-        MatchMessage.LeaveMatchReq(matchSession)
+        if match_start then
+            Message.unregisterHandle()
+            app:enterScene("LobbyScene", nil, "fade", 0.5)
+        else
+            MatchMessage.LeaveMatchReq(matchSession)
+        end
     elseif self.table_code then
         print("离开游戏请求1")
         DDZ_Message.dispatchPrivateRoom("room.LeaveGame", {})
@@ -429,29 +438,70 @@ function DDZScene:ReadyNextRound()
     end
 
 end
+function DDZScene:setMatchRule()
+    -- self.maxPlayer = 3
+    self.maxCards = 54
+    self.dipaiNum = 3
+    self.cardScale = 1
+    self.rule_type = 1
 
+    cc.uiloader:seekNodeByNameFast(self.root, "img_ShangLan_1"):setVisible(true)
+    cc.uiloader:seekNodeByNameFast(self.root, "img_ShangLan_2"):setVisible(false)
+    self.img_ShangLan_Node = cc.uiloader:seekNodeByNameFast(self.root, "img_ShangLan_1")
+    self.DiZhuPaiPos = cc.uiloader:seekNodeByNameFast(self.img_ShangLan_Node, "k_nd_DiZhuPai")
+    self.pai_width = DDZ_Const.CARD_WIDTH
+
+     --创建三张牌
+        
+    local pos = cc.p(self.DiZhuPaiPos:getPosition())
+    if #DiZhuPai>0 then
+        for k,v in pairs(DiZhuPai) do
+            v:removeFromParent()
+            v = nil
+        end
+    end
+    DiZhuPai = {}
+    -- print("self.dipaiNum",self.dipaiNum)
+    for i=1,self.dipaiNum do
+        local card = DDZ_Card:create()
+        card:setScale(0.35)
+        card:setPosition(cc.p(((i-2) * self.pai_width*0.35) + (i-2) * 5,0))
+        card:setVisible(false)
+        self.DiZhuPaiPos:add(card)
+        table.insert(DiZhuPai,card)
+    end
+
+    setCardType(1)
+    self:init_emos()
+
+end
 function DDZScene:dispatchMessage(name,msg)
     print("name = " .. name)
     -- dump(msg,"斗地主消息：")
    
 	if msg then
-        -- dump(msg, name)
+        dump(msg, name)
     else
         print("msg 为 nil 的通信消息 = " .. name)
     end
-
+    --初始化比赛
     if name == "room.InitMatch" then
-        print("比赛1")
         if msg.matchid ~= nil then
             --matchNode:updateRank(22,333)
             matchid = msg.matchid
             matchSession = msg.session
-            max_player = msg.max_player
-            print("InitMatch max_player:" .. max_player)
+            self.maxPlayer = msg.max_player
+            
             isMatchInit = true
             if isMatchStatus then
-                print("InitMatch1111")
+                
                 matchNode:showLeftTime(matchid,tempSingnCount)
+            end
+            matchNode:SetRank()
+            self:setMatchRule()
+            DDZ_Setting:showMatchBtn(true)
+            if privateRoom then
+                privateRoom:hideButton()
             end
         end
     elseif name == "room.SignupCountNtf" then
@@ -477,6 +527,7 @@ function DDZScene:dispatchMessage(name,msg)
             elseif msg.status == 2 then
                 matchNode:removeLeftTime()
                 matchNode:showMatchStart()
+                match_start = true
             elseif msg.status == 4 then
                 matchNode:removeLeftTime()
                 matchNode:showCancel()
@@ -504,7 +555,7 @@ function DDZScene:dispatchMessage(name,msg)
     elseif name == "room.InitPrivateRoom" then  --私人房初始化
         
         print("私人房间开局")
-       
+        DDZ_Setting:showMatchBtn(false)
         -- dump(msg,"room.InitPrivateRoom:")
 
         if bit.band(msg.customization, 1) > 0 then
@@ -512,18 +563,21 @@ function DDZScene:dispatchMessage(name,msg)
             self.maxCards = 54
             self.dipaiNum = 3
             self.cardScale = 1
+            self.rule_type = 1
                    
         elseif bit.band(msg.customization, 2) > 0 then
             self.maxPlayer = 3
             self.maxCards = 108
             self.dipaiNum = 6
             self.cardScale = 0.89
+            self.rule_type = 2
             
         elseif bit.band(msg.customization, 4) > 0 then
             self.maxPlayer = 4
             self.maxCards = 108
             self.dipaiNum = 8
             self.cardScale = 0.89
+            self.rule_type = 3
                     
         end
         self.pai_width = 0
@@ -635,25 +689,27 @@ function DDZScene:dispatchMessage(name,msg)
 
         --本局游戏还没开始
         -- print("gameState",gameState)
-        if msg.state == 0 and gameState ~= 0 then
-        --恢复场景 游戏还没有开局 显示继续游戏按钮
-            if self.continueNode:getChildByName("game_continue") ==nil then
-                local game_continue = cc.ui.UIPushButton.new({ normal = "ShYMJ/btn_continue_0.png", pressed = "ShYMJ/btn_continue_0.png" })
-                :onButtonClicked(function()
-                    DDZ_Audio.playSoundWithPath(DDZ_Audio.preloadResPath.DDZ_SOUND_BEHAVIOR)
-                    -- print("isReady",isReady)
-                    isReady = true
-                    -- print("发送准备请求")
-                    DDZ_Message.sendMessage("game.ReadyReq", {
-                        session = self.roomSession
-                    })
-                end)
-                :pos(display.cx,270)
-                :addTo(self.continueNode)
-                :setName("game_continue")
-                util.BtnScaleFun(game_continue)
+        if not matchid then
+            if msg.state == 0 and gameState ~= 0 then
+            --恢复场景 游戏还没有开局 显示继续游戏按钮
+                if self.continueNode:getChildByName("game_continue") ==nil then
+                    local game_continue = cc.ui.UIPushButton.new({ normal = "ShYMJ/btn_continue_0.png", pressed = "ShYMJ/btn_continue_0.png" })
+                    :onButtonClicked(function()
+                        DDZ_Audio.playSoundWithPath(DDZ_Audio.preloadResPath.DDZ_SOUND_BEHAVIOR)
+                        -- print("isReady",isReady)
+                        isReady = true
+                        -- print("发送准备请求")
+                        DDZ_Message.sendMessage("game.ReadyReq", {
+                            session = self.roomSession
+                        })
+                    end)
+                    :pos(display.cx,270)
+                    :addTo(self.continueNode)
+                    :setName("game_continue")
+                    util.BtnScaleFun(game_continue)
+                end
+                
             end
-            
         end
 
     elseif name == "room.UpdateSeat" then
@@ -667,14 +723,27 @@ function DDZScene:dispatchMessage(name,msg)
         end
     elseif name == "room.ChatMsg" then
        -- print("room.chatMsg-session, table_session", msg.session, self.roomSession)
-       if self.roomSession == msg.session then
-            local fromseat=self:convertSeatToPlayer(msg.fromseat)
-            local toseat=self:convertSeatToPlayer(msg.toseat)
+       if matchid ~= nil then
+            if matchSession == msg.session then
+                local fromseat=self:convertSeatToPlayer(msg.fromseat)
+                local toseat=self:convertSeatToPlayer(msg.toseat)
 
-            if msg.info.chattype == 1 then
-                self:playEmotion(tonumber(msg.info.content), fromseat, toseat)
+                if msg.info.chattype == 1 then
+                    self:playEmotion(tonumber(msg.info.content), fromseat, toseat)
+                end
+            end
+       else
+            if self.roomSession == msg.session then
+                local fromseat=self:convertSeatToPlayer(msg.fromseat)
+                local toseat=self:convertSeatToPlayer(msg.toseat)
+
+                if msg.info.chattype == 1 then
+                    self:playEmotion(tonumber(msg.info.content), fromseat, toseat)
+                end
             end
        end
+
+       
             
     -------------------------------------------------------------------------------------------------
     elseif name == "room.InitGameScenes" then
@@ -790,14 +859,10 @@ function DDZScene:dispatchMessage(name,msg)
 
             self:setGameRound(self.gameround)
             if matchid ~= nil then
+                match_start = true
                 matchNode:removeAll()
-                cc.uiloader:seekNodeByNameFast(gamePlayers[1].m_UINode, "k_btn_ZhunBei"):setVisible(false)
-                if self.settlementLayer~=nil then
-                    --todo
-                    self.settlementLayer:clickZaiLai()
-                    -- self.settlementLayer=nil
-                end
-                
+                self:hideAllZhuiBei()
+                cc.uiloader:seekNodeByNameFast(gamePlayers[1].m_UINode, "k_btn_ZhunBei"):setVisible(false)      
             end
     		-- self.openCardTime = msg.openCardTime	 --最大出牌时间
             self.baseScore = msg.score           --开局的低分
@@ -820,8 +885,8 @@ function DDZScene:dispatchMessage(name,msg)
                 cc.uiloader:seekNodeByNameFast(self.img_ShangLan_Node, "k_ta_BeiShu"):setString("00")  --设置默认倍数
             end
     		
-        elseif name == "DDZ.Restart" then     --重新开始消息
-            self:againStart()
+        -- elseif name == "DDZ.Restart" then     --重新开始消息
+        --     self:againStart()
 
         elseif name == "DDZ.Call" then     --叫地主返回消息
             -- self.isStartGame = true
@@ -1095,6 +1160,10 @@ function DDZScene:dispatchMessage(name,msg)
             -- print("收到游戏场景恢复请求")
             -- self.isStartGame = true
             self:againStart()
+            if matchid ~= nil then
+                match_start = true
+                matchNode:removeAll()    
+            end
 
             if endgame_flog then
                 self.settlementLayer:hide()
@@ -1333,7 +1402,7 @@ end
 -- end --
 function DDZScene:FaPai(cardOfDeal,callPlayer)
 	--开启一个定时器发牌
-	local hand = nil
+	-- local hand = nil
 	local Index = 0
     local isSendCard = false  --是否正在发牌
 
@@ -1341,8 +1410,8 @@ function DDZScene:FaPai(cardOfDeal,callPlayer)
 
     self.FaPaiTable = {}
 
-    if conditions then
-        --todo
+    if self.hand then
+        scheduler.unscheduleGlobal(self.hand)
     end
 
     for i=1,self.maxCards - self.dipaiNum do
@@ -1383,7 +1452,7 @@ function DDZScene:FaPai(cardOfDeal,callPlayer)
             Index = Index + 1
             --发牌结束
             if Index >= self.maxCards - self.dipaiNum then
-                scheduler.unscheduleGlobal(hand)
+                scheduler.unscheduleGlobal(self.hand)
                 self.root:setTouchEnabled(true)
                 -- callPlayer = self:convertSeatToPlayer(callPlayer)
                 -- print("发牌结束了，开始叫地主",callPlayer)
@@ -1406,7 +1475,7 @@ function DDZScene:FaPai(cardOfDeal,callPlayer)
         gamePlayers[playerIndex]:FaPai(card,cardSendFinishedCallback)
     end
 
-	hand = scheduler.scheduleGlobal(onSendCard, 0.01)
+	self.hand = scheduler.scheduleGlobal(onSendCard, 0.01)
 
 	--显示其他玩家牌数
 	cc.uiloader:seekNodeByNameFast(self.root, "k_ta_PaiShu2"):setVisible(true)
@@ -1845,7 +1914,12 @@ function DDZScene:SendEmotion(id, toSeat)
     -- local toSeat = util.getToSeat(direct, self.maxPlayer, self.seatIndex)
     -- print("发送表情消息-toSeat = ,direct = ",toSeat, direct)
     -- print("发送表情消息-roomsession =",self.roomSession)
-   DDZ_Message.sendMessage("game.ChatReq", {session = self.roomSession,info = {chattype = 1,content = tostring(id)},toseat = toSeat})
+    if matchid then
+        DDZ_Message.sendMessage("game.ChatReq", {session = matchSession,info = {chattype = 1,content = tostring(id)},toseat = toSeat})
+    else
+        DDZ_Message.sendMessage("game.ChatReq", {session = self.roomSession,info = {chattype = 1,content = tostring(id)},toseat = toSeat})
+    end
+   
 end
 
 function DDZScene:playEmotion(index, fromDirect, toDirect)

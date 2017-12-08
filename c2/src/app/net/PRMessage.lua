@@ -52,7 +52,7 @@ function gameMsg.PrivateConfigRep(msg)
 
 	local newConfig = assert(loadstring(msg.config))()
     local newConfig = checktable(newConfig)
-	dump(newConfig,"newConfig")
+	-- dump(newConfig,"newConfig")
     for k,v in pairs(newConfig) do
     	PrivateRoomConfig[k] = v
     end
@@ -81,7 +81,7 @@ function PRMessage.PrivateRoomCreateReq(roomid,mode,round,seats,base,count,rule,
 			hostplay = hostplay;	-- 是否可以代开房
 		}
 	}
-	dump(PRMessage.oldMessage,"开房请求")
+	-- dump(PRMessage.oldMessage,"开房请求")
 	Message.sendMessage("private.CreatePrivateReq", PRMessage.oldMessage)
 end
 

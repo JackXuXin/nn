@@ -68,4 +68,5 @@ return
 	curRoomRound = 0,
 	gameround = 0,
 	userProtocol = "Rule/userProtocol",
+	match_id = nil,
 }
