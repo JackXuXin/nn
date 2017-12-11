@@ -343,6 +343,7 @@
               "X": 155.0,
               "Y": 51.0
             },
+            "VisibleForFrame": false,
             "Name": "LoginWeixin",
             "ctype": "ButtonObjectData"
           },
@@ -691,8 +692,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 508.0001,
-              "Y": 109.5574
+              "X": 471.0,
+              "Y": 28.0
             },
             "Scale": {
               "ScaleX": 0.913,
@@ -701,17 +702,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.3969,
-              "Y": 0.1522
+              "X": 0.368,
+              "Y": 0.0389
             },
             "PreSize": {
               "X": 0.0359,
               "Y": 0.05
             },
-            "LeftMargin": 485.0001,
-            "RightMargin": 748.9999,
-            "TopMargin": 592.4426,
-            "BottomMargin": 91.5574,
+            "LeftMargin": 448.0,
+            "RightMargin": 786.0,
+            "TopMargin": 674.0,
+            "BottomMargin": 10.0,
             "Tag": 194,
             "ActionTag": 845339633,
             "Size": {
@@ -737,8 +738,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 470.9258,
-              "Y": 27.7624
+              "X": 471.0,
+              "Y": 28.0
             },
             "Scale": {
               "ScaleX": 2.0,
@@ -747,17 +748,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.3679,
-              "Y": 0.0386
+              "X": 0.368,
+              "Y": 0.0389
             },
             "PreSize": {
               "X": 0.0156,
               "Y": 0.0292
             },
-            "LeftMargin": 460.9258,
-            "RightMargin": 799.0742,
-            "TopMargin": 681.7376,
-            "BottomMargin": 17.2624,
+            "LeftMargin": 461.0,
+            "RightMargin": 799.0,
+            "TopMargin": 681.5,
+            "BottomMargin": 17.5,
             "Tag": 579,
             "ActionTag": 1559574929,
             "Size": {

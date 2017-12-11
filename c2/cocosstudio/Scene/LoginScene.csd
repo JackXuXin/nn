@@ -6,7 +6,7 @@
       <ObjectData Name="Scene" Tag="251" ctype="GameNodeObjectData">
         <Size X="1280.0000" Y="720.0000" />
         <Children>
-          <AbstractNodeData Name="Background" ActionTag="590026949" Tag="278" IconVisible="False" LeftMargin="-0.3900" RightMargin="0.3900" TopMargin="0.0001" BottomMargin="-0.0001" TouchEnable="True" Scale9Enable="True" LeftEage="422" RightEage="422" TopEage="237" BottomEage="237" Scale9OriginX="422" Scale9OriginY="237" Scale9Width="436" Scale9Height="246" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Background" Visible="False" ActionTag="590026949" Tag="278" IconVisible="False" LeftMargin="-0.3900" RightMargin="0.3900" TopMargin="0.0001" BottomMargin="-0.0001" TouchEnable="True" Scale9Enable="True" LeftEage="422" RightEage="422" TopEage="237" BottomEage="237" Scale9OriginX="422" Scale9OriginY="237" Scale9Width="436" Scale9Height="246" ctype="ImageViewObjectData">
             <Size X="1280.0000" Y="720.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="639.6100" Y="359.9999" />
@@ -16,7 +16,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="Image/Login/login_bg.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_logo" ActionTag="1586479327" Tag="80" IconVisible="False" LeftMargin="325.7371" RightMargin="414.2629" TopMargin="193.1769" BottomMargin="291.8231" LeftEage="178" RightEage="178" TopEage="89" BottomEage="89" Scale9OriginX="178" Scale9OriginY="89" Scale9Width="184" Scale9Height="57" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_logo" Visible="False" ActionTag="1586479327" Tag="80" IconVisible="False" LeftMargin="325.7371" RightMargin="414.2629" TopMargin="193.1769" BottomMargin="291.8231" LeftEage="178" RightEage="178" TopEage="89" BottomEage="89" Scale9OriginX="178" Scale9OriginY="89" Scale9Width="184" Scale9Height="57" ctype="ImageViewObjectData">
             <Size X="540.0000" Y="235.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="595.7371" Y="409.3231" />
@@ -26,7 +26,7 @@
             <PreSize X="0.4219" Y="0.3264" />
             <FileData Type="Normal" Path="Image/Login/xz5.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_1" ActionTag="1145996215" Tag="95" IconVisible="False" LeftMargin="149.6160" RightMargin="950.3840" TopMargin="321.4178" BottomMargin="179.5822" LeftEage="59" RightEage="59" TopEage="72" BottomEage="72" Scale9OriginX="59" Scale9OriginY="72" Scale9Width="62" Scale9Height="75" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" Visible="False" ActionTag="1145996215" Tag="95" IconVisible="False" LeftMargin="149.6160" RightMargin="950.3840" TopMargin="321.4178" BottomMargin="179.5822" LeftEage="59" RightEage="59" TopEage="72" BottomEage="72" Scale9OriginX="59" Scale9OriginY="72" Scale9Width="62" Scale9Height="75" ctype="ImageViewObjectData">
             <Size X="180.0000" Y="219.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="239.6160" Y="289.0822" />
@@ -36,7 +36,7 @@
             <PreSize X="0.1406" Y="0.3042" />
             <FileData Type="Normal" Path="Image/Login/jb.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_2" ActionTag="660685180" Tag="96" IconVisible="False" LeftMargin="889.9275" RightMargin="188.0725" TopMargin="310.3576" BottomMargin="137.6424" LeftEage="66" RightEage="66" TopEage="89" BottomEage="89" Scale9OriginX="66" Scale9OriginY="89" Scale9Width="70" Scale9Height="94" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_2" Visible="False" ActionTag="660685180" Tag="96" IconVisible="False" LeftMargin="889.9275" RightMargin="188.0725" TopMargin="310.3576" BottomMargin="137.6424" LeftEage="66" RightEage="66" TopEage="89" BottomEage="89" Scale9OriginX="66" Scale9OriginY="89" Scale9Width="70" Scale9Height="94" ctype="ImageViewObjectData">
             <Size X="202.0000" Y="272.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="990.9275" Y="273.6424" />
@@ -61,7 +61,7 @@
             <OutlineColor A="255" R="0" G="0" B="0" />
             <ShadowColor A="255" R="0" G="0" B="0" />
           </AbstractNodeData>
-          <AbstractNodeData Name="LoginWeixin" ActionTag="-255157837" Tag="277" IconVisible="False" LeftMargin="563.6271" RightMargin="561.3729" TopMargin="545.7826" BottomMargin="123.2174" TouchEnable="True" FontSize="14" LeftEage="48" RightEage="48" TopEage="15" BottomEage="15" Scale9OriginX="48" Scale9OriginY="15" Scale9Width="59" Scale9Height="21" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="LoginWeixin" ActionTag="-255157837" VisibleForFrame="False" Tag="277" IconVisible="False" LeftMargin="563.6271" RightMargin="561.3729" TopMargin="545.7826" BottomMargin="123.2174" TouchEnable="True" FontSize="14" LeftEage="48" RightEage="48" TopEage="15" BottomEage="15" Scale9OriginX="48" Scale9OriginY="15" Scale9Width="59" Scale9Height="21" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="155.0000" Y="51.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="641.1271" Y="148.7174" />
@@ -139,13 +139,13 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Kuang" ActionTag="845339633" Alpha="0" Tag="194" IconVisible="False" LeftMargin="485.0001" RightMargin="748.9999" TopMargin="592.4426" BottomMargin="91.5574" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_Kuang" ActionTag="845339633" Alpha="0" Tag="194" IconVisible="False" LeftMargin="448.0000" RightMargin="786.0000" TopMargin="674.0000" BottomMargin="10.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="46.0000" Y="36.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="508.0001" Y="109.5574" />
+            <Position X="471.0000" Y="28.0000" />
             <Scale ScaleX="0.9130" ScaleY="1.1111" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.3969" Y="0.1522" />
+            <PrePosition X="0.3680" Y="0.0389" />
             <PreSize X="0.0359" Y="0.0500" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -154,13 +154,13 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="img_dui" ActionTag="1559574929" Tag="579" IconVisible="False" LeftMargin="460.9258" RightMargin="799.0742" TopMargin="681.7376" BottomMargin="17.2624" ctype="SpriteObjectData">
+          <AbstractNodeData Name="img_dui" ActionTag="1559574929" Tag="579" IconVisible="False" LeftMargin="461.0000" RightMargin="799.0000" TopMargin="681.5000" BottomMargin="17.5000" ctype="SpriteObjectData">
             <Size X="20.0000" Y="21.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="470.9258" Y="27.7624" />
+            <Position X="471.0000" Y="28.0000" />
             <Scale ScaleX="2.0000" ScaleY="2.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.3679" Y="0.0386" />
+            <PrePosition X="0.3680" Y="0.0389" />
             <PreSize X="0.0156" Y="0.0292" />
             <FileData Type="Normal" Path="Image/Login/ty_btn_1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />

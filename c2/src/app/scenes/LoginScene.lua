@@ -1046,7 +1046,7 @@ function LoginScene:updateLoginTypes()
     end
 
     util.BtnScaleFun(login)
-    util.BtnScaleFun(loginWeixin)
+    util.BtnScaleFun(loginWeixin,2)
 
     app.constant.hot_Finish = true
 
@@ -1078,11 +1078,11 @@ function LoginScene:updateLoginTypes()
     if Button_User ~= nil then
         Button_User:onButtonClicked(
         function ()
-            self:showUserLayer()
+          --  self:showUserLayer()
         end)
     end
 
-    util.BtnScaleFun(Button_User)
+    util.BtnScaleFun(Button_User,2)
     -- Button_Kuang:hide()
     -- img_dui:hide()
     -- Button_User:hide()

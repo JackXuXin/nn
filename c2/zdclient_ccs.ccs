@@ -344,6 +344,16 @@
               <Image Name="open_23-@2x.png" />
               <Image Name="part_12-@2x.png" />
             </Folder>
+            <Folder Name="e">
+              <Image Name="btn_08@2x.png" />
+              <Image Name="btn_09@2x.png" />
+              <Image Name="btn_10@2x.png" />
+              <Image Name="btn_11@2x.png" />
+              <Image Name="btn2_08@2x.png" />
+              <Image Name="btn2_09@2x.png" />
+              <Image Name="btn2_10@2x.png" />
+              <Image Name="btn2_11@2x.png" />
+            </Folder>
             <Folder Name="images">
               <Image Name="btn(1)@2x.png" />
               <Image Name="btn(11)@2x.png" />
@@ -366,10 +376,18 @@
             </Folder>
             <Image Name="bg@2x.png" />
             <Image Name="cjfj_38-@2x.png" />
+            <Image Name="difen.png" />
             <Image Name="exit@2x.png" />
+            <Image Name="fanbei.png" />
+            <Image Name="fangfei.png" />
+            <Image Name="gjxx.png" />
+            <Image Name="js.png" />
+            <Image Name="line.png" />
             <Image Name="msg@2x.png" />
             <Image Name="msg_2@2x.png" />
             <Image Name="msg1@2x.png" />
+            <Image Name="px.png" />
+            <Image Name="sz.png" />
             <Image Name="tab1@2x.png" />
             <Image Name="tab10@2x.png" />
             <Image Name="tab2@2x.png" />
@@ -380,6 +398,10 @@
             <Image Name="tab7@2x.png" />
             <Image Name="tab8@2x.png" />
             <Image Name="tab9@2x.png" />
+            <Image Name="tip.png" />
+            <Image Name="tzhu.png" />
+            <Image Name="zdks.png" />
+            <Image Name="zdqz.png" />
           </Folder>
           <Folder Name="DDZ">
             <Folder Name="font">
@@ -1081,11 +1103,13 @@
             <Image Name="bg.png" />
             <Image Name="cd.png" />
             <Image Name="cjfj.png" />
+            <Image Name="fangjtitile.png" />
             <Image Name="fx.png" />
             <Image Name="g.png" />
             <Image Name="jh.png" />
             <Image Name="jlb.png" />
             <Image Name="jrfj.png" />
+            <Image Name="kuang.png" />
             <Image Name="name_bg.png" />
             <Image Name="shangcheng.png" />
             <Image Name="shiminngrenzheng.png" />

@@ -120,7 +120,7 @@ local PlatConfig = {
 
         activityImg = "http://wwimg.gametea.me/shaoxing/activity.jpg",
 
-        loadingImg = { [1] = "http://wwimg.gametea.me/shaoxing/loading_1.jpg", [2] = "http://wwimg.gametea.me/shaoxing/loading_2.jpg", [3] = "http://wwimg.gametea.me/shaoxing/loading_3.jpg"},
+       -- loadingImg = { [1] = "http://wwimg.gametea.me/shaoxing/loading_1.jpg", [2] = "http://wwimg.gametea.me/shaoxing/loading_2.jpg", [3] = "http://wwimg.gametea.me/shaoxing/loading_3.jpg"},
 		isAppStore = false,
 	},
 

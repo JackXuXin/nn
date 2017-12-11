@@ -28,14 +28,5 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="Scene/WRNNScene.csd" />
-          <FilePathData Path="Platform_Src/LobbyScene.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="Platform_Src/LobbyScene.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

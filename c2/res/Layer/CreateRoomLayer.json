@@ -16,15 +16,15 @@
         "Children": [
           {
             "FileData": {
-              "Type": "Default",
-              "Path": "Default/ImageFile.png",
+              "Type": "Normal",
+              "Path": "Image/Common/mask.png",
               "Plist": ""
             },
             "Scale9Enable": true,
             "Scale9OriginX": 3,
             "Scale9OriginY": 3,
-            "Scale9Width": 40,
-            "Scale9Height": 40,
+            "Scale9Width": 3,
+            "Scale9Height": 3,
             "TouchEnable": true,
             "AnchorPoint": {
               "ScaleX": 0.5,
@@ -45,16 +45,20 @@
               "Y": 0.5
             },
             "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
+              "X": 0.007,
+              "Y": 0.0125
             },
+            "LeftMargin": 635.5,
+            "RightMargin": 635.5,
+            "TopMargin": 355.5,
+            "BottomMargin": 355.5,
             "Tag": 43,
             "ActionTag": -122844690,
             "Size": {
-              "X": 1280.0,
-              "Y": 720.0
+              "X": 9.0,
+              "Y": 9.0
             },
-            "Alpha": 147,
+            "Alpha": 12,
             "Name": "Mask",
             "ctype": "ImageViewObjectData"
           },
@@ -64,10 +68,10 @@
               "Path": "Image/CreateRoom/bg@2x.png",
               "Plist": ""
             },
-            "Scale9OriginX": 422,
-            "Scale9OriginY": 237,
-            "Scale9Width": 436,
-            "Scale9Height": 246,
+            "Scale9OriginX": 211,
+            "Scale9OriginY": 118,
+            "Scale9Width": 218,
+            "Scale9Height": 124,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -77,8 +81,8 @@
               "Y": 360.0
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
             },
             "CColor": {},
             "IconVisible": false,
@@ -87,14 +91,18 @@
               "Y": 0.5
             },
             "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
+              "X": 0.5,
+              "Y": 0.5
             },
+            "LeftMargin": 320.0,
+            "RightMargin": 320.0,
+            "TopMargin": 180.0,
+            "BottomMargin": 180.0,
             "Tag": 45,
             "ActionTag": -477216412,
             "Size": {
-              "X": 1280.0,
-              "Y": 720.0
+              "X": 640.0,
+              "Y": 360.0
             },
             "Name": "Bg",
             "ctype": "ImageViewObjectData"
@@ -467,6 +475,51 @@
             "Tag": 55,
             "Children": [
               {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/difen.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 19,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 357.9362,
+                  "Y": 663.2725
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 330.4362,
+                "RightMargin": -385.4362,
+                "TopMargin": -672.2725,
+                "BottomMargin": 654.2725,
+                "Tag": 959,
+                "ActionTag": -839554705,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 18.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
                 "CheckedState": true,
                 "NormalBackFileData": {
                   "Type": "Normal",
@@ -565,8 +618,8 @@
                   "Y": 663.2387
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -578,15 +631,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 565.4513,
-                "RightMargin": -698.4513,
-                "TopMargin": -691.2387,
-                "BottomMargin": 635.2387,
+                "LeftMargin": 608.9513,
+                "RightMargin": -654.9513,
+                "TopMargin": -674.2387,
+                "BottomMargin": 652.2387,
                 "Tag": 57,
                 "ActionTag": -636608100,
                 "Size": {
-                  "X": 133.0,
-                  "Y": 56.0
+                  "X": 46.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_BaseScore_2",
                 "ctype": "CheckBoxObjectData"
@@ -623,12 +676,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 785.457,
-                  "Y": 676.1442
+                  "X": 784.2891,
+                  "Y": 667.3803
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -640,15 +693,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 699.457,
-                "RightMargin": -871.457,
-                "TopMargin": -718.6442,
-                "BottomMargin": 633.6442,
+                "LeftMargin": 761.2891,
+                "RightMargin": -807.2891,
+                "TopMargin": -678.3803,
+                "BottomMargin": 656.3803,
                 "Tag": 58,
                 "ActionTag": 811920273,
                 "Size": {
-                  "X": 172.0,
-                  "Y": 85.0
+                  "X": 46.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_BaseScore_3",
                 "ctype": "CheckBoxObjectData"
@@ -685,12 +738,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 940.1112,
-                  "Y": 676.137
+                  "X": 940.6956,
+                  "Y": 667.9579
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -702,15 +755,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 871.1112,
-                "RightMargin": -1009.1112,
-                "TopMargin": -718.637,
-                "BottomMargin": 633.637,
+                "LeftMargin": 917.6956,
+                "RightMargin": -963.6956,
+                "TopMargin": -678.9579,
+                "BottomMargin": 656.9579,
                 "Tag": 59,
                 "ActionTag": 1460969304,
                 "Size": {
-                  "X": 138.0,
-                  "Y": 85.0
+                  "X": 46.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_BaseScore_4",
                 "ctype": "CheckBoxObjectData"
@@ -747,12 +800,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 1144.984,
-                  "Y": 678.1476
+                  "X": 1100.5662,
+                  "Y": 669.9225
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -764,18 +817,63 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 1007.984,
-                "RightMargin": -1281.984,
-                "TopMargin": -720.6476,
-                "BottomMargin": 635.6476,
+                "LeftMargin": 1073.0662,
+                "RightMargin": -1128.0662,
+                "TopMargin": -680.9225,
+                "BottomMargin": 658.9225,
                 "Tag": 60,
                 "ActionTag": -1252339691,
                 "Size": {
-                  "X": 274.0,
-                  "Y": 85.0
+                  "X": 55.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_BaseScore_5",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 744.606,
+                  "Y": 653.0983
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 521.106,
+                "RightMargin": -968.106,
+                "TopMargin": -663.5983,
+                "BottomMargin": 642.5983,
+                "Tag": 960,
+                "ActionTag": -1563773157,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": 1195678843,
@@ -935,6 +1033,96 @@
                 },
                 "Name": "CheckBox_Round_2",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/js.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 21,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 349.9362,
+                  "Y": 612.0634
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 321.4362,
+                "RightMargin": -378.4362,
+                "TopMargin": -621.5634,
+                "BottomMargin": 602.5634,
+                "Tag": 961,
+                "ActionTag": -947097003,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 734.606,
+                  "Y": 601.89
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 511.106,
+                "RightMargin": -958.106,
+                "TopMargin": -612.39,
+                "BottomMargin": 591.39,
+                "Tag": 962,
+                "ActionTag": 359714737,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -316891832,
@@ -1003,12 +1191,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 527.8571,
-                  "Y": 556.7476
+                  "X": 500.3762,
+                  "Y": 566.8234
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -1020,15 +1208,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 404.8571,
-                "RightMargin": -650.8571,
-                "TopMargin": -591.7476,
-                "BottomMargin": 521.7476,
+                "LeftMargin": 462.8762,
+                "RightMargin": -537.8762,
+                "TopMargin": -577.8234,
+                "BottomMargin": 555.8234,
                 "Tag": 208,
                 "ActionTag": 931369136,
                 "Size": {
-                  "X": 246.0,
-                  "Y": 70.0
+                  "X": 75.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_PayMod_1",
                 "ctype": "CheckBoxObjectData"
@@ -1065,12 +1253,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 786.6115,
-                  "Y": 554.7927
+                  "X": 759.1291,
+                  "Y": 564.8683
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -1082,15 +1270,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 676.6115,
-                "RightMargin": -896.6115,
-                "TopMargin": -589.7927,
-                "BottomMargin": 519.7927,
+                "LeftMargin": 725.1291,
+                "RightMargin": -793.1291,
+                "TopMargin": -575.8683,
+                "BottomMargin": 553.8683,
                 "Tag": 209,
                 "ActionTag": 1498364683,
                 "Size": {
-                  "X": 220.0,
-                  "Y": 70.0
+                  "X": 68.0,
+                  "Y": 22.0
                 },
                 "Name": "CheckBox_PayMod_2",
                 "ctype": "CheckBoxObjectData"
@@ -1172,6 +1360,49 @@
               },
               {
                 "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.0,
+                "RightMargin": -23.0,
+                "TopMargin": -23.0,
+                "BottomMargin": -23.0,
+                "Tag": 689,
+                "ActionTag": 1240389815,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "zuanshi_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
                   "Type": "Normal",
                   "Path": "Image/CreateRoom/msg1@2x.png",
                   "Plist": ""
@@ -1214,6 +1445,96 @@
                 },
                 "VisibleForFrame": false,
                 "Name": "PayTip",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/fangfei.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 20,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.9362,
+                  "Y": 565.1405
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 311.9362,
+                "RightMargin": -367.9362,
+                "TopMargin": -574.6405,
+                "BottomMargin": 555.6405,
+                "Tag": 963,
+                "ActionTag": 1349635402,
+                "Size": {
+                  "X": 56.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 724.606,
+                  "Y": 553.9962
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 501.106,
+                "RightMargin": -948.106,
+                "TopMargin": -564.4962,
+                "BottomMargin": 543.4962,
+                "Tag": 964,
+                "ActionTag": 1615094188,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
                 "ctype": "ImageViewObjectData"
               }
             ],
@@ -1566,7 +1887,7 @@
                 },
                 "PressedBackFileData": {
                   "Type": "Normal",
-                  "Path": "Image/CreateRoom/b/open_23-@2x.png",
+                  "Path": "Image/CreateRoom/b/close_23-@2x.png",
                   "Plist": ""
                 },
                 "DisableBackFileData": {
@@ -1576,7 +1897,7 @@
                 },
                 "NodeNormalFileData": {
                   "Type": "Normal",
-                  "Path": "Image/CreateRoom/b/open_23-@2x.png",
+                  "Path": "Image/CreateRoom/b/close_23-@2x.png",
                   "Plist": ""
                 },
                 "NodeDisableFileData": {
@@ -1590,8 +1911,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 875.3067,
-                  "Y": 510.8595
+                  "X": 874.067,
+                  "Y": 508.386
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -1607,10 +1928,10 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 836.3067,
-                "RightMargin": -914.3067,
-                "TopMargin": -539.8595,
-                "BottomMargin": 481.8595,
+                "LeftMargin": 835.067,
+                "RightMargin": -913.067,
+                "TopMargin": -537.386,
+                "BottomMargin": 479.386,
                 "Tag": 258,
                 "ActionTag": -2020970451,
                 "Size": {
@@ -1619,6 +1940,96 @@
                 },
                 "Name": "CheckBox_DoubleArrow",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/fanbei.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 31,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 337.566,
+                  "Y": 511.1071
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 304.066,
+                "RightMargin": -371.066,
+                "TopMargin": -520.6071,
+                "BottomMargin": 501.6071,
+                "Tag": 965,
+                "ActionTag": 93327806,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 712.0957,
+                  "Y": 500.9332
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 488.5957,
+                "RightMargin": -935.5957,
+                "TopMargin": -511.4332,
+                "BottomMargin": 490.4332,
+                "Tag": 966,
+                "ActionTag": -216848194,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -867795712,
@@ -1715,8 +2126,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 653.8217,
-                  "Y": 567.7903
+                  "X": 651.7216,
+                  "Y": 572.0439
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -1732,10 +2143,10 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 396.3217,
-                "RightMargin": -911.3217,
-                "TopMargin": -644.7903,
-                "BottomMargin": 490.7903,
+                "LeftMargin": 394.2216,
+                "RightMargin": -909.2216,
+                "TopMargin": -649.0439,
+                "BottomMargin": 495.0439,
                 "Tag": 339,
                 "Children": [
                   {
@@ -2218,7 +2629,7 @@
                 },
                 "PressedBackFileData": {
                   "Type": "Normal",
-                  "Path": "Image/CreateRoom/b/open_23-@2x.png",
+                  "Path": "Image/CreateRoom/b/close_23-@2x.png",
                   "Plist": ""
                 },
                 "DisableBackFileData": {
@@ -2228,7 +2639,7 @@
                 },
                 "NodeNormalFileData": {
                   "Type": "Normal",
-                  "Path": "Image/CreateRoom/b/open_23-@2x.png",
+                  "Path": "Image/CreateRoom/b/close_23-@2x.png",
                   "Plist": ""
                 },
                 "NodeDisableFileData": {
@@ -2271,6 +2682,96 @@
                 },
                 "Name": "CheckBox_specialArrow",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 697.3632,
+                  "Y": 446.0507
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 473.8632,
+                "RightMargin": -920.8632,
+                "TopMargin": -456.5507,
+                "BottomMargin": 435.5507,
+                "Tag": 968,
+                "ActionTag": -1423186977,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/px.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 31,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 322.8344,
+                  "Y": 456.2243
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 289.3344,
+                "RightMargin": -356.3344,
+                "TopMargin": -465.7243,
+                "BottomMargin": 446.7243,
+                "Tag": 967,
+                "ActionTag": 2012228689,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": 779356830,
@@ -2554,6 +3055,96 @@
                 },
                 "Name": "CheckBox_DoubleBase_4",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.186,
+                  "Y": 372.8483
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 496.686,
+                "RightMargin": -943.686,
+                "TopMargin": -383.3483,
+                "BottomMargin": 362.3483,
+                "Tag": 969,
+                "ActionTag": 1222261647,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/zdqz.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 31,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 345.6572,
+                  "Y": 383.0215
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 312.1572,
+                "RightMargin": -379.1572,
+                "TopMargin": -392.5215,
+                "BottomMargin": 373.5215,
+                "Tag": 970,
+                "ActionTag": 328962302,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1964685323,
@@ -2562,6 +3153,380 @@
               "Y": 0.0
             },
             "Name": "Item_6",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 20.4492,
+              "Y": -17.5841
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.016,
+              "Y": -0.0244
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 20.4492,
+            "RightMargin": 1259.5508,
+            "TopMargin": 737.5841,
+            "BottomMargin": -17.5841,
+            "Tag": 502,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_08@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn2_08@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn2_08@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 514.9523,
+                  "Y": 380.7909
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 419.4523,
+                "RightMargin": -610.4523,
+                "TopMargin": -407.7909,
+                "BottomMargin": 353.7909,
+                "Tag": 503,
+                "ActionTag": 1778052207,
+                "Size": {
+                  "X": 191.0,
+                  "Y": 54.0
+                },
+                "Name": "CheckBox_shangzhuang_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_09@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_09@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn2_09@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 697.183,
+                  "Y": 379.9786
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 610.683,
+                "RightMargin": -783.683,
+                "TopMargin": -406.9786,
+                "BottomMargin": 352.9786,
+                "Tag": 504,
+                "ActionTag": -1603379466,
+                "Size": {
+                  "X": 173.0,
+                  "Y": 54.0
+                },
+                "Name": "CheckBox_shangzhuang_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_10@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_10@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn2_10@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 865.7519,
+                  "Y": 381.3713
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 776.2519,
+                "RightMargin": -955.2519,
+                "TopMargin": -408.3713,
+                "BottomMargin": 354.3713,
+                "Tag": 505,
+                "ActionTag": 522780906,
+                "Size": {
+                  "X": 179.0,
+                  "Y": 54.0
+                },
+                "Name": "CheckBox_shangzhuang_3",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_11@2x.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn_11@2x.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/e/btn2_11@2x.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBoxNode_Disable.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1050.6344,
+                  "Y": 381.4506
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 954.6344,
+                "RightMargin": -1146.6344,
+                "TopMargin": -408.4506,
+                "BottomMargin": 354.4506,
+                "Tag": 506,
+                "ActionTag": -1546666471,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 54.0
+                },
+                "Name": "CheckBox_shangzhuang_4",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.186,
+                  "Y": 372.8483
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 496.686,
+                "RightMargin": -943.686,
+                "TopMargin": -383.3483,
+                "BottomMargin": 362.3483,
+                "Tag": 507,
+                "ActionTag": -1840719570,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/sz.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 32,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 342.2528,
+                  "Y": 383.0215
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 308.2528,
+                "RightMargin": -376.2528,
+                "TopMargin": -392.5215,
+                "BottomMargin": 373.5215,
+                "Tag": 508,
+                "ActionTag": 1578884242,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -82693996,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Item_7",
             "ctype": "SingleNodeObjectData"
           },
           {
@@ -2835,6 +3800,96 @@
                 },
                 "Name": "CheckBox_Seats_4",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/zdks.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 30,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 362.0695,
+                  "Y": 303.0388
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 329.0695,
+                "RightMargin": -395.0695,
+                "TopMargin": -312.5388,
+                "BottomMargin": 293.5388,
+                "Tag": 972,
+                "ActionTag": 162447628,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 736.5973,
+                  "Y": 290.3921
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 513.0973,
+                "RightMargin": -960.0973,
+                "TopMargin": -300.8921,
+                "BottomMargin": 279.8921,
+                "Tag": 971,
+                "ActionTag": -2067035049,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1169236326,
@@ -2842,7 +3897,7 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "Name": "Item_7",
+            "Name": "Item_8",
             "ctype": "SingleNodeObjectData"
           },
           {
@@ -3087,8 +4142,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 1072.8329,
-                  "Y": 241.682
+                  "X": 1065.4119,
+                  "Y": 241.6819
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -3104,10 +4159,10 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 979.8329,
-                "RightMargin": -1165.8329,
-                "TopMargin": -273.182,
-                "BottomMargin": 210.182,
+                "LeftMargin": 972.4119,
+                "RightMargin": -1158.4119,
+                "TopMargin": -273.1819,
+                "BottomMargin": 210.1819,
                 "Tag": 257,
                 "ActionTag": 124331263,
                 "Size": {
@@ -3119,7 +4174,7 @@
               },
               {
                 "FontSize": 14,
-                "ButtonText": "Button",
+                "ButtonText": "",
                 "TextColor": {
                   "R": 65,
                   "G": 65,
@@ -3237,6 +4292,96 @@
                 "VisibleForFrame": false,
                 "Name": "TuizhuTip",
                 "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 737.5205,
+                  "Y": 227.3574
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 514.0205,
+                "RightMargin": -961.0205,
+                "TopMargin": -237.8574,
+                "BottomMargin": 216.8574,
+                "Tag": 974,
+                "ActionTag": 1583818874,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/tzhu.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 31,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 361.9932,
+                  "Y": 237.5305
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 328.4932,
+                "RightMargin": -395.4932,
+                "TopMargin": -247.0305,
+                "BottomMargin": 228.0305,
+                "Tag": 973,
+                "ActionTag": -1010451077,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1042458770,
@@ -3244,7 +4389,7 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "Name": "Item_8",
+            "Name": "Item_9",
             "ctype": "SingleNodeObjectData"
           },
           {
@@ -3305,12 +4450,12 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 514.8388,
-                  "Y": 192.3774
+                  "X": 575.2881,
+                  "Y": 192.3775
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
                 },
                 "CColor": {},
                 "IconVisible": false,
@@ -3322,15 +4467,15 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
-                "LeftMargin": 424.3388,
-                "RightMargin": -605.3388,
-                "TopMargin": -221.3774,
-                "BottomMargin": 163.3774,
+                "LeftMargin": 507.7881,
+                "RightMargin": -642.7881,
+                "TopMargin": -202.8775,
+                "BottomMargin": 181.8775,
                 "Tag": 380,
                 "ActionTag": 1189858171,
                 "Size": {
-                  "X": 181.0,
-                  "Y": 58.0
+                  "X": 135.0,
+                  "Y": 21.0
                 },
                 "Name": "CheckBox_Setting_1",
                 "ctype": "CheckBoxObjectData"
@@ -3396,6 +4541,96 @@
                 },
                 "Name": "CheckBox_Setting_2",
                 "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/gjxx.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 5,
+                "Scale9Width": 31,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 353.6728,
+                  "Y": 192.7229
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 320.1728,
+                "RightMargin": -387.1728,
+                "TopMargin": -202.2229,
+                "BottomMargin": 183.2229,
+                "Tag": 976,
+                "ActionTag": -2009978476,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 19.0
+                },
+                "Name": "Title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Image/CreateRoom/line.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 147,
+                "Scale9OriginY": 6,
+                "Scale9Width": 153,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 728.2,
+                  "Y": 182.55
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 2.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 504.7,
+                "RightMargin": -951.7,
+                "TopMargin": -193.05,
+                "BottomMargin": 172.05,
+                "Tag": 975,
+                "ActionTag": -321941015,
+                "Size": {
+                  "X": 447.0,
+                  "Y": 21.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1616911980,
@@ -3403,7 +4638,7 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "Name": "Item_9",
+            "Name": "Item_10",
             "ctype": "SingleNodeObjectData"
           },
           {
@@ -3569,6 +4804,7 @@
         "../Default/CheckBox_Disable.png",
         "../Default/CheckBoxNode_Disable.png",
         "../Default/ImageFile.png",
+        "../Image/Common/mask.png",
         "../Image/CreateRoom/a/btn(1)@2x.png",
         "../Image/CreateRoom/a/btn(10)@2x.png",
         "../Image/CreateRoom/a/btn(2)@2x.png",
@@ -3598,7 +4834,6 @@
         "../Image/CreateRoom/b/bg(1)_18-@2x.png",
         "../Image/CreateRoom/b/bg(1)_23-@2x.png",
         "../Image/CreateRoom/b/close_23-@2x.png",
-        "../Image/CreateRoom/b/open_23-@2x.png",
         "../Image/CreateRoom/bg@2x.png",
         "../Image/CreateRoom/c/btn(1)@2x.png",
         "../Image/CreateRoom/c/btn(2)@2x.png",
@@ -3624,7 +4859,19 @@
         "../Image/CreateRoom/d/btn2(5)@2x.png",
         "../Image/CreateRoom/d/btn2(6)@2x.png",
         "../Image/CreateRoom/d/part_12-@2x.png",
+        "../Image/CreateRoom/difen.png",
+        "../Image/CreateRoom/e/btn_08@2x.png",
+        "../Image/CreateRoom/e/btn_09@2x.png",
+        "../Image/CreateRoom/e/btn_10@2x.png",
+        "../Image/CreateRoom/e/btn_11@2x.png",
+        "../Image/CreateRoom/e/btn2_08@2x.png",
+        "../Image/CreateRoom/e/btn2_09@2x.png",
+        "../Image/CreateRoom/e/btn2_10@2x.png",
+        "../Image/CreateRoom/e/btn2_11@2x.png",
         "../Image/CreateRoom/exit@2x.png",
+        "../Image/CreateRoom/fanbei.png",
+        "../Image/CreateRoom/fangfei.png",
+        "../Image/CreateRoom/gjxx.png",
         "../Image/CreateRoom/images/btn(1)@2x.png",
         "../Image/CreateRoom/images/btn(11)@2x.png",
         "../Image/CreateRoom/images/btn(12)@2x.png",
@@ -3643,9 +4890,13 @@
         "../Image/CreateRoom/images/btn(7)@2x.png",
         "../Image/CreateRoom/images/btn(8)@2x.png",
         "../Image/CreateRoom/images/btn(9)@2x.png",
+        "../Image/CreateRoom/js.png",
+        "../Image/CreateRoom/line.png",
         "../Image/CreateRoom/msg@2x.png",
         "../Image/CreateRoom/msg_2@2x.png",
         "../Image/CreateRoom/msg1@2x.png",
+        "../Image/CreateRoom/px.png",
+        "../Image/CreateRoom/sz.png",
         "../Image/CreateRoom/tab1@2x.png",
         "../Image/CreateRoom/tab10@2x.png",
         "../Image/CreateRoom/tab2@2x.png",
@@ -3655,7 +4906,10 @@
         "../Image/CreateRoom/tab6@2x.png",
         "../Image/CreateRoom/tab7@2x.png",
         "../Image/CreateRoom/tab8@2x.png",
-        "../Image/CreateRoom/tab9@2x.png"
+        "../Image/CreateRoom/tab9@2x.png",
+        "../Image/CreateRoom/tzhu.png",
+        "../Image/CreateRoom/zdks.png",
+        "../Image/CreateRoom/zdqz.png"
       ],
       "ctype": "GameFileData"
     }

@@ -330,12 +330,12 @@ function LobbyScene:ctor()
     --    recharge:hide()
    --end
 --
-  util.BtnScaleFun(recharge)
+  util.BtnScaleFun(recharge,2)
 
   local btn_ShareFriend = cc.uiloader:seekNodeByNameFast(self.scene, "btn_ShareFriend")
 
   btn_ShareFriend:onButtonClicked(handler(self, self.showShare))
-  util.BtnScaleFun(btn_ShareFriend)
+  util.BtnScaleFun(btn_ShareFriend,2)
 
 -- local safebox = cc.uiloader:seekNodeByNameFast(self.scene, "SafeBox")
 -- if Account.tags.safebox_tag == "1" then
@@ -524,7 +524,7 @@ function LobbyScene:ctor()
       end
     )
 
-    util.BtnScaleFun(private_room_record)
+    util.BtnScaleFun(private_room_record,2)
 
     --比赛按钮
     local btn_match = cc.uiloader:seekNodeByNameFast(self.scene, "btn_match")
@@ -574,7 +574,7 @@ function LobbyScene:ctor()
             self:showRequestCode()
           end)
 
-        util.BtnScaleFun(btn_RequestCode)
+        util.BtnScaleFun(btn_RequestCode,2)
 
     end
 
@@ -632,18 +632,6 @@ self.scene.Image_BottomBar = Image_BottomBar
 
 -- end
 
-if TopBar ~= nil then
-
-  local posX = TopBar:getPositionX()
-  local posY = TopBar:getPositionY()
-
-  local H = 77
- -- local y = display.height-math.abs(posY)
- -- posY = display.height+y-H
-
-  TopBar:setPosition(posX, posY+77)
-
-end
 
 
 
@@ -716,11 +704,11 @@ end
 
 --add by whb 0324
 
-    local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
-    local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
-    local logoSprite = display.newSprite(platConfig.logo_small)
-    local logoframe = logoSprite:getSpriteFrame()
-    Logo:setSpriteFrame(logoframe)
+    -- local platConfig = PlatConfig:getPlatConfig(CONFIG_APP_CHANNEL)
+    -- local Logo = cc.uiloader:seekNodeByNameFast(self.scene, "Logo")
+    -- local logoSprite = display.newSprite(platConfig.logo_small)
+    -- local logoframe = logoSprite:getSpriteFrame()
+    -- Logo:setSpriteFrame(logoframe)
 
     -- local Image_Girl = cc.uiloader:seekNodeByNameFast(self.scene, "Image_Girl")
     -- --print("Image_Girl.res:",platConfig.Image_Girl.res)
@@ -1250,7 +1238,7 @@ function LobbyScene:onEnterTransitionFinish()
       --util.RunHorn(nil,self,self.scene)
       local aniHandler = scheduler.performWithDelayGlobal(
       function ()
-          util.RunHorn(nil,self,self.scene)
+          --util.RunHorn(nil,self,self.scene)
       end, 2.0)
       table.insert(aniHandlers,aniHandler)
 

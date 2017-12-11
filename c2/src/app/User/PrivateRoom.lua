@@ -24,8 +24,8 @@ local ROOM_CONTENT_POS = {x=115,y=0}
 --]]
 function LobbyScene:setPrivateRoomType(page, gameID)
 	page_type = page
-	-- PRMessage.EnterPrivateRoomReq(nil)
-	UserMessage.CheckReconnectReq()
+    PRMessage.EnterPrivateRoomReq(nil)
+	--UserMessage.CheckReconnectReq()
 
 	app.constant.isOpening = false
 end

@@ -6,27 +6,27 @@
       <ObjectData Name="Layer" Tag="42" ctype="GameLayerObjectData">
         <Size X="1280.0000" Y="720.0000" />
         <Children>
-          <AbstractNodeData Name="Mask" ActionTag="-122844690" Alpha="147" Tag="43" IconVisible="False" TouchEnable="True" Scale9Enable="True" LeftEage="3" RightEage="3" TopEage="3" BottomEage="3" Scale9OriginX="3" Scale9OriginY="3" Scale9Width="40" Scale9Height="40" ctype="ImageViewObjectData">
-            <Size X="1280.0000" Y="720.0000" />
+          <AbstractNodeData Name="Mask" ActionTag="-122844690" Alpha="12" Tag="43" IconVisible="False" LeftMargin="635.5000" RightMargin="635.5000" TopMargin="355.5000" BottomMargin="355.5000" TouchEnable="True" Scale9Enable="True" LeftEage="3" RightEage="3" TopEage="3" BottomEage="3" Scale9OriginX="3" Scale9OriginY="3" Scale9Width="3" Scale9Height="3" ctype="ImageViewObjectData">
+            <Size X="9.0000" Y="9.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="640.0000" Y="360.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
-            <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
+            <PreSize X="0.0070" Y="0.0125" />
+            <FileData Type="Normal" Path="Image/Common/mask.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Bg" ActionTag="-477216412" Tag="45" IconVisible="False" LeftEage="422" RightEage="422" TopEage="237" BottomEage="237" Scale9OriginX="422" Scale9OriginY="237" Scale9Width="436" Scale9Height="246" ctype="ImageViewObjectData">
-            <Size X="1280.0000" Y="720.0000" />
+          <AbstractNodeData Name="Bg" Visible="False" ActionTag="-477216412" Tag="45" IconVisible="False" LeftMargin="320.0000" RightMargin="320.0000" TopMargin="180.0000" BottomMargin="180.0000" LeftEage="211" RightEage="211" TopEage="118" BottomEage="118" Scale9OriginX="211" Scale9OriginY="118" Scale9Width="218" Scale9Height="124" ctype="ImageViewObjectData">
+            <Size X="640.0000" Y="360.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="640.0000" Y="360.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Scale ScaleX="2.0000" ScaleY="2.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
-            <PreSize X="1.0000" Y="1.0000" />
+            <PreSize X="0.5000" Y="0.5000" />
             <FileData Type="Normal" Path="Image/CreateRoom/bg@2x.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="BankerNode" ActionTag="365392493" Tag="47" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="BankerNode" Visible="False" ActionTag="365392493" Tag="47" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="CheckBox_Banker_1" ActionTag="-1430179755" Tag="49" IconVisible="False" LeftMargin="34.0999" RightMargin="-290.0999" TopMargin="-624.6887" BottomMargin="521.6887" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -43,7 +43,7 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/tab6@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_Banker_2" ActionTag="1895662705" Tag="50" IconVisible="False" LeftMargin="34.0999" RightMargin="-290.0999" TopMargin="-526.7372" BottomMargin="423.7372" TouchEnable="True" ctype="CheckBoxObjectData">
+              <AbstractNodeData Name="CheckBox_Banker_2" Visible="False" ActionTag="1895662705" Tag="50" IconVisible="False" LeftMargin="34.0999" RightMargin="-290.0999" TopMargin="-526.7372" BottomMargin="423.7372" TouchEnable="True" ctype="CheckBoxObjectData">
                 <Size X="256.0000" Y="103.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="162.0999" Y="475.2372" />
@@ -110,6 +110,16 @@
           <AbstractNodeData Name="Item_1" ActionTag="1195678843" Tag="55" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
+              <AbstractNodeData Name="Title" ActionTag="-839554705" Tag="959" IconVisible="False" LeftMargin="330.4362" RightMargin="-385.4362" TopMargin="-672.2725" BottomMargin="654.2725" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="19" Scale9Height="8" ctype="ImageViewObjectData">
+                <Size X="55.0000" Y="18.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="357.9362" Y="663.2725" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/difen.png" Plist="" />
+              </AbstractNodeData>
               <AbstractNodeData Name="CheckBox_BaseScore_1" ActionTag="-1924577268" Tag="56" IconVisible="False" LeftMargin="420.7024" RightMargin="-562.7024" TopMargin="-689.1807" BottomMargin="633.1807" TouchEnable="True" CheckedState="True" ctype="CheckBoxObjectData">
                 <Size X="142.0000" Y="56.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -124,11 +134,11 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(11)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_BaseScore_2" ActionTag="-636608100" Tag="57" IconVisible="False" LeftMargin="565.4513" RightMargin="-698.4513" TopMargin="-691.2387" BottomMargin="635.2387" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="133.0000" Y="56.0000" />
+              <AbstractNodeData Name="CheckBox_BaseScore_2" ActionTag="-636608100" Tag="57" IconVisible="False" LeftMargin="608.9513" RightMargin="-654.9513" TopMargin="-674.2387" BottomMargin="652.2387" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="46.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="631.9513" Y="663.2387" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -138,11 +148,11 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(12)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_BaseScore_3" ActionTag="811920273" Tag="58" IconVisible="False" LeftMargin="699.4570" RightMargin="-871.4570" TopMargin="-718.6442" BottomMargin="633.6442" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="172.0000" Y="85.0000" />
+              <AbstractNodeData Name="CheckBox_BaseScore_3" ActionTag="811920273" Tag="58" IconVisible="False" LeftMargin="761.2891" RightMargin="-807.2891" TopMargin="-678.3803" BottomMargin="656.3803" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="46.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="785.4570" Y="676.1442" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="784.2891" Y="667.3803" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -152,11 +162,11 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(13)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_BaseScore_4" ActionTag="1460969304" Tag="59" IconVisible="False" LeftMargin="871.1112" RightMargin="-1009.1112" TopMargin="-718.6370" BottomMargin="633.6370" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="138.0000" Y="85.0000" />
+              <AbstractNodeData Name="CheckBox_BaseScore_4" ActionTag="1460969304" Tag="59" IconVisible="False" LeftMargin="917.6956" RightMargin="-963.6956" TopMargin="-678.9579" BottomMargin="656.9579" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="46.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="940.1112" Y="676.1370" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="940.6956" Y="667.9579" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -166,11 +176,11 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(14)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_BaseScore_5" ActionTag="-1252339691" Tag="60" IconVisible="False" LeftMargin="1007.9840" RightMargin="-1281.9840" TopMargin="-720.6476" BottomMargin="635.6476" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="274.0000" Y="85.0000" />
+              <AbstractNodeData Name="CheckBox_BaseScore_5" ActionTag="-1252339691" Tag="60" IconVisible="False" LeftMargin="1073.0662" RightMargin="-1128.0662" TopMargin="-680.9225" BottomMargin="658.9225" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="55.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="1144.9840" Y="678.1476" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="1100.5662" Y="669.9225" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -179,6 +189,16 @@
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(15)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-1563773157" Tag="960" IconVisible="False" LeftMargin="521.1060" RightMargin="-968.1060" TopMargin="-663.5983" BottomMargin="642.5983" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="744.6060" Y="653.0983" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -219,6 +239,26 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(17)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="-947097003" Tag="961" IconVisible="False" LeftMargin="321.4362" RightMargin="-378.4362" TopMargin="-621.5634" BottomMargin="602.5634" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="21" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="57.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="349.9362" Y="612.0634" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/js.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="359714737" Tag="962" IconVisible="False" LeftMargin="511.1060" RightMargin="-958.1060" TopMargin="-612.3900" BottomMargin="591.3900" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="734.6060" Y="601.8900" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint />
             <Position X="10.0000" Y="-10.0000" />
@@ -230,11 +270,11 @@
           <AbstractNodeData Name="Item_3" ActionTag="-710448660" Tag="207" IconVisible="True" LeftMargin="20.0000" RightMargin="1260.0000" TopMargin="740.0000" BottomMargin="-20.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="CheckBox_PayMod_1" ActionTag="931369136" Tag="208" IconVisible="False" LeftMargin="404.8571" RightMargin="-650.8571" TopMargin="-591.7476" BottomMargin="521.7476" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="246.0000" Y="70.0000" />
+              <AbstractNodeData Name="CheckBox_PayMod_1" ActionTag="931369136" Tag="208" IconVisible="False" LeftMargin="462.8762" RightMargin="-537.8762" TopMargin="-577.8234" BottomMargin="555.8234" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="75.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="527.8571" Y="556.7476" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="500.3762" Y="566.8234" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -244,11 +284,11 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/images/btn(18)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_PayMod_2" ActionTag="1498364683" Tag="209" IconVisible="False" LeftMargin="676.6115" RightMargin="-896.6115" TopMargin="-589.7927" BottomMargin="519.7927" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="220.0000" Y="70.0000" />
+              <AbstractNodeData Name="CheckBox_PayMod_2" ActionTag="1498364683" Tag="209" IconVisible="False" LeftMargin="725.1291" RightMargin="-793.1291" TopMargin="-575.8683" BottomMargin="553.8683" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="68.0000" Y="22.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="786.6115" Y="554.7927" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="759.1291" Y="564.8683" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -273,6 +313,16 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
+              <AbstractNodeData Name="zuanshi_1" ActionTag="1240389815" Tag="689" IconVisible="False" LeftMargin="-23.0000" RightMargin="-23.0000" TopMargin="-23.0000" BottomMargin="-23.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
+                <Size X="46.0000" Y="46.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
+              </AbstractNodeData>
               <AbstractNodeData Name="PayTip" ActionTag="1234000217" VisibleForFrame="False" Tag="256" IconVisible="False" LeftMargin="844.5702" RightMargin="-1099.5702" TopMargin="-647.5507" BottomMargin="573.5507" LeftEage="84" RightEage="84" TopEage="24" BottomEage="24" Scale9OriginX="84" Scale9OriginY="24" Scale9Width="87" Scale9Height="26" ctype="ImageViewObjectData">
                 <Size X="255.0000" Y="74.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -282,6 +332,26 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Image/CreateRoom/msg1@2x.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="1349635402" Tag="963" IconVisible="False" LeftMargin="311.9362" RightMargin="-367.9362" TopMargin="-574.6405" BottomMargin="555.6405" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="20" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="56.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="339.9362" Y="565.1405" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/fangfei.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="1615094188" Tag="964" IconVisible="False" LeftMargin="501.1060" RightMargin="-948.1060" TopMargin="-564.4962" BottomMargin="543.4962" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="724.6060" Y="553.9962" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -304,7 +374,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Image/CreateRoom/b/bg(1)_23-@2x.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="doubleBg" ActionTag="1537616384" VisibleForFrame="False" Tag="263" IconVisible="False" LeftMargin="387.4810" RightMargin="-912.4810" TopMargin="-646.6681" BottomMargin="542.6681" LeftEage="173" RightEage="173" TopEage="34" BottomEage="34" Scale9OriginX="173" Scale9OriginY="34" Scale9Width="179" Scale9Height="36" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="doubleBg" Visible="False" ActionTag="1537616384" VisibleForFrame="False" Tag="263" IconVisible="False" LeftMargin="387.4810" RightMargin="-912.4810" TopMargin="-646.6681" BottomMargin="542.6681" LeftEage="173" RightEage="173" TopEage="34" BottomEage="34" Scale9OriginX="173" Scale9OriginY="34" Scale9Width="179" Scale9Height="36" ctype="ImageViewObjectData">
                 <Size X="525.0000" Y="104.0000" />
                 <Children>
                   <AbstractNodeData Name="CheckBox_DoubleRule_1" ActionTag="1918094547" Tag="264" IconVisible="False" LeftMargin="-2.6261" RightMargin="13.6261" TopMargin="10.6555" BottomMargin="50.3445" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -364,19 +434,39 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Image/CreateRoom/b/1_27-@2x.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_DoubleArrow" ActionTag="-2020970451" Tag="258" IconVisible="False" LeftMargin="836.3067" RightMargin="-914.3067" TopMargin="-539.8595" BottomMargin="481.8595" TouchEnable="True" ctype="CheckBoxObjectData">
+              <AbstractNodeData Name="CheckBox_DoubleArrow" ActionTag="-2020970451" Tag="258" IconVisible="False" LeftMargin="835.0670" RightMargin="-913.0670" TopMargin="-537.3860" BottomMargin="479.3860" TouchEnable="True" ctype="CheckBoxObjectData">
                 <Size X="78.0000" Y="58.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="875.3067" Y="510.8595" />
+                <Position X="874.0670" Y="508.3860" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <NormalBackFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
-                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/b/open_23-@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/b/open_23-@2x.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="93327806" Tag="965" IconVisible="False" LeftMargin="304.0660" RightMargin="-371.0660" TopMargin="-520.6071" BottomMargin="501.6071" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="31" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="67.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="337.5660" Y="511.1071" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/fanbei.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-216848194" Tag="966" IconVisible="False" LeftMargin="488.5957" RightMargin="-935.5957" TopMargin="-511.4332" BottomMargin="490.4332" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="712.0957" Y="500.9332" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -399,7 +489,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Image/CreateRoom/b/bg(1)_23-@2x.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="specialBg" ActionTag="-1535790644" VisibleForFrame="False" Tag="339" IconVisible="False" LeftMargin="396.3217" RightMargin="-911.3217" TopMargin="-644.7903" BottomMargin="490.7903" LeftEage="173" RightEage="173" TopEage="34" BottomEage="34" Scale9OriginX="173" Scale9OriginY="34" Scale9Width="169" Scale9Height="86" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="specialBg" Visible="False" ActionTag="-1535790644" VisibleForFrame="False" Tag="339" IconVisible="False" LeftMargin="394.2216" RightMargin="-909.2216" TopMargin="-649.0439" BottomMargin="495.0439" LeftEage="173" RightEage="173" TopEage="34" BottomEage="34" Scale9OriginX="173" Scale9OriginY="34" Scale9Width="169" Scale9Height="86" ctype="ImageViewObjectData">
                 <Size X="515.0000" Y="154.0000" />
                 <Children>
                   <AbstractNodeData Name="CheckBox_special_1" ActionTag="1986155209" Tag="340" IconVisible="False" LeftMargin="23.4963" RightMargin="271.5037" TopMargin="11.0138" BottomMargin="99.9862" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -488,7 +578,7 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="653.8217" Y="567.7903" />
+                <Position X="651.7216" Y="572.0439" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -524,10 +614,30 @@
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
                 <NormalBackFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
-                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/b/open_23-@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/b/open_23-@2x.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/b/close_23-@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-1423186977" Tag="968" IconVisible="False" LeftMargin="473.8632" RightMargin="-920.8632" TopMargin="-456.5507" BottomMargin="435.5507" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="697.3632" Y="446.0507" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="2012228689" Tag="967" IconVisible="False" LeftMargin="289.3344" RightMargin="-356.3344" TopMargin="-465.7243" BottomMargin="446.7243" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="31" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="67.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="322.8344" Y="456.2243" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/px.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
@@ -596,6 +706,26 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/c/btn(4)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="1222261647" Tag="969" IconVisible="False" LeftMargin="496.6860" RightMargin="-943.6860" TopMargin="-383.3483" BottomMargin="362.3483" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="720.1860" Y="372.8483" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="328962302" Tag="970" IconVisible="False" LeftMargin="312.1572" RightMargin="-379.1572" TopMargin="-392.5215" BottomMargin="373.5215" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="31" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="67.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="345.6572" Y="383.0215" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/zdqz.png" Plist="" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint />
             <Position X="20.0000" Y="-20.0000" />
@@ -604,7 +734,94 @@
             <PrePosition X="0.0156" Y="-0.0278" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Item_7" ActionTag="-1169236326" Tag="129" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="Item_7" ActionTag="-82693996" VisibleForFrame="False" Tag="502" IconVisible="True" LeftMargin="20.4492" RightMargin="1259.5508" TopMargin="737.5841" BottomMargin="-17.5841" ctype="SingleNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <Children>
+              <AbstractNodeData Name="CheckBox_shangzhuang_1" ActionTag="1778052207" Tag="503" IconVisible="False" LeftMargin="419.4523" RightMargin="-610.4523" TopMargin="-407.7909" BottomMargin="353.7909" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="191.0000" Y="54.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="514.9523" Y="380.7909" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <NormalBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_08@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/e/btn2_08@2x.png" Plist="" />
+                <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/e/btn2_08@2x.png" Plist="" />
+                <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="CheckBox_shangzhuang_2" ActionTag="-1603379466" Tag="504" IconVisible="False" LeftMargin="610.6830" RightMargin="-783.6830" TopMargin="-406.9786" BottomMargin="352.9786" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="173.0000" Y="54.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="697.1830" Y="379.9786" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <NormalBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_09@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_09@2x.png" Plist="" />
+                <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/e/btn2_09@2x.png" Plist="" />
+                <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="CheckBox_shangzhuang_3" ActionTag="522780906" Tag="505" IconVisible="False" LeftMargin="776.2519" RightMargin="-955.2519" TopMargin="-408.3713" BottomMargin="354.3713" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="179.0000" Y="54.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="865.7519" Y="381.3713" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <NormalBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_10@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_10@2x.png" Plist="" />
+                <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/e/btn2_10@2x.png" Plist="" />
+                <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="CheckBox_shangzhuang_4" ActionTag="-1546666471" Tag="506" IconVisible="False" LeftMargin="954.6344" RightMargin="-1146.6344" TopMargin="-408.4506" BottomMargin="354.4506" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="192.0000" Y="54.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="1050.6344" Y="381.4506" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <NormalBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_11@2x.png" Plist="" />
+                <PressedBackFileData Type="Normal" Path="Image/CreateRoom/e/btn_11@2x.png" Plist="" />
+                <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
+                <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/e/btn2_11@2x.png" Plist="" />
+                <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-1840719570" Tag="507" IconVisible="False" LeftMargin="496.6860" RightMargin="-943.6860" TopMargin="-383.3483" BottomMargin="362.3483" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="720.1860" Y="372.8483" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="1578884242" Tag="508" IconVisible="False" LeftMargin="308.2528" RightMargin="-376.2528" TopMargin="-392.5215" BottomMargin="373.5215" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="32" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="68.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="342.2528" Y="383.0215" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/sz.png" Plist="" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint />
+            <Position X="20.4492" Y="-17.5841" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.0160" Y="-0.0244" />
+            <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Item_8" ActionTag="-1169236326" Tag="129" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="CheckBox_Seats_1" ActionTag="-1433574285" Tag="130" IconVisible="False" LeftMargin="436.8647" RightMargin="-617.8647" TopMargin="-323.8127" BottomMargin="273.8127" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -663,6 +880,26 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/a/btn(4)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="162447628" Tag="972" IconVisible="False" LeftMargin="329.0695" RightMargin="-395.0695" TopMargin="-312.5388" BottomMargin="293.5388" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="30" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="66.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="362.0695" Y="303.0388" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/zdks.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-2067035049" Tag="971" IconVisible="False" LeftMargin="513.0973" RightMargin="-960.0973" TopMargin="-300.8921" BottomMargin="279.8921" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="736.5973" Y="290.3921" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint />
             <Position />
@@ -671,7 +908,7 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Item_8" ActionTag="-1042458770" Tag="247" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="Item_9" ActionTag="-1042458770" Tag="247" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="CheckBox_Tuizhu_1" ActionTag="-494933045" Tag="248" IconVisible="False" LeftMargin="436.8604" RightMargin="-617.8604" TopMargin="-271.8779" BottomMargin="208.8779" TouchEnable="True" ctype="CheckBoxObjectData">
@@ -716,10 +953,10 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/a/btn(7)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="CheckBox_Tuizhu_4" ActionTag="124331263" Tag="257" IconVisible="False" LeftMargin="979.8329" RightMargin="-1165.8329" TopMargin="-273.1820" BottomMargin="210.1820" TouchEnable="True" ctype="CheckBoxObjectData">
+              <AbstractNodeData Name="CheckBox_Tuizhu_4" ActionTag="124331263" Tag="257" IconVisible="False" LeftMargin="972.4119" RightMargin="-1158.4119" TopMargin="-273.1819" BottomMargin="210.1819" TouchEnable="True" ctype="CheckBoxObjectData">
                 <Size X="186.0000" Y="63.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="1072.8329" Y="241.6820" />
+                <Position X="1065.4119" Y="241.6819" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -730,7 +967,7 @@
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/a/btn(8)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Btn_TuizhuTip" ActionTag="458569307" Tag="378" IconVisible="False" LeftMargin="1110.4705" RightMargin="-1168.4705" TopMargin="-269.9094" BottomMargin="205.9094" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="28" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Btn_TuizhuTip" ActionTag="458569307" Tag="378" IconVisible="False" LeftMargin="1110.4705" RightMargin="-1168.4705" TopMargin="-269.9094" BottomMargin="205.9094" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="28" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="58.0000" Y="64.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="1139.4705" Y="237.9094" />
@@ -755,6 +992,26 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Image/CreateRoom/msg_2@2x.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="1583818874" Tag="974" IconVisible="False" LeftMargin="514.0205" RightMargin="-961.0205" TopMargin="-237.8574" BottomMargin="216.8574" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="737.5205" Y="227.3574" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="-1010451077" Tag="973" IconVisible="False" LeftMargin="328.4932" RightMargin="-395.4932" TopMargin="-247.0305" BottomMargin="228.0305" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="31" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="67.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="361.9932" Y="237.5305" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/tzhu.png" Plist="" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint />
             <Position />
@@ -763,14 +1020,14 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Item_9" ActionTag="-1616911980" Tag="379" IconVisible="True" LeftMargin="10.0000" RightMargin="1270.0000" TopMargin="730.0000" BottomMargin="-10.0000" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="Item_10" ActionTag="-1616911980" Tag="379" IconVisible="True" LeftMargin="10.0000" RightMargin="1270.0000" TopMargin="730.0000" BottomMargin="-10.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="CheckBox_Setting_1" ActionTag="1189858171" Tag="380" IconVisible="False" LeftMargin="424.3388" RightMargin="-605.3388" TopMargin="-221.3774" BottomMargin="163.3774" TouchEnable="True" ctype="CheckBoxObjectData">
-                <Size X="181.0000" Y="58.0000" />
+              <AbstractNodeData Name="CheckBox_Setting_1" ActionTag="1189858171" Tag="380" IconVisible="False" LeftMargin="507.7881" RightMargin="-642.7881" TopMargin="-202.8775" BottomMargin="181.8775" TouchEnable="True" ctype="CheckBoxObjectData">
+                <Size X="135.0000" Y="21.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="514.8388" Y="192.3774" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="575.2881" Y="192.3775" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
@@ -793,6 +1050,26 @@
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
                 <NodeNormalFileData Type="Normal" Path="Image/CreateRoom/a/btn(10)@2x.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Title" ActionTag="-2009978476" Tag="976" IconVisible="False" LeftMargin="320.1728" RightMargin="-387.1728" TopMargin="-202.2229" BottomMargin="183.2229" LeftEage="18" RightEage="18" TopEage="5" BottomEage="5" Scale9OriginX="18" Scale9OriginY="5" Scale9Width="31" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="67.0000" Y="19.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="353.6728" Y="192.7229" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/gjxx.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="line" ActionTag="-321941015" Tag="975" IconVisible="False" LeftMargin="504.7000" RightMargin="-951.7000" TopMargin="-193.0500" BottomMargin="172.0500" LeftEage="147" RightEage="147" TopEage="6" BottomEage="6" Scale9OriginX="147" Scale9OriginY="6" Scale9Width="153" Scale9Height="9" ctype="ImageViewObjectData">
+                <Size X="447.0000" Y="21.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="728.2000" Y="182.5500" />
+                <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="Image/CreateRoom/line.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
