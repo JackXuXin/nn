@@ -1482,6 +1482,7 @@ function LobbyScene:showCreateMenu()
 	     param.baseScoreType2 = 0
 	     param.roundType = 10
 	     param.hostplay = false
+	     param.specialCardType = {[1]=1,[2]=1,[3]=1,[4]=1,[5]=1,[6]=1}   --特殊牌型
 
 	     --print("---------------本地没有初始房间信息------------")
 	 
@@ -1540,6 +1541,240 @@ function LobbyScene:showCreateMenu()
      
 
      btn_bks[1]:setButtonSelected(true)
+
+    
+    --底分
+    local CheckBox_BaseScore_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_BaseScore_1")
+    local CheckBox_BaseScore_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_BaseScore_2")
+    local CheckBox_BaseScore_3 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_BaseScore_3")
+    local CheckBox_BaseScore_4 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_BaseScore_4")
+    local CheckBox_BaseScore_5 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_BaseScore_5")
+
+    CheckBox_BaseScore_1.type = 1
+    CheckBox_BaseScore_2.type = 2
+    CheckBox_BaseScore_3.type = 3
+    CheckBox_BaseScore_4.type = 4
+    CheckBox_BaseScore_5.type = 5
+    
+		    local function basescore_selected(button)
+		       
+                  print("base_score click " .. button.type)
+
+		    end
+
+    RadioButtonGroup.new({
+		  [ CheckBox_BaseScore_1 ] = basescore_selected,
+    	  [ CheckBox_BaseScore_2 ] = basescore_selected,
+    	  [ CheckBox_BaseScore_3 ] = basescore_selected,
+    	  [ CheckBox_BaseScore_4 ] = basescore_selected,
+    	  [ CheckBox_BaseScore_5 ] = basescore_selected,
+    })
+    CheckBox_BaseScore_1:setButtonSelected(true)
+
+    --局数
+    local CheckBox_Round_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Round_1")
+    local CheckBox_Round_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Round_2")
+    CheckBox_Round_1.type = 10
+    CheckBox_Round_2.type = 20
+   			local function round_selected(button)
+		       
+                  print("round_selected click " .. button.type)
+                  param.roundType = button.type
+
+		    end
+    RadioButtonGroup.new({
+		  [ CheckBox_Round_1 ] = round_selected,
+    	  [ CheckBox_Round_2 ] = round_selected,
+    	
+    })
+    CheckBox_Round_1:setButtonSelected(true)
+    --房费
+    local CheckBox_PayMod_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_PayMod_1")
+    local CheckBox_PayMod_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_PayMod_2")
+    CheckBox_PayMod_1.type = 1
+    CheckBox_PayMod_2.type = 2
+   			local function paymod_selected(button)
+		       
+                  print("round_selected click " .. button.type)
+                   param.paymode = button.type
+
+		    end
+    RadioButtonGroup.new({
+		  [ CheckBox_PayMod_1 ] = paymod_selected,
+    	  [ CheckBox_PayMod_2 ] = paymod_selected,
+    	
+    })
+
+    CheckBox_PayMod_1:setButtonSelected(true)
+    --翻倍规则
+
+    local  CheckBox_DoubleArrow = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleArrow")
+    local  doubleBg = cc.uiloader:seekNodeByNameFast(createRoomLayer, "doubleBg")
+    local  double_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "double_1")
+    local  double_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "double_2")
+    	   double_1:hide()
+    	   double_2:hide()
+
+    local  DoubleBg_OpenState = false
+    local function close_doublerule()
+    			DoubleBg_OpenState = not DoubleBg_OpenState
+				if DoubleBg_OpenState then
+					doubleBg:show()
+					CheckBox_DoubleArrow:setScaleY(-1)
+				else
+					doubleBg:hide()
+					CheckBox_DoubleArrow:setScaleY(1)
+				end                 
+    end
+
+    CheckBox_DoubleArrow:onButtonClicked(function()              
+				 close_doublerule()
+       end)
+    
+
+    local CheckBox_DoubleRule_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleRule_1")
+    local CheckBox_DoubleRule_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleRule_2")
+    	CheckBox_DoubleRule_1.type = 1
+    	CheckBox_DoubleRule_2.type = 2
+    		local function doublerule_selected(button)		           
+                  print("doublerule_selected click " .. button.type)
+                if button.type == 1 then
+                	param.doubleType={1,0}
+                	double_1:show()
+                	double_2:hide()
+                	close_doublerule()
+                else
+                	param.doubleType={0,1}
+                	double_2:show()
+                	double_1:hide()
+                	close_doublerule()
+                end
+
+		    end
+        RadioButtonGroup.new({
+		  [ CheckBox_DoubleRule_1 ] = doublerule_selected,
+    	  [ CheckBox_DoubleRule_2 ] = doublerule_selected,
+    	
+    	})
+
+    	CheckBox_DoubleRule_1:setButtonSelected(true)
+    --特殊牌型
+    local specialBg  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "specialBg") 
+    local special_1  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "special_1") 
+    local special_2  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "special_2") 
+
+	local CheckBox_special_1  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_1")
+	local CheckBox_special_2  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_2")
+	local CheckBox_special_3  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_3")
+	local CheckBox_special_4  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_4")
+	local CheckBox_special_5  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_5")
+	local CheckBox_special_6  = cc.uiloader:seekNodeByNameFast(specialBg, "CheckBox_special_6")
+    
+    local CheckBox_specialArrow  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_specialArrow")
+    special_1:hide()
+    special_2:show()
+
+    local  SpecialBg_OpenState = false
+    local  SpecialSelectCount = 0
+    local function close_specialBg()
+    			SpecialBg_OpenState = not SpecialBg_OpenState
+				if SpecialBg_OpenState then
+					specialBg:show()
+					CheckBox_specialArrow:setScaleY(-1)
+				else
+					specialBg:hide()
+					CheckBox_specialArrow:setScaleY(1)
+				end                 
+    end
+    CheckBox_specialArrow:onButtonClicked(function()              
+				 close_specialBg()
+    end)
+
+    local function setSpecialType()
+ 			for i=1,6 do
+ 				if param.specialCardType[i] == 0 then
+ 				    special_1:show()
+ 				    special_2:hide()
+ 				   return
+ 				end
+ 			end
+ 			special_2:show()
+ 			special_1:hide()
+    end
+
+    CheckBox_special_1:onButtonClicked(function() 
+    	
+              if CheckBox_special_1:isButtonSelected() then
+ 				 param.specialCardType[1] = 1
+              else
+              	 param.specialCardType[1] = 0
+              end
+              setSpecialType()
+
+         end)
+    CheckBox_special_2:onButtonClicked(function() 
+    	
+              if CheckBox_special_2:isButtonSelected() then
+ 				 param.specialCardType[2] = 1
+              else
+              	 param.specialCardType[2] = 0
+              end
+              setSpecialType()
+
+         end)
+    CheckBox_special_3:onButtonClicked(function() 
+    	
+              if CheckBox_special_3:isButtonSelected() then
+ 				 param.specialCardType[3] = 1
+              else
+              	 param.specialCardType[3] = 0
+              end
+              setSpecialType()
+
+         end)
+    CheckBox_special_4:onButtonClicked(function() 
+    	
+              if CheckBox_special_4:isButtonSelected() then
+ 				 param.specialCardType[4] = 1
+              else
+              	 param.specialCardType[4] = 0
+              end
+              setSpecialType()
+
+         end)
+    CheckBox_special_5:onButtonClicked(function() 
+    	
+              if CheckBox_special_5:isButtonSelected() then
+ 				 param.specialCardType[5] = 1
+              else
+              	 param.specialCardType[5] = 0
+              end
+              setSpecialType()
+
+         end)
+    CheckBox_special_6:onButtonClicked(function() 
+    	
+              if CheckBox_special_6:isButtonSelected() then
+ 				 param.specialCardType[6] = 1
+              else
+              	 param.specialCardType[6] = 0
+              end
+              setSpecialType()
+
+         end)
+    
+    CheckBox_special_1:setButtonSelected(true)
+    CheckBox_special_2:setButtonSelected(true)
+    CheckBox_special_3:setButtonSelected(true)
+    CheckBox_special_4:setButtonSelected(true)
+    CheckBox_special_5:setButtonSelected(true)
+    CheckBox_special_6:setButtonSelected(true)
+
+    --最大抢庄倍数
+
+
+
+
 
 
 
