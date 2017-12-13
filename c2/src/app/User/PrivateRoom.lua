@@ -1493,9 +1493,28 @@ function LobbyScene:showCreateMenu()
 		:onButtonClicked(function ()
 			createRoomLayer:removeSelf()
 		end)
+  --[--[
+    local Item_6  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Item_6")
+    local Item_7  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Item_7")
+    local Item_8  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Item_8")
+    local Item_9  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Item_9")
+    local Item_10 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Item_10")
+
+    local cost = {[1] =2,[2] = 1}
+ --    --刷新开房价格
+	-- local function showGoldNum(mode, seats)
+	-- 	for k,v in pairs(cost) do
+	-- 		local cval = v
+	-- 		if mode == 1 then
+	-- 			cval = cval * seats
+	-- 		end
+
+ --           print(k,v)
+	-- 		cc.uiloader:seekNodeByNameFast(createRoomLayer, "Text_PayMod_" .. k):setString("X" .. tostring(cval))
+	-- 	end
+	-- end
     
-   
-	    --[[玩法类型按钮]]
+	    --玩法类型按钮
     local btn_bks= {}  
     for i =1,4 do         
           local Btn_Bk = cc.uiloader:seekNodeByNameFast(createRoomLayer, string.format("CheckBox_Banker_%d",i))      
@@ -1516,19 +1535,30 @@ function LobbyScene:showCreateMenu()
         	end
         	
         end
-        if button.bankerType == 1 then  -- 固定庄家 
-            -- item_4:show()
-            -- item_5:setPositionY(-41)
-            -- item_6:setPositionY(-196)
-            -- item_7:setPositionY(-275)
-			param.hostplay = true
-        else
-            -- item_4:hide()
-            -- item_5:setPositionY(-41+79)
-            -- item_6:setPositionY(-196+79)
-            -- item_7:setPositionY(-275+79)
-			param.hostplay = false
+        if button.bankerType == 0 or  button.bankerType == 2 then  -- 牛牛上庄 or 自由抢庄
+             Item_6:hide()
+             Item_7:hide()
+
+             Item_8:setPositionY(346)
+             Item_9:setPositionY(283)
+             Item_10:setPositionY(220)			
         end
+        if button.bankerType == 1 then  -- 固定庄家
+             Item_6:hide()
+             Item_7:show()
+             Item_8:setPositionY(283)
+             Item_9:setPositionY(220)
+             Item_10:setPositionY(157)			
+        end
+
+        if button.bankerType == 3 then  -- 牛牛上庄
+             Item_6:show()
+             Item_7:hide()
+             Item_8:setPositionY(283)
+             Item_9:setPositionY(220)
+             Item_10:setPositionY(157)			
+        end
+            
 
 
     end
@@ -1574,12 +1604,29 @@ function LobbyScene:showCreateMenu()
     --局数
     local CheckBox_Round_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Round_1")
     local CheckBox_Round_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Round_2")
+
+    local Text_PayMod_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Text_PayMod_1")
+    local Text_PayMod_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Text_PayMod_2")
+
     CheckBox_Round_1.type = 10
     CheckBox_Round_2.type = 20
    			local function round_selected(button)
 		       
                   print("round_selected click " .. button.type)
                   param.roundType = button.type
+                  if param.roundType == 10 then
+                  	 
+                  	 	Text_PayMod_1:setString("x3")
+                  	 	Text_PayMod_2:setString("x1")
+                  	
+                  end
+                   if param.roundType == 20 then
+                  	 
+                  	 	Text_PayMod_1:setString("x6")
+                  	 	Text_PayMod_2:setString("x2")
+                  	
+                  end
+                  
 
 		    end
     RadioButtonGroup.new({
@@ -1597,6 +1644,7 @@ function LobbyScene:showCreateMenu()
 		       
                   print("round_selected click " .. button.type)
                    param.paymode = button.type
+                  -- showGoldNum(param.paymode, param.seatCount)
 
 		    end
     RadioButtonGroup.new({
@@ -1612,8 +1660,9 @@ function LobbyScene:showCreateMenu()
     local  doubleBg = cc.uiloader:seekNodeByNameFast(createRoomLayer, "doubleBg")
     local  double_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "double_1")
     local  double_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "double_2")
-    	   double_1:hide()
+    	   double_1:show()
     	   double_2:hide()
+    	   doubleBg:hide()
 
     local  DoubleBg_OpenState = false
     local function close_doublerule()
@@ -1657,7 +1706,7 @@ function LobbyScene:showCreateMenu()
     	
     	})
 
-    	CheckBox_DoubleRule_1:setButtonSelected(true)
+    	--CheckBox_DoubleRule_1:setButtonSelected(true)
     --特殊牌型
     local specialBg  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "specialBg") 
     local special_1  = cc.uiloader:seekNodeByNameFast(createRoomLayer, "special_1") 
@@ -1771,11 +1820,167 @@ function LobbyScene:showCreateMenu()
     CheckBox_special_6:setButtonSelected(true)
 
     --最大抢庄倍数
+    local  CheckBox_DoubleBase_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleBase_1")
+    local  CheckBox_DoubleBase_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleBase_2")
+    local  CheckBox_DoubleBase_3 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleBase_3")
+    local  CheckBox_DoubleBase_4 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_DoubleBase_4")
+   
+
+
+        CheckBox_DoubleBase_1.type = 0
+    	CheckBox_DoubleBase_2.type = 1
+    	CheckBox_DoubleBase_3.type = 2
+    	CheckBox_DoubleBase_4.type = 3
+
+
+    		local function doublebase_selected(button)		           
+                  print("doublerule_selected click " .. button.type)
+                  param.baseScoreType2  = button.type
+               
+		    end
+        RadioButtonGroup.new({
+		    [ CheckBox_DoubleBase_1 ] = doublebase_selected,
+    	    [ CheckBox_DoubleBase_2 ] = doublebase_selected,
+    	    [ CheckBox_DoubleBase_3 ] = doublebase_selected,
+    	    [ CheckBox_DoubleBase_4 ] = doublebase_selected,
+    	  
+    	})
+    --上庄分数
+
+    local  CheckBox_shangzhuang_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_shangzhuang_1")
+    local  CheckBox_shangzhuang_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_shangzhuang_2")
+    local  CheckBox_shangzhuang_3 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_shangzhuang_3")
+    local  CheckBox_shangzhuang_4 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_shangzhuang_4")
+    CheckBox_shangzhuang_1.type = 0
+    CheckBox_shangzhuang_2.type = 1
+	CheckBox_shangzhuang_3.type = 2
+	CheckBox_shangzhuang_4.type = 3
+	local function shangzhuang_selected(button)		           
+            print("shangzhuang_selected click " .. button.type)
+			        -- for i=1,4 do
+			        -- 	if (i-1) == button.bankscoreType then
+			        -- 	    param.bankscoreType[i] = 1
+			        -- 	else
+			        -- 		 param.bankscoreType[i] =0
+			        -- 	end       
+			        -- end
+               
+		    end
+        RadioButtonGroup.new({
+		    [ CheckBox_shangzhuang_1 ] = shangzhuang_selected,
+    	    [ CheckBox_shangzhuang_2 ] = shangzhuang_selected,
+    	    [ CheckBox_shangzhuang_3 ] = shangzhuang_selected,
+    	    [ CheckBox_shangzhuang_4 ] = shangzhuang_selected,
+    	})
+    CheckBox_shangzhuang_1:setButtonSelected(true)
+	--自动开始
+    local  CheckBox_Seats_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Seats_1")
+    local  CheckBox_Seats_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Seats_2")
+    local  CheckBox_Seats_3 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Seats_3")
+    local  CheckBox_Seats_4 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Seats_4")
+    CheckBox_Seats_1.type = 3
+    CheckBox_Seats_2.type = 4
+    CheckBox_Seats_3.type = 5
+    CheckBox_Seats_4.type = 6
+    local function seat_selected(button)		           
+            print("seat_selected click " .. button.type)
+			        param.seatCount = button.type
+
+			       -- showGoldNum(param.paymode, param.seatCount)
+               
+		    end
+        RadioButtonGroup.new({
+		    [ CheckBox_Seats_1 ] = seat_selected,
+    	    [ CheckBox_Seats_2 ] = seat_selected,
+    	    [ CheckBox_Seats_3 ] = seat_selected,
+    	    [ CheckBox_Seats_4 ] = seat_selected,
+    	})
+        CheckBox_Seats_1:setButtonSelected(true)
+    --推注选项
+    local  CheckBox_Tuizhu_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Tuizhu_1")
+    local  CheckBox_Tuizhu_2 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Tuizhu_2")
+    local  CheckBox_Tuizhu_3 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Tuizhu_3")
+    local  CheckBox_Tuizhu_4 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Tuizhu_4")
+    CheckBox_Tuizhu_1.type = 1
+    CheckBox_Tuizhu_2.type = 2
+    CheckBox_Tuizhu_3.type = 3
+    CheckBox_Tuizhu_4.type = 4
+    local function tuizhu_selected(button)		           
+            print("tuizhu_selected click " .. button.type)
+			        
+               
+		    end
+        RadioButtonGroup.new({
+		    [ CheckBox_Tuizhu_1 ] = tuizhu_selected,
+    	    [ CheckBox_Tuizhu_2 ] = tuizhu_selected,
+    	    [ CheckBox_Tuizhu_3 ] = tuizhu_selected,
+    	    [ CheckBox_Tuizhu_4 ] = tuizhu_selected,
+    	})
+        CheckBox_Tuizhu_1:setButtonSelected(true)
+    --高级设置
+    local CheckBox_Setting_1 = cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Setting_1")   
+    local CheckBox_Setting_2= cc.uiloader:seekNodeByNameFast(createRoomLayer, "CheckBox_Setting_2")
+    CheckBox_Setting_1:onButtonClicked(function() 
+            
+          if CheckBox_Setting_1:isButtonSelected() then
+          	
+          	
+          	 param.setting[1]=1
+          else
+          
+           
+          	 param.setting[1]=0
+          end
+
+    end)
+
+    CheckBox_Setting_2:onButtonClicked(function()          
+          if CheckBox_Setting_2:isButtonSelected() then              	
+          	 param.setting[2]=1    	
+          else                    
+          	 param.setting[2]=0
+          end
+
+    end)
+    --各种提示
+    local Btn_PayTip = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_PayTip")
+    local PayTip = cc.uiloader:seekNodeByNameFast(createRoomLayer, "PayTip")  
+    PayTip:hide()
+    Btn_PayTip:onButtonClicked(function() 
+         PayTip:show()
+    end)
+    local Btn_TuizhuTip = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Btn_TuizhuTip")
+    local TuizhuTip = cc.uiloader:seekNodeByNameFast(createRoomLayer, "TuizhuTip")  
+    TuizhuTip:hide()
+    Btn_TuizhuTip:onButtonClicked(function() 
+         TuizhuTip:show()
+    end)
+
+    --mask点击响应
+    local Bg = cc.uiloader:seekNodeByNameFast(createRoomLayer, "Bg")
+    Bg:setTouchEnabled(true)
+    Bg:addNodeEventListener(cc.NODE_TOUCH_EVENT, function(event)
+	    if event.name == "began" then
+	    	 TuizhuTip:hide()
+	    	 PayTip:hide()
+
+	    	 if DoubleBg_OpenState == true then
+	    	 	close_doublerule()
+	    	 end
+
+	    	  if SpecialBg_OpenState == true then
+	    	 	close_specialBg()
+	    	 end
+	        
+
+	        return true
+	    end
+    end)
 
 
 
-
-
+   --]--] 
+    
 
 
     -----创建房间
@@ -1785,8 +1990,8 @@ function LobbyScene:showCreateMenu()
 
 	create_btn:onButtonClicked(function()
 		 print("---------------------")
-	    -- print(param.baseScoreType2+1)
-	     --dump(param)
+	     print(param.baseScoreType2+1)
+	     dump(param)
 	     local rule =  code.encode({param.bankerType,param.baseScoreType,param.bankscoreType,param.doubleType, param.specialType, param.setting})     
 	      print(rule)
 	     PRMessage.PrivateRoomCreateReq(31600, param.paymode , param.roundType , param.seatCount, param.baseScoreType2+1, 0--[[param.base_count]], rule, param.hostplay)

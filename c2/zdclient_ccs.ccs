@@ -376,6 +376,7 @@
             </Folder>
             <Image Name="bg@2x.png" />
             <Image Name="cjfj_38-@2x.png" />
+            <Image Name="diamond.png" />
             <Image Name="difen.png" />
             <Image Name="exit@2x.png" />
             <Image Name="fanbei.png" />

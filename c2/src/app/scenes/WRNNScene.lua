@@ -75,7 +75,7 @@ function WRNNScene:ctor()
 
 
 
-   -- utilCom.SetVoiceBtn(self,self.root)
+    utilCom.SetVoiceBtn(self,self.root)
     for k,v in ipairs(Modular) do
         self[v.name] = require(v.path)
         if self[v.name]["init"] then

@@ -245,24 +245,24 @@
                   </AbstractNodeData>
                   <AbstractNodeData Name="Avatar" ActionTag="1624199654" Tag="143" IconVisible="False" LeftMargin="-0.0034" RightMargin="327.0034" TopMargin="-0.1522" BottomMargin="0.1522" TouchEnable="True" FontSize="14" LeftEage="62" RightEage="62" TopEage="62" BottomEage="62" Scale9OriginX="62" Scale9OriginY="62" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="70.0000" Y="71.0000" />
-                    <AnchorPoint ScaleX="0.5152" ScaleY="0.4557" />
-                    <Position X="36.0606" Y="32.5069" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="34.9966" Y="35.6522" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0908" Y="0.4578" />
+                    <PrePosition X="0.0882" Y="0.5021" />
                     <PreSize X="0.1763" Y="1.0000" />
                     <TextColor A="255" R="65" G="65" B="70" />
                     <NormalFileData Type="Normal" Path="Image/Common/Avatar/female_1.png" Plist="" />
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Image_14" ActionTag="-919832566" Tag="364" IconVisible="False" LeftMargin="248.1707" RightMargin="128.8293" TopMargin="43.2001" BottomMargin="8.7999" LeftEage="6" RightEage="6" TopEage="6" BottomEage="6" Scale9OriginX="6" Scale9OriginY="6" Scale9Width="8" Scale9Height="7" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_14" ActionTag="-919832566" Tag="364" IconVisible="False" LeftMargin="247.3467" RightMargin="129.6533" TopMargin="44.7638" BottomMargin="7.2362" LeftEage="6" RightEage="6" TopEage="6" BottomEage="6" Scale9OriginX="6" Scale9OriginY="6" Scale9Width="8" Scale9Height="7" ctype="ImageViewObjectData">
                     <Size X="20.0000" Y="19.0000" />
-                    <AnchorPoint ScaleX="0.5412" ScaleY="0.5823" />
-                    <Position X="258.9947" Y="19.8636" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="257.3467" Y="16.7362" />
                     <Scale ScaleX="2.0000" ScaleY="2.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.6524" Y="0.2798" />
+                    <PrePosition X="0.6482" Y="0.2357" />
                     <PreSize X="0.0504" Y="0.2676" />
                     <FileData Type="Normal" Path="Image/Lobby2/zs.png" Plist="" />
                   </AbstractNodeData>
